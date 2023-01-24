@@ -1,0 +1,973 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2023,
+        1,
+        23
+      ]
+    ],
+    "date-time": "2023-01-23T08:30:49Z",
+    "timestamp": 1674462649228
+  },
+  "reference-count": 52,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "10",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2019,
+            9,
+            16
+          ]
+        ],
+        "date-time": "2019-09-16T00:00:00Z",
+        "timestamp": 1568592000000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2019,
+            9,
+            16
+          ]
+        ],
+        "date-time": "2019-09-16T00:00:00Z",
+        "timestamp": 1568592000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100000866",
+      "name": "Cardiff University",
+      "doi-asserted-by": "publisher"
+    },
+    {
+      "DOI": "10.13039/501100010890",
+      "name": "CSC | Chinese Government Scholarship",
+      "doi-asserted-by": "publisher"
+    },
+    {
+      "DOI": "10.13039/100011889",
+      "name": "Diamond Light Source",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "MG22776",
+        "MG22776"
+      ]
+    },
+    {
+      "DOI": "10.13039/501100000266",
+      "name": "RCUK | Engineering and Physical Sciences Research Council",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "EP/L016443/1"
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "DOI": "10.1038/s41929-019-0334-3",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2019,
+        9,
+        16
+      ]
+    ],
+    "date-time": "2019-09-16T16:03:58Z",
+    "timestamp": 1568649838000
+  },
+  "page": "873-881",
+  "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 125,
+  "title": "Tuning of catalytic sites in Pt/TiO2 catalysts for the chemoselective hydrogenation of 3-nitrostyrene",
+  "prefix": "10.1038",
+  "volume": "2",
+  "author": [
+    {
+      "ORCID": "http://orcid.org/0000-0002-7628-9125",
+      "authenticated-orcid": false,
+      "given": "Margherita",
+      "family": "Macino",
+      "sequence": "first",
+      "affiliation": [
+
+      ]
+    },
+    {
+      "given": "Alexandra J.",
+      "family": "Barnes",
+      "sequence": "additional",
+      "affiliation": [
+
+      ]
+    },
+    {
+      "given": "Sultan M.",
+      "family": "Althahban",
+      "sequence": "additional",
+      "affiliation": [
+
+      ]
+    },
+    {
+      "ORCID": "http://orcid.org/0000-0003-4029-1263",
+      "authenticated-orcid": false,
+      "given": "Ruiyang",
+      "family": "Qu",
+      "sequence": "additional",
+      "affiliation": [
+
+      ]
+    },
+    {
+      "ORCID": "http://orcid.org/0000-0002-7839-3786",
+      "authenticated-orcid": false,
+      "given": "Emma K.",
+      "family": "Gibson",
+      "sequence": "additional",
+      "affiliation": [
+
+      ]
+    },
+    {
+      "ORCID": "http://orcid.org/0000-0002-6571-5731",
+      "authenticated-orcid": false,
+      "given": "David J",
+      "family": "Morgan",
+      "sequence": "additional",
+      "affiliation": [
+
+      ]
+    },
+    {
+      "given": "Simon J.",
+      "family": "Freakley",
+      "sequence": "additional",
+      "affiliation": [
+
+      ]
+    },
+    {
+      "given": "Nikolaos",
+      "family": "Dimitratos",
+      "sequence": "additional",
+      "affiliation": [
+
+      ]
+    },
+    {
+      "given": "Christopher J.",
+      "family": "Kiely",
+      "sequence": "additional",
+      "affiliation": [
+
+      ]
+    },
+    {
+      "given": "Xiang",
+      "family": "Gao",
+      "sequence": "additional",
+      "affiliation": [
+
+      ]
+    },
+    {
+      "ORCID": "http://orcid.org/0000-0002-0923-1433",
+      "authenticated-orcid": false,
+      "given": "Andrew M.",
+      "family": "Beale",
+      "sequence": "additional",
+      "affiliation": [
+
+      ]
+    },
+    {
+      "given": "Donald",
+      "family": "Bethell",
+      "sequence": "additional",
+      "affiliation": [
+
+      ]
+    },
+    {
+      "given": "Qian",
+      "family": "He",
+      "sequence": "additional",
+      "affiliation": [
+
+      ]
+    },
+    {
+      "given": "Meenakshisundaram",
+      "family": "Sankar",
+      "sequence": "additional",
+      "affiliation": [
+
+      ]
+    },
+    {
+      "ORCID": "http://orcid.org/0000-0001-8885-1560",
+      "authenticated-orcid": false,
+      "given": "Graham J.",
+      "family": "Hutchings",
+      "sequence": "additional",
+      "affiliation": [
+
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2019,
+        9,
+        16
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "334_CR1",
+      "volume": "9",
+      "author": "L Wang",
+      "year": "2018",
+      "unstructured": "Wang, L. et al. Single-site catalyst promoters accelerate metal-catalyzed nitroarene hydrogenation. Nat. Commun. 9, 1362 (2018).",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "334_CR2",
+      "doi-asserted-by": "crossref",
+      "first-page": "192",
+      "DOI": "10.1038/s41929-018-0028-2",
+      "volume": "1",
+      "author": "AJ Therrien",
+      "year": "2018",
+      "unstructured": "Therrien, A. J. et al. An atomic-scale view of single-site Pt catalysis for low-temperature CO oxidation. Nat. Catal. 1, 192–198 (2018).",
+      "journal-title": "Nat. Catal."
+    },
+    {
+      "key": "334_CR3",
+      "first-page": "21",
+      "volume": "8",
+      "author": "G Vile",
+      "year": "2016",
+      "unstructured": "Vile, G., Albani, D., Almora-Barrios, N., Lopez, N. & Perez-Ramirez, J. Advances in the design of nanostructured catalysts for selective hydrogenation. Chem. Cat. Chem. 8, 21–33 (2016).",
+      "journal-title": "Chem. Cat. Chem."
+    },
+    {
+      "key": "334_CR4",
+      "first-page": "210",
+      "volume": "1",
+      "author": "HU Blaser",
+      "year": "2009",
+      "unstructured": "Blaser, H. U., Steiner, H. & Studer, M. Selective catalytic hydrogenation of functionalized nitroarenes: an update. Chem. Cat. Chem. 1, 210–221 (2009).",
+      "journal-title": "Chem. Cat. Chem."
+    },
+    {
+      "key": "334_CR5",
+      "doi-asserted-by": "crossref",
+      "first-page": "386",
+      "DOI": "10.1016/j.apcatb.2018.01.052",
+      "volume": "227",
+      "author": "JJ Song",
+      "year": "2018",
+      "unstructured": "Song, J. J. et al. Review on selective hydrogenation of nitroarene by catalytic, photocatalytic and electrocatalytic reactions. Appl. Catal. B 227, 386–408 (2018).",
+      "journal-title": "Appl. Catal. B"
+    },
+    {
+      "key": "334_CR6",
+      "unstructured": "Rylander, P. N. Hydrogenation Methods (Academic Press, London, 1990)."
+    },
+    {
+      "key": "334_CR7",
+      "unstructured": "Nishimura, S. Handbook of Heterogeneous Catalytic Hydrogenation for Organic Synthesis (Wiley-VCH, New York, 2001)."
+    },
+    {
+      "key": "334_CR8",
+      "doi-asserted-by": "crossref",
+      "first-page": "839",
+      "DOI": "10.1016/S0040-4039(01)80041-1",
+      "volume": "25",
+      "author": "FD Bellamy",
+      "year": "1984",
+      "unstructured": "Bellamy, F. D. & Ou, K. Selective reduction of aromatic nitro-compounds with stannous chloride in non-acidic and non-aqueous medium. Tetrahedron Lett. 25, 839–842 (1984).",
+      "journal-title": "Tetrahedron Lett."
+    },
+    {
+      "key": "334_CR9",
+      "doi-asserted-by": "crossref",
+      "first-page": "5603",
+      "DOI": "10.1016/S0040-4039(00)00917-5",
+      "volume": "41",
+      "author": "MK Basu",
+      "year": "2000",
+      "unstructured": "Basu, M. K., Becker, F. F. & Banik, B. K. Ultrasound-promoted highly efficient reduction of aromatic nitro compounds to the aromatic amines by samarium/ammonium chloride. Tetrahedron Lett. 41, 5603–5606 (2000).",
+      "journal-title": "Tetrahedron Lett."
+    },
+    {
+      "key": "334_CR10",
+      "doi-asserted-by": "crossref",
+      "first-page": "340",
+      "DOI": "10.1016/0040-4020(59)80025-9",
+      "volume": "5",
+      "author": "A Burawoy",
+      "year": "1959",
+      "unstructured": "Burawoy, A. & Critchley, J. P. Electronic spectra of organic molecules and their interpretation-V: effect of terminal groups containing multiple bonds on the K-bands of conjugated systems. Tetrahedron 5, 340–351 (1959).",
+      "journal-title": "Tetrahedron"
+    },
+    {
+      "key": "334_CR11",
+      "doi-asserted-by": "crossref",
+      "first-page": "8748",
+      "DOI": "10.1021/ja800959g",
+      "volume": "130",
+      "author": "A Corma",
+      "year": "2008",
+      "unstructured": "Corma, A., Serna, P., Concepcion, P. & Calvino, J. J. Transforming non-selective into chemoselective metal catalysts for the hydrogenation of substituted nitroaromatics. J. Am. Chem. Soc. 130, 8748–8753 (2008).",
+      "journal-title": "J. Am. Chem. Soc."
+    },
+    {
+      "key": "334_CR12",
+      "unstructured": "Arnold, H., Döbert, F. & Gaube, J. In Handbook of Heterogeneous Catalysis (eds G., Ertl, Knözinger, H., Schüth, F. and Weitkamp, J.) (Wiley-VCH, 2008)."
+    },
+    {
+      "key": "334_CR13",
+      "doi-asserted-by": "crossref",
+      "first-page": "868",
+      "DOI": "10.1039/b606705k",
+      "volume": "8",
+      "author": "QX Shi",
+      "year": "2006",
+      "unstructured": "Shi, Q. X., Lu, R. W., Jin, K., Zhang, Z. X. & Zhao, D. F. Simple and eco-friendly reduction of nitroarenes to the corresponding aromatic amines using polymer-supported hydrazine hydrate over iron oxide hydroxide catalyst. Green. Chem. 8, 868–870 (2006).",
+      "journal-title": "Green. Chem."
+    },
+    {
+      "key": "334_CR14",
+      "doi-asserted-by": "crossref",
+      "first-page": "1877",
+      "DOI": "10.1002/adsc.200700070",
+      "volume": "349",
+      "author": "Q Shi",
+      "year": "2007",
+      "unstructured": "Shi, Q., Lu, R., Lu, L., Fu, X. & Zhao, D. Efficient reduction of nitroarenes over nickel-iron mixed oxide catalyst prepared from a nickel-iron hydrotalcite precursor. Adv. Synth. Catal. 349, 1877–1881 (2007).",
+      "journal-title": "Adv. Synth. Catal."
+    },
+    {
+      "key": "334_CR15",
+      "doi-asserted-by": "crossref",
+      "first-page": "517",
+      "DOI": "10.1007/s10562-016-1929-9",
+      "volume": "147",
+      "author": "XK Wang",
+      "year": "2017",
+      "unstructured": "Wang, X. K. et al. Heterogeneous catalytic transfer partial-hydrogenation with formic acid as hydrogen source over the Schiff-base modified gold nano-catalyst. Catal. Lett. 147, 517–524 (2017).",
+      "journal-title": "Catal. Lett."
+    },
+    {
+      "key": "334_CR16",
+      "doi-asserted-by": "crossref",
+      "first-page": "202",
+      "DOI": "10.1016/j.molcata.2007.05.020",
+      "volume": "274",
+      "author": "I Pogorelic",
+      "year": "2007",
+      "unstructured": "Pogorelic, I. et al. Rapid, efficient and selective reduction of aromatic nitro compounds with sodium borohydride and Raney nickel. J. Mol. Catal. A 274, 202–207 (2007).",
+      "journal-title": "J. Mol. Catal. A"
+    },
+    {
+      "key": "334_CR17",
+      "doi-asserted-by": "crossref",
+      "first-page": "264",
+      "DOI": "10.1007/s10562-008-9417-5",
+      "volume": "123",
+      "author": "A Rahman",
+      "year": "2008",
+      "unstructured": "Rahman, A. & Jonnalagadda, S. B. Swift and selective reduction of nitroaromatics to aromatic amines with Ni–boride–silica catalysts system at low temperature. Catal. Lett. 123, 264–268 (2008).",
+      "journal-title": "Catal. Lett."
+    },
+    {
+      "key": "334_CR18",
+      "doi-asserted-by": "crossref",
+      "first-page": "332",
+      "DOI": "10.1126/science.1128383",
+      "volume": "313",
+      "author": "A Corma",
+      "year": "2006",
+      "unstructured": "Corma, A. & Serna, P. Chemoselective hydrogenation of nitro compounds with supported gold catalysts. Science 313, 332–334 (2006).",
+      "journal-title": "Science"
+    },
+    {
+      "key": "334_CR19",
+      "doi-asserted-by": "crossref",
+      "first-page": "5634",
+      "DOI": "10.1038/ncomms6634",
+      "volume": "5",
+      "author": "H Wei",
+      "year": "2014",
+      "unstructured": "Wei, H. et al. FeOx-supported platinum single-atom and pseudo-single-atom catalysts for chemoselective hydrogenation of functionalized nitroarenes. Nat. Commun. 5, 5634–5642 (2014).",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "334_CR20",
+      "doi-asserted-by": "crossref",
+      "first-page": "5126",
+      "DOI": "10.1039/C7SC00568G",
+      "volume": "8",
+      "author": "H Wei",
+      "year": "2017",
+      "unstructured": "Wei, H. et al. Remarkable effect of alkalis on the chemoselective hydrogenation of functionalized nitroarenes over high-loading Pt/FeOx catalysts. Chem. Sci. 8, 5126–5131 (2017).",
+      "journal-title": "Chem. Sci."
+    },
+    {
+      "key": "334_CR21",
+      "doi-asserted-by": "crossref",
+      "first-page": "6600",
+      "DOI": "10.1021/nn302299e",
+      "volume": "6",
+      "author": "M Sankar",
+      "year": "2012",
+      "unstructured": "Sankar, M. et al. Synthesis of stable ligand-free gold-palladium nanoparticles using a simple excess anion method. ACS Nano 6, 6600–6613 (2012).",
+      "journal-title": "ACS Nano"
+    },
+    {
+      "key": "334_CR22",
+      "doi-asserted-by": "crossref",
+      "first-page": "328",
+      "DOI": "10.1016/j.jcat.2004.01.033",
+      "volume": "223",
+      "author": "R Zanella",
+      "year": "2004",
+      "unstructured": "Zanella, R., Louis, C., Giorgio, S. & Touroude, R. Crotonaldehyde hydrogenation by gold supported on TiO2: structure sensitivity and mechanism. J. Catal. 223, 328–339 (2004).",
+      "journal-title": "J. Catal."
+    },
+    {
+      "key": "334_CR23",
+      "doi-asserted-by": "crossref",
+      "first-page": "6906",
+      "DOI": "10.1021/jacs.5b03333",
+      "volume": "137",
+      "author": "M Cargnello",
+      "year": "2015",
+      "unstructured": "Cargnello, M. et al. Efficient removal of organic ligands from supported nanocrystals by fast thermal annealing enables catalytic studies on well-defined active phases. J. Am. Chem. Soc. 137, 6906–6911 (2015).",
+      "journal-title": "J. Am. Chem. Soc."
+    },
+    {
+      "key": "334_CR24",
+      "doi-asserted-by": "crossref",
+      "first-page": "965",
+      "DOI": "10.1126/science.aad5705",
+      "volume": "351",
+      "author": "SJ Freakley",
+      "year": "2016",
+      "unstructured": "Freakley, S. J. et al. Palladium–tin catalysts for the direct synthesis of H2O2 with high selectivity. Science 351, 965–968 (2016).",
+      "journal-title": "Science"
+    },
+    {
+      "key": "334_CR25",
+      "doi-asserted-by": "crossref",
+      "first-page": "109",
+      "DOI": "10.1016/j.jcat.2013.06.013",
+      "volume": "306",
+      "author": "C Chen",
+      "year": "2013",
+      "unstructured": "Chen, C., Cao, J. J., Cargnello, M., Fornasiero, P. & Gorte, R. J. High-temperature calcination improves the catalytic properties of alumina-supported Pd@ceria prepared by self assembly. J. Catal. 306, 109–115 (2013).",
+      "journal-title": "J. Catal."
+    },
+    {
+      "key": "334_CR26",
+      "doi-asserted-by": "crossref",
+      "first-page": "830",
+      "DOI": "10.1021/ac60312a041",
+      "volume": "44",
+      "author": "WM Riggs",
+      "year": "1972",
+      "unstructured": "Riggs, W. M. X-ray photoelectron spectrometry of platinum compounds. Anal. Chem. 44, 830–832 (1972).",
+      "journal-title": "Anal. Chem."
+    },
+    {
+      "key": "334_CR27",
+      "unstructured": "Moulder, J. F., Stickle, W. F., Sobol, P. E. & Bomben, K. D. Handbook of X-ray Photoelectron Spectroscopy (Perkin-Elmer Corporation, 1992)."
+    },
+    {
+      "key": "334_CR28",
+      "doi-asserted-by": "crossref",
+      "first-page": "11457",
+      "DOI": "10.1039/c2cp41339f",
+      "volume": "14",
+      "author": "J Matos",
+      "year": "2012",
+      "unstructured": "Matos, J. et al. In situ coarsening study of inverse micelle-prepared Pt nanoparticles supported on gamma-Al2O3: pre-treatment and environmental effects. Phys. Chem. Chem. Phys. 14, 11457–11467 (2012).",
+      "journal-title": "Phys. Chem. Chem. Phys."
+    },
+    {
+      "key": "334_CR29",
+      "doi-asserted-by": "crossref",
+      "first-page": "17996",
+      "DOI": "10.1021/acs.jpcc.6b02945",
+      "volume": "120",
+      "author": "GJ Kim",
+      "year": "2016",
+      "unstructured": "Kim, G. J., Kwon, D. W. & Hong, S. C. Effect of Pt particle size and valence state on the performance of Pt/TiO2 catalysts for CO oxidation at room temperature. J. Phys. Chem. C 120, 17996–18004 (2016).",
+      "journal-title": "J. Phys. Chem. C"
+    },
+    {
+      "key": "334_CR30",
+      "doi-asserted-by": "crossref",
+      "first-page": "1657",
+      "DOI": "10.1088/0953-8984/11/7/002",
+      "volume": "11",
+      "author": "R Zimmermann",
+      "year": "1999",
+      "unstructured": "Zimmermann, R. et al. Electronic structure of 3D-transition-metal oxides: on-site Coulomb repulsion versus covalency. J. Phys. Condens. Matter 11, 1657–1682 (1999).",
+      "journal-title": "J. Phys. Condens. Matter"
+    },
+    {
+      "key": "334_CR31",
+      "unstructured": "Naumkin, A. V., Kraut-Vass, A., Gaarenstroom, S. W. & Powell, C. J. NIST X-ray Photoelectron Spectroscopy Database 20, Version 4.1 (National Institute of Standards and Technology, 2017); http://srdata.nist.gov/xps/"
+    },
+    {
+      "key": "334_CR32",
+      "doi-asserted-by": "crossref",
+      "first-page": "371",
+      "DOI": "10.1016/0169-4332(96)00452-7",
+      "volume": "99",
+      "author": "E Janin",
+      "year": "1996",
+      "unstructured": "Janin, E. et al. Hydrogen adsorption on the Pt(111)(3 × 3)R30° Sn surface alloy studied by high resolution core level photoelectron spectroscopy. Appl. Surf. Sci. 99, 371–378 (1996).",
+      "journal-title": "Appl. Surf. Sci."
+    },
+    {
+      "key": "334_CR33",
+      "doi-asserted-by": "crossref",
+      "first-page": "738",
+      "DOI": "10.1103/PhysRevB.15.738",
+      "volume": "15",
+      "author": "M Brown",
+      "year": "1977",
+      "unstructured": "Brown, M., Peierls, R. E. & Stern, E. A. White lines in X-ray absorption. Phys. Rev. B 15, 738–744 (1977).",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "334_CR34",
+      "unstructured": "Koningsberger, D. & Prins, R. X-ray Absorption: Principles, Applications, Techniques of EXAFS, SEXAFS, and XANES (Wiley, 1988)."
+    },
+    {
+      "key": "334_CR35",
+      "doi-asserted-by": "crossref",
+      "first-page": "1101",
+      "DOI": "10.1016/S0010-8545(99)00160-5",
+      "volume": "190",
+      "author": "JE Penner-Hahn",
+      "year": "1999",
+      "unstructured": "Penner-Hahn, J. E. X-ray absorption spectroscopy in coordination chemistry. Coord. Chem. Rev. 190, 1101–1123 (1999).",
+      "journal-title": "Coord. Chem. Rev."
+    },
+    {
+      "key": "334_CR36",
+      "doi-asserted-by": "crossref",
+      "first-page": "1779",
+      "DOI": "10.1021/cr9900681",
+      "volume": "101",
+      "author": "F de Groot",
+      "year": "2001",
+      "unstructured": "de Groot, F. High-resolution X-ray emission and X-ray absorption spectroscopy. Chem. Rev. 101, 1779–1808 (2001).",
+      "journal-title": "Chem. Rev."
+    },
+    {
+      "key": "334_CR37",
+      "doi-asserted-by": "crossref",
+      "first-page": "813",
+      "DOI": "10.1238/Physica.Topical.115a00813",
+      "volume": "T115",
+      "author": "H Yoshida",
+      "year": "2005",
+      "unstructured": "Yoshida, H., Nonoyama, S., Yazawa, Y. & Hattori, T. Quantitative determination of platinum oxidation state by XANES analysis. Phys. Scr. T115, 813–815 (2005).",
+      "journal-title": "Phys. Scr."
+    },
+    {
+      "key": "334_CR38",
+      "doi-asserted-by": "crossref",
+      "first-page": "233",
+      "DOI": "10.1595/147106711X598910",
+      "volume": "55",
+      "author": "TI Hyde",
+      "year": "2011",
+      "unstructured": "Hyde, T. I. et al. X-ray absorption spectroscopic studies of platinum speciation in fresh and road aged light-duty diesel vehicle emission control catalysts. Platin. Met. Rev. 55, 233–245 (2011).",
+      "journal-title": "Platin. Met. Rev."
+    },
+    {
+      "key": "334_CR39",
+      "doi-asserted-by": "crossref",
+      "first-page": "40",
+      "DOI": "10.1007/s10562-007-9246-y",
+      "volume": "120",
+      "author": "MY Kim",
+      "year": "2008",
+      "unstructured": "Kim, M. Y., You, Y. S., Han, H. S. & Seo, G. Preparation of highly dispersed platinum catalysts impregnated on titania-incorporated silica support. Catal. Lett. 120, 40–47 (2008).",
+      "journal-title": "Catal. Lett."
+    },
+    {
+      "key": "334_CR40",
+      "doi-asserted-by": "crossref",
+      "first-page": "5562",
+      "DOI": "10.1039/b925206a",
+      "volume": "12",
+      "author": "AM Beale",
+      "year": "2010",
+      "unstructured": "Beale, A. M. & Weckhuysen, B. M. EXAFS as a tool to interrogate the size and shape of mono and bimetallic catalyst nanoparticles. Phys. Chem. Chem. Phys. 12, 5562–5574 (2010).",
+      "journal-title": "Phys. Chem. Chem. Phys."
+    },
+    {
+      "key": "334_CR41",
+      "doi-asserted-by": "crossref",
+      "first-page": "478",
+      "DOI": "10.1016/S0021-9517(03)00147-7",
+      "volume": "217",
+      "author": "J Raskó",
+      "year": "2003",
+      "unstructured": "Raskó, J. CO-induced surface structural changes of Pt on oxide-supported Pt catalysts studied by DRIFTS. J. Catal. 217, 478–486 (2003).",
+      "journal-title": "J. Catal."
+    },
+    {
+      "key": "334_CR42",
+      "doi-asserted-by": "crossref",
+      "first-page": "127",
+      "DOI": "10.1016/j.jcat.2005.03.003",
+      "volume": "232",
+      "author": "S Zafeiratos",
+      "year": "2005",
+      "unstructured": "Zafeiratos, S., Papakonstantinou, G., Jacksic, M. M. & Neophytides, S. G. The effect of Mo oxides and TiO2 support on the chemisorption features of linearly adsorbed CO on Pt crystallites: an infrared and photoelectron spectroscopy study. J. Catal. 232, 127–136 (2005).",
+      "journal-title": "J. Catal."
+    },
+    {
+      "key": "334_CR43",
+      "doi-asserted-by": "crossref",
+      "first-page": "14150",
+      "DOI": "10.1021/jacs.7b07093",
+      "volume": "139",
+      "author": "L DeRita",
+      "year": "2017",
+      "unstructured": "DeRita, L. et al. Catalyst architecture for stable single atom dispersion enables site-specific spectroscopic and reactivity measurements of CO adsorbed to Pt atoms, oxidized Pt clusters, and metallic Pt clusters on TiO2. J. Am. Chem. Soc. 139, 14150–14165 (2017).",
+      "journal-title": "J. Am. Chem. Soc."
+    },
+    {
+      "key": "334_CR44",
+      "doi-asserted-by": "crossref",
+      "first-page": "104",
+      "DOI": "10.1016/j.jcat.2018.08.025",
+      "volume": "367",
+      "author": "HV Thang",
+      "year": "2018",
+      "unstructured": "Thang, H. V., Pacchioni, G., DeRita, L. & Christopher, P. Nature of stable single atom Pt catalysts dispersed on anatase TiO2. J. Catal. 367, 104–114 (2018).",
+      "journal-title": "J. Catal."
+    },
+    {
+      "key": "334_CR45",
+      "doi-asserted-by": "crossref",
+      "first-page": "382",
+      "DOI": "10.1006/jcat.1997.1716",
+      "volume": "169",
+      "author": "AY Stakheev",
+      "year": "1997",
+      "unstructured": "Stakheev, A. Y., Shpiro, E. S., Tkachenko, O. P., Jaeger, N. I. & Schulz-Ekloff, G. Evidence for monatomic platinum species in H-ZSM-5 from FTIR spectroscopy of chemisorbed CO. J. Catal. 169, 382–388 (1997).",
+      "journal-title": "J. Catal."
+    },
+    {
+      "key": "334_CR46",
+      "doi-asserted-by": "crossref",
+      "first-page": "170",
+      "DOI": "10.1021/ja00469a029",
+      "volume": "100",
+      "author": "SJ Tauster",
+      "year": "1978",
+      "unstructured": "Tauster, S. J., Fung, S. C. & Garten, R. L. Strong metal–support interactions. Group 8 noble metals supported on Titanium Dioxide. J. Am. Chem. Soc. 100, 170–175 (1978).",
+      "journal-title": "J. Am. Chem. Soc."
+    },
+    {
+      "key": "334_CR47",
+      "doi-asserted-by": "crossref",
+      "first-page": "65",
+      "DOI": "10.1016/0021-9517(89)90007-9",
+      "volume": "115",
+      "author": "MA Vannice",
+      "year": "1989",
+      "unstructured": "Vannice, M. A. & Sen, B. Metal support effects on the intramolecular selectivity of crotonaldehyde hydrogenation over platinum. J. Catal. 115, 65–78 (1989).",
+      "journal-title": "J. Catal."
+    },
+    {
+      "key": "334_CR48",
+      "doi-asserted-by": "crossref",
+      "first-page": "14208",
+      "DOI": "10.1021/ja306079h",
+      "volume": "134",
+      "author": "LR Baker",
+      "year": "2012",
+      "unstructured": "Baker, L. R. et al. Furfuraldehyde hydrogenation on titanium oxide-supported platinum nanoparticles studied by sum frequency generation vibrational spectroscopy: acid–base catalysis explains the molecular origin of strong metal–support interactions. J. Am. Chem. Soc. 134, 14208–14216 (2012).",
+      "journal-title": "J. Am. Chem. Soc."
+    },
+    {
+      "key": "334_CR49",
+      "doi-asserted-by": "crossref",
+      "first-page": "16607",
+      "DOI": "10.1021/la101752a",
+      "volume": "26",
+      "author": "M Boronat",
+      "year": "2010",
+      "unstructured": "Boronat, M. & Corma, A. Origin of the different activity and selectivity toward hydrogenation of single metal Au and Pt on TiO2 and bimetallic Au-Pt/TiO2 catalysts. Langmuir 26, 16607–16614 (2010).",
+      "journal-title": "Langmuir"
+    },
+    {
+      "key": "334_CR50",
+      "doi-asserted-by": "crossref",
+      "first-page": "671",
+      "DOI": "10.1038/nmeth.2089",
+      "volume": "9",
+      "author": "CA Schneider",
+      "year": "2012",
+      "unstructured": "Schneider, C. A., Rasband, W. S. & Eliceiri, K. W. NIH Image to ImageJ: 25 years of image analysis. Nat. Methods 9, 671–675 (2012).",
+      "journal-title": "Nat. Methods"
+    },
+    {
+      "key": "334_CR51",
+      "doi-asserted-by": "crossref",
+      "first-page": "537",
+      "DOI": "10.1107/S0909049505012719",
+      "volume": "12",
+      "author": "B Ravel",
+      "year": "2005",
+      "unstructured": "Ravel, B. & Newville, M. ATHENA, ARTEMIS, HEPHAESTUS: data analysis for X-ray absorption spectroscopy using IFEFFIT. J. Synchrotron Radiat. 12, 537–541 (2005).",
+      "journal-title": "J. Synchrotron Radiat."
+    },
+    {
+      "key": "334_CR52",
+      "unstructured": "EXCURV98 (CCLRC Daresbury Laboratory, 1998)."
+    }
+  ],
+  "container-title": "Nature Catalysis",
+  "original-title": [
+
+  ],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.nature.com/articles/s41929-019-0334-3.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s41929-019-0334-3",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s41929-019-0334-3.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        12,
+        17
+      ]
+    ],
+    "date-time": "2022-12-17T18:54:55Z",
+    "timestamp": 1671303295000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.nature.com/articles/s41929-019-0334-3"
+    }
+  },
+  "subtitle": [
+
+  ],
+  "short-title": [
+
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2019,
+        9,
+        16
+      ]
+    ]
+  },
+  "references-count": 52,
+  "journal-issue": {
+    "issue": "10",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "334"
+  ],
+  "URL": "http://dx.doi.org/10.1038/s41929-019-0334-3",
+  "relation": {
+  },
+  "ISSN": [
+    "2520-1158"
+  ],
+  "subject": [
+    "Process Chemistry and Technology",
+    "Biochemistry",
+    "Bioengineering",
+    "Catalysis"
+  ],
+  "container-title-short": "Nat Catal",
+  "published": {
+    "date-parts": [
+      [
+        2019,
+        9,
+        16
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "9 July 2018",
+      "order": 1,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "25 July 2019",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "16 September 2019",
+      "order": 3,
+      "name": "first_online",
+      "label": "First Online",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "11 November 2019",
+      "order": 4,
+      "name": "change_date",
+      "label": "Change Date",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "Correction",
+      "order": 5,
+      "name": "change_type",
+      "label": "Change Type",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "An amendment to this paper has been published and can be accessed via a link at the top of the paper.",
+      "order": 6,
+      "name": "change_details",
+      "label": "Change Details",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "3 August 2020",
+      "order": 7,
+      "name": "change_date",
+      "label": "Change Date",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "Correction",
+      "order": 8,
+      "name": "change_type",
+      "label": "Change Type",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "A Correction to this paper has been published:",
+      "order": 9,
+      "name": "change_details",
+      "label": "Change Details",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "https://doi.org/10.1038/s41929-020-00500-1",
+      "URL": "https://doi.org/10.1038/s41929-020-00500-1",
+      "order": 10,
+      "name": "change_details",
+      "label": "Change Details",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "The authors declare no competing interests.",
+      "order": 1,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Competing interests"
+      }
+    }
+  ]
+}
