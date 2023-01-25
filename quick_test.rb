@@ -50,23 +50,41 @@ puts xref_pub_csv_map.length()
 # the new class for the objects:
 # get the keys for the cdi pub class:
 pub_keys = []
+xref_keys = []
 for row in xref_pub_csv_map
   pub_keys.append(row[row.keys()[1]])
+  xref_keys.append(row[row.keys()[0]])
 end
 
 puts pub_keys.to_s
+puts xref_keys.to_s
+# create the CDI publication class using the object factory
+cdi_pub_class = XrefClient::DigitalObjectFactory.create_class('Publication', pub_keys)
 
-pub_class = XrefClient::DigitalObjectFactory.create_class('Publication', pub_keys)
-
-puts '*********************************************************************'
-puts pub_class.class
-
-# get crossref data
 pub_data = XrefClient.getCRData(doi)
+puts pub_data.to_s
 
+# get crossref data to values for CDI pub_class
+xref_pub_values = []
+xref_keys.each {|a_key|
+  if a_key == nil
+    xref_pub_values.append(a_key)
+  else
+    xref_pub_values.append(pub_data[a_key])
+  end
+}
+xref_pub_data = pub_keys.zip(xref_pub_values).to_h
+puts xref_pub_data.to_s
 
+# create an instance of the the CDI publication class
+new_pub = cdi_pub_class.new()
+# assign values to the instance
+XrefClient::DigitalObjectFactory.assign_attributes(new_pub, xref_pub_data)
 
-# fill in publication data
+puts new_pub.title
+puts new_pub.doi
+puts new_pub.pub_year
+
 # get authors and link them to article
 # get author affiliations and link them to article and 
     def getPubData(db_article, doi_text)
