@@ -8,3 +8,4 @@
 /spec/reports/
 /tmp/
 test/fixtures/credential.yml
+*.csv*
