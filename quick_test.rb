@@ -10,6 +10,7 @@ def inspect_element(element_name,element_value,element_class)
 end
 
 
+
 doi = '10.1038/s41929-019-0334-3'
 art_bib = XrefClient.getCRData(doi)
 
@@ -26,6 +27,45 @@ for a_key in class_keys
 end
 
 # get crossref data and publications data mappings 
+# 0 xref		the origin crossref attribute 				
+# 1 cdi         the target CDI attribute 
+# 2 type        the target type
+# 3 default     the default value (use type to cast correctly)
+# 4 get_it      a list of lists with the json keys to use when drilling down
+# 5 evaluate    a expression to use to get the value
+# 6 other       notes on how to get data if not specified above
+
+# get value from an inner element
+
+def inspect_path(json_vals,a_path)
+  ret_val = nil
+  if json_vals[a_path[0]] != nil 
+    if a_path.length() == 1
+      ret_val = json_vals[a_path[0]]
+    else 
+      ret_val = inspect_path(json_vals[a_path[0]],a_path.drop(1))
+    end  
+  end
+  return ret_val  
+end 
+
+def get_inner_element(json_vals, json_paths)
+  ret_val = nil
+  json_paths.each do|a_path|
+    ret_val = inspect_path(json_vals,a_path)
+    if ret_val != nil
+      break
+    end
+  end
+  return ret_val
+end
+
+def evaluate_exp(pub_data, eval_exp)
+  # replace 'data_hash' with pub_data on the string to evaluate
+  # return the evaluate response
+  return eval(eval_exp.gsub('d_h', 'pub_data'))
+end
+
 
 xref_pub_csv = CSV.new('./map_pub_xref_cdi.csv')
 
@@ -43,8 +83,7 @@ File.open('./map_pub_xref_cdi.csv') do |file|
 end 
 
 puts '*********************************************************************'
-puts xref_pub_csv_map.length()
-
+puts xref_pub_csv_map.to_s
 
 
 # the new class for the objects:
@@ -52,8 +91,8 @@ puts xref_pub_csv_map.length()
 pub_keys = []
 xref_keys = []
 for row in xref_pub_csv_map
-  pub_keys.append(row[row.keys()[1]])
   xref_keys.append(row[row.keys()[0]])
+  pub_keys.append(row[row.keys()[1]])
 end
 
 puts pub_keys.to_s
@@ -78,6 +117,25 @@ puts xref_pub_data.to_s
 
 # create an instance of the the CDI publication class
 new_pub = cdi_pub_class.new()
+# check for defaults, paths and expressions to evaluate before assigning
+
+xref_pub_csv_map.each do |xref_mapping|
+  if not ["NULL","NOT NULL"].include?(xref_mapping['default'])
+    puts "Assing" + xref_mapping['default'] + " to " +  xref_mapping['cdi'] + " type " + xref_mapping['type']
+  elsif xref_mapping['json_paths'] != nil
+    puts "Get values for " + xref_mapping['cdi'] + " from " + xref_mapping['json_paths']
+    xref_pub_data[xref_mapping['cdi']]  = get_inner_element(pub_data, eval(xref_mapping['json_paths']))
+  elsif xref_mapping['evaluate'] != nil
+    puts "Evaluate " + xref_mapping['evaluate'] + " to get values for " + xref_mapping['cdi'] 
+    xref_pub_data[xref_mapping['cdi']]  =  evaluate_exp(xref_pub_data, xref_mapping['evaluate'])
+  elsif xref_mapping['xref'] == nil
+    puts "O get values for " + xref_mapping['cdi'] + " from " + xref_mapping['other'].to_s
+  else
+    puts "X get values for " + xref_mapping['cdi'] + " from " + xref_mapping['xref'].to_s
+  end
+  puts "current " + xref_pub_data[xref_mapping['cdi']].to_s
+end
+
 # assign values to the instance
 XrefClient::DigitalObjectFactory.assign_attributes(new_pub, xref_pub_data)
 
