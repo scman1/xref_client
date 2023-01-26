@@ -1,40 +1,6 @@
 require './lib/xref_client'
 require 'csv'
 
-def inspect_element(element_name,element_value,element_class)
-  if element_class.to_s == "Hash" 
-    puts ("* create object: "+ element_name ) 
-  elsif element_class.to_s == "Array"
-    puts ("* create list of: "+ element_name ) 
-  end
-end
-
-
-
-doi = '10.1038/s41929-019-0334-3'
-art_bib = XrefClient.getCRData(doi)
-
-puts '*********************************************************************'
-#puts art_bib
-
-File.write('./sample-pub.json', JSON.pretty_generate(art_bib))
-class_keys=art_bib.keys()
-
-for a_key in class_keys
-  item_class = art_bib[a_key].class()
-  puts a_key + ": " + item_class.to_s()  + "\n"
-  inspect_element(a_key, art_bib[a_key], item_class)
-end
-
-# get crossref data and publications data mappings 
-# 0 xref		the origin crossref attribute 				
-# 1 cdi         the target CDI attribute 
-# 2 type        the target type
-# 3 default     the default value (use type to cast correctly)
-# 4 get_it      a list of lists with the json keys to use when drilling down
-# 5 evaluate    a expression to use to get the value
-# 6 other       notes on how to get data if not specified above
-
 # get value from an inner element
 def inspect_path(json_vals,a_path)
   ret_val = nil
@@ -80,6 +46,15 @@ def assign_value(a_val,a_type)
   return nil
 end
 
+# get crossref to CDI publications mappings
+# 0 xref        the origin crossref attribute
+# 1 cdi         the target CDI attribute
+# 2 type        the target type
+# 3 default     the default value (use type to cast correctly)
+# 4 get_it      a list of lists with the json keys to use when drilling down
+# 5 evaluate    a expression to use to get the value
+# 6 other       notes on how to get data if not specified above
+
 xref_pub_csv = CSV.new('./map_pub_xref_cdi.csv')
 
 xref_pub_csv_map = []
@@ -113,6 +88,8 @@ puts xref_keys.to_s
 # create the CDI publication class using the object factory
 cdi_pub_class = XrefClient::DigitalObjectFactory.create_class('Publication', pub_keys)
 
+# get publication data
+doi = '10.1038/s41929-019-0334-3'
 pub_data = XrefClient.getCRData(doi)
 puts pub_data.to_s
 
