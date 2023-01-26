@@ -14,6 +14,7 @@ def inspect_path(json_vals,a_path)
   return ret_val  
 end 
 
+# return the first val in the path 
 def get_inner_element(json_vals, json_paths)
   ret_val = nil
   json_paths.each do|a_path|
