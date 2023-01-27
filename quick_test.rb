@@ -55,37 +55,33 @@ end
 # 4 get_it      a list of lists with the json keys to use when drilling down
 # 5 evaluate    a expression to use to get the value
 # 6 other       notes on how to get data if not specified above
-
-xref_pub_csv = CSV.new('./map_pub_xref_cdi.csv')
-
-xref_pub_csv_map = []
-
-File.open('./map_pub_xref_cdi.csv') do |file|
-  xref_pub_csv = CSV.read(file)
-  map_headers = xref_pub_csv.shift()
-  puts map_headers  
-  a_mapping = {}
-  while row = xref_pub_csv.shift() 
-    a_mapping = map_headers.zip(row).to_h
-    xref_pub_csv_map.append(a_mapping)
+def read_csv(csv_file)
+  csv_map = []
+  File.open(csv_file) do |file|
+    csv_data = CSV.read(file)
+    map_headers = csv_data.shift()
+    a_mapping = {}
+    while row = csv_data.shift()
+      a_mapping = map_headers.zip(row).to_h
+      csv_map.append(a_mapping)
+    end
   end
-end 
+  return csv_map
+end
 
-puts '*********************************************************************'
-puts xref_pub_csv_map.to_s
+pub_mappings_file = './map_pub_xref_cdi.csv'
 
+xref_pub_csv_map = read_csv(pub_mappings_file)
 
-# the new class for the objects:
-# get the keys for the cdi pub class:
+# get the keys for origin and target classes
+
 pub_keys = []
 xref_keys = []
 for row in xref_pub_csv_map
-  xref_keys.append(row[row.keys()[0]])
-  pub_keys.append(row[row.keys()[1]])
+  xref_keys.append(row['xref'])
+  pub_keys.append(row['cdi'])
 end
 
-puts pub_keys.to_s
-puts xref_keys.to_s
 # create the CDI publication class using the object factory
 cdi_pub_class = XrefClient::DigitalObjectFactory.create_class('Publication', pub_keys)
 
