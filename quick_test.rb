@@ -69,63 +69,55 @@ def read_csv(csv_file)
   return csv_map
 end
 
+# map json data to object using mappings file
+def map_json_data(mappings_file, doi_text)
+  xref_pub_csv_map = read_csv(mappings_file)
+  # get the keys for origin and target classes
+  pub_keys = []
+  xref_keys = []
+  for row in xref_pub_csv_map
+    xref_keys.append(row['xref'])
+    pub_keys.append(row['cdi'])
+  end
+  # get json publication data
+  pub_data = XrefClient.getCRData(doi_text)
+  # get crossref data to values for CDI pub_class
+  xref_pub_values = []
+  xref_keys.each {|a_key|
+    if a_key == nil
+      xref_pub_values.append(a_key)
+    else
+      xref_pub_values.append(pub_data[a_key])
+    end
+  }
+  xref_pub_data = pub_keys.zip(xref_pub_values).to_h
+  # check for defaults, paths and expressions to evaluate before assigning
+  xref_pub_csv_map.each do |xref_mapping|
+    if not ["NULL","NOT NULL"].include?(xref_mapping['default'])
+      # Assing 'default' to 'cdi' attibute using type to cast correctly
+      xref_pub_data[xref_mapping['cdi']]  = assign_value(xref_mapping['default'],xref_mapping['type'])
+    elsif xref_mapping['json_paths'] != nil
+      # Get values for 'cdi' attribute from a 'json_path'
+      xref_pub_data[xref_mapping['cdi']]  = get_inner_element(pub_data, eval(xref_mapping['json_paths']))
+    elsif xref_mapping['evaluate'] != nil
+      # Evaluate an expression to  get values for 'cdi' attribute 
+      xref_pub_data[xref_mapping['cdi']]  =  evaluate_exp(xref_pub_data, xref_mapping['evaluate'])
+      # See other to findout how to get values for 'cdi' attrib
+      # map directly: get values for 'cdi' attrib 'xref'attrib
+    end
+  end
+  # create the CDI publication class using the object factory
+  cdi_pub_class = XrefClient::DigitalObjectFactory.create_class('Publication', pub_keys)
+  # create an instance of the the CDI publication class
+  new_pub = cdi_pub_class.new()
+  # assign values to the instance
+  XrefClient::DigitalObjectFactory.assign_attributes(new_pub, xref_pub_data)
+  return new_pub
+end 
+
 pub_mappings_file = './map_pub_xref_cdi.csv'
-
-xref_pub_csv_map = read_csv(pub_mappings_file)
-
-# get the keys for origin and target classes
-
-pub_keys = []
-xref_keys = []
-for row in xref_pub_csv_map
-  xref_keys.append(row['xref'])
-  pub_keys.append(row['cdi'])
-end
-
-# create the CDI publication class using the object factory
-cdi_pub_class = XrefClient::DigitalObjectFactory.create_class('Publication', pub_keys)
-
-# get publication data
 doi = '10.1038/s41929-019-0334-3'
-pub_data = XrefClient.getCRData(doi)
-puts pub_data.to_s
-
-# get crossref data to values for CDI pub_class
-xref_pub_values = []
-xref_keys.each {|a_key|
-  if a_key == nil
-    xref_pub_values.append(a_key)
-  else
-    xref_pub_values.append(pub_data[a_key])
-  end
-}
-xref_pub_data = pub_keys.zip(xref_pub_values).to_h
-puts xref_pub_data.to_s
-
-# create an instance of the the CDI publication class
-new_pub = cdi_pub_class.new()
-# check for defaults, paths and expressions to evaluate before assigning
-
-xref_pub_csv_map.each do |xref_mapping|
-  if not ["NULL","NOT NULL"].include?(xref_mapping['default'])
-    puts "Assing" + xref_mapping['default'] + " to " +  xref_mapping['cdi'] + " type " + xref_mapping['type']
-    xref_pub_data[xref_mapping['cdi']]  = assign_value(xref_mapping['default'],xref_mapping['type'])
-  elsif xref_mapping['json_paths'] != nil
-    puts "Get values for " + xref_mapping['cdi'] + " from " + xref_mapping['json_paths']
-    xref_pub_data[xref_mapping['cdi']]  = get_inner_element(pub_data, eval(xref_mapping['json_paths']))
-  elsif xref_mapping['evaluate'] != nil
-    puts "Evaluate " + xref_mapping['evaluate'] + " to get values for " + xref_mapping['cdi'] 
-    xref_pub_data[xref_mapping['cdi']]  =  evaluate_exp(xref_pub_data, xref_mapping['evaluate'])
-  elsif xref_mapping['xref'] == nil
-    puts "O get values for " + xref_mapping['cdi'] + " from " + xref_mapping['other'].to_s
-  else
-    puts "X get values for " + xref_mapping['cdi'] + " from " + xref_mapping['xref'].to_s
-  end
-  puts "current " + xref_pub_data[xref_mapping['cdi']].to_s
-end
-
-# assign values to the instance
-XrefClient::DigitalObjectFactory.assign_attributes(new_pub, xref_pub_data)
+new_pub = map_json_data(pub_mappings_file, doi)
 
 puts new_pub.title
 puts new_pub.doi
