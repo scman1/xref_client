@@ -27,10 +27,10 @@ def get_inner_element(json_vals, json_paths)
 end
 
 # evaluate a given expression
-def evaluate_exp(pub_data, eval_exp)
-  # replace 'data_hash' with pub_data on the string to evaluate
+def evaluate_exp(target_data, eval_exp)
+  # replace 'data_hash' with target_data on the string to evaluate
   # return the evaluate response
-  return eval(eval_exp.gsub('d_h', 'pub_data'))
+  return eval(eval_exp.gsub('d_h', 'target_data'))
 end
 
 def only_nums(a_string)
@@ -78,9 +78,9 @@ def class_exists?(class_name)
 end
 
 # create class if needed
-def make_class(class_name, pub_keys)
+def make_class(class_name, target_keys)
   if not class_exists?(class_name)
-    new_class = XrefClient::DigitalObjectFactory.create_class(class_name, pub_keys)
+    new_class = XrefClient::DigitalObjectFactory.create_class(class_name, target_keys)
   else 
     new_class = XrefClient.const_get(class_name)
   end
@@ -89,47 +89,48 @@ end
 
 
 # map json data to object using mappings file
-def map_json_data(mappings_file, pub_data, class_name)
-  xref_pub_csv_map = read_csv(mappings_file)
+def map_json_data(mappings_file, source_data, class_name)
+  obj_csv_map = read_csv(mappings_file)
   # get the keys for origin and target classes
-  pub_keys = []
   xref_keys = []
-  for row in xref_pub_csv_map
+  target_keys = []
+
+  for row in obj_csv_map
     xref_keys.append(row['xref'])
-    pub_keys.append(row['cdi'])
+    target_keys.append(row['cdi'])
   end
-  # get crossref data to values for CDI pub_class
-  xref_pub_values = []
+  # get the origin data to for the target object
+  target_values = []
   xref_keys.each {|a_key|
     if a_key == nil
-      xref_pub_values.append(a_key)
+      target_values.append(a_key)
     else
-      xref_pub_values.append(pub_data[a_key])
+      target_values.append(source_data[a_key])
     end
   }
-  xref_pub_data = pub_keys.zip(xref_pub_values).to_h
+  target_data = target_keys.zip(target_values).to_h
   # check for defaults, paths and expressions to evaluate before assigning
-  xref_pub_csv_map.each do |xref_mapping|
+  obj_csv_map.each do |xref_mapping|
     if not ["NULL","NOT NULL"].include?(xref_mapping['default'])
       # Assing 'default' to 'cdi' attibute using type to cast correctly
-      xref_pub_data[xref_mapping['cdi']]  = assign_value(xref_mapping['default'],xref_mapping['type'])
+      target_data[xref_mapping['cdi']]  = assign_value(xref_mapping['default'],xref_mapping['type'])
     elsif xref_mapping['json_paths'] != nil
       # Get values for 'cdi' attribute from a 'json_path'
-      xref_pub_data[xref_mapping['cdi']]  = get_inner_element(pub_data, eval(xref_mapping['json_paths']))
+      target_data[xref_mapping['cdi']]  = get_inner_element(target_data, eval(xref_mapping['json_paths']))
     elsif xref_mapping['evaluate'] != nil
       # Evaluate an expression to  get values for 'cdi' attribute 
-      xref_pub_data[xref_mapping['cdi']]  =  evaluate_exp(xref_pub_data, xref_mapping['evaluate'])
+      target_data[xref_mapping['cdi']]  =  evaluate_exp(target_data, xref_mapping['evaluate'])
       # See other to findout how to get values for 'cdi' attrib
       # map directly: get values for 'cdi' attrib 'xref'attrib
     end
   end
   # create the data object class using the object factory
-  do_class = make_class(class_name, pub_keys)
-  # create an instance of the the CDI publication class
-  new_pub = do_class.new()
+  target_class = make_class(class_name, target_keys)
+  # create an instance of the the target class
+  target_obj = target_class.new()
   # assign values to the instance
-  XrefClient::DigitalObjectFactory.assign_attributes(new_pub, xref_pub_data)
-  return new_pub
+  XrefClient::DigitalObjectFactory.assign_attributes(target_obj, target_data)
+  return target_obj
 end 
 
 pub_mappings_file = './map_pub_xref_cdi.csv'
@@ -138,7 +139,7 @@ dois = ['10.1016/j.biombioe.2022.106608', '10.1016/j.jcat.2016.05.016','10.1016/
         '10.1088/2515-7655/aca9fd', '10.1038/s41929-019-0334-3']
 dois = ['10.1002/aenm.202201131', '10.1002/anie.202210748', '10.1021/acs.iecr.2c01930',
         '10.1039/d2cc04701b', '10.1039/d2cy01322c', '10.1039/d2dt02888c', '10.1039/d2fd00119e']
-        
+dois = ['10.1038/s41929-019-0334-3']
 class_name='Publication'
 
 dois.each {|doi|
