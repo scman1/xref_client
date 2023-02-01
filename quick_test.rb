@@ -1,6 +1,20 @@
 require './lib/xref_client'
 require 'csv'
 
+def get_authors(authors_list)
+  authors_list.each do |art_author|
+    if art_author.keys.include?('ORCID')
+      puts art_author['ORCID']
+    end
+    if art_author.keys.include?('family')
+      puts art_author['family']
+    end
+    if art_author.keys.include?('given')
+      puts art_author['given']
+    end
+  end
+end
+
 # get crossref to CDI publications mappings
 # 0 xref        the origin crossref attribute
 # 1 cdi         the target CDI attribute
@@ -93,18 +107,24 @@ dois = ['10.1016/j.biombioe.2022.106608', '10.1016/j.jcat.2016.05.016','10.1016/
         '10.1088/2515-7655/aca9fd', '10.1038/s41929-019-0334-3']
 dois = ['10.1002/aenm.202201131', '10.1002/anie.202210748', '10.1021/acs.iecr.2c01930',
         '10.1039/d2cc04701b', '10.1039/d2cy01322c', '10.1039/d2dt02888c', '10.1039/d2fd00119e']
-#dois = ['10.1038/s41929-019-0334-3']
+dois = ['10.1038/s41929-019-0334-3']
 class_name='Publication'
 
 dois.each {|doi|
   # get json publication data
   pub_data = XrefClient.getCRData(doi)
   new_pub = map_json_data(pub_mappings_file, pub_data, class_name)
-
+  temp_author_list = pub_data['author']
   puts "Title:       " + new_pub.title
   puts "DOI:         " + new_pub.doi
   puts "Year:        " + new_pub.pub_year.to_s
   puts "Year online: " + new_pub.pub_ol_year.to_s
   puts "Year print:  " + new_pub.pub_print_year.to_s
   puts "Journal:     " + new_pub.container_title 
+  puts "Autors:      " + temp_author_list.length().to_s()
+  get_authors(temp_author_list)
 }
+
+json_data = {"author"=>[{"ORCID"=>"http://orcid.org/0000-0001-8033-303X", "authenticated-orcid"=>false, "given"=>"Hessan", "family"=>"Khalid", "sequence"=>"first", "affiliation"=>[{"name"=>"Nanotechnology and Integrated Bio‐Engineering Centre (NIBEC) Ulster University  Newtownabbey BT37 0QB UK"}]}, {"given"=>"Atta ul", "family"=>"Haq", "sequence"=>"additional", "affiliation"=>[{"name"=>"Nanotechnology and Integrated Bio‐Engineering Centre (NIBEC) Ulster University  Newtownabbey BT37 0QB UK"}]}, {"given"=>"Bruno", "family"=>"Alessi", "sequence"=>"additional", "affiliation"=>[{"name"=>"Nanotechnology and Integrated Bio‐Engineering Centre (NIBEC) Ulster University  Newtownabbey BT37 0QB UK"}]}, {"given"=>"Ji", "family"=>"Wu", "sequence"=>"additional", "affiliation"=>[{"name"=>"Department of Chemistry University of Bath  Claverton Down Bath BA2 7AX UK"}]}, {"given"=>"Cristian D.", "family"=>"Savaniu", "sequence"=>"additional", "affiliation"=>[{"name"=>"School of Chemistry University of St. Andrews  Scotland Fife KY16 9ST UK"}]}, {"given"=>"Kalliopi", "family"=>"Kousi", "sequence"=>"additional", "affiliation"=>[{"name"=>"Department of Chemical and Process Engineering University of Surrey  Guildford Surrey GU2 7XH UK"}]}, {"given"=>"Ian S.", "family"=>"Metcalfe", "sequence"=>"additional", "affiliation"=>[{"name"=>"School of Engineering Newcastle University  Newcastle upon Tyne NE1 7RU UK"}]}, {"given"=>"Stephen C.", "family"=>"Parker", "sequence"=>"additional", "affiliation"=>[{"name"=>"Department of Chemistry University of Bath  Claverton Down Bath BA2 7AX UK"}]}, {"given"=>"John T. S.", "family"=>"Irvine", "sequence"=>"additional", "affiliation"=>[{"name"=>"School of Chemistry University of St. Andrews  Scotland Fife KY16 9ST UK"}]}, {"given"=>"Paul", "family"=>"Maguire", "sequence"=>"additional", "affiliation"=>[{"name"=>"Nanotechnology and Integrated Bio‐Engineering Centre (NIBEC) Ulster University  Newtownabbey BT37 0QB UK"}]}, {"given"=>"Evangelos I.", "family"=>"Papaioannou", "sequence"=>"additional", "affiliation"=>[{"name"=>"School of Engineering Newcastle University  Newcastle upon Tyne NE1 7RU UK"}]}, {"ORCID"=>"http://orcid.org/0000-0003-1504-4383", "authenticated-orcid"=>false, "given"=>"Davide", "family"=>"Mariotti", "sequence"=>"additional", "affiliation"=>[{"name"=>"Nanotechnology and Integrated Bio‐Engineering Centre (NIBEC) Ulster University  Newtownabbey BT37 0QB UK"}]}]}
+
+#puts json_data['author']
