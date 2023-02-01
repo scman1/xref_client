@@ -1,52 +1,6 @@
 require './lib/xref_client'
 require 'csv'
 
-# get value from an inner element
-def inspect_path(json_vals,a_path)
-  ret_val = nil
-  if json_vals[a_path[0]] != nil 
-    if a_path.length() == 1
-      ret_val = json_vals[a_path[0]]
-    else 
-      ret_val = inspect_path(json_vals[a_path[0]],a_path.drop(1))
-    end  
-  end
-  return ret_val  
-end 
-
-# return the first val in the path 
-def get_inner_element(json_vals, json_paths)
-  ret_val = nil
-  json_paths.each do|a_path|
-    ret_val = inspect_path(json_vals,a_path)
-    if ret_val != nil
-      break
-    end
-  end
-  return ret_val
-end
-
-# evaluate a given expression
-def evaluate_exp(target_data, eval_exp)
-  # replace 'data_hash' with target_data on the string to evaluate
-  # return the evaluate response
-  return eval(eval_exp.gsub('d_h', 'target_data'))
-end
-
-def only_nums(a_string)
-  a_string.scan(/\D/).empty?
-end
-
-# assign a default value
-def assign_value(a_val,a_type)
-  if a_type == 'varchar'
-     return a_val
-  elsif a_type == 'integer'and only_nums(a_string)
-    return eval(a_val)
-  end
-  return nil
-end
-
 # get crossref to CDI publications mappings
 # 0 xref        the origin crossref attribute
 # 1 cdi         the target CDI attribute
@@ -113,13 +67,13 @@ def map_json_data(mappings_file, source_data, class_name)
   obj_csv_map.each do |obj_mapping|
     if not ["NULL","NOT NULL"].include?(obj_mapping['default'])
       # Assing 'default' to 'cdi' attibute using type to cast correctly
-      target_data[obj_mapping['cdi']]  = assign_value(obj_mapping['default'],obj_mapping['type'])
+      target_data[obj_mapping['cdi']]  = XrefClient::MapJsonToObj.assign_value(obj_mapping['default'],obj_mapping['type'])
     elsif obj_mapping['json_paths'] != nil
       # Get values for 'cdi' attribute from a 'json_path'
-      target_data[obj_mapping['cdi']]  = get_inner_element(source_data, eval(obj_mapping['json_paths']))
+      target_data[obj_mapping['cdi']]  = XrefClient::MapJsonToObj.get_inner_element(source_data, eval(obj_mapping['json_paths']))
     elsif obj_mapping['evaluate'] != nil
       # Evaluate an expression to  get values for 'cdi' attribute 
-      target_data[obj_mapping['cdi']]  =  evaluate_exp(target_data, obj_mapping['evaluate'])
+      target_data[obj_mapping['cdi']]  =  XrefClient::MapJsonToObj.evaluate_exp(target_data, obj_mapping['evaluate'])
       # See other to findout how to get values for 'cdi' attrib
       # map directly: get values for 'cdi' attrib 'xref'attrib
     end
