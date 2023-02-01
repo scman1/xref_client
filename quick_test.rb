@@ -92,16 +92,16 @@ end
 def map_json_data(mappings_file, source_data, class_name)
   obj_csv_map = read_csv(mappings_file)
   # get the keys for origin and target classes
-  xref_keys = []
+  origin_keys = []
   target_keys = []
 
   for row in obj_csv_map
-    xref_keys.append(row['xref'])
+    origin_keys.append(row['origin'])
     target_keys.append(row['cdi'])
   end
   # get the origin data to for the target object
   target_values = []
-  xref_keys.each {|a_key|
+  origin_keys.each {|a_key|
     if a_key == nil
       target_values.append(a_key)
     else
@@ -110,16 +110,16 @@ def map_json_data(mappings_file, source_data, class_name)
   }
   target_data = target_keys.zip(target_values).to_h
   # check for defaults, paths and expressions to evaluate before assigning
-  obj_csv_map.each do |xref_mapping|
-    if not ["NULL","NOT NULL"].include?(xref_mapping['default'])
+  obj_csv_map.each do |obj_mapping|
+    if not ["NULL","NOT NULL"].include?(obj_mapping['default'])
       # Assing 'default' to 'cdi' attibute using type to cast correctly
-      target_data[xref_mapping['cdi']]  = assign_value(xref_mapping['default'],xref_mapping['type'])
-    elsif xref_mapping['json_paths'] != nil
+      target_data[obj_mapping['cdi']]  = assign_value(obj_mapping['default'],obj_mapping['type'])
+    elsif obj_mapping['json_paths'] != nil
       # Get values for 'cdi' attribute from a 'json_path'
-      target_data[xref_mapping['cdi']]  = get_inner_element(target_data, eval(xref_mapping['json_paths']))
-    elsif xref_mapping['evaluate'] != nil
+      target_data[obj_mapping['cdi']]  = get_inner_element(source_data, eval(obj_mapping['json_paths']))
+    elsif obj_mapping['evaluate'] != nil
       # Evaluate an expression to  get values for 'cdi' attribute 
-      target_data[xref_mapping['cdi']]  =  evaluate_exp(target_data, xref_mapping['evaluate'])
+      target_data[obj_mapping['cdi']]  =  evaluate_exp(target_data, obj_mapping['evaluate'])
       # See other to findout how to get values for 'cdi' attrib
       # map directly: get values for 'cdi' attrib 'xref'attrib
     end
@@ -139,7 +139,7 @@ dois = ['10.1016/j.biombioe.2022.106608', '10.1016/j.jcat.2016.05.016','10.1016/
         '10.1088/2515-7655/aca9fd', '10.1038/s41929-019-0334-3']
 dois = ['10.1002/aenm.202201131', '10.1002/anie.202210748', '10.1021/acs.iecr.2c01930',
         '10.1039/d2cc04701b', '10.1039/d2cy01322c', '10.1039/d2dt02888c', '10.1039/d2fd00119e']
-dois = ['10.1038/s41929-019-0334-3']
+#dois = ['10.1038/s41929-019-0334-3']
 class_name='Publication'
 
 dois.each {|doi|
@@ -147,8 +147,10 @@ dois.each {|doi|
   pub_data = XrefClient.getCRData(doi)
   new_pub = map_json_data(pub_mappings_file, pub_data, class_name)
 
-  puts "Title:   " + new_pub.title
-  puts "DOI:     " + new_pub.doi
-  puts "Year:    " + new_pub.pub_year.to_s
-  puts "Journal: " + new_pub.container_title 
+  puts "Title:       " + new_pub.title
+  puts "DOI:         " + new_pub.doi
+  puts "Year:        " + new_pub.pub_year.to_s
+  puts "Year online: " + new_pub.pub_ol_year.to_s
+  puts "Year print:  " + new_pub.pub_print_year.to_s
+  puts "Journal:     " + new_pub.container_title 
 }
