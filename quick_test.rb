@@ -105,14 +105,17 @@ end
 
 pub_mappings_file = './map_pub_xref_cdi.csv'
 author_mappings_file = './map_pub_aut_xref_cdi.csv'
+affi_mappings_file = './map_cr_affi_xref_cdi.csv'
 dois = ['10.1016/j.biombioe.2022.106608', '10.1016/j.jcat.2016.05.016','10.1016/j.scitotenv.2022.160480',
         '10.1021/acs.iecr.2c02668', '10.1021/jacs.2c09823', '10.1039/d2gc03234a', '10.1039/d2sc04192h',
         '10.1088/2515-7655/aca9fd', '10.1038/s41929-019-0334-3']
 dois = ['10.1002/aenm.202201131', '10.1002/anie.202210748', '10.1021/acs.iecr.2c01930',
         '10.1039/d2cc04701b', '10.1039/d2cy01322c', '10.1039/d2dt02888c', '10.1039/d2fd00119e']
 dois = ['10.1002/aenm.202201131']
+#dois = ['10.1038/s41929-019-0334-3']
 class_name='Publication'
-aut_class ="PublicationAuthor" 
+aut_class ="PublicationAuthor"
+affi_class = "CrAffiliation"
 
 dois.each {|doi|
   # get json publication data
@@ -127,6 +130,7 @@ dois.each {|doi|
   puts "Journal:     " + new_pub.container_title 
   puts "Autors:      " + temp_author_list.length().to_s()
   aut_count = 1
+  # build and map authors
   temp_author_list.each do |pub_aut|
     new_auth = map_json_data(author_mappings_file, pub_aut, aut_class)
     new_auth.author_order = aut_count
@@ -137,6 +141,14 @@ dois.each {|doi|
     puts "Status:    " + new_auth.status
     puts "Order:     " + new_auth.author_order.to_s
     puts "DOI:       " + new_auth.doi
+    # build and map affiliations
+    pub_aut['affiliation'].each do |affi_line|
+      new_cr_affi = map_json_data(affi_mappings_file, affi_line, affi_class)
+      new_cr_affi.article_author_id = aut_count
+      puts "Affi:      " + new_cr_affi.name.to_s
+      puts "Affi:      " + new_cr_affi.article_author_id.to_s
+    end
+
     aut_count += 1
   end
 }
