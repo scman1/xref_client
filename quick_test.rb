@@ -65,7 +65,7 @@ def map_json_data(mappings_file, source_data, class_name)
 
   for row in obj_csv_map
     origin_keys.append(row['origin'])
-    target_keys.append(row['cdi'])
+    target_keys.append(row['target'])
   end
   # get the origin data to for the target object
   target_values = []
@@ -76,22 +76,24 @@ def map_json_data(mappings_file, source_data, class_name)
       target_values.append(source_data[a_key])
     end
   }
+  
   target_data = target_keys.zip(target_values).to_h
   # check for defaults, paths and expressions to evaluate before assigning
   obj_csv_map.each do |obj_mapping|
     if not ["NULL","NOT NULL"].include?(obj_mapping['default'])
       # Assing 'default' to 'cdi' attibute using type to cast correctly
-      target_data[obj_mapping['cdi']]  = XrefClient::MapJsonToObj.assign_value(obj_mapping['default'],obj_mapping['type'])
+      target_data[obj_mapping['target']]  = XrefClient::MapJsonToObj.assign_value(obj_mapping['default'],obj_mapping['type'])
     elsif obj_mapping['json_paths'] != nil
       # Get values for 'cdi' attribute from a 'json_path'
-      target_data[obj_mapping['cdi']]  = XrefClient::MapJsonToObj.get_inner_element(source_data, eval(obj_mapping['json_paths']))
+      target_data[obj_mapping['target']]  = XrefClient::MapJsonToObj.get_inner_element(source_data, eval(obj_mapping['json_paths']))
     elsif obj_mapping['evaluate'] != nil
       # Evaluate an expression to  get values for 'cdi' attribute 
-      target_data[obj_mapping['cdi']]  =  XrefClient::MapJsonToObj.evaluate_exp(target_data, obj_mapping['evaluate'])
+      target_data[obj_mapping['target']]  =  XrefClient::MapJsonToObj.evaluate_exp(target_data, obj_mapping['evaluate'])
       # See other to findout how to get values for 'cdi' attrib
       # map directly: get values for 'cdi' attrib 'xref'attrib
     end
   end
+  #puts target_data
   # create the data object class using the object factory
   target_class = make_class(class_name, target_keys)
   # create an instance of the the target class
@@ -102,13 +104,15 @@ def map_json_data(mappings_file, source_data, class_name)
 end 
 
 pub_mappings_file = './map_pub_xref_cdi.csv'
+author_mappings_file = './map_pub_aut_xref_cdi.csv'
 dois = ['10.1016/j.biombioe.2022.106608', '10.1016/j.jcat.2016.05.016','10.1016/j.scitotenv.2022.160480',
         '10.1021/acs.iecr.2c02668', '10.1021/jacs.2c09823', '10.1039/d2gc03234a', '10.1039/d2sc04192h',
         '10.1088/2515-7655/aca9fd', '10.1038/s41929-019-0334-3']
 dois = ['10.1002/aenm.202201131', '10.1002/anie.202210748', '10.1021/acs.iecr.2c01930',
         '10.1039/d2cc04701b', '10.1039/d2cy01322c', '10.1039/d2dt02888c', '10.1039/d2fd00119e']
-dois = ['10.1038/s41929-019-0334-3']
+dois = ['10.1002/aenm.202201131']
 class_name='Publication'
+aut_class ="PublicationAuthor" 
 
 dois.each {|doi|
   # get json publication data
@@ -122,7 +126,19 @@ dois.each {|doi|
   puts "Year print:  " + new_pub.pub_print_year.to_s
   puts "Journal:     " + new_pub.container_title 
   puts "Autors:      " + temp_author_list.length().to_s()
-  get_authors(temp_author_list)
+  aut_count = 1
+  temp_author_list.each do |pub_aut|
+    new_auth = map_json_data(author_mappings_file, pub_aut, aut_class)
+    new_auth.author_order = aut_count
+    new_auth.doi = new_pub.doi
+    puts "ORCID:     " + new_auth.orcid.to_s
+    puts "Name:      " + new_auth.given_name.to_s
+    puts "Lastname:  " + new_auth.last_name.to_s
+    puts "Status:    " + new_auth.status
+    puts "Order:     " + new_auth.author_order.to_s
+    puts "DOI:       " + new_auth.doi
+    aut_count += 1
+  end
 }
 
 json_data = {"author"=>[{"ORCID"=>"http://orcid.org/0000-0001-8033-303X", "authenticated-orcid"=>false, "given"=>"Hessan", "family"=>"Khalid", "sequence"=>"first", "affiliation"=>[{"name"=>"Nanotechnology and Integrated Bio‐Engineering Centre (NIBEC) Ulster University  Newtownabbey BT37 0QB UK"}]}, {"given"=>"Atta ul", "family"=>"Haq", "sequence"=>"additional", "affiliation"=>[{"name"=>"Nanotechnology and Integrated Bio‐Engineering Centre (NIBEC) Ulster University  Newtownabbey BT37 0QB UK"}]}, {"given"=>"Bruno", "family"=>"Alessi", "sequence"=>"additional", "affiliation"=>[{"name"=>"Nanotechnology and Integrated Bio‐Engineering Centre (NIBEC) Ulster University  Newtownabbey BT37 0QB UK"}]}, {"given"=>"Ji", "family"=>"Wu", "sequence"=>"additional", "affiliation"=>[{"name"=>"Department of Chemistry University of Bath  Claverton Down Bath BA2 7AX UK"}]}, {"given"=>"Cristian D.", "family"=>"Savaniu", "sequence"=>"additional", "affiliation"=>[{"name"=>"School of Chemistry University of St. Andrews  Scotland Fife KY16 9ST UK"}]}, {"given"=>"Kalliopi", "family"=>"Kousi", "sequence"=>"additional", "affiliation"=>[{"name"=>"Department of Chemical and Process Engineering University of Surrey  Guildford Surrey GU2 7XH UK"}]}, {"given"=>"Ian S.", "family"=>"Metcalfe", "sequence"=>"additional", "affiliation"=>[{"name"=>"School of Engineering Newcastle University  Newcastle upon Tyne NE1 7RU UK"}]}, {"given"=>"Stephen C.", "family"=>"Parker", "sequence"=>"additional", "affiliation"=>[{"name"=>"Department of Chemistry University of Bath  Claverton Down Bath BA2 7AX UK"}]}, {"given"=>"John T. S.", "family"=>"Irvine", "sequence"=>"additional", "affiliation"=>[{"name"=>"School of Chemistry University of St. Andrews  Scotland Fife KY16 9ST UK"}]}, {"given"=>"Paul", "family"=>"Maguire", "sequence"=>"additional", "affiliation"=>[{"name"=>"Nanotechnology and Integrated Bio‐Engineering Centre (NIBEC) Ulster University  Newtownabbey BT37 0QB UK"}]}, {"given"=>"Evangelos I.", "family"=>"Papaioannou", "sequence"=>"additional", "affiliation"=>[{"name"=>"School of Engineering Newcastle University  Newcastle upon Tyne NE1 7RU UK"}]}, {"ORCID"=>"http://orcid.org/0000-0003-1504-4383", "authenticated-orcid"=>false, "given"=>"Davide", "family"=>"Mariotti", "sequence"=>"additional", "affiliation"=>[{"name"=>"Nanotechnology and Integrated Bio‐Engineering Centre (NIBEC) Ulster University  Newtownabbey BT37 0QB UK"}]}]}
