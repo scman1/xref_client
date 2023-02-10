@@ -1,0 +1,250 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  obj_name: "Article"
+  origin: 
+  target:  "id"
+  target_type:  "integer"
+  default:  "NOT NULL"
+  json_paths:  
+  evaluate:  
+  other:  "autoDB"
+two:
+  obj_name: "Article"
+  origin: "DOI"
+  target:  "doi"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other:  
+
+three:
+  obj_name: "Article"
+  origin: "title" 
+  target:  "title"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other:  
+
+four:
+  obj_name: "Article"
+  origin: "type"
+  target:  "pub_type"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other:  
+
+five:
+  obj_name: "Article"
+  origin: "publisher"
+  target:  "publisher"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:
+  evaluate:
+  other:
+  
+six:
+  obj_name: "Article"
+  origin: "container-title"
+  target:  "container_title"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other:  
+
+seven:
+  obj_name: "Article"
+  origin: "volume"
+  target:  "volume"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other:  
+eight:
+  obj_name: "Article"
+  origin: "issue"
+  target:  "issue"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other:  
+nine:
+  obj_name: "Article"
+  origin: "page"
+  target:  "page"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other:  
+ten:
+  obj_name: "Article"
+  origin: "published-print"
+  target:  "pub_print_year"
+  target_type:  "integer"
+  default:  "NULL"
+  json_paths:  "[['published-print', 'date-parts', 0,  0], ['journal_issue', 'published-print','date-parts', 0, 0]]"
+  evaluate:  
+  other:  
+eleven:
+  obj_name: "Article"
+  origin: "published-print"
+  target:  "pub_print_month"
+  target_type:  "integer"
+  default:  "NULL"
+  json_paths:   "[['published-print', 'date-parts', 0,  1], ['journal_issue', 'published-print','date-parts', 0, 1]]"
+  evaluate:  
+  other:  
+twelve:
+  obj_name: "Article"
+  origin: "published-print"
+  target:  "pub_print_day"
+  target_type:  "integer"
+  default:  "NULL"
+  json_paths: "[['published-print', 'date-parts', 0,  2], ['journal_issue', 'published-print','date-parts', 0, 2]]"
+  evaluate:  
+  other:  
+thirteen:
+  obj_name: "Article"
+  origin: "published-online"
+  target:  "pub_ol_year"
+  target_type:  "integer"
+  default:  "NULL"
+  json_paths: "[['published-online', 'date-parts', 0,  0], ['journal_issue', 'published-online','date-parts', 0, 0]]"
+  evaluate:  
+  other:  
+fourteen:
+  obj_name: "Article"
+  origin: "published-online"
+  target:  "pub_ol_month"
+  target_type:  "integer"
+  default:  "NULL"
+  json_paths: "[['published-online', 'date-parts', 0,  1], ['journal_issue', 'published-online','date-parts', 0, 1]]"
+  evaluate:  
+  other:  
+fifteen:
+   obj_name: "Article"
+   origin: "published-online"
+   target:  "pub_ol_day"
+   target_type:  "integer"
+   default:  "NULL"
+   json_paths:  "[['published-online', 'date-parts', 0,  2], ['journal_issue', 'published-online','date-parts', 0, 2]]"
+   evaluate:  
+   other:  
+sixteen:
+  obj_name: "Article"
+  origin: 
+  target:  "pub_year"
+  target_type:  "integer"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  "d_h['pub_print_year'] == nil ? (d_h['pub_ol_year']  == nil ? nil : d_h['pub_ol_year'] ) : (d_h['pub_ol_year'] ==nil ? d_h['pub_print_year']  : d_h['pub_print_year']   < d_h['pub_ol_year']  ? d_h['pub_print_year']  : d_h['pub_ol_year'] )"
+  other:  
+seventeen:
+  obj_name: "Article"
+  origin: "license"
+  target:  "license"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other:  
+eighteen:
+  obj_name: "Article"
+  origin: "is-referenced-by-count"
+  target:  "referenced_by_count"
+  target_type:  "integer"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other:  
+nineteen:
+  obj_name: "Article"
+  origin: "link"
+  target:  "link"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:
+  evaluate:
+  other:
+twenty:
+  obj_name: "Article"
+  origin: "url"
+  target:  "url"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other:
+twentyone:
+  obj_name: "Article"
+  origin: "abstract"
+  target:  "abstract"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other:
+twentytwo:
+  obj_name: "Article"
+  origin: 
+  target:  "status"
+  target_type:  "varchar"
+  default:  "'New’"
+  json_paths:  
+  evaluate:  
+  other:  
+twentythree:
+  obj_name: "Article"
+  origin: 
+  target:  "comment"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other:  
+twentyfour:
+  obj_name: "Article"
+  origin: 
+  target:  "created_at"
+  target_type:  "datetime"
+  default:  "NOT NULL"
+  json_paths:  
+  evaluate:  
+  other:  "autoDB"
+twentyfive:
+  obj_name: "Article"
+  origin: 
+  target:  "updated_at"
+  target_type:  "datetime"
+  default:  "NOT NULL"
+  json_paths:  
+  evaluate:  
+  other:  "autoDB"
+twentysix:
+  obj_name: "Article"
+  origin: "references-count"
+  target:  "references_count"
+  target_type:  "integer"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other:  
+twentyseven:
+  obj_name: "Article"
+  origin: "journal-issue"
+  target:  "journal_issue"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other:

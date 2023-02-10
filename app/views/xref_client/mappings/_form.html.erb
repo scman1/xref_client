@@ -1,0 +1,57 @@
+<%= form_with(model: mapping, local: true) do |form| %>
+  <% if mapping.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(mapping.errors.count, "error") %> prohibited this mapping from being saved:</h2>
+
+      <ul>
+        <% mapping.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :obj_name %>
+    <%= form.text_field :obj_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :origin %>
+    <%= form.text_field :origin %>
+  </div>
+
+  <div class="field">
+    <%= form.label :target %>
+    <%= form.text_field :target %>
+  </div>
+
+  <div class="field">
+    <%= form.label :target_type %>
+    <%= form.text_field :target_type %>
+  </div>
+
+  <div class="field">
+    <%= form.label :default %>
+    <%= form.text_field :default %>
+  </div>
+
+  <div class="field">
+    <%= form.label :json_paths %>
+    <%= form.text_field :json_paths %>
+  </div>
+
+  <div class="field">
+    <%= form.label :evaluate %>
+    <%= form.text_field :evaluate %>
+  </div>
+
+  <div class="field">
+    <%= form.label :other %>
+    <%= form.text_field :other %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
