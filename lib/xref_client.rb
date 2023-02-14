@@ -92,32 +92,26 @@ module XrefClient
         else
           target_values.append(source_data[a_key])
         end
-      }
-  
-      target_data = target_keys.zip(target_values).to_h
+     }
+
+     publication_data = target_keys.zip(target_values).to_h
       # check for defaults, paths and expressions to evaluate before assigning
       obj_map.each do |obj_mapping|
         if not ["NULL","NOT NULL"].include?(obj_mapping['default'])
           # Assing 'default' to 'cdi' attibute using type to cast correctly
-          target_data[obj_mapping['target']]  = XrefClient::MapJsonToObj.assign_value(obj_mapping['default'],obj_mapping['type'])
+         publication_data[obj_mapping['target']]  = XrefClient::MapJsonToObj.assign_value(obj_mapping['default'],obj_mapping['type'])
         elsif obj_mapping['json_paths'] != nil
           # Get values for 'cdi' attribute from a 'json_path'
-          target_data[obj_mapping['target']]  = XrefClient::MapJsonToObj.get_inner_element(source_data, eval(obj_mapping['json_paths']))
+         publication_data[obj_mapping['target']]  = XrefClient::MapJsonToObj.get_inner_element(source_data, eval(obj_mapping['json_paths']))
         elsif obj_mapping['evaluate'] != nil
           # Evaluate an expression to  get values for 'cdi' attribute 
-          target_data[obj_mapping['target']]  =  XrefClient::MapJsonToObj.evaluate_exp(target_data, obj_mapping['evaluate'])
+         publication_data[obj_mapping['target']]  =  XrefClient::MapJsonToObj.evaluate_exp(publication_data, obj_mapping['evaluate'])
           # See other to findout how to get values for 'cdi' attrib
           # map directly: get values for 'cdi' attrib 'xref'attrib
         end
       end
-      #puts target_data
-      # create the data object class using the object factory
-      #target_class = make_class(class_name, target_keys)
-      # create an instance of the the target class
-      #target_obj = target_class.new()
-      # assign values to the instance
-      #XrefClient::DigitalObjectFactory.assign_attributes(target_obj, target_data)
-      return target_data
+      
+      return [publication_data, ]
     end 
   end
   

@@ -20,11 +20,20 @@ class XrefClient::Test < ActiveSupport::TestCase
       #puts object_map.class
   end
   
-  test "build_obj" do
-      doi = '10.1038/s41929-019-0334-3'
+  test "build_objs" do
+      doi = '10.1002/aenm.202201131'
       pub_data = XrefClient.getCRData(doi)
       result_obj = XrefClient::ObjectMapper.map_json_data(pub_data,'Article')
-      puts result_obj
+      puts result_obj.to_s
+      temp_author_list = pub_data['author']
+      temp_author_list.each do |pub_aut|
+          new_auth = XrefClient::ObjectMapper.map_json_data(pub_aut, 'ArticleAuthor')
+          puts new_auth.to_s
+          pub_aut['affiliation'].each do |affi_line|
+              new_cr_affi = XrefClient::ObjectMapper.map_json_data(affi_line, 'CrAffiliation')
+              puts new_cr_affi.to_s
+          end
+      end
   end
   
   # assign values test

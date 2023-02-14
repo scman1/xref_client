@@ -248,3 +248,76 @@ twentyseven:
   json_paths:  
   evaluate:  
   other:
+twentyeight:
+  obj_name: "ArticleAuthor"
+  origin:
+  target:  "id"
+  target_type:  "integer"
+  default:  "NOT NULL"
+  json_paths:  
+  evaluate:  
+  other:  "autoDB"
+twentynine:
+  obj_name: "ArticleAuthor"
+  origin: 
+  target:  "doi"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other:  "article doi"
+thirty:
+  obj_name: "ArticleAuthor"
+  origin: 
+  target:  "author_id"
+  target_type:  "integer"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other:  "match to existing or create new"
+thirtyone:
+  obj_name: "ArticleAuthor"
+  origin: 
+  target:  "author_order"
+  target_type:  "integer"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other:  "sequential counter in order"
+thirtytwo:
+  obj_name: "ArticleAuthor"
+  origin: 
+  target:  "status"
+  target_type:  "varchar"
+  default:  "not verified"
+  json_paths:  
+  evaluate:  
+  other:  "verify manually if match not found"
+thirtythree:
+  obj_name: "ArticleAuthor"
+  origin: "sequence"
+  target:  "author_seq"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other:  
+thirtyfour:
+  obj_name: "ArticleAuthor"
+  origin: 
+  target:  "article_id"
+  target_type:  "integer"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other:  "Link to generated article"
+thirtyfive:
+  obj_name: "ArticleAuthor"
+  origin: "ORCID"
+  target:  "orcid"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:  
+  evaluate:  
+  other: 
+

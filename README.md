@@ -1,8 +1,9 @@
 # XrefClient
-Short description and motivation.
+This engine allows mapping crossref data to the CDI publication, author and institution objects.
+
 
 ## Usage
-How to use my plugin.
+The engine needs to be mounted into a CDI application
 
 ## Installation
 Add this line to your application's Gemfile:
