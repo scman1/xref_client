@@ -317,7 +317,60 @@ thirtyfive:
   target:  "orcid"
   target_type:  "varchar"
   default:  "NULL"
-  json_paths:  
-  evaluate:  
-  other: 
-
+  json_paths:
+  evaluate:
+  other:
+thirtysix:
+  obj_name: "ArticleAuthor"
+  origin: "family"
+  target:  "last_name"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:
+  evaluate:
+  other:
+thirtyseven:
+  obj_name: "ArticleAuthor"
+  origin: "given"
+  target:  "given_name"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:
+  evaluate:
+  other:
+thirtyeight:
+  obj_name: "CrAffiliation"
+  origin:
+  target: "id"
+  target_type:  "integer"
+  default:  "NOT NULL"
+  json_paths:
+  evaluate:
+  other:
+thirtynine:
+  obj_name: "CrAffiliation"
+  origin: "name"
+  target: "name"
+  target_type:  "varchar"
+  default:  "NULL"
+  json_paths:
+  evaluate:
+  other:
+forty:
+  obj_name: "CrAffiliation"
+  origin:
+  target: "article_author_id"
+  target_type:  "integer"
+  default:  "NOT NULL"
+  json_paths:
+  evaluate:
+  other:
+fortyone:
+  obj_name: "CrAffiliation"
+  origin:
+  target: "author_affiliation_id"
+  target_type:  "integer"
+  default:  "NOT NULL"
+  json_paths:
+  evaluate:
+  other:

@@ -111,11 +111,34 @@ module XrefClient
         end
       end
       
-      return [publication_data, ]
+      return publication_data
     end 
-  end
+
   
-  #create objects dinamically
+    # create lists of parameters to three types of CDI objects derived from 
+    # crossref: Publication, Article Author and CR Affiliation
+    def self.map_xref_to_cdi(source_data)
+        result_obj = map_json_data(source_data,'Article')
+        temp_author_list = source_data['author']
+        aut_count = 1
+        authors_list = []
+        affis_list = []
+        temp_author_list.each do |pub_aut|
+            new_auth = map_json_data(pub_aut, 'ArticleAuthor')
+            new_auth['author_order'] = aut_count
+            authors_list.append(new_auth)
+            pub_aut['affiliation'].each do |affi_line|
+                new_cr_affi = map_json_data(affi_line, 'CrAffiliation')
+                new_cr_affi['article_author_id'] = aut_count
+                affis_list.append(new_cr_affi)
+            end
+            aut_count += 1
+        end
+        return [result_obj, authors_list, affis_list]
+    end
+  end
+
+  # create objects dinamically
   class DigitalObjectFactory
     def self.create_class(new_class, *fields)
       c = Class.new do
