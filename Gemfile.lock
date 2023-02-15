@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    xref_client (0.2.0)
+    xref_client (0.2.1)
       rails (~> 6.0.6, >= 6.0.6.1)
 
 GEM
@@ -101,8 +101,7 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.8)
-    nokogiri (1.14.2)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.14.2-x86_64-linux)
       racc (~> 1.4)
     racc (1.6.2)
     rack (2.2.6.2)
