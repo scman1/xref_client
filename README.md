@@ -56,12 +56,12 @@ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 
-== Authors
+## Authors
     Abraham Nieva de la Hidalga
 
-== Synopsis
+## Synopsis
 
-xref client is a mapping engine designed to facilitate importing crossref publication data for the [Catalysis Data Infrastructure](http://cdi.ukcatalysishub.org).
+xref_client is a mapping engine designed to facilitate importing crossref publication data for the [Catalysis Data Infrastructure](http://cdi.ukcatalysishub.org).
 
 UK Catalysis Hub supports the development of this resource and it is funded by EPSRC grants: EP/R026939/1, EP/R026815/1, EP/R026645/1, EP/R027129/1, and EP/M013219/1(biocatalysis)).
 
