@@ -26,7 +26,6 @@ $ gem install xref_client
 Contribution directions go here.
 
 ## License
-== License
 Copyright (c) 2023 Cardiff University, UK.
 
 All rights reserved.
@@ -41,7 +40,7 @@ modification, are permitted provided that the following conditions are met:
   this list of conditions and the following disclaimer in the documentation
   and/or other materials provided with the distribution.
 
-* Neither the names of The University of Manchester nor Cardiff University nor
+* Neither the names of Cardiff University nor
   the names of its contributors may be used to endorse or promote products
   derived from this software without specific prior written permission.
 
