@@ -1,57 +1,57 @@
-<%= form_with(model: mapping, local: true) do |form| %>
+<%= form_with(model: mapping) do |form| %>
   <% if mapping.errors.any? %>
-    <div id="error_explanation">
+    <div style="color: red">
       <h2><%= pluralize(mapping.errors.count, "error") %> prohibited this mapping from being saved:</h2>
 
       <ul>
-        <% mapping.errors.full_messages.each do |message| %>
-          <li><%= message %></li>
+        <% mapping.errors.each do |error| %>
+          <li><%= error.full_message %></li>
         <% end %>
       </ul>
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :obj_name %>
+  <div>
+    <%= form.label :obj_name, style: "display: block" %>
     <%= form.text_field :obj_name %>
   </div>
 
-  <div class="field">
-    <%= form.label :origin %>
+  <div>
+    <%= form.label :origin, style: "display: block" %>
     <%= form.text_field :origin %>
   </div>
 
-  <div class="field">
-    <%= form.label :target %>
+  <div>
+    <%= form.label :target, style: "display: block" %>
     <%= form.text_field :target %>
   </div>
 
-  <div class="field">
-    <%= form.label :target_type %>
+  <div>
+    <%= form.label :target_type, style: "display: block" %>
     <%= form.text_field :target_type %>
   </div>
 
-  <div class="field">
-    <%= form.label :default %>
+  <div>
+    <%= form.label :default, style: "display: block" %>
     <%= form.text_field :default %>
   </div>
 
-  <div class="field">
-    <%= form.label :json_paths %>
+  <div>
+    <%= form.label :json_paths, style: "display: block" %>
     <%= form.text_field :json_paths %>
   </div>
 
-  <div class="field">
-    <%= form.label :evaluate %>
+  <div>
+    <%= form.label :evaluate, style: "display: block" %>
     <%= form.text_field :evaluate %>
   </div>
 
-  <div class="field">
-    <%= form.label :other %>
+  <div>
+    <%= form.label :other, style: "display: block" %>
     <%= form.text_field :other %>
   </div>
 
-  <div class="actions">
+  <div>
     <%= form.submit %>
   </div>
 <% end %>

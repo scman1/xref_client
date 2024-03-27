@@ -1,6 +1,10 @@
-<h1>Editing Mapping</h1>
+<h1>Editing mapping</h1>
 
-<%= render 'form', mapping: @mapping %>
+<%= render "form", mapping: @mapping %>
 
-<%= link_to 'Show', @mapping %> |
-<%= link_to 'Back', mappings_path %>
+<br>
+
+<div>
+  <%= link_to "Show this mapping", @mapping %> |
+  <%= link_to "Back to mappings", mappings_path %>
+</div>

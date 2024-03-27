@@ -11,9 +11,9 @@ module XrefClient
       assert_selector "h1", text: "Mappings"
     end
 
-    test "creating a Mapping" do
+    test "should create mapping" do
       visit mappings_url
-      click_on "New Mapping"
+      click_on "New mapping"
 
       fill_in "Default", with: @mapping.default
       fill_in "Evaluate", with: @mapping.evaluate
@@ -22,16 +22,16 @@ module XrefClient
       fill_in "Origin", with: @mapping.origin
       fill_in "Other", with: @mapping.other
       fill_in "Target", with: @mapping.target
-      fill_in "Type", with: @mapping.target_type
+      fill_in "Target type", with: @mapping.target_type
       click_on "Create Mapping"
 
       assert_text "Mapping was successfully created"
       click_on "Back"
     end
 
-    test "updating a Mapping" do
-      visit mappings_url
-      click_on "Edit", match: :first
+    test "should update Mapping" do
+      visit mapping_url(@mapping)
+      click_on "Edit this mapping", match: :first
 
       fill_in "Default", with: @mapping.default
       fill_in "Evaluate", with: @mapping.evaluate
@@ -40,18 +40,16 @@ module XrefClient
       fill_in "Origin", with: @mapping.origin
       fill_in "Other", with: @mapping.other
       fill_in "Target", with: @mapping.target
-      fill_in "Type", with: @mapping.target_type
+      fill_in "Target type", with: @mapping.target_type
       click_on "Update Mapping"
 
       assert_text "Mapping was successfully updated"
       click_on "Back"
     end
 
-    test "destroying a Mapping" do
-      visit mappings_url
-      page.accept_confirm do
-        click_on "Destroy", match: :first
-      end
+    test "should destroy Mapping" do
+      visit mapping_url(@mapping)
+      click_on "Destroy this mapping", match: :first
 
       assert_text "Mapping was successfully destroyed"
     end

@@ -1,4 +1,4 @@
-require 'test_helper'
+require "test_helper"
 
 module XrefClient
   class MappingsControllerTest < ActionDispatch::IntegrationTest
@@ -19,8 +19,8 @@ module XrefClient
     end
 
     test "should create mapping" do
-      assert_difference('Mapping.count') do
-        post mappings_url, params: { mapping: { default: @mapping.default, evaluate: @mapping.evaluate, json_paths: @mapping.json_paths, obj_name: @mapping.obj_name, origin: @mapping.origin, other: @mapping.other, target: @mapping.target, type: @mapping.target_type } }
+      assert_difference("Mapping.count") do
+        post mappings_url, params: { mapping: { default: @mapping.default, evaluate: @mapping.evaluate, json_paths: @mapping.json_paths, obj_name: @mapping.obj_name, origin: @mapping.origin, other: @mapping.other, target: @mapping.target, target_type: @mapping.target_type } }
       end
 
       assert_redirected_to mapping_url(Mapping.last)
@@ -37,12 +37,12 @@ module XrefClient
     end
 
     test "should update mapping" do
-      patch mapping_url(@mapping), params: { mapping: { default: @mapping.default, evaluate: @mapping.evaluate, json_paths: @mapping.json_paths, obj_name: @mapping.obj_name, origin: @mapping.origin, other: @mapping.other, target: @mapping.target, type: @mapping.target_type } }
+      patch mapping_url(@mapping), params: { mapping: { default: @mapping.default, evaluate: @mapping.evaluate, json_paths: @mapping.json_paths, obj_name: @mapping.obj_name, origin: @mapping.origin, other: @mapping.other, target: @mapping.target, target_type: @mapping.target_type } }
       assert_redirected_to mapping_url(@mapping)
     end
 
     test "should destroy mapping" do
-      assert_difference('Mapping.count', -1) do
+      assert_difference("Mapping.count", -1) do
         delete mapping_url(@mapping)
       end
 

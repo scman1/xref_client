@@ -1,10 +1,10 @@
-class CreateXrefClientMappings < ActiveRecord::Migration[6.0]
+class CreateXrefClientMappings < ActiveRecord::Migration[7.1]
   def change
     create_table :xref_client_mappings do |t|
       t.string :obj_name
       t.string :origin
       t.string :target
-      t.string :type
+      t.string :target_type
       t.string :default
       t.string :json_paths
       t.string :evaluate

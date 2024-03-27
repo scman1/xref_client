@@ -1,6 +1,9 @@
-require 'test_helper'
+require "test_helper"
 
-class XrefClient::Test < ActiveSupport::TestCase
+class XrefClientTest < ActiveSupport::TestCase
+  test "it has a version number" do
+    assert XrefClient::VERSION
+  end
 
   test "truth" do
     assert_kind_of Module, XrefClient
@@ -64,4 +67,5 @@ class XrefClient::Test < ActiveSupport::TestCase
     target_data  = XrefClient::MapJsonToObj.evaluate_exp(json_data,the_exp)
     assert_equal 2022, target_data
   end
+
 end

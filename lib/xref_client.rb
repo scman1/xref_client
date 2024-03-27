@@ -1,7 +1,6 @@
+require "xref_client/version"
 require "xref_client/engine"
-
 require 'serrano'
-
 module XrefClient
   def self.getCRData(doi_text)
     begin
