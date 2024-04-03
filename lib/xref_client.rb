@@ -4,12 +4,6 @@ require 'serrano'
 module XrefClient
   def self.getCRData(doi_text)
     begin
-        st_len = doi_text.length
-        first_bit = 40 - st_len/2 - 1
-        tail_bit = 80 - first_bit - st_len -2
-        puts ("*" * 80)
-        puts ("*" + (" " * first_bit) + doi_text + (" "* tail_bit )) + "*"
-        puts ("*" * 80)
         art_bib = JSON.parse(Serrano.content_negotiation(ids: doi_text, format: "citeproc-json"))
         return art_bib
     rescue
