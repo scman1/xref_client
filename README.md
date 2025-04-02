@@ -63,6 +63,7 @@ POSSIBILITY OF SUCH DAMAGE.
 
 xref_client is a mapping engine designed to facilitate importing crossref publication data for the [Catalysis Data Infrastructure](http://cdi.ukcatalysishub.org).
 
-UK Catalysis Hub supports the development of this resource and it is funded by EPSRC grants: EP/R026939/1, EP/R026815/1, EP/R026645/1, EP/R027129/1, and EP/M013219/1(biocatalysis)).
+### Funding
+UK Catalysis Hub supported the development of this resource as part of the Phase II Core theme, funded by EPSRC grants: EP/R026939/1, EP/R026815/1, EP/R026645/1, EP/R027129/1, and EP/M013219/1(biocatalysis).
 
-Additional funding provided by "Phisical Sciences Research Infrastructure (PSDI)" project 2021 - 2024. The PSDI is funded through EPSRC DRI funding (EP/W032252/1, EP/X032701/1 and EP/X032663/1).
+Additional funding provided by "Phisical Sciences Research Infrastructure (PSDI)" project 2021 - 2025. The PSDI is funded through EPSRC DRI (EP/W032252/1, EP/X032701/1 and EP/X032663/1).
