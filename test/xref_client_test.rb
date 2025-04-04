@@ -13,7 +13,6 @@ class XrefClientMapperTest < ActiveSupport::TestCase
       class_name = 'Article'
       object_map = XrefClient::ObjectMapper.get_object_mappings(class_name)
       assert_equal object_map[0].obj_name, class_name
-      #puts object_map.class
   end
 
   # assign values test
@@ -32,7 +31,6 @@ class XrefClientMapperTest < ActiveSupport::TestCase
   end
 
   def test_fail_assign_value_varchar
-      # puts "testing assing value"
       a_value = '150.50'
       value_type = 'integer'
       target_data  = XrefClient::MapJsonToObj.assign_value(a_value,value_type)

@@ -1,7 +1,6 @@
 require "test_helper"
 
 class XrefClientGetTest < ActiveSupport::TestCase
-
   test "get_cr_data" do
     VCR.use_cassette('get_cr_data') do
       doi = '10.1038/s41929-019-0334-3'
@@ -18,7 +17,6 @@ class XrefClientGetTest < ActiveSupport::TestCase
       pub_data = XrefClient.getCRData(doi)
       result = XrefClient::ObjectMapper.map_xref_to_cdi(pub_data)
       assert_equal 3, result.length()
-      puts result
     end
   end
 end

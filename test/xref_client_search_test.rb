@@ -24,4 +24,16 @@ class XrefClientSearchTest < ActiveSupport::TestCase
       assert_equal 1, found_dois.length
     end
   end
+
+  def test_one_formated
+    ukch_awards = ["EP/M013219/1"]
+    from_date = "2025-01-01"
+    until_date = "2025-01-31"
+    expected_doi = "10.3390/catal10121370"
+    VCR.use_cassette('one_award_test') do
+      found_dois = XrefClient.findPubsAward(ukch_awards, from_date, until_date)
+      assert_equal 1, found_dois.length
+      assert found_dois.has_key?(expected_doi)
+    end
+  end
 end

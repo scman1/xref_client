@@ -27,18 +27,47 @@ module XrefClient
         results=art_bib["message"]["items"]
         for a_result in results do
           if collected_dois.has_key?(a_result["DOI"])
-            #puts collected_dois[a_result["DOI"]][:award]
-            #puts "Adding: "+ an_award
-            collected_dois[a_result["DOI"]][:award].append(an_award)
+            collected_dois[a_result["DOI"]][:awards].append(an_award)
           else
-            #puts "New pub: " + a_result["DOI"]
-            a_pub = {doi: a_result["DOI"], award:[an_award]}
-            collected_dois[a_result["DOI"]]=a_pub
+            a_pub = getPubDataXRef(a_result)
+            a_pub[:awards] = [an_award]
+            collected_dois[a_result["DOI"]] = a_pub
           end
         end
       end
     end
     return collected_dois
+  end
+
+  def self.getPubDataXRef(json_data)
+    data_mappings = XrefClient::ObjectMapper.map_xref_to_cdi(json_data)
+    # json_data has three lists:
+    # 0 - Article
+    # 1 - Authors
+    # 2 - Affiliations
+    # need to get author names abreviated here
+    authors_list = getAuthorsList(data_mappings[1])
+    bib_data = {authors: authors_list, year: data_mappings[0]["pub_year"],
+                title: data_mappings[0]["title"].join(" "),
+                doi: data_mappings[0]["doi"]}
+  end
+
+  def self.getAuthorsList(authors)
+    disp_names = ""
+    authors.each do|auth|
+      # Normalize accents
+      pr_name = auth["given_name"].unicode_normalize(:nfd).gsub(/\p{M}/, '')
+
+      # Format name with initials
+      pr_name = pr_name.gsub(/\w+/){|s| "#{s[0].upcase}. "}
+                       .sub(/\w+\z/, &:capitalize)
+                       .gsub(' .',' ')
+
+      this_name = pr_name + auth["last_name"]
+
+      disp_names = disp_names.empty? ? this_name : "#{disp_names}, #{this_name}"
+    end
+    return disp_names
   end
 
   # mappings from json to object using csv file map
@@ -136,7 +165,6 @@ module XrefClient
       
       return publication_data
     end 
-
   
     # create lists of parameters to three types of CDI objects derived from 
     # crossref: Publication, Article Author and CR Affiliation
