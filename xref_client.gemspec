@@ -24,4 +24,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rails", ">= 7.1.3.2"
   spec.add_dependency "serrano"
+
+  spec.add_development_dependency "vcr"
+  spec.add_development_dependency "webmock"
 end

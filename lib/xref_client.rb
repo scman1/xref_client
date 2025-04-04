@@ -16,22 +16,22 @@ module XrefClient
 
   def self.findPubsAward(award_list, date_from, date_to)
     collected_dois = {}
-    for an_award in ukch_awards do
+    for an_award in award_list do
       art_bib = Serrano.works(filter: {has_funder:true,
                                        award_funder:["10.13039/501100000266"],
                                        award_number:[an_award],
-                                       from_deposit_date:"2025-01-01",
-                                       until_deposit_date:"2025-01-31"},
+                                       from_deposit_date: date_from,
+                                       until_deposit_date: date_to},
                                        format: "citeproc-json")
       if art_bib["message"]["items"].count()>0
         results=art_bib["message"]["items"]
         for a_result in results do
           if collected_dois.has_key?(a_result["DOI"])
-            puts collected_dois[a_result["DOI"]][:award]
-            puts "Adding: "+ an_award
+            #puts collected_dois[a_result["DOI"]][:award]
+            #puts "Adding: "+ an_award
             collected_dois[a_result["DOI"]][:award].append(an_award)
           else
-            puts "New pub: " + a_result["DOI"]
+            #puts "New pub: " + a_result["DOI"]
             a_pub = {doi: a_result["DOI"], award:[an_award]}
             collected_dois[a_result["DOI"]]=a_pub
           end
