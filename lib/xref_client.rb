@@ -31,6 +31,7 @@ module XrefClient
           else
             a_pub = getPubDataXRef(a_result)
             a_pub[:awards] = [an_award]
+            a_pub[:cut_date] = date_to
             collected_dois[a_result["DOI"]] = a_pub
           end
         end
