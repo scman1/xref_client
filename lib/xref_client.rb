@@ -14,15 +14,23 @@ module XrefClient
     end
   end
 
-  def self.findPubsAward(award_list, date_from, date_to)
+  def self.findPubsAward(award_list, date_from, date_to,funder_list=nil)
     collected_dois = {}
     for an_award in award_list do
-      art_bib = Serrano.works(filter: {has_funder:true,
-                                       award_funder:["10.13039/501100000266"],
+      if funder_list
+        art_bib = Serrano.works(filter: {has_funder: true,
+                                       award_funder: funder_list,
                                        award_number:[an_award],
                                        from_deposit_date: date_from,
                                        until_deposit_date: date_to},
                                        format: "citeproc-json")
+      else
+        art_bib = Serrano.works(filter: {has_funder: true,
+                                       award_number:[an_award],
+                                       from_deposit_date: date_from,
+                                       until_deposit_date: date_to},
+                                       format: "citeproc-json")
+      end
       if art_bib["message"]["items"].count()>0
         results=art_bib["message"]["items"]
         for a_result in results do
