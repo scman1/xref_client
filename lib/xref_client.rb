@@ -48,6 +48,47 @@ module XrefClient
     return collected_dois
   end
 
+  def self.findPubsAffiliation(affiliation_synonyms=["UK Catalysis Hub"], date_from, date_to)
+    collected_dois = {}
+    art_bib = Serrano.works(filter: {has_affiliation: true,
+                                     from_deposit_date: date_from,
+                                     until_deposit_date: date_to},
+                                     format: "citeproc-json")
+    if art_bib["message"]["items"].count()>0
+      results=art_bib["message"]["items"]
+      for a_result in results do
+        affi_found = false
+        affi_str = ""
+        for an_author in a_result["author"] do
+          puts "1: " + an_author['given']
+          if an_author.key?('affiliation')
+            puts "2: " + an_author['affiliation'].to_s
+            for affi_line in an_author["affiliation"] do
+              puts "3: " +  affi_line["name"]
+              for an_affi in affiliation_synonyms do
+                if affi_line["name"].include?(an_affi)
+                  affi_found = true
+                  affi_str = an_affi
+                  break
+                end
+              end
+              # if found, format and add to list
+              if affi_found
+                a_pub = getPubDataXRef(a_result)
+                a_pub['xref_affi'] = an_affi
+                a_pub['cut_date'] = date_to
+                collected_dois[a_result["DOI"]] = a_pub
+                break
+              end
+	    end
+          end
+        end
+      end
+    end
+    return collected_dois
+  end
+
+  # This method uses the mapper to parse JSON data to be returned
   def self.getPubDataXRef(json_data)
     data_mappings = XrefClient::ObjectMapper.map_xref_to_cdi(json_data)
     # json_data has three lists:
