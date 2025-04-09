@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.crossref.org/works?filter=has-affiliation:true,from-deposit-date:2025-01-01,until-deposit-date:2025-01-01
+    uri: https://api.crossref.org/works?filter=has-affiliation:true,from-deposit-date:2025-01-01,until-deposit-date:2025-01-01&offset=0
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 09 Apr 2025 18:19:09 GMT
+      - Wed, 09 Apr 2025 22:42:23 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1074,5 +1074,5 @@ http_interactions:
         History"}},{"value":"2024-01-26","order":2,"name":"accepted","label":"Accepted","group":{"name":"publication_history","label":"Publication
         History"}},{"value":"2024-02-05","order":3,"name":"published","label":"Published","group":{"name":"publication_history","label":"Publication
         History"}}]}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Wed, 09 Apr 2025 18:19:09 GMT
+  recorded_at: Wed, 09 Apr 2025 22:42:23 GMT
 recorded_with: VCR 6.3.1

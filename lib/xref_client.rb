@@ -53,8 +53,10 @@ module XrefClient
     art_bib = Serrano.works(filter: {has_affiliation: true,
                                      from_deposit_date: date_from,
                                      until_deposit_date: date_to},
+                                     offset: 0,
                                      format: "citeproc-json")
     if art_bib["message"]["items"].count()>0
+      puts art_bib["message"]["items"].count().to_s
       results=art_bib["message"]["items"]
       for a_result in results do
         affi_found = false
