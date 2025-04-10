@@ -47,46 +47,102 @@ module XrefClient
     end
     return collected_dois
   end
+  
+  def self.findPubsByAffiliation(affiliation_synonyms=["UK Catalysis Hub"], date_from, date_to)
+    cursor = "*"
+    found_pubs = {}
+    counter = 0
+    expected = 0
+    obtained = 0
+    accumulated = 0
+    remaining = 0
+    loop do
+      counter += 1
+      puts "*"*50
+      puts "Loop "+counter.to_s
+      group_size = 100 # number of record to retrieve each call
+      json_pages = getJSONbatch(cursor, group_size, date_from, date_to)
+      puts "Pages: " + json_pages.count().to_s
+      puts "this cursor: " + cursor.to_s
+      if not json_pages.empty?()
+        cursor = json_pages[0]['message']['next-cursor']
+        expected_results = json_pages[0]['message']["total-results"]
+        puts "results expected :   " + expected_results.to_s
+        obtained = (20 * json_pages.count) # page size is 20
+        puts "results obtained :   " + obtained.to_s
+        accumulated += obtained
+        puts "results accumulated: " + accumulated.to_s
+        remaining = (expected_results - accumulated)
+        puts "results remaining:   " + remaining.to_s
+        puts "next cursor: " + cursor.to_s
+        if remaining < group_size
+          group_size = remaining
+          break
+        end
+        filtered_pubs = filterJSONResults(json_pages, affiliation_synonyms, date_to)
+        found_pubs.merge!(filtered_pubs)
+      else
+        break
+      end
+      break if (cursor.nil? or remaining == 0)
+    end
+    return found_pubs
+  end
 
-  def self.findPubsAffiliation(affiliation_synonyms=["UK Catalysis Hub"], date_from, date_to)
+  def self.getJSONbatch(a_cursor = "*", batch_size = 1000, date_from, date_to)
+    begin
+      response = Serrano.works(filter: {has_affiliation: true,
+                                        from_deposit_date: date_from,
+                                        until_deposit_date: date_to},
+                               cursor: a_cursor,
+                               cursor_max: batch_size,
+                               format: "citeproc-json")
+    rescue
+      puts "Could not get data using cursor"
+    end
+    return response
+  end
+
+  def self.filterJSONResults(pages, affiliation_synonyms, date_to)
     collected_dois = {}
-    art_bib = Serrano.works(filter: {has_affiliation: true,
-                                     from_deposit_date: date_from,
-                                     until_deposit_date: date_to},
-                                     offset: 0,
-                                     format: "citeproc-json")
-    if art_bib["message"]["items"].count()>0
-      puts art_bib["message"]["items"].count().to_s
+    pages.each {|art_bib|
       results=art_bib["message"]["items"]
-      for a_result in results do
+      results.each { |a_result|
         affi_found = false
         affi_str = ""
-        for an_author in a_result["author"] do
-          puts "1: " + an_author['given']
+        this_affi_line_sucks = ""
+        a_result["author"].each{ |an_author|
           if an_author.key?('affiliation')
-            puts "2: " + an_author['affiliation'].to_s
-            for affi_line in an_author["affiliation"] do
-              puts "3: " +  affi_line["name"]
-              for an_affi in affiliation_synonyms do
-                if affi_line["name"].include?(an_affi)
-                  affi_found = true
-                  affi_str = an_affi
-                  break
-                end
+            an_author["affiliation"].each{ |affi_line| 
+              begin
+                affiliation_synonyms.each {|an_affi|
+                  this_affi_line_sucks = affi_line.to_s
+                  if affi_line["name"].include?(an_affi)
+                    affi_found = true
+                    affi_str = an_affi
+                    break
+                  end
+                } unless an_author["affiliation"].nil? or an_author["affiliation"].empty?
+              rescue
+                puts "+"*50
+                puts "Linea: " + this_affi_line_sucks
+                #ROR causes the exception
+                #{"id"=>[{"id"=>"https://ror.org/02s9jxg24", "id-type"=>"ROR", "asserted-by"=>"publisher"}]}
+
               end
               # if found, format and add to list
               if affi_found
                 a_pub = getPubDataXRef(a_result)
-                a_pub['xref_affi'] = an_affi
-                a_pub['cut_date'] = date_to
+                a_pub[:xref_affi] = affi_str
+                a_pub[:cut_date] = date_to
                 collected_dois[a_result["DOI"]] = a_pub
                 break
               end
-	    end
+	    }
           end
-        end
-      end
-    end
+        } unless a_result["author"].nil? or a_result["author"].empty?
+      } unless results.nil? or results.empty?
+    } unless pages.nil? or pages.empty?
     return collected_dois
   end
 
