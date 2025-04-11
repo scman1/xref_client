@@ -47,7 +47,7 @@ module XrefClient
     end
     return collected_dois
   end
-  
+
   def self.findPubsByAffiliation(affiliation_synonyms=["UK Catalysis Hub"], date_from, date_to)
     cursor = "*"
     found_pubs = {}
@@ -113,7 +113,7 @@ module XrefClient
         this_affi_line_sucks = ""
         a_result["author"].each{ |an_author|
           if an_author.key?('affiliation')
-            an_author["affiliation"].each{ |affi_line| 
+            an_author["affiliation"].each{ |affi_line|
               begin
                 affiliation_synonyms.each {|an_affi|
                   this_affi_line_sucks = affi_line.to_s
