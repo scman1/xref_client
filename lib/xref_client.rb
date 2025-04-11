@@ -6,10 +6,9 @@ module XrefClient
     begin
         art_bib = JSON.parse(Serrano.content_negotiation(ids: doi_text, format: "citeproc-json"))
         return art_bib
-    rescue
-        puts ("*" * 80)
+    rescue => e
         puts "failed getting data for " + doi_text
-        puts ("*" * 80)
+        "Exception: #{e.message}"
         return nil
     end
   end
@@ -48,45 +47,22 @@ module XrefClient
     return collected_dois
   end
 
-  def self.findPubsByAffiliation(affiliation_synonyms=["UK Catalysis Hub"], date_from, date_to)
+  def self.findPubsByAffiliation(group_size = 100, affiliation_synonyms=["UK Catalysis Hub"], date_from, date_to)
     cursor = "*"
     found_pubs = {}
-    counter = 0
-    expected = 0
-    obtained = 0
     accumulated = 0
-    remaining = 0
     loop do
-      counter += 1
-      puts "*"*50
-      puts "Loop "+counter.to_s
-      group_size = 100 # number of record to retrieve each call
       json_pages = getJSONbatch(cursor, group_size, date_from, date_to)
-      puts "Pages: " + json_pages.count().to_s
-      puts "this cursor: " + cursor.to_s
-      if not json_pages.empty?()
-        cursor = json_pages[0]['message']['next-cursor']
-        expected_results = json_pages[0]['message']["total-results"]
-        puts "results expected :   " + expected_results.to_s
-        obtained = (20 * json_pages.count) # page size is 20
-        puts "results obtained :   " + obtained.to_s
-        accumulated += obtained
-        puts "results accumulated: " + accumulated.to_s
-        remaining = (expected_results - accumulated)
-        puts "results remaining:   " + remaining.to_s
-        puts "next cursor: " + cursor.to_s
-        if remaining < group_size
-          group_size = remaining
-          break
-        end
-        filtered_pubs = filterJSONResults(json_pages, affiliation_synonyms, date_to)
-        found_pubs.merge!(filtered_pubs)
-      else
-        break
-      end
-      break if (cursor.nil? or remaining == 0)
+      break if json_pages.empty?
+      cursor = json_pages[0]["message"]["next-cursor"]
+      expected_results = json_pages[0]["message"]["total-results"]
+      accumulated += json_pages.count * 20  # Assuming page size is 20
+      filtered_pubs = filterJSONResults(json_pages, affiliation_synonyms, date_to)
+      found_pubs.merge!(filtered_pubs)
+      # break when remaining is less than group_size
+      break if (expected_results - accumulated) < group_size || cursor.nil?
     end
-    return found_pubs
+    found_pubs
   end
 
   def self.getJSONbatch(a_cursor = "*", batch_size = 1000, date_from, date_to)
@@ -97,53 +73,54 @@ module XrefClient
                                cursor: a_cursor,
                                cursor_max: batch_size,
                                format: "citeproc-json")
-    rescue
+    rescue => e
       puts "Could not get data using cursor"
+      puts "Exception: #{e.message}"
     end
-    return response
+    response
   end
-
+  
   def self.filterJSONResults(pages, affiliation_synonyms, date_to)
     collected_dois = {}
-    pages.each {|art_bib|
-      results=art_bib["message"]["items"]
-      results.each { |a_result|
+    pages&.each do |art_bib|
+      results = art_bib["message"]["items"]
+      next if results.nil? || results.empty?
+      results.each do |a_result|
+        authors = a_result["author"]&.compact || []
+        next if authors.empty?
         affi_found = false
         affi_str = ""
-        this_affi_line_sucks = ""
-        a_result["author"].each{ |an_author|
-          if an_author.key?('affiliation')
-            an_author["affiliation"].each{ |affi_line|
-              begin
-                affiliation_synonyms.each {|an_affi|
-                  this_affi_line_sucks = affi_line.to_s
-                  if affi_line["name"].include?(an_affi)
-                    affi_found = true
-                    affi_str = an_affi
-                    break
-                  end
-                } unless an_author["affiliation"].nil? or an_author["affiliation"].empty?
-              rescue
-                puts "+"*50
-                puts "Linea: " + this_affi_line_sucks
-                #ROR causes the exception
-                #{"id"=>[{"id"=>"https://ror.org/02s9jxg24", "id-type"=>"ROR", "asserted-by"=>"publisher"}]}
-
+        authors.each do |an_author|
+          affiliations = an_author["affiliation"]&.reject(&:empty?) || []
+          next if affiliations.empty?
+          affiliations.each do |affi_line|
+            begin
+              this_affi_line_sucks = affi_line.to_s
+              affi_found = affiliation_synonyms.any? do |an_affi|
+                if affi_line["name"].include?(an_affi)
+                  affi_str = an_affi
+                  break true
+                end
               end
-              # if found, format and add to list
-              if affi_found
-                a_pub = getPubDataXRef(a_result)
-                a_pub[:xref_affi] = affi_str
-                a_pub[:cut_date] = date_to
-                collected_dois[a_result["DOI"]] = a_pub
-                break
-              end
-	    }
+            rescue => e
+              puts "+" * 50
+              puts "Affiliation line: #{this_affi_line_sucks}"
+              puts "Exception: #{e.message}"
+              # Unmanaged ROR causes an exception
+              # {"id"=>[{"id"=>"https://ror.org/02s9jxg24", "id-type"=>"ROR", "asserted-by"=>"publisher"}]}
+            end
+            if affi_found
+              a_pub = getPubDataXRef(a_result)
+              a_pub[:xref_affi] = affi_str
+              a_pub[:cut_date] = date_to
+              collected_dois[a_result["DOI"]] = a_pub
+              break
+            end
           end
-        } unless a_result["author"].nil? or a_result["author"].empty?
-      } unless results.nil? or results.empty?
-    } unless pages.nil? or pages.empty?
-    return collected_dois
+        end
+      end
+    end
+    collected_dois
   end
 
   # This method uses the mapper to parse JSON data to be returned
