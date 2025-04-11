@@ -51,7 +51,9 @@ module XrefClient
     cursor = "*"
     found_pubs = {}
     accumulated = 0
+    #counter = 0
     loop do
+      #counter +=1
       json_pages = getJSONbatch(cursor, group_size, date_from, date_to)
       break if json_pages.empty?
       cursor = json_pages[0]["message"]["next-cursor"]
@@ -60,6 +62,12 @@ module XrefClient
       filtered_pubs = filterJSONResults(json_pages, affiliation_synonyms, date_to)
       found_pubs.merge!(filtered_pubs)
       # break when remaining is less than group_size
+      #puts "*"*60
+      #puts "Loop :       #{counter}"
+      #puts "Expected:    #{expected_results}"
+      #puts "Accumulated: #{accumulated}"
+      #puts "Remaining:   #{expected_results - accumulated}"
+      #puts "first:       #{json_pages[0]["message"]["items"][0]["title"]}"
       break if (expected_results - accumulated) < group_size || cursor.nil?
     end
     found_pubs
@@ -79,7 +87,7 @@ module XrefClient
     end
     response
   end
-  
+
   def self.filterJSONResults(pages, affiliation_synonyms, date_to)
     collected_dois = {}
     pages&.each do |art_bib|
