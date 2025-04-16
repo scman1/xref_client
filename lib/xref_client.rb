@@ -140,7 +140,7 @@ module XrefClient
     # 2 - Affiliations
     # need to get author names abreviated here
     authors_list = getAuthorsList(data_mappings[1])
-    bib_data = {authors: authors_list, year: data_mappings[0]["pub_year"],
+    bib_data = {authors: authors_list, pub_year: data_mappings[0]["pub_year"],
                 title: data_mappings[0]["title"].join(" "),
                 doi: data_mappings[0]["doi"]}
   end

@@ -62,6 +62,7 @@ class XrefClientSearchAwardTest < ActiveSupport::TestCase
     VCR.use_cassette('no_funder_test') do
       found_dois = XrefClient.findPubsAward(ukch_awards, from_date, until_date)
       assert_equal 8, found_dois.length
+      #puts found_dois
     end
   end
 end
