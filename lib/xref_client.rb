@@ -149,10 +149,12 @@ module XrefClient
     disp_names = ""
     authors.each do|auth|
       # Normalize accents
-      pr_name = auth["given_name"].unicode_normalize(:nfd).gsub(/\p{M}/, '')
+      pr_name = ""
+      if auth.key?("given_name")
+        pr_name = auth["given_name"].unicode_normalize(:nfd).gsub(/\p{M}/, '')
 
-      # Format name with initials
-      pr_name = pr_name.gsub(/\w+/){|s| "#{s[0].upcase}. "}
+        # Format name with initials
+        pr_name = pr_name.gsub(/\w+/){|s| "#{s[0].upcase}. "}
                        .sub(/\w+\z/, &:capitalize)
                        .gsub(' .',' ')
 
