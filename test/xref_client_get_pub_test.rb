@@ -19,4 +19,31 @@ class XrefClientGetPubTest < ActiveSupport::TestCase
       assert_equal 3, result.length()
     end
   end
+
+  def test_for_no_given_name
+    VCR.use_cassette('mononym test') do
+      doi = '10.1002/cctc.202100286'
+      pub_data = XrefClient.getCRData(doi)
+      article_data = XrefClient.getPubDataXRef(pub_data)
+      assert_equal "New Spectroscopic Insight into the Deactivation of a ZSM‐5 Methanol‐to‐Hydrocarbons Catalyst", article_data[:title]
+      assert_equal article_data[:doi], doi
+      assert_equal "Suwardiyanto", article_data[:authors].split(",")[2].strip
+      assert_equal "A. Zachariou", article_data[:authors].split(",")[0].strip
+      puts article_data
+    end
+  end
+
+  def test_mononym_in_list
+    ukch_awards = ["EP/R026939/1", "EP/R026815/1", "EP/R026645/1", "EP/R027129/1",
+                   "EP/M013219/1","EP/R026939", "EP/R026815", "EP/R026645",
+                   "EP/R027129", "EP/M013219","EP/K014706/2", "EP/K014668/1",
+                   "EP/K014854/1", "EP/K014714/1","EP/K014706", "EP/K014668",
+                   "EP/K014854", "EP/K014714"]
+    from_date = "2025-05-01"
+    until_date = "2025-05-23"
+    VCR.use_cassette('mononym_in_list_test') do
+      found_dois = XrefClient.findPubsAward(ukch_awards, from_date, until_date)
+      assert_equal 8, found_dois.length
+    end
+  end
 end

@@ -139,9 +139,14 @@ module XrefClient
     # 1 - Authors
     # 2 - Affiliations
     # need to get author names abreviated here
+    ###############################################
+    # Additional error catched when testing for mononyms     
+    # the title sometimes comes as a single string, so cast
+    # as array to avoid error (when querying single DOIs)
+    
     authors_list = getAuthorsList(data_mappings[1])
     bib_data = {authors: authors_list, pub_year: data_mappings[0]["pub_year"],
-                title: data_mappings[0]["title"].join(" "),
+                title: Array(data_mappings[0]["title"]).join(" "),
                 doi: data_mappings[0]["doi"]}
   end
 
@@ -150,14 +155,14 @@ module XrefClient
     authors.each do|auth|
       # Normalize accents
       pr_name = ""
-      if auth.key?("given_name")
+      if auth.key?("given_name") and not auth["given_name"].nil?
         pr_name = auth["given_name"].unicode_normalize(:nfd).gsub(/\p{M}/, '')
 
         # Format name with initials
         pr_name = pr_name.gsub(/\w+/){|s| "#{s[0].upcase}. "}
                        .sub(/\w+\z/, &:capitalize)
                        .gsub(' .',' ')
-
+      end
       this_name = pr_name + auth["last_name"]
 
       disp_names = disp_names.empty? ? this_name : "#{disp_names}, #{this_name}"
