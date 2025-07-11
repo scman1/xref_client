@@ -140,11 +140,11 @@ module XrefClient
     # 2 - Affiliations
     # need to get author names abreviated here
     ###############################################
-    # Additional error catched when testing for mononyms     
+    # Additional error catched when testing for mononyms
     # the title sometimes comes as a single string, so cast
     # as array to avoid error (when querying single DOIs)
-    
     authors_list = getAuthorsList(data_mappings[1])
+
     bib_data = {authors: authors_list, pub_year: data_mappings[0]["pub_year"],
                 title: Array(data_mappings[0]["title"]).join(" "),
                 doi: data_mappings[0]["doi"]}

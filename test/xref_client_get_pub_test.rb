@@ -29,7 +29,6 @@ class XrefClientGetPubTest < ActiveSupport::TestCase
       assert_equal article_data[:doi], doi
       assert_equal "Suwardiyanto", article_data[:authors].split(",")[2].strip
       assert_equal "A. Zachariou", article_data[:authors].split(",")[0].strip
-      puts article_data
     end
   end
 
