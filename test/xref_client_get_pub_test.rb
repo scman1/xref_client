@@ -1,6 +1,7 @@
 require "test_helper"
 
 class XrefClientGetPubTest < ActiveSupport::TestCase
+
   test "get_cr_data" do
     VCR.use_cassette('get_cr_data') do
       doi = '10.1038/s41929-019-0334-3'
@@ -43,6 +44,35 @@ class XrefClientGetPubTest < ActiveSupport::TestCase
     VCR.use_cassette('mononym_in_list_test') do
       found_dois = XrefClient.findPubsAward(ukch_awards, from_date, until_date)
       assert_equal 8, found_dois.length
+    end
+  end
+
+  def test_for_rubyapp_seeds
+    VCR.use_cassette('rubyapp seeds') do
+      test_dois = ["10.1101/2025.07.05.663138",
+                            "10.26434/chemrxiv-2024-cpjsk", 
+                            "10.1021/acsmaterialslett.1c00766"]
+      test_dois.each do |t_doi|
+        pub_data = XrefClient.getCRData(t_doi)
+        assert 1, pub_data.length
+        result = XrefClient::ObjectMapper.map_xref_to_cdi(pub_data)
+        assert_equal 3, result.length()
+        puts result
+      end
+    end
+  end
+
+  def test_mapping_ror_affiliations
+    VCR.use_cassette('ror affiliations') do
+      test_dois = ["10.1364/ome.469414",
+                   "10.1364/prj.522533"]
+      test_dois.each do |t_doi|
+        pub_data = XrefClient.getCRData(t_doi)
+        assert 1, pub_data.length
+        result = XrefClient::ObjectMapper.map_xref_to_cdi(pub_data)
+        assert_equal 3, result.length()
+        puts result
+      end
     end
   end
 end
