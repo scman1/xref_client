@@ -20,14 +20,14 @@ module XrefClient
         art_bib = Serrano.works(filter: {has_funder: true,
                                        award_funder: funder_list,
                                        award_number:[an_award],
-                                       from_deposit_date: date_from,
-                                       until_deposit_date: date_to},
+                                       from_created_date: date_from,
+                                       until_created_date: date_to},
                                        format: "citeproc-json")
       else
         art_bib = Serrano.works(filter: {has_funder: true,
                                        award_number:[an_award],
-                                       from_deposit_date: date_from,
-                                       until_deposit_date: date_to},
+                                       from_created_date: date_from,
+                                       until_created_date: date_to},
                                        format: "citeproc-json")
       end
       if art_bib["message"]["items"].count()>0
@@ -219,6 +219,7 @@ module XrefClient
       return nil
     end
   end
+
   class ObjectMapper
     # map json data to object using mappings file
     def self.get_object_mappings(class_name)

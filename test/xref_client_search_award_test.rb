@@ -16,9 +16,9 @@ class XrefClientSearchAwardTest < ActiveSupport::TestCase
   end
   
   def test_one_award
-    ukch_awards = ["EP/M013219/1"]
-    from_date = "2025-01-01"
-    until_date = "2025-01-31"
+    ukch_awards = ["UKRI945"]
+    from_date = "2026-01-01"
+    until_date = "2026-01-30"
     VCR.use_cassette('one_award_test') do
       found_dois = XrefClient.findPubsAward(ukch_awards, from_date, until_date, funder_list=["10.13039/501100000266"])
       assert_equal 1, found_dois.length
@@ -26,16 +26,17 @@ class XrefClientSearchAwardTest < ActiveSupport::TestCase
   end
 
   def test_one_formated
-    ukch_awards = ["EP/M013219/1"]
-    from_date = "2025-01-01"
-    until_date = "2025-01-31"
-    expected_doi = "10.3390/catal10121370"
+    ukch_awards = ["UKRI945"]
+    from_date = "2026-01-01"
+    until_date = "2026-01-30"
+    expected_doi = "10.1021/acs.macromol.5c03136"
     VCR.use_cassette('one_award_test') do
       found_dois = XrefClient.findPubsAward(ukch_awards, from_date, until_date, funder_list=["10.13039/501100000266"])
       assert_equal 1, found_dois.length
       assert found_dois.has_key?(expected_doi)
     end
   end
+  
   # prefer no funder as sometimes the pubs have award but miss funder ID
   def test_no_funder
     ukch_awards = ["EP/R026939/1", "EP/R026815/1", "EP/R026645/1", "EP/R027129/1",

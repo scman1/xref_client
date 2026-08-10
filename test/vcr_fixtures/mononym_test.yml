@@ -8,9 +8,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.12.2 Serrano/v1.4
+      - Faraday/v2.14.3 Serrano/v1.7
       X-User-Agent:
-      - Faraday/v2.12.2 Serrano/v1.4
+      - Faraday/v2.14.3 Serrano/v1.7
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,9 +21,9 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 23 May 2025 10:37:58 GMT
+      - Mon, 10 Aug 2026 19:14:37 GMT
       Content-Length:
-      - '12746'
+      - '13725'
       Connection:
       - keep-alive
       Access-Control-Expose-Headers:
@@ -37,20 +37,24 @@ http_interactions:
       - Accept-Encoding
       Server:
       - Jetty(9.4.40.v20210413)
-      X-Ratelimit-Limit:
-      - '50'
-      X-Ratelimit-Interval:
+      X-Rate-Limit-Limit:
+      - '5'
+      X-Rate-Limit-Interval:
       - 1s
+      X-Concurrency-Limit:
+      - '1'
       X-Api-Pool:
-      - public
+      - public-single
       Permissions-Policy:
       - interest-cohort=()
     body:
       encoding: ASCII-8BIT
-      string: '{"indexed":{"date-parts":[[2025,4,12]],"date-time":"2025-04-12T02:07:20Z","timestamp":1744423640049,"version":"3.37.3"},"reference-count":70,"publisher":"Wiley","issue":"11","license":[{"start":{"date-parts":[[2021,5,4]],"date-time":"2021-05-04T00:00:00Z","timestamp":1620086400000},"content-version":"vor","delay-in-days":0,"URL":"http:\/\/creativecommons.org\/licenses\/by\/4.0\/"}],"funder":[{"DOI":"10.13039\/501100000266","name":"Engineering
-        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/P510506\/1","EP\/N509176\/1"],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100019229","name":"UK
+      string: '{"indexed":{"date-parts":[[2026,4,16]],"date-time":"2026-04-16T19:42:57Z","timestamp":1776368577983,"version":"3.51.2"},"reference-count":70,"publisher":"Wiley","issue":"11","license":[{"start":{"date-parts":[[2021,5,4]],"date-time":"2021-05-04T00:00:00Z","timestamp":1620086400000},"content-version":"vor","delay-in-days":0,"URL":"http:\/\/creativecommons.org\/licenses\/by\/4.0\/"}],"funder":[{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/P510506\/1"],"award-info":[{"award-number":["EP\/P510506\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/N509176\/1"],"award-info":[{"award-number":["EP\/N509176\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100019229","name":"UK
         Catalysis Hub","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100019229","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
-        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R026815\/1","EP\/R026939\/1"],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]}],"content-domain":{"domain":["chemistry-europe.onlinelibrary.wiley.com"],"crossmark-restriction":true},"published-print":{"date-parts":[[2021,6,8]]},"abstract":"<jats:title>Abstract<\/jats:title><jats:p>The
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R026815\/1"],"award-info":[{"award-number":["EP\/R026815\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R026939\/1"],"award-info":[{"award-number":["EP\/R026939\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]}],"content-domain":{"domain":["chemistry-europe.onlinelibrary.wiley.com"],"crossmark-restriction":true},"published-print":{"date-parts":[[2021,6,8]]},"abstract":"<jats:title>Abstract<\/jats:title><jats:p>The
         nature of the hydrocarbon pool at different stages of the methanol\u2010to\u2010hydrocarbons
         reaction over ZSM\u20105 is examined. A combination of reaction testing, analytical
         and spectroscopic techniques is employed to investigate changes in the nature
@@ -58,28 +62,31 @@ http_interactions:
         reaction time. It is shown that inelastic neutron scattering spectroscopy
         (INS) complements other spectroscopic methods for observing molecular components
         in the hydrocarbon pool of working catalysts. INS is uniquely able to spectroscopically
-        identify the form of coke species present in deactivated catalysts.<\/jats:p>","DOI":"10.1002\/cctc.202100286","type":"journal-article","created":{"date-parts":[[2021,3,8]],"date-time":"2021-03-08T16:54:34Z","timestamp":1615222474000},"page":"2625-2633","update-policy":"https:\/\/doi.org\/10.1002\/crossmark_policy","source":"Crossref","is-referenced-by-count":9,"title":"New
+        identify the form of coke species present in deactivated catalysts.<\/jats:p>","DOI":"10.1002\/cctc.202100286","type":"journal-article","created":{"date-parts":[[2021,3,8]],"date-time":"2021-03-08T11:54:34Z","timestamp":1615204474000},"page":"2625-2633","update-policy":"https:\/\/doi.org\/10.1002\/crossmark_policy","source":"Crossref","is-referenced-by-count":13,"title":"New
         Spectroscopic Insight into the Deactivation of a ZSM\u20105 Methanol\u2010to\u2010Hydrocarbons
         Catalyst","prefix":"10.1002","volume":"13","author":[{"given":"Andrea","family":"Zachariou","sequence":"first","affiliation":[{"name":"School
-        of Chemistry University of Glasgow Joseph Black Building Glasgow G12 8QQ UK"},{"name":"UK
-        Catalysis Hub Research Complex at Harwell STFC Rutherford Appleton Laboratory
-        Chilton, Oxon OX11 0FA UK"}]},{"given":"Alexander P.","family":"Hawkins","sequence":"additional","affiliation":[{"name":"School
-        of Chemistry University of Glasgow Joseph Black Building Glasgow G12 8QQ UK"},{"name":"UK
-        Catalysis Hub Research Complex at Harwell STFC Rutherford Appleton Laboratory
-        Chilton, Oxon OX11 0FA UK"}]},{"family":"Suwardiyanto","sequence":"additional","affiliation":[{"name":"Department
-        of Chemistry University of Jember Jember 68121 East Java Indonesia"}]},{"given":"Paul","family":"Collier","sequence":"additional","affiliation":[{"name":"Johnson
-        Matthey Plc. Johnson Matthey Technology Centre Blounts Court Sonning Common
-        Reading RG4 9NH UK"}]},{"given":"Nathan","family":"Barrow","sequence":"additional","affiliation":[{"name":"Johnson
-        Matthey Plc. Johnson Matthey Technology Centre Blounts Court Sonning Common
-        Reading RG4 9NH UK"}]},{"given":"Russell F.","family":"Howe","sequence":"additional","affiliation":[{"name":"Department
-        of Chemistry University of Aberdeen Meston Building Aberdeen AB24 3UE UK"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-3228-2570","authenticated-orcid":false,"given":"Stewart
+        of Chemistry University of Glasgow Joseph Black Building  Glasgow G12 8QQ
+        UK"},{"name":"UK Catalysis Hub Research Complex at Harwell STFC Rutherford
+        Appleton Laboratory  Chilton, Oxon OX11 0FA UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Alexander
+        P.","family":"Hawkins","sequence":"additional","affiliation":[{"name":"School
+        of Chemistry University of Glasgow Joseph Black Building  Glasgow G12 8QQ
+        UK"},{"name":"UK Catalysis Hub Research Complex at Harwell STFC Rutherford
+        Appleton Laboratory  Chilton, Oxon OX11 0FA UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"family":"Suwardiyanto","sequence":"additional","affiliation":[{"name":"Department
+        of Chemistry University of Jember  Jember 68121 East Java Indonesia"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Paul","family":"Collier","sequence":"additional","affiliation":[{"name":"Johnson
+        Matthey Plc. Johnson Matthey Technology Centre Blounts Court Sonning Common  Reading
+        RG4 9NH UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Nathan","family":"Barrow","sequence":"additional","affiliation":[{"name":"Johnson
+        Matthey Plc. Johnson Matthey Technology Centre Blounts Court Sonning Common  Reading
+        RG4 9NH UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Russell
+        F.","family":"Howe","sequence":"additional","affiliation":[{"name":"Department
+        of Chemistry University of Aberdeen Meston Building  Aberdeen AB24 3UE UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-3228-2570","authenticated-orcid":false,"given":"Stewart
         F.","family":"Parker","sequence":"additional","affiliation":[{"name":"School
-        of Chemistry University of Glasgow Joseph Black Building Glasgow G12 8QQ UK"},{"name":"UK
-        Catalysis Hub Research Complex at Harwell STFC Rutherford Appleton Laboratory
-        Chilton, Oxon OX11 0FA UK"},{"name":"ISIS Neutron and Muon Source ISIS Facility
-        STFC Rutherford Appleton Laboratory Chilton, Oxon OX11 0QX UK"}]},{"given":"David","family":"Lennon","sequence":"additional","affiliation":[{"name":"School
-        of Chemistry University of Glasgow Joseph Black Building Glasgow G12 8QQ UK"}]}],"member":"311","published-online":{"date-parts":[[2021,5,4]]},"reference":[{"key":"e_1_2_6_1_1","doi-asserted-by":"publisher","DOI":"10.1038\/s41929-018-0078-5"},{"key":"e_1_2_6_2_1","doi-asserted-by":"publisher","DOI":"10.1039\/C5CS00304K"},{"key":"e_1_2_6_3_1","doi-asserted-by":"publisher","DOI":"10.1007\/s10562-018-2342-3"},{"key":"e_1_2_6_4_1","doi-asserted-by":"crossref","first-page":"37","DOI":"10.1016\/bs.acat.2017.10.002","volume":"61","author":"Xu
-        S.","year":"2017","journal-title":"Adv. Catal."},{"key":"e_1_2_6_5_1","doi-asserted-by":"publisher","DOI":"10.1002\/cphc.201201023"},{"key":"e_1_2_6_6_1","doi-asserted-by":"publisher","DOI":"10.1039\/c1cy00197c"},{"key":"e_1_2_6_7_1","doi-asserted-by":"publisher","DOI":"10.1039\/c39860001611"},{"key":"e_1_2_6_8_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja00251a004"},{"key":"e_1_2_6_9_1","doi-asserted-by":"publisher","DOI":"10.1021\/jp307290z"},{"key":"e_1_2_6_10_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201007178"},{"key":"e_1_2_6_10_2","doi-asserted-by":"publisher","DOI":"10.1002\/ange.201007178"},{"key":"e_1_2_6_11_1","doi-asserted-by":"publisher","DOI":"10.1039\/f19817702209"},{"key":"e_1_2_6_12_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.9b01820"},{"key":"e_1_2_6_13_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcata.2009.01.001"},{"key":"e_1_2_6_14_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.0c00721"},{"key":"e_1_2_6_15_1","doi-asserted-by":"publisher","DOI":"10.1016\/S0021-9517(02)00026-X"},{"key":"e_1_2_6_16_1","doi-asserted-by":"publisher","DOI":"10.1039\/C8CP04240C"},{"key":"e_1_2_6_17_1","doi-asserted-by":"publisher","DOI":"10.1038\/s41563-020-0800-y"},{"key":"e_1_2_6_18_1","doi-asserted-by":"publisher","DOI":"10.1021\/cs501345g"},{"key":"e_1_2_6_19_1","doi-asserted-by":"publisher","DOI":"10.1002\/chem.200801293"},{"key":"e_1_2_6_20_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.7b01497"},{"key":"e_1_2_6_21_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201916596"},{"key":"e_1_2_6_22_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.8b02274"},{"key":"e_1_2_6_23_1","doi-asserted-by":"publisher","DOI":"10.1039\/C7CY02459B"},{"key":"e_1_2_6_24_1","doi-asserted-by":"publisher","DOI":"10.1002\/chem.201503136"},{"key":"e_1_2_6_25_1","doi-asserted-by":"publisher","DOI":"10.1021\/cs5015749"},{"key":"e_1_2_6_26_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.micromeso.2007.05.028"},{"key":"e_1_2_6_27_1","doi-asserted-by":"publisher","DOI":"10.1021\/cs500722m"},{"key":"e_1_2_6_28_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja994103x"},{"key":"e_1_2_6_29_1","doi-asserted-by":"publisher","DOI":"10.1021\/ar020006o"},{"key":"e_1_2_6_30_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja0304244"},{"key":"e_1_2_6_31_1","doi-asserted-by":"publisher","DOI":"10.1002\/chem.201403972"},{"key":"e_1_2_6_32_1","doi-asserted-by":"publisher","DOI":"10.1002\/cctc.201901937"},{"key":"e_1_2_6_33_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201703902"},{"key":"e_1_2_6_33_2","doi-asserted-by":"publisher","DOI":"10.1002\/ange.201703902"},{"key":"e_1_2_6_34_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.202009139"},{"key":"e_1_2_6_35_1","doi-asserted-by":"publisher","DOI":"10.1021\/cs5015749"},{"key":"e_1_2_6_36_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.8b02385"},{"key":"e_1_2_6_37_1","doi-asserted-by":"publisher","DOI":"10.1366\/11-06456"},{"key":"e_1_2_6_38_1","volume":"642","author":"Mitchell
+        of Chemistry University of Glasgow Joseph Black Building  Glasgow G12 8QQ
+        UK"},{"name":"UK Catalysis Hub Research Complex at Harwell STFC Rutherford
+        Appleton Laboratory  Chilton, Oxon OX11 0FA UK"},{"name":"ISIS Neutron and
+        Muon Source ISIS Facility STFC Rutherford Appleton Laboratory  Chilton, Oxon
+        OX11 0QX UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"David","family":"Lennon","sequence":"additional","affiliation":[{"name":"School
+        of Chemistry University of Glasgow Joseph Black Building  Glasgow G12 8QQ
+        UK"}],"role":[{"role":"author","vocabulary":"crossref"}]}],"member":"311","published-online":{"date-parts":[[2021,5,4]]},"reference":[{"key":"e_1_2_6_1_1","doi-asserted-by":"publisher","DOI":"10.1038\/s41929-018-0078-5"},{"key":"e_1_2_6_2_1","doi-asserted-by":"publisher","DOI":"10.1039\/C5CS00304K"},{"key":"e_1_2_6_3_1","doi-asserted-by":"publisher","DOI":"10.1007\/s10562-018-2342-3"},{"key":"e_1_2_6_4_1","doi-asserted-by":"publisher","DOI":"10.1016\/bs.acat.2017.10.002"},{"key":"e_1_2_6_5_1","doi-asserted-by":"publisher","DOI":"10.1002\/cphc.201201023"},{"key":"e_1_2_6_6_1","doi-asserted-by":"publisher","DOI":"10.1039\/c1cy00197c"},{"key":"e_1_2_6_7_1","doi-asserted-by":"publisher","DOI":"10.1039\/c39860001611"},{"key":"e_1_2_6_8_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja00251a004"},{"key":"e_1_2_6_9_1","doi-asserted-by":"publisher","DOI":"10.1021\/jp307290z"},{"key":"e_1_2_6_10_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201007178"},{"key":"e_1_2_6_10_2","doi-asserted-by":"publisher","DOI":"10.1002\/ange.201007178"},{"key":"e_1_2_6_11_1","doi-asserted-by":"publisher","DOI":"10.1039\/f19817702209"},{"key":"e_1_2_6_12_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.9b01820"},{"key":"e_1_2_6_13_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcata.2009.01.001"},{"key":"e_1_2_6_14_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.0c00721"},{"key":"e_1_2_6_15_1","doi-asserted-by":"publisher","DOI":"10.1016\/S0021-9517(02)00026-X"},{"key":"e_1_2_6_16_1","doi-asserted-by":"publisher","DOI":"10.1039\/C8CP04240C"},{"key":"e_1_2_6_17_1","doi-asserted-by":"publisher","DOI":"10.1038\/s41563-020-0800-y"},{"key":"e_1_2_6_18_1","doi-asserted-by":"publisher","DOI":"10.1021\/cs501345g"},{"key":"e_1_2_6_19_1","doi-asserted-by":"publisher","DOI":"10.1002\/chem.200801293"},{"key":"e_1_2_6_20_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.7b01497"},{"key":"e_1_2_6_21_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201916596"},{"key":"e_1_2_6_22_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.8b02274"},{"key":"e_1_2_6_23_1","doi-asserted-by":"publisher","DOI":"10.1039\/C7CY02459B"},{"key":"e_1_2_6_24_1","doi-asserted-by":"publisher","DOI":"10.1002\/chem.201503136"},{"key":"e_1_2_6_25_1","doi-asserted-by":"publisher","DOI":"10.1021\/cs5015749"},{"key":"e_1_2_6_26_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.micromeso.2007.05.028"},{"key":"e_1_2_6_27_1","doi-asserted-by":"publisher","DOI":"10.1021\/cs500722m"},{"key":"e_1_2_6_28_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja994103x"},{"key":"e_1_2_6_29_1","doi-asserted-by":"publisher","DOI":"10.1021\/ar020006o"},{"key":"e_1_2_6_30_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja0304244"},{"key":"e_1_2_6_31_1","doi-asserted-by":"publisher","DOI":"10.1002\/chem.201403972"},{"key":"e_1_2_6_32_1","doi-asserted-by":"publisher","DOI":"10.1002\/cctc.201901937"},{"key":"e_1_2_6_33_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201703902"},{"key":"e_1_2_6_33_2","doi-asserted-by":"publisher","DOI":"10.1002\/ange.201703902"},{"key":"e_1_2_6_34_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.202009139"},{"key":"e_1_2_6_35_1","doi-asserted-by":"publisher","DOI":"10.1021\/cs5015749"},{"key":"e_1_2_6_36_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.8b02385"},{"key":"e_1_2_6_37_1","doi-asserted-by":"publisher","DOI":"10.1366\/11-06456"},{"key":"e_1_2_6_38_1","volume":"642","author":"Mitchell
         P. C. H.","year":"2005","journal-title":"Mater. Sci. Catal. World Sci."},{"key":"e_1_2_6_39_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.cattod.2020.05.030"},{"key":"e_1_2_6_40_1","doi-asserted-by":"publisher","DOI":"10.3390\/catal5010145"},{"key":"e_1_2_6_41_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.cattod.2010.05.012"},{"key":"e_1_2_6_42_1","doi-asserted-by":"publisher","DOI":"10.1016\/0021-9517(88)90190-X"},{"key":"e_1_2_6_43_1","doi-asserted-by":"publisher","DOI":"10.1002\/chem.201002624"},{"key":"e_1_2_6_44_1","doi-asserted-by":"publisher","DOI":"10.1080\/01614948308078874"},{"key":"e_1_2_6_45_1","doi-asserted-by":"publisher","DOI":"10.1021\/acsomega.9b03351"},{"key":"e_1_2_6_46_1","doi-asserted-by":"publisher","DOI":"10.1088\/1742-6596\/554\/1\/012005"},{"key":"e_1_2_6_47_1","doi-asserted-by":"crossref","unstructured":"Suwardiyanto
         R.\u2005F. Howe E.\u2005K. Gibson C.\u2005R.\u2005A. Catlow A. Hameed J. McGregor
         P. Collier S.\u2005F. Parker D. Lennon Faraday Discuss.2017 197 447\u2013472.","DOI":"10.1039\/C6FD00195E"},{"key":"e_1_2_6_48_1","doi-asserted-by":"publisher","DOI":"10.1007\/s10562-016-1742-5"},{"key":"e_1_2_6_49_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.jcat.2015.02.013"},{"key":"e_1_2_6_50_1","doi-asserted-by":"publisher","DOI":"10.1016\/0021-9517(86)90020-5"},{"key":"e_1_2_6_51_1","doi-asserted-by":"publisher","DOI":"10.1021\/j100212a046"},{"key":"e_1_2_6_52_1","doi-asserted-by":"publisher","DOI":"10.1016\/0021-9517(90)90191-L"},{"key":"e_1_2_6_53_1","doi-asserted-by":"publisher","DOI":"10.1007\/s003390101078"},{"key":"e_1_2_6_54_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.nima.2018.04.009"},{"key":"e_1_2_6_55_1","unstructured":"Science
@@ -87,12 +94,12 @@ http_interactions:
         (Accessed: 16th April 2020)."},{"key":"e_1_2_6_56_1","doi-asserted-by":"crossref","unstructured":"A.
         Zachariou A.\u2005P. Hawkins D. Lennon S.\u2005F. Parker Suwardiyanto S.\u2005K.
         Matam C.\u2005R.\u2005A. Catlow P. Collier A. Hameed J. McGregor R.\u2005F.
-        Howe Appl. Catal. A Gen.2019 569 1\u20137.","DOI":"10.1016\/j.apcata.2018.10.010"},{"key":"e_1_2_6_57_1","doi-asserted-by":"publisher","DOI":"10.1007\/s11244-020-01258-3"},{"key":"e_1_2_6_58_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.chemphys.2013.05.002"},{"key":"e_1_2_6_59_1","doi-asserted-by":"publisher","DOI":"10.1088\/0953-8984\/7\/50\/035"},{"volume-title":"The
-        Handbook of Infrared and Raman Characteristic Frequencies of Organic Molecules","year":"1975","author":"Lin
-        Vien D.","key":"e_1_2_6_60_1"},{"key":"e_1_2_6_61_1","doi-asserted-by":"publisher","DOI":"10.1063\/1.1741947"},{"key":"e_1_2_6_62_1","doi-asserted-by":"publisher","DOI":"10.1351\/pac199567030473"},{"key":"e_1_2_6_63_1","doi-asserted-by":"publisher","DOI":"10.1016\/0022-3093(82)90215-0"},{"key":"e_1_2_6_64_1","doi-asserted-by":"publisher","DOI":"10.1021\/es034770x"},{"key":"e_1_2_6_65_1","doi-asserted-by":"publisher","DOI":"10.1016\/0144-2449(90)90030-U"},{"key":"e_1_2_6_66_1","doi-asserted-by":"publisher","DOI":"10.1139\/v74-364"},{"key":"e_1_2_6_67_1","doi-asserted-by":"publisher","DOI":"10.1039\/c2cy00529h"},{"key":"e_1_2_6_68_1","unstructured":"R.
+        Howe Appl. Catal. A Gen.2019 569 1\u20137.","DOI":"10.1016\/j.apcata.2018.10.010"},{"key":"e_1_2_6_57_1","doi-asserted-by":"publisher","DOI":"10.1007\/s11244-020-01258-3"},{"key":"e_1_2_6_58_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.chemphys.2013.05.002"},{"key":"e_1_2_6_59_1","doi-asserted-by":"publisher","DOI":"10.1088\/0953-8984\/7\/50\/035"},{"key":"e_1_2_6_60_1","volume-title":"The
+        Handbook of Infrared and Raman Characteristic Frequencies of Organic Molecules","author":"Lin
+        Vien D.","year":"1975"},{"key":"e_1_2_6_61_1","doi-asserted-by":"publisher","DOI":"10.1063\/1.1741947"},{"key":"e_1_2_6_62_1","doi-asserted-by":"publisher","DOI":"10.1351\/pac199567030473"},{"key":"e_1_2_6_63_1","doi-asserted-by":"publisher","DOI":"10.1016\/0022-3093(82)90215-0"},{"key":"e_1_2_6_64_1","doi-asserted-by":"publisher","DOI":"10.1021\/es034770x"},{"key":"e_1_2_6_65_1","doi-asserted-by":"publisher","DOI":"10.1016\/0144-2449(90)90030-U"},{"key":"e_1_2_6_66_1","doi-asserted-by":"publisher","DOI":"10.1139\/v74-364"},{"key":"e_1_2_6_67_1","doi-asserted-by":"publisher","DOI":"10.1039\/c2cy00529h"},{"key":"e_1_2_6_68_1","unstructured":"R.
         Howe A. Zachariou A. Hawkins Suwardiyanto P. Collier D. Lennon S.\u2005F.
-        Parker STFC ISIS Neutron and Muon Source2018 doi: 10.5286\/ISIS.\u2005E.RB1720211."}],"container-title":"ChemCatChem","original-title":[],"language":"en","link":[{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/pdf\/10.1002\/cctc.202100286","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/full-xml\/10.1002\/cctc.202100286","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/pdf\/10.1002\/cctc.202100286","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2024,8,25]],"date-time":"2024-08-25T17:00:40Z","timestamp":1724605240000},"score":1,"resource":{"primary":{"URL":"https:\/\/chemistry-europe.onlinelibrary.wiley.com\/doi\/10.1002\/cctc.202100286"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2021,5,4]]},"references-count":70,"journal-issue":{"issue":"11","published-print":{"date-parts":[[2021,6,8]]}},"alternative-id":["10.1002\/cctc.202100286"],"URL":"http:\/\/dx.doi.org\/10.1002\/cctc.202100286","relation":{},"ISSN":["1867-3880","1867-3899"],"subject":[],"container-title-short":"ChemCatChem","published":{"date-parts":[[2021,5,4]]},"assertion":[{"value":"2021-02-24","order":0,"name":"received","label":"Received","group":{"name":"publication_history","label":"Publication
-        History"}},{"value":"2021-05-04","order":2,"name":"published","label":"Published","group":{"name":"publication_history","label":"Publication
+        Parker STFC ISIS Neutron and Muon Source2018 doi: 10.5286\/ISIS.\u2005E.RB1720211."}],"container-title":"ChemCatChem","original-title":[],"language":"en","link":[{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/pdf\/10.1002\/cctc.202100286","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/full-xml\/10.1002\/cctc.202100286","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/chemistry-europe.onlinelibrary.wiley.com\/doi\/pdf\/10.1002\/cctc.202100286","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2025,10,12]],"date-time":"2025-10-12T10:00:01Z","timestamp":1760263201000},"score":1,"resource":{"primary":{"URL":"https:\/\/chemistry-europe.onlinelibrary.wiley.com\/doi\/10.1002\/cctc.202100286"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2021,5,4]]},"references-count":70,"journal-issue":{"issue":"11","published-print":{"date-parts":[[2021,6,8]]}},"alternative-id":["10.1002\/cctc.202100286"],"URL":"http:\/\/dx.doi.org\/10.1002\/cctc.202100286","relation":{},"ISSN":["1867-3880","1867-3899"],"subject":[],"container-title-short":"ChemCatChem","published":{"date-parts":[[2021,5,4]]},"assertion":[{"value":"2021-02-24","order":0,"name":"received","label":"Received","group":{"name":"publication_history","label":"Publication
+        History"}},{"value":"2021-05-04","order":3,"name":"published","label":"Published","group":{"name":"publication_history","label":"Publication
         History"}}]}'
-  recorded_at: Fri, 23 May 2025 10:37:56 GMT
-recorded_with: VCR 6.3.1
+  recorded_at: Mon, 10 Aug 2026 19:14:37 GMT
+recorded_with: VCR 6.4.0

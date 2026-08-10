@@ -8,9 +8,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.12.2 Serrano/v1.4
+      - Faraday/v2.14.3 Serrano/v1.7
       X-User-Agent:
-      - Faraday/v2.12.2 Serrano/v1.4
+      - Faraday/v2.14.3 Serrano/v1.7
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,9 +21,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 04 Apr 2025 16:18:18 GMT
+      - Mon, 10 Aug 2026 19:14:39 GMT
       Content-Length:
-      - '25251'
+      - '26498'
+      Connection:
+      - keep-alive
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -35,38 +37,35 @@ http_interactions:
       - Accept-Encoding
       Server:
       - Jetty(9.4.40.v20210413)
-      X-Ratelimit-Limit:
-      - '50'
-      X-Ratelimit-Interval:
-      - 1s
-      X-Api-Pool:
-      - public
       X-Rate-Limit-Limit:
-      - '50'
+      - '5'
       X-Rate-Limit-Interval:
       - 1s
+      X-Concurrency-Limit:
+      - '1'
+      X-Api-Pool:
+      - public-single
       Permissions-Policy:
       - interest-cohort=()
-      Connection:
-      - close
     body:
       encoding: ASCII-8BIT
-      string: '{"indexed":{"date-parts":[[2025,4,4]],"date-time":"2025-04-04T12:10:58Z","timestamp":1743768658956,"version":"3.37.3"},"reference-count":52,"publisher":"Springer
+      string: '{"indexed":{"date-parts":[[2026,8,7]],"date-time":"2026-08-07T20:52:43Z","timestamp":1786135963932,"version":"3.56.0"},"reference-count":52,"publisher":"Springer
         Science and Business Media LLC","issue":"10","license":[{"start":{"date-parts":[[2019,9,16]],"date-time":"2019-09-16T00:00:00Z","timestamp":1568592000000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"},{"start":{"date-parts":[[2019,9,16]],"date-time":"2019-09-16T00:00:00Z","timestamp":1568592000000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"}],"funder":[{"DOI":"10.13039\/501100000866","name":"Cardiff
         University","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100000866","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100010890","name":"CSC
         | Chinese Government Scholarship","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100010890","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100011889","name":"Diamond
-        Light Source","doi-asserted-by":"publisher","award":["MG22776","MG22776"],"id":[{"id":"10.13039\/100011889","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"RCUK
-        | Engineering and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/L016443\/1"],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"DOI":"10.1038\/s41929-019-0334-3","type":"journal-article","created":{"date-parts":[[2019,9,16]],"date-time":"2019-09-16T16:03:58Z","timestamp":1568649838000},"page":"873-881","update-policy":"https:\/\/doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":244,"title":"Tuning
+        Light Source","doi-asserted-by":"publisher","award":["MG22776"],"award-info":[{"award-number":["MG22776"]}],"id":[{"id":"10.13039\/100011889","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100011889","name":"Diamond
+        Light Source","doi-asserted-by":"publisher","award":["MG22776"],"award-info":[{"award-number":["MG22776"]}],"id":[{"id":"10.13039\/100011889","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"RCUK
+        | Engineering and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/L016443\/1"],"award-info":[{"award-number":["EP\/L016443\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"DOI":"10.1038\/s41929-019-0334-3","type":"journal-article","created":{"date-parts":[[2019,9,16]],"date-time":"2019-09-16T16:03:58Z","timestamp":1568649838000},"page":"873-881","update-policy":"https:\/\/doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":335,"title":"Tuning
         of catalytic sites in Pt\/TiO2 catalysts for the chemoselective hydrogenation
-        of 3-nitrostyrene","prefix":"10.1038","volume":"2","author":[{"ORCID":"https:\/\/orcid.org\/0000-0002-7628-9125","authenticated-orcid":false,"given":"Margherita","family":"Macino","sequence":"first","affiliation":[]},{"given":"Alexandra
-        J.","family":"Barnes","sequence":"additional","affiliation":[]},{"given":"Sultan
-        M.","family":"Althahban","sequence":"additional","affiliation":[]},{"ORCID":"https:\/\/orcid.org\/0000-0003-4029-1263","authenticated-orcid":false,"given":"Ruiyang","family":"Qu","sequence":"additional","affiliation":[]},{"ORCID":"https:\/\/orcid.org\/0000-0002-7839-3786","authenticated-orcid":false,"given":"Emma
-        K.","family":"Gibson","sequence":"additional","affiliation":[]},{"ORCID":"https:\/\/orcid.org\/0000-0002-6571-5731","authenticated-orcid":false,"given":"David
-        J","family":"Morgan","sequence":"additional","affiliation":[]},{"given":"Simon
-        J.","family":"Freakley","sequence":"additional","affiliation":[]},{"given":"Nikolaos","family":"Dimitratos","sequence":"additional","affiliation":[]},{"given":"Christopher
-        J.","family":"Kiely","sequence":"additional","affiliation":[]},{"given":"Xiang","family":"Gao","sequence":"additional","affiliation":[]},{"ORCID":"https:\/\/orcid.org\/0000-0002-0923-1433","authenticated-orcid":false,"given":"Andrew
-        M.","family":"Beale","sequence":"additional","affiliation":[]},{"given":"Donald","family":"Bethell","sequence":"additional","affiliation":[]},{"given":"Qian","family":"He","sequence":"additional","affiliation":[]},{"given":"Meenakshisundaram","family":"Sankar","sequence":"additional","affiliation":[]},{"ORCID":"https:\/\/orcid.org\/0000-0001-8885-1560","authenticated-orcid":false,"given":"Graham
-        J.","family":"Hutchings","sequence":"additional","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2019,9,16]]},"reference":[{"key":"334_CR1","volume":"9","author":"L
+        of 3-nitrostyrene","prefix":"10.1038","volume":"2","author":[{"ORCID":"https:\/\/orcid.org\/0000-0002-7628-9125","authenticated-orcid":false,"given":"Margherita","family":"Macino","sequence":"first","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Alexandra
+        J.","family":"Barnes","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Sultan
+        M.","family":"Althahban","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0003-4029-1263","authenticated-orcid":false,"given":"Ruiyang","family":"Qu","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-7839-3786","authenticated-orcid":false,"given":"Emma
+        K.","family":"Gibson","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-6571-5731","authenticated-orcid":false,"given":"David
+        J","family":"Morgan","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Simon
+        J.","family":"Freakley","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Nikolaos","family":"Dimitratos","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Christopher
+        J.","family":"Kiely","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Xiang","family":"Gao","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-0923-1433","authenticated-orcid":false,"given":"Andrew
+        M.","family":"Beale","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Donald","family":"Bethell","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Qian","family":"He","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Meenakshisundaram","family":"Sankar","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0001-8885-1560","authenticated-orcid":false,"given":"Graham
+        J.","family":"Hutchings","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"297","published-online":{"date-parts":[[2019,9,16]]},"reference":[{"key":"334_CR1","volume":"9","author":"L
         Wang","year":"2018","unstructured":"Wang, L. et al. Single-site catalyst promoters
         accelerate metal-catalyzed nitroarene hydrogenation. Nat. Commun. 9, 1362
         (2018).","journal-title":"Nat. Commun."},{"key":"334_CR2","doi-asserted-by":"crossref","first-page":"192","DOI":"10.1038\/s41929-018-0028-2","volume":"1","author":"AJ
@@ -250,8 +249,8 @@ http_interactions:
         HEPHAESTUS: data analysis for X-ray absorption spectroscopy using IFEFFIT.
         J. Synchrotron Radiat. 12, 537\u2013541 (2005).","journal-title":"J. Synchrotron
         Radiat."},{"key":"334_CR52","unstructured":"EXCURV98 (CCLRC Daresbury Laboratory,
-        1998)."}],"updated-by":[{"updated":{"date-parts":[[2019,11,11]],"date-time":"2019-11-11T00:00:00Z","timestamp":1573430400000},"DOI":"10.1038\/s41929-019-0396-2","type":"correction","source":"publisher","label":"Correction"},{"updated":{"date-parts":[[2020,8,3]],"date-time":"2020-08-03T00:00:00Z","timestamp":1596412800000},"DOI":"10.1038\/s41929-020-00500-1","type":"correction","source":"publisher","label":"Correction"}],"container-title":"Nature
-        Catalysis","original-title":[],"language":"en","link":[{"URL":"https:\/\/www.nature.com\/articles\/s41929-019-0334-3.pdf","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.nature.com\/articles\/s41929-019-0334-3","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.nature.com\/articles\/s41929-019-0334-3.pdf","content-type":"application\/pdf","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,12,17]],"date-time":"2022-12-17T18:54:55Z","timestamp":1671303295000},"score":1,"resource":{"primary":{"URL":"https:\/\/www.nature.com\/articles\/s41929-019-0334-3"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2019,9,16]]},"references-count":52,"journal-issue":{"issue":"10","published-online":{"date-parts":[[2019,10]]}},"alternative-id":["334"],"URL":"http:\/\/dx.doi.org\/10.1038\/s41929-019-0334-3","relation":{},"ISSN":["2520-1158"],"subject":[],"container-title-short":"Nat
+        1998)."}],"updated-by":[{"DOI":"10.1038\/s41929-019-0396-2","type":"correction","label":"Correction","source":"publisher","updated":{"date-parts":[[2019,11,11]],"date-time":"2019-11-11T00:00:00Z","timestamp":1573430400000}},{"DOI":"10.1038\/s41929-020-00500-1","type":"correction","label":"Correction","source":"publisher","updated":{"date-parts":[[2020,8,3]],"date-time":"2020-08-03T00:00:00Z","timestamp":1596412800000}}],"container-title":"Nature
+        Catalysis","original-title":[],"language":"en","link":[{"URL":"https:\/\/www.nature.com\/articles\/s41929-019-0334-3.pdf","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.nature.com\/articles\/s41929-019-0334-3","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.nature.com\/articles\/s41929-019-0334-3.pdf","content-type":"application\/pdf","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,12,17]],"date-time":"2022-12-17T18:54:55Z","timestamp":1671303295000},"score":1,"resource":{"primary":{"URL":"https:\/\/www.nature.com\/articles\/s41929-019-0334-3"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2019,9,16]]},"references-count":52,"journal-issue":{"issue":"10","published-online":{"date-parts":[[2019,10]]}},"alternative-id":["334"],"URL":"http:\/\/dx.doi.org\/10.1038\/s41929-019-0334-3","relation":{"correction":[{"id-type":"doi","id":"10.1038\/s41929-019-0396-2","asserted-by":"object"},{"id-type":"doi","id":"10.1038\/s41929-020-00500-1","asserted-by":"object"}]},"ISSN":["2520-1158"],"subject":[],"container-title-short":"Nat
         Catal","published":{"date-parts":[[2019,9,16]]},"assertion":[{"value":"9 July
         2018","order":1,"name":"received","label":"Received","group":{"name":"ArticleHistory","label":"Article
         History"}},{"value":"25 July 2019","order":2,"name":"accepted","label":"Accepted","group":{"name":"ArticleHistory","label":"Article
@@ -271,5 +270,5 @@ http_interactions:
         Details","group":{"name":"ArticleHistory","label":"Article History"}},{"value":"The
         authors declare no competing interests.","order":1,"name":"Ethics","group":{"name":"EthicsHeading","label":"Competing
         interests"}}]}'
-  recorded_at: Fri, 04 Apr 2025 16:18:18 GMT
-recorded_with: VCR 6.3.1
+  recorded_at: Mon, 10 Aug 2026 19:14:38 GMT
+recorded_with: VCR 6.4.0

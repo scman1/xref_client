@@ -50,4 +50,11 @@ class XrefClientMapperTest < ActiveSupport::TestCase
     target_data  = XrefClient::MapJsonToObj.evaluate_exp(json_data,the_exp)
     assert_equal 2022, target_data
   end
+  
+  def test_get_ror_id
+      json_data = {"affiliation"=>[{"id"=>[{"id"=>"https:\/\/ror.org\/00a2xv884","id-type"=>"ROR","asserted-by"=>"publisher"}]}]} 
+      json_path = "[['affiliation',0,'id',0,'id']]"
+      target_data  = XrefClient::MapJsonToObj.get_inner_element(json_data,eval(json_path))
+      assert_equal "https:\/\/ror.org\/00a2xv884", target_data
+  end
 end
