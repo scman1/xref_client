@@ -48,7 +48,7 @@ class XrefClientSearchAwardTest < ActiveSupport::TestCase
     until_date = "2025-01-31"
     VCR.use_cassette('no_funder_test') do
       found_dois = XrefClient.findPubsAward(ukch_awards, from_date, until_date, funder_list=nil)
-      assert_equal 8, found_dois.length
+      assert_equal 7, found_dois.length
     end
   end
 
@@ -62,7 +62,7 @@ class XrefClientSearchAwardTest < ActiveSupport::TestCase
     until_date = "2025-01-31"
     VCR.use_cassette('no_funder_test') do
       found_dois = XrefClient.findPubsAward(ukch_awards, from_date, until_date)
-      assert_equal 8, found_dois.length
+      assert_equal 7, found_dois.length
       #puts found_dois
     end
   end

@@ -42,6 +42,7 @@ module XrefClient
             collected_dois[a_result["DOI"]] = a_pub
           end
         end
+      sleep(1.0) # throttle for crossref
       end
     end
     return collected_dois
@@ -69,6 +70,7 @@ module XrefClient
       #puts "Remaining:   #{expected_results - accumulated}"
       #puts "first:       #{json_pages[0]["message"]["items"][0]["title"]}"
       break if (expected_results - accumulated) < group_size || cursor.nil?
+      sleep(1.0) #throttle for crossref
     end
     found_pubs
   end

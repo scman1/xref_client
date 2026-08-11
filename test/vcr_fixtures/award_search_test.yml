@@ -8,9 +8,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 21:30:15 GMT
+      - Tue, 11 Aug 2026 16:03:13 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -40,13 +40,13 @@ http_interactions:
       Server:
       - Jetty(9.4.40.v20210413)
       X-Rate-Limit-Limit:
-      - '1'
+      - '3'
       X-Rate-Limit-Interval:
       - 1s
       X-Concurrency-Limit:
-      - '1'
+      - '3'
       X-Api-Pool:
-      - public-array
+      - polite-array
       Permissions-Policy:
       - interest-cohort=()
     body:
@@ -324,7 +324,7 @@ http_interactions:
         Title"},{"value":"https:\/\/doi.org\/10.1016\/j.apcatb.2025.125029","name":"articlelink","label":"CrossRef
         DOI link to publisher maintained version"},{"value":"article","name":"content_type","label":"Content
         Type"},{"value":"\u00a9 2025 The Authors. Published by Elsevier B.V.","name":"copyright","label":"Copyright"}],"article-number":"125029"}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Mon, 10 Aug 2026 21:30:15 GMT
+  recorded_at: Tue, 11 Aug 2026 16:03:13 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/R026815/1,from-created-date:2025-01-01,until-created-date:2025-01-31
@@ -333,9 +333,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -346,7 +346,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 21:30:16 GMT
+      - Tue, 11 Aug 2026 16:03:14 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -365,13 +365,13 @@ http_interactions:
       Server:
       - Jetty(9.4.40.v20210413)
       X-Rate-Limit-Limit:
-      - '1'
+      - '3'
       X-Rate-Limit-Interval:
       - 1s
       X-Concurrency-Limit:
-      - '1'
+      - '3'
       X-Api-Pool:
-      - public-array
+      - polite-array
       Permissions-Policy:
       - interest-cohort=()
     body:
@@ -529,7 +529,7 @@ http_interactions:
         Title"},{"value":"https:\/\/doi.org\/10.1016\/j.apcatb.2025.125029","name":"articlelink","label":"CrossRef
         DOI link to publisher maintained version"},{"value":"article","name":"content_type","label":"Content
         Type"},{"value":"\u00a9 2025 The Authors. Published by Elsevier B.V.","name":"copyright","label":"Copyright"}],"article-number":"125029"}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Mon, 10 Aug 2026 21:30:15 GMT
+  recorded_at: Tue, 11 Aug 2026 16:03:15 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/R026645/1,from-created-date:2025-01-01,until-created-date:2025-01-31
@@ -538,9 +538,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -551,7 +551,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 21:30:16 GMT
+      - Tue, 11 Aug 2026 16:03:16 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -570,13 +570,13 @@ http_interactions:
       Server:
       - Jetty(9.4.40.v20210413)
       X-Rate-Limit-Limit:
-      - '1'
+      - '3'
       X-Rate-Limit-Interval:
       - 1s
       X-Concurrency-Limit:
-      - '1'
+      - '3'
       X-Api-Pool:
-      - public-array
+      - polite-array
       Permissions-Policy:
       - interest-cohort=()
     body:
@@ -702,7 +702,7 @@ http_interactions:
         Sci. Technol."},{"key":"D4CP03761H\/cit82\/1","doi-asserted-by":"publisher","first-page":"1139","DOI":"10.1039\/FT9938901139","volume":"89","author":"Pope","year":"1993","journal-title":"J.
         Chem. Soc. Faraday Trans."}],"container-title":["Physical Chemistry Chemical
         Physics"],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2025\/CP\/D4CP03761H","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T03:02:45Z","timestamp":1782874965000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/cp\/article\/27\/5\/2601-2614\/844156"}},"issued":{"date-parts":[[2025]]},"references-count":81,"journal-issue":{"issue":"5","published-print":{"date-parts":[[2025,1,29]]}},"URL":"https:\/\/doi.org\/10.1039\/d4cp03761h","ISSN":["1463-9076","1463-9084"],"issn-type":[{"value":"1463-9076","type":"print"},{"value":"1463-9084","type":"electronic"}],"published":{"date-parts":[[2025]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Mon, 10 Aug 2026 21:30:16 GMT
+  recorded_at: Tue, 11 Aug 2026 16:03:16 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/R027129/1,from-created-date:2025-01-01,until-created-date:2025-01-31
@@ -711,9 +711,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -724,7 +724,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 21:30:17 GMT
+      - Tue, 11 Aug 2026 16:03:17 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -743,13 +743,13 @@ http_interactions:
       Server:
       - Jetty(9.4.40.v20210413)
       X-Rate-Limit-Limit:
-      - '1'
+      - '3'
       X-Rate-Limit-Interval:
       - 1s
       X-Concurrency-Limit:
-      - '1'
+      - '3'
       X-Api-Pool:
-      - public-array
+      - polite-array
       Permissions-Policy:
       - interest-cohort=()
     body:
@@ -957,7 +957,7 @@ http_interactions:
         Chemie"],"language":"en","link":[{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/pdf\/10.1002\/ange.202422497","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2025,5,27]],"date-time":"2025-05-27T12:54:37Z","timestamp":1748350477000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/10.1002\/ange.202422497"}},"issued":{"date-parts":[[2025,1,16]]},"references-count":80,"journal-issue":{"issue":"12","published-print":{"date-parts":[[2025,3,17]]}},"alternative-id":["10.1002\/ange.202422497"],"URL":"https:\/\/doi.org\/10.1002\/ange.202422497","archive":["Portico"],"ISSN":["0044-8249","1521-3757"],"issn-type":[{"type":"print","value":"0044-8249"},{"type":"electronic","value":"1521-3757"}],"published":{"date-parts":[[2025,1,16]]},"assertion":[{"value":"2024-11-19","order":0,"name":"received","label":"Received","group":{"name":"publication_history","label":"Publication
         History"}},{"value":"2025-01-16","order":3,"name":"published","label":"Published","group":{"name":"publication_history","label":"Publication
         History"}}],"article-number":"e202422497"}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Mon, 10 Aug 2026 21:30:16 GMT
+  recorded_at: Tue, 11 Aug 2026 16:03:17 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/M013219/1,from-created-date:2025-01-01,until-created-date:2025-01-31
@@ -966,9 +966,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -979,7 +979,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 21:30:17 GMT
+      - Tue, 11 Aug 2026 16:03:19 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -996,19 +996,19 @@ http_interactions:
       Server:
       - Jetty(9.4.40.v20210413)
       X-Rate-Limit-Limit:
-      - '1'
+      - '3'
       X-Rate-Limit-Interval:
       - 1s
       X-Concurrency-Limit:
-      - '1'
+      - '3'
       X-Api-Pool:
-      - public-array
+      - polite-array
       Permissions-Policy:
       - interest-cohort=()
     body:
       encoding: UTF-8
       string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Mon, 10 Aug 2026 21:30:17 GMT
+  recorded_at: Tue, 11 Aug 2026 16:03:19 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/R026939,from-created-date:2025-01-01,until-created-date:2025-01-31
@@ -1017,9 +1017,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -1030,7 +1030,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 21:30:18 GMT
+      - Tue, 11 Aug 2026 16:03:19 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -1049,13 +1049,13 @@ http_interactions:
       Server:
       - Jetty(9.4.40.v20210413)
       X-Rate-Limit-Limit:
-      - '1'
+      - '3'
       X-Rate-Limit-Interval:
       - 1s
       X-Concurrency-Limit:
-      - '1'
+      - '3'
       X-Api-Pool:
-      - public-array
+      - polite-array
       Permissions-Policy:
       - interest-cohort=()
     body:
@@ -1207,7 +1207,7 @@ http_interactions:
         DOI link to publisher maintained version"},{"value":"article","name":"content_type","label":"Content
         Type"},{"value":"\u00a9 2025 The Authors. Published by Elsevier B.V. and Science
         China Press.","name":"copyright","label":"Copyright"}]}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Mon, 10 Aug 2026 21:30:18 GMT
+  recorded_at: Tue, 11 Aug 2026 16:03:19 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/R026815,from-created-date:2025-01-01,until-created-date:2025-01-31
@@ -1216,9 +1216,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -1229,7 +1229,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 21:30:19 GMT
+      - Tue, 11 Aug 2026 16:03:21 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -1248,13 +1248,13 @@ http_interactions:
       Server:
       - Jetty(9.4.40.v20210413)
       X-Rate-Limit-Limit:
-      - '1'
+      - '3'
       X-Rate-Limit-Interval:
       - 1s
       X-Concurrency-Limit:
-      - '1'
+      - '3'
       X-Api-Pool:
-      - public-array
+      - polite-array
       Permissions-Policy:
       - interest-cohort=()
     body:
@@ -1500,7 +1500,7 @@ http_interactions:
         Chemie International Edition"],"language":"en","link":[{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/pdf\/10.1002\/anie.202419923","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/full-xml\/10.1002\/anie.202419923","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/pdf\/10.1002\/anie.202419923","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,8,4]],"date-time":"2026-08-04T06:25:13Z","timestamp":1785824713000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/10.1002\/anie.202419923"}},"issued":{"date-parts":[[2025,2,11]]},"references-count":49,"journal-issue":{"issue":"10","published-print":{"date-parts":[[2025,3,3]]}},"alternative-id":["10.1002\/anie.202419923"],"URL":"https:\/\/doi.org\/10.1002\/anie.202419923","archive":["Portico"],"ISSN":["1433-7851","1521-3773"],"issn-type":[{"value":"1433-7851","type":"print"},{"value":"1521-3773","type":"electronic"}],"published":{"date-parts":[[2025,2,11]]},"assertion":[{"value":"2024-10-15","order":0,"name":"received","label":"Received","group":{"name":"publication_history","label":"Publication
         History"}},{"value":"2025-02-11","order":3,"name":"published","label":"Published","group":{"name":"publication_history","label":"Publication
         History"}}],"article-number":"e202419923"}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Mon, 10 Aug 2026 21:30:18 GMT
+  recorded_at: Tue, 11 Aug 2026 16:03:21 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/R026645,from-created-date:2025-01-01,until-created-date:2025-01-31
@@ -1509,26 +1509,1001 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - "*/*"
   response:
     status:
-      code: 429
-      message: Too Many Requests
+      code: 200
+      message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 21:30:19 GMT
+      - Tue, 11 Aug 2026 16:03:22 GMT
+      Content-Type:
+      - application/json
       Content-Length:
-      - '0'
+      - '25533'
       Connection:
       - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":1,"items":[{"indexed":{"date-parts":[[2026,7,22]],"date-time":"2026-07-22T03:34:48Z","timestamp":1784691288179,"version":"3.55.0"},"reference-count":43,"publisher":"Elsevier
+        BV","issue":"5","license":[{"start":{"date-parts":[[2025,3,1]],"date-time":"2025-03-01T00:00:00Z","timestamp":1740787200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/tdm\/userlicense\/1.0\/"},{"start":{"date-parts":[[2025,3,1]],"date-time":"2025-03-01T00:00:00Z","timestamp":1740787200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/legal\/tdmrep-license"},{"start":{"date-parts":[[2025,8,18]],"date-time":"2025-08-18T00:00:00Z","timestamp":1755475200000},"content-version":"vor","delay-in-days":170,"URL":"http:\/\/creativecommons.org\/licenses\/by\/4.0\/"}],"funder":[{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/W014532\/1"],"award-info":[{"award-number":["EP\/W014532\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R026939"],"award-info":[{"award-number":["EP\/R026939"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/M013219"],"award-info":[{"award-number":["EP\/M013219"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/X034623\/1"],"award-info":[{"award-number":["EP\/X034623\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R027129"],"award-info":[{"award-number":["EP\/R027129"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R026645"],"award-info":[{"award-number":["EP\/R026645"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R026815"],"award-info":[{"award-number":["EP\/R026815"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100021187","name":"Beijing
+        National Laboratory for Molecular Sciences","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100021187","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100006829","name":"Kansas
+        Department for Children and Families","doi-asserted-by":"publisher","id":[{"id":"10.13039\/100006829","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000770","name":"University
+        of Manchester","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100000770","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100001809","name":"National
+        Natural Science Foundation of China","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100001809","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000271","name":"Science
+        and Technology Facilities Council","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100000271","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100004543","name":"China
+        Scholarship Council","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100004543","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100016128","name":"Henry
+        Royce Institute","doi-asserted-by":"publisher","award":["EP\/P025021"],"award-info":[{"award-number":["EP\/P025021"]}],"id":[{"id":"10.13039\/100016128","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100016128","name":"Henry
+        Royce Institute","doi-asserted-by":"publisher","award":["EP\/P025498"],"award-info":[{"award-number":["EP\/P025498"]}],"id":[{"id":"10.13039\/100016128","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100016128","name":"Henry
+        Royce Institute","doi-asserted-by":"publisher","award":["EP\/R00661X"],"award-info":[{"award-number":["EP\/R00661X"]}],"id":[{"id":"10.13039\/100016128","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100016128","name":"Henry
+        Royce Institute","doi-asserted-by":"publisher","award":["EP\/S019367"],"award-info":[{"award-number":["EP\/S019367"]}],"id":[{"id":"10.13039\/100016128","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100022029","name":"Cambridge
+        Crystallographic Data Centre","doi-asserted-by":"publisher","award":["2289814"],"award-info":[{"award-number":["2289814"]}],"id":[{"id":"10.13039\/501100022029","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100022029","name":"Cambridge
+        Crystallographic Data Centre","doi-asserted-by":"publisher","award":["2289812"],"award-info":[{"award-number":["2289812"]}],"id":[{"id":"10.13039\/501100022029","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100022029","name":"Cambridge
+        Crystallographic Data Centre","doi-asserted-by":"publisher","award":["CCDC
+        2289811"],"award-info":[{"award-number":["CCDC 2289811"]}],"id":[{"id":"10.13039\/501100022029","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100022029","name":"Cambridge
+        Crystallographic Data Centre","doi-asserted-by":"publisher","award":["2289813"],"award-info":[{"award-number":["2289813"]}],"id":[{"id":"10.13039\/501100022029","id-type":"DOI","asserted-by":"publisher"}]}],"content-domain":{"domain":["elsevier.com","sciencedirect.com"],"crossmark-restriction":true},"short-container-title":["Science
+        Bulletin"],"published-print":{"date-parts":[[2025,3]]},"DOI":"10.1016\/j.scib.2024.12.050","type":"journal-article","created":{"date-parts":[[2025,1,5]],"date-time":"2025-01-05T01:36:29Z","timestamp":1736040989000},"page":"694-703","update-policy":"https:\/\/doi.org\/10.1016\/elsevier_cm_policy","source":"Crossref","is-referenced-by-count":8,"title":["Selective
+        production of olefins from methanol over a heteroatomic SAPO-34 zeolite"],"prefix":"10.1016","volume":"70","author":[{"given":"Zhaodong","family":"Zhu","sequence":"first","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Mengtian","family":"Fan","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Meng","family":"He","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Bing","family":"An","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Yinlin","family":"Chen","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Shaojun","family":"Xu","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Tianze","family":"Zhou","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Alena
+        M.","family":"Sheveleva","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Meredydd","family":"Kippax-Jones","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Lutong","family":"Shan","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Yongqiang","family":"Cheng","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Hamish","family":"Cavaye","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Jeff","family":"Armstrong","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Svemir","family":"Rudi\u0107","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Stewart
+        F.","family":"Parker","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"William","family":"Thornley","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Evan","family":"Tillotson","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Matthew","family":"Lindley","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Shenglong","family":"Tian","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Daniel","family":"Lee","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Shiyu","family":"Fu","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Mark
+        D.","family":"Frogley","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Floriana","family":"Tuna","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Eric
+        J.L.","family":"McInnes","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Sarah
+        J.","family":"Haigh","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Sihai","family":"Yang","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"78","reference":[{"key":"10.1016\/j.scib.2024.12.050_b0005","doi-asserted-by":"crossref","first-page":"3395","DOI":"10.1007\/s10562-019-02914-4","article-title":"A
+        comprehensive review covering conventional and structured catalysis for methanol
+        to propylene conversion","volume":"149","author":"Ali","year":"2019","journal-title":"Catal
+        Lett"},{"key":"10.1016\/j.scib.2024.12.050_b0010","doi-asserted-by":"crossref","unstructured":"Alper
+        J. In the changing landscape of hydrocarbon feedstocks for chemical production:
+        implications for catalysis: proceedings of a workshop at NAP.edu. (The National
+        Academies Press, Washington, DC, 2016).","DOI":"10.17226\/23555"},{"key":"10.1016\/j.scib.2024.12.050_b0015","doi-asserted-by":"crossref","first-page":"822","DOI":"10.1038\/s41467-021-21062-1","article-title":"Control
+        of zeolite microenvironment for propene synthesis from methanol","volume":"12","author":"Lin","year":"2021","journal-title":"Nat
+        Commun"},{"key":"10.1016\/j.scib.2024.12.050_b0020","doi-asserted-by":"crossref","first-page":"1922","DOI":"10.1021\/acscatal.5b00007","article-title":"Methanol
+        to olefins (MTO): from fundamentals to commercialization","volume":"5","author":"Tian","year":"2015","journal-title":"ACS
+        Catal"},{"key":"10.1016\/j.scib.2024.12.050_b0025","doi-asserted-by":"crossref","first-page":"104","DOI":"10.1002\/anie.201204995","article-title":"Towards
+        oil independence through renewable methanol chemistry","volume":"52","author":"Olah","year":"2013","journal-title":"Angew
+        Chem Int Ed"},{"key":"10.1016\/j.scib.2024.12.050_b0030","doi-asserted-by":"crossref","first-page":"28787","DOI":"10.1039\/C6RA02282K","article-title":"Coke
+        suppression in MTO over hierarchical SAPO-34 zeolites","volume":"6","author":"Liu","year":"2016","journal-title":"RSC
+        Adv"},{"key":"10.1016\/j.scib.2024.12.050_b0035","doi-asserted-by":"crossref","first-page":"102514","DOI":"10.1016\/j.isci.2021.102514","article-title":"Carbon
+        neutral manufacturing via on-site CO2 recycling","volume":"24","author":"Barecka","year":"2021","journal-title":"iScience"},{"key":"10.1016\/j.scib.2024.12.050_b0040","doi-asserted-by":"crossref","first-page":"9620","DOI":"10.1002\/anie.201209384","article-title":"Green
+        carbon science: scientific basis for integrating carbon resource processing,
+        utilization, and recycling","volume":"52","author":"He","year":"2013","journal-title":"Angew
+        Chem Int Ed"},{"key":"10.1016\/j.scib.2024.12.050_b0045","doi-asserted-by":"crossref","DOI":"10.1002\/adma.201902181","article-title":"Recent
+        progress in Methanol-to-Olefins (MTO) catalysts","volume":"31","author":"Yang","year":"2019","journal-title":"Adv
+        Mater"},{"key":"10.1016\/j.scib.2024.12.050_b0050","doi-asserted-by":"crossref","first-page":"17828","DOI":"10.1039\/C4TA03419H","article-title":"High
+        performance nanosheet-like silicoaluminophosphate molecular sieves: synthesis,
+        3D EDT structural analysis and MTO catalytic studies","volume":"2","author":"Sun","year":"2014","journal-title":"J
+        Mater Chem A"},{"key":"10.1016\/j.scib.2024.12.050_b0055","doi-asserted-by":"crossref","first-page":"17","DOI":"10.1038\/s41467-020-20193-1","article-title":"Directed
+        transforming of coke to active intermediates in methanol-to-olefins catalyst
+        to boost light olefins selectivity","volume":"12","author":"Zhou","year":"2021","journal-title":"Nat
+        Commun"},{"key":"10.1016\/j.scib.2024.12.050_b0060","doi-asserted-by":"crossref","first-page":"1065","DOI":"10.1126\/science.aaf1835","article-title":"Selective
+        conversion of syngas to light olefins","volume":"351","author":"Jiao","year":"2016","journal-title":"Science"},{"key":"10.1016\/j.scib.2024.12.050_b0065","doi-asserted-by":"crossref","first-page":"15260","DOI":"10.1021\/ja0304244","article-title":"Evidence
+        for an initiation of the Methanol-to-Olefin process by reactive surface methoxy
+        groups on acidic zeolite catalysts","volume":"125","author":"Wang","year":"2003","journal-title":"J
+        Am Chem Soc"},{"key":"10.1016\/j.scib.2024.12.050_b0070","first-page":"2209","article-title":"Mechanism
+        of methanol conversion into hydrocarbons over ZSM-5 zeolite","volume":"77","author":"Ono","year":"1981","journal-title":"J
+        Am Chem Soc"},{"key":"10.1016\/j.scib.2024.12.050_b0075","doi-asserted-by":"crossref","first-page":"571","DOI":"10.1039\/f19878300571","article-title":"Hydrocarbon
+        formation from methylating agents over the zeolite catalyst ZSM-5. Comments
+        on the mechanism of carbon\u2013carbon bond and methane formation","volume":"1","author":"Hutchings","year":"1987","journal-title":"J
+        Chem Soc Faraday Trans"},{"key":"10.1016\/j.scib.2024.12.050_b0080","doi-asserted-by":"crossref","first-page":"313","DOI":"10.1021\/acscentsci.5b00226","article-title":"Cooperativity
+        between Al sites promotes hydrogen transfer and carbon\u2013carbon bond formation
+        upon dimethyl ether activation on alumina","volume":"1","author":"Comas-Vives","year":"2015","journal-title":"ACS
+        Cent Sci"},{"key":"10.1016\/j.scib.2024.12.050_b0085","doi-asserted-by":"crossref","first-page":"331","DOI":"10.1016\/j.micromeso.2016.02.009","article-title":"One-pot
+        hydrothermal synthesis of nanostructured ZrAPSO-34 powder: effect of Zr-loading
+        on physicochemical properties and catalytic performance in conversion of methanol
+        to ethylene and propylene","volume":"226","author":"Aghaei","year":"2016","journal-title":"Microporous
+        Mesoporous Mater"},{"key":"10.1016\/j.scib.2024.12.050_b0090","doi-asserted-by":"crossref","first-page":"60","DOI":"10.1016\/j.micromeso.2017.09.035","article-title":"Synthesis
+        and characterization of nanocrystalline TiAPSO-34 catalysts and their performance
+        in the conversion of methanol to light olefins","volume":"259","author":"Chae","year":"2018","journal-title":"Microporous
+        Mesoporous Mater"},{"key":"10.1016\/j.scib.2024.12.050_b0095","doi-asserted-by":"crossref","first-page":"131","DOI":"10.1016\/j.powtec.2015.11.066","article-title":"Thorough
+        study of the effect of metal-incorporated SAPO-34 molecular sieves on catalytic
+        performances in MTO process","volume":"291","author":"Sedighi","year":"2016","journal-title":"Powder
+        Technol"},{"key":"10.1016\/j.scib.2024.12.050_b0100","doi-asserted-by":"crossref","first-page":"203","DOI":"10.1016\/S0378-3820(03)00069-9","article-title":"Conversion
+        of methanol to olefins over cobalt-, manganese- and nickel-incorporated SAPO-34
+        molecular sieves","volume":"83","author":"Dubois","year":"2003","journal-title":"Fuel
+        Process Technol"},{"key":"10.1016\/j.scib.2024.12.050_b0105","doi-asserted-by":"crossref","first-page":"755","DOI":"10.1016\/j.jiec.2011.05.031","article-title":"Improvement
+        of light olefins selectivity and catalyst lifetime in MTO reaction; using
+        Ni and Mg-modified SAPO-34 synthesized by combination of two templates","volume":"17","author":"Salmasi","year":"2011","journal-title":"J
+        Ind Eng Chem"},{"key":"10.1016\/j.scib.2024.12.050_b0110","doi-asserted-by":"crossref","first-page":"61","DOI":"10.1016\/j.crci.2017.11.006","article-title":"Fabrication
+        of hierarchical ZnSAPO-34 by alkali treatment with improved catalytic performance
+        in the methanol-to-olefin reaction","volume":"21","author":"Sun","year":"2018","journal-title":"C
+        R Chim"},{"key":"10.1016\/j.scib.2024.12.050_b0115","doi-asserted-by":"crossref","first-page":"4661","DOI":"10.1038\/s41467-021-24403-2","article-title":"Stabilizing
+        the framework of SAPO-34 zeolite toward long-term methanol-to-olefins conversion","volume":"12","author":"Yang","year":"2021","journal-title":"Nat
+        Commun"},{"key":"10.1016\/j.scib.2024.12.050_b0120","doi-asserted-by":"crossref","first-page":"171","DOI":"10.1023\/A:1019030627908","article-title":"Effects
+        of decrease in number of acid sites located on the external surface of Ni\u2010SAPO\u201034
+        crystalline catalyst by the mechanochemical method","volume":"53","author":"Kang","year":"1998","journal-title":"Catal
+        Lett"},{"key":"10.1016\/j.scib.2024.12.050_b0125","doi-asserted-by":"crossref","first-page":"59","DOI":"10.1016\/j.jiec.2014.09.009","article-title":"Optimization
+        of nano-sized SAPO-34 synthesis in methanol-to-olefin reaction by response
+        surface methodology","volume":"24","author":"Pajaie","year":"2015","journal-title":"J
+        Ind Eng Chem"},{"key":"10.1016\/j.scib.2024.12.050_b0130","doi-asserted-by":"crossref","first-page":"5810","DOI":"10.1002\/anie.201103657","article-title":"Conversion
+        of methanol to hydrocarbons: how zeolite cavity and pore size controls product
+        selectivity","volume":"51","author":"Olsbye","year":"2012","journal-title":"Angew
+        Chem Int Ed"},{"key":"10.1016\/j.scib.2024.12.050_b0135","doi-asserted-by":"crossref","first-page":"99","DOI":"10.1126\/science.276.5309.99","article-title":"Metathesis
+        of alkanes catalyzed by silica-supported transition metal hydrides","volume":"276","author":"Vidal","year":"1997","journal-title":"Science"},{"key":"10.1016\/j.scib.2024.12.050_b0140","doi-asserted-by":"crossref","first-page":"654","DOI":"10.1016\/S0144-2449(05)80167-8","article-title":"The
+        structure determination and rietveld refinement of the aluminophosphate AIPO4-18","volume":"11","author":"Simmen","year":"1991","journal-title":"Zeolites"},{"key":"10.1016\/j.scib.2024.12.050_b0145","doi-asserted-by":"crossref","first-page":"117","DOI":"10.1016\/S0144-2449(88)80076-9","article-title":"Structure
+        of defects in \u03b3-irradiated ZSM-5 and Y zeolites: an e.s.r. study","volume":"8","author":"Wichterlov\u00e1","year":"1988","journal-title":"Zeolites"},{"key":"10.1016\/j.scib.2024.12.050_b0150","doi-asserted-by":"crossref","first-page":"216","DOI":"10.1016\/j.cattod.2013.03.017","article-title":"The
+        influence of catalyst acid strength on the methanol to hydrocarbons (MTH)
+        reaction","volume":"215","author":"Westg\u00e5rd Erichsen","year":"2013","journal-title":"Catal
+        Today"},{"key":"10.1016\/j.scib.2024.12.050_b0155","doi-asserted-by":"crossref","first-page":"11979","DOI":"10.1021\/j100148a023","article-title":"Mechanisms
+        of methanol adsorption on silicalite and silica: IR spectra and ab-initio
+        calculations","volume":"97","author":"Pelmenschikov","year":"1993","journal-title":"J
+        Phys Chem"},{"key":"10.1016\/j.scib.2024.12.050_b0160","doi-asserted-by":"crossref","first-page":"3396","DOI":"10.1002\/cctc.201402714","article-title":"Combined
+        operando UV\/Vis\/IR spectroscopy reveals the role of methoxy and aromatic
+        species during the Methanol-to-Olefins reaction over H-SAPO-34","volume":"6","author":"Qian","year":"2014","journal-title":"ChemCatChem"},{"key":"10.1016\/j.scib.2024.12.050_b0165","doi-asserted-by":"crossref","first-page":"7356","DOI":"10.1021\/acscatal.8b02385","article-title":"Evolution
+        of C\u2013C bond formation in the Methanol-to-Olefins process: from direct
+        coupling to autocatalysis","volume":"8","author":"Wu","year":"2018","journal-title":"ACS
+        Catal"},{"key":"10.1016\/j.scib.2024.12.050_b0170","doi-asserted-by":"crossref","first-page":"9710","DOI":"10.1021\/jp800762v","article-title":"Conversion
+        of methanol to hydrocarbons: spectroscopic characterization of carbonaceous
+        species formed over H-ZSM-5","volume":"112","author":"Palumbo","year":"2008","journal-title":"J
+        Phys Chem C"},{"key":"10.1016\/j.scib.2024.12.050_b0175","doi-asserted-by":"crossref","DOI":"10.1063\/1.3167217","article-title":"Beamline
+        I11 at Diamond: a new instrument for high resolution powder diffraction","volume":"80","author":"Thompson","year":"2009","journal-title":"Rev
+        Sci Instrum"},{"key":"10.1016\/j.scib.2024.12.050_b0180","doi-asserted-by":"crossref","DOI":"10.1063\/1.3553295","article-title":"Experimental
+        arrangements suitable for the acquisition of inelastic neutron scattering
+        spectra of heterogeneous catalysts","volume":"82","author":"Silverwood","year":"2011","journal-title":"Rev
+        Sci Instrum"},{"key":"10.1016\/j.scib.2024.12.050_b0185","doi-asserted-by":"crossref","first-page":"120","DOI":"10.1093\/nsr\/nwad120","article-title":"Cavity-controlled
+        methanol conversion over zeolite catalysts","volume":"10","author":"Zhang","year":"2023","journal-title":"Natl
+        Sci Rev"},{"key":"10.1016\/j.scib.2024.12.050_b0190","doi-asserted-by":"crossref","first-page":"9039","DOI":"10.1002\/anie.201703902","article-title":"Direct
+        mechanism of the first Carbon\u2013Carbon bond formation in the Methanol-to-Hydrocarbons
+        process","volume":"56","author":"Wu","year":"2017","journal-title":"Angew
+        Chem Int Ed"},{"key":"10.1016\/j.scib.2024.12.050_b0195","doi-asserted-by":"crossref","DOI":"10.1016\/j.catcom.2020.106014","article-title":"Enhanced
+        reaction lifetime of a bifunctional catalyst for methanol to olefins by combining
+        formaldehyde decomposition on CeO2","volume":"141","author":"Xu","year":"2020","journal-title":"Catal
+        Commun"},{"key":"10.1016\/j.scib.2024.12.050_b0200","doi-asserted-by":"crossref","first-page":"5882","DOI":"10.1039\/C7CY01804E","article-title":"Investigation
+        of methanol conversion over high-Si beta zeolites and the reaction mechanism
+        of their high propene selectivity","volume":"7","author":"Zhao","year":"2017","journal-title":"Catal
+        Sci Technol"},{"key":"10.1016\/j.scib.2024.12.050_b0205","doi-asserted-by":"crossref","first-page":"7939","DOI":"10.1021\/ja00805a002","article-title":"Gas
+        phase ion equilibriums studies of the hydrogen ion by methanol, dimethyl ether,
+        and water. Effect of hydrogen bonding","volume":"95","author":"Grimsrud","year":"1973","journal-title":"J
+        Am Chem Soc"},{"key":"10.1016\/j.scib.2024.12.050_b0210","doi-asserted-by":"crossref","first-page":"542","DOI":"10.1093\/nsr\/nwx103","article-title":"The
+        state-of-the-art synthetic strategies for SAPO-34 zeolite catalysts in methanol-to-
+        olefin conversion","volume":"5","author":"Sun","year":"2018","journal-title":"Natl
+        Sci Rev"},{"key":"10.1016\/j.scib.2024.12.050_b0215","article-title":"Water-assisted
+        shape-selective production of ethene in methanol-to-olefins reaction on SAPO-34","volume":"4","author":"Zhang","year":"2024","journal-title":"Chem
+        Catal"}],"container-title":["Science Bulletin"],"language":"en","link":[{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:S2095927324009873?httpAccept=text\/xml","content-type":"text\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:S2095927324009873?httpAccept=text\/plain","content-type":"text\/plain","content-version":"vor","intended-application":"text-mining"}],"deposited":{"date-parts":[[2025,11,8]],"date-time":"2025-11-08T11:11:58Z","timestamp":1762600318000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/S2095927324009873"}},"issued":{"date-parts":[[2025,3]]},"references-count":43,"journal-issue":{"issue":"5","published-print":{"date-parts":[[2025,3]]}},"alternative-id":["S2095927324009873"],"URL":"https:\/\/doi.org\/10.1016\/j.scib.2024.12.050","ISSN":["2095-9273"],"issn-type":[{"value":"2095-9273","type":"print"}],"published":{"date-parts":[[2025,3]]},"assertion":[{"value":"Elsevier","name":"publisher","label":"This
+        article is maintained by"},{"value":"Selective production of olefins from
+        methanol over a heteroatomic SAPO-34 zeolite","name":"articletitle","label":"Article
+        Title"},{"value":"Science Bulletin","name":"journaltitle","label":"Journal
+        Title"},{"value":"https:\/\/doi.org\/10.1016\/j.scib.2024.12.050","name":"articlelink","label":"CrossRef
+        DOI link to publisher maintained version"},{"value":"article","name":"content_type","label":"Content
+        Type"},{"value":"\u00a9 2025 The Authors. Published by Elsevier B.V. and Science
+        China Press.","name":"copyright","label":"Copyright"}]}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:03:22 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/R027129,from-created-date:2025-01-01,until-created-date:2025-01-31
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:03:23 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '25533'
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":1,"items":[{"indexed":{"date-parts":[[2026,7,22]],"date-time":"2026-07-22T03:34:48Z","timestamp":1784691288179,"version":"3.55.0"},"reference-count":43,"publisher":"Elsevier
+        BV","issue":"5","license":[{"start":{"date-parts":[[2025,3,1]],"date-time":"2025-03-01T00:00:00Z","timestamp":1740787200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/tdm\/userlicense\/1.0\/"},{"start":{"date-parts":[[2025,3,1]],"date-time":"2025-03-01T00:00:00Z","timestamp":1740787200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/legal\/tdmrep-license"},{"start":{"date-parts":[[2025,8,18]],"date-time":"2025-08-18T00:00:00Z","timestamp":1755475200000},"content-version":"vor","delay-in-days":170,"URL":"http:\/\/creativecommons.org\/licenses\/by\/4.0\/"}],"funder":[{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/W014532\/1"],"award-info":[{"award-number":["EP\/W014532\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R026939"],"award-info":[{"award-number":["EP\/R026939"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/M013219"],"award-info":[{"award-number":["EP\/M013219"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/X034623\/1"],"award-info":[{"award-number":["EP\/X034623\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R027129"],"award-info":[{"award-number":["EP\/R027129"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R026645"],"award-info":[{"award-number":["EP\/R026645"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R026815"],"award-info":[{"award-number":["EP\/R026815"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100021187","name":"Beijing
+        National Laboratory for Molecular Sciences","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100021187","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100006829","name":"Kansas
+        Department for Children and Families","doi-asserted-by":"publisher","id":[{"id":"10.13039\/100006829","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000770","name":"University
+        of Manchester","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100000770","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100001809","name":"National
+        Natural Science Foundation of China","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100001809","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000271","name":"Science
+        and Technology Facilities Council","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100000271","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100004543","name":"China
+        Scholarship Council","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100004543","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100016128","name":"Henry
+        Royce Institute","doi-asserted-by":"publisher","award":["EP\/P025021"],"award-info":[{"award-number":["EP\/P025021"]}],"id":[{"id":"10.13039\/100016128","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100016128","name":"Henry
+        Royce Institute","doi-asserted-by":"publisher","award":["EP\/P025498"],"award-info":[{"award-number":["EP\/P025498"]}],"id":[{"id":"10.13039\/100016128","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100016128","name":"Henry
+        Royce Institute","doi-asserted-by":"publisher","award":["EP\/R00661X"],"award-info":[{"award-number":["EP\/R00661X"]}],"id":[{"id":"10.13039\/100016128","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100016128","name":"Henry
+        Royce Institute","doi-asserted-by":"publisher","award":["EP\/S019367"],"award-info":[{"award-number":["EP\/S019367"]}],"id":[{"id":"10.13039\/100016128","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100022029","name":"Cambridge
+        Crystallographic Data Centre","doi-asserted-by":"publisher","award":["2289814"],"award-info":[{"award-number":["2289814"]}],"id":[{"id":"10.13039\/501100022029","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100022029","name":"Cambridge
+        Crystallographic Data Centre","doi-asserted-by":"publisher","award":["2289812"],"award-info":[{"award-number":["2289812"]}],"id":[{"id":"10.13039\/501100022029","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100022029","name":"Cambridge
+        Crystallographic Data Centre","doi-asserted-by":"publisher","award":["CCDC
+        2289811"],"award-info":[{"award-number":["CCDC 2289811"]}],"id":[{"id":"10.13039\/501100022029","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100022029","name":"Cambridge
+        Crystallographic Data Centre","doi-asserted-by":"publisher","award":["2289813"],"award-info":[{"award-number":["2289813"]}],"id":[{"id":"10.13039\/501100022029","id-type":"DOI","asserted-by":"publisher"}]}],"content-domain":{"domain":["elsevier.com","sciencedirect.com"],"crossmark-restriction":true},"short-container-title":["Science
+        Bulletin"],"published-print":{"date-parts":[[2025,3]]},"DOI":"10.1016\/j.scib.2024.12.050","type":"journal-article","created":{"date-parts":[[2025,1,5]],"date-time":"2025-01-05T01:36:29Z","timestamp":1736040989000},"page":"694-703","update-policy":"https:\/\/doi.org\/10.1016\/elsevier_cm_policy","source":"Crossref","is-referenced-by-count":8,"title":["Selective
+        production of olefins from methanol over a heteroatomic SAPO-34 zeolite"],"prefix":"10.1016","volume":"70","author":[{"given":"Zhaodong","family":"Zhu","sequence":"first","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Mengtian","family":"Fan","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Meng","family":"He","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Bing","family":"An","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Yinlin","family":"Chen","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Shaojun","family":"Xu","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Tianze","family":"Zhou","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Alena
+        M.","family":"Sheveleva","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Meredydd","family":"Kippax-Jones","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Lutong","family":"Shan","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Yongqiang","family":"Cheng","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Hamish","family":"Cavaye","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Jeff","family":"Armstrong","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Svemir","family":"Rudi\u0107","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Stewart
+        F.","family":"Parker","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"William","family":"Thornley","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Evan","family":"Tillotson","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Matthew","family":"Lindley","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Shenglong","family":"Tian","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Daniel","family":"Lee","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Shiyu","family":"Fu","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Mark
+        D.","family":"Frogley","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Floriana","family":"Tuna","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Eric
+        J.L.","family":"McInnes","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Sarah
+        J.","family":"Haigh","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Sihai","family":"Yang","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"78","reference":[{"key":"10.1016\/j.scib.2024.12.050_b0005","doi-asserted-by":"crossref","first-page":"3395","DOI":"10.1007\/s10562-019-02914-4","article-title":"A
+        comprehensive review covering conventional and structured catalysis for methanol
+        to propylene conversion","volume":"149","author":"Ali","year":"2019","journal-title":"Catal
+        Lett"},{"key":"10.1016\/j.scib.2024.12.050_b0010","doi-asserted-by":"crossref","unstructured":"Alper
+        J. In the changing landscape of hydrocarbon feedstocks for chemical production:
+        implications for catalysis: proceedings of a workshop at NAP.edu. (The National
+        Academies Press, Washington, DC, 2016).","DOI":"10.17226\/23555"},{"key":"10.1016\/j.scib.2024.12.050_b0015","doi-asserted-by":"crossref","first-page":"822","DOI":"10.1038\/s41467-021-21062-1","article-title":"Control
+        of zeolite microenvironment for propene synthesis from methanol","volume":"12","author":"Lin","year":"2021","journal-title":"Nat
+        Commun"},{"key":"10.1016\/j.scib.2024.12.050_b0020","doi-asserted-by":"crossref","first-page":"1922","DOI":"10.1021\/acscatal.5b00007","article-title":"Methanol
+        to olefins (MTO): from fundamentals to commercialization","volume":"5","author":"Tian","year":"2015","journal-title":"ACS
+        Catal"},{"key":"10.1016\/j.scib.2024.12.050_b0025","doi-asserted-by":"crossref","first-page":"104","DOI":"10.1002\/anie.201204995","article-title":"Towards
+        oil independence through renewable methanol chemistry","volume":"52","author":"Olah","year":"2013","journal-title":"Angew
+        Chem Int Ed"},{"key":"10.1016\/j.scib.2024.12.050_b0030","doi-asserted-by":"crossref","first-page":"28787","DOI":"10.1039\/C6RA02282K","article-title":"Coke
+        suppression in MTO over hierarchical SAPO-34 zeolites","volume":"6","author":"Liu","year":"2016","journal-title":"RSC
+        Adv"},{"key":"10.1016\/j.scib.2024.12.050_b0035","doi-asserted-by":"crossref","first-page":"102514","DOI":"10.1016\/j.isci.2021.102514","article-title":"Carbon
+        neutral manufacturing via on-site CO2 recycling","volume":"24","author":"Barecka","year":"2021","journal-title":"iScience"},{"key":"10.1016\/j.scib.2024.12.050_b0040","doi-asserted-by":"crossref","first-page":"9620","DOI":"10.1002\/anie.201209384","article-title":"Green
+        carbon science: scientific basis for integrating carbon resource processing,
+        utilization, and recycling","volume":"52","author":"He","year":"2013","journal-title":"Angew
+        Chem Int Ed"},{"key":"10.1016\/j.scib.2024.12.050_b0045","doi-asserted-by":"crossref","DOI":"10.1002\/adma.201902181","article-title":"Recent
+        progress in Methanol-to-Olefins (MTO) catalysts","volume":"31","author":"Yang","year":"2019","journal-title":"Adv
+        Mater"},{"key":"10.1016\/j.scib.2024.12.050_b0050","doi-asserted-by":"crossref","first-page":"17828","DOI":"10.1039\/C4TA03419H","article-title":"High
+        performance nanosheet-like silicoaluminophosphate molecular sieves: synthesis,
+        3D EDT structural analysis and MTO catalytic studies","volume":"2","author":"Sun","year":"2014","journal-title":"J
+        Mater Chem A"},{"key":"10.1016\/j.scib.2024.12.050_b0055","doi-asserted-by":"crossref","first-page":"17","DOI":"10.1038\/s41467-020-20193-1","article-title":"Directed
+        transforming of coke to active intermediates in methanol-to-olefins catalyst
+        to boost light olefins selectivity","volume":"12","author":"Zhou","year":"2021","journal-title":"Nat
+        Commun"},{"key":"10.1016\/j.scib.2024.12.050_b0060","doi-asserted-by":"crossref","first-page":"1065","DOI":"10.1126\/science.aaf1835","article-title":"Selective
+        conversion of syngas to light olefins","volume":"351","author":"Jiao","year":"2016","journal-title":"Science"},{"key":"10.1016\/j.scib.2024.12.050_b0065","doi-asserted-by":"crossref","first-page":"15260","DOI":"10.1021\/ja0304244","article-title":"Evidence
+        for an initiation of the Methanol-to-Olefin process by reactive surface methoxy
+        groups on acidic zeolite catalysts","volume":"125","author":"Wang","year":"2003","journal-title":"J
+        Am Chem Soc"},{"key":"10.1016\/j.scib.2024.12.050_b0070","first-page":"2209","article-title":"Mechanism
+        of methanol conversion into hydrocarbons over ZSM-5 zeolite","volume":"77","author":"Ono","year":"1981","journal-title":"J
+        Am Chem Soc"},{"key":"10.1016\/j.scib.2024.12.050_b0075","doi-asserted-by":"crossref","first-page":"571","DOI":"10.1039\/f19878300571","article-title":"Hydrocarbon
+        formation from methylating agents over the zeolite catalyst ZSM-5. Comments
+        on the mechanism of carbon\u2013carbon bond and methane formation","volume":"1","author":"Hutchings","year":"1987","journal-title":"J
+        Chem Soc Faraday Trans"},{"key":"10.1016\/j.scib.2024.12.050_b0080","doi-asserted-by":"crossref","first-page":"313","DOI":"10.1021\/acscentsci.5b00226","article-title":"Cooperativity
+        between Al sites promotes hydrogen transfer and carbon\u2013carbon bond formation
+        upon dimethyl ether activation on alumina","volume":"1","author":"Comas-Vives","year":"2015","journal-title":"ACS
+        Cent Sci"},{"key":"10.1016\/j.scib.2024.12.050_b0085","doi-asserted-by":"crossref","first-page":"331","DOI":"10.1016\/j.micromeso.2016.02.009","article-title":"One-pot
+        hydrothermal synthesis of nanostructured ZrAPSO-34 powder: effect of Zr-loading
+        on physicochemical properties and catalytic performance in conversion of methanol
+        to ethylene and propylene","volume":"226","author":"Aghaei","year":"2016","journal-title":"Microporous
+        Mesoporous Mater"},{"key":"10.1016\/j.scib.2024.12.050_b0090","doi-asserted-by":"crossref","first-page":"60","DOI":"10.1016\/j.micromeso.2017.09.035","article-title":"Synthesis
+        and characterization of nanocrystalline TiAPSO-34 catalysts and their performance
+        in the conversion of methanol to light olefins","volume":"259","author":"Chae","year":"2018","journal-title":"Microporous
+        Mesoporous Mater"},{"key":"10.1016\/j.scib.2024.12.050_b0095","doi-asserted-by":"crossref","first-page":"131","DOI":"10.1016\/j.powtec.2015.11.066","article-title":"Thorough
+        study of the effect of metal-incorporated SAPO-34 molecular sieves on catalytic
+        performances in MTO process","volume":"291","author":"Sedighi","year":"2016","journal-title":"Powder
+        Technol"},{"key":"10.1016\/j.scib.2024.12.050_b0100","doi-asserted-by":"crossref","first-page":"203","DOI":"10.1016\/S0378-3820(03)00069-9","article-title":"Conversion
+        of methanol to olefins over cobalt-, manganese- and nickel-incorporated SAPO-34
+        molecular sieves","volume":"83","author":"Dubois","year":"2003","journal-title":"Fuel
+        Process Technol"},{"key":"10.1016\/j.scib.2024.12.050_b0105","doi-asserted-by":"crossref","first-page":"755","DOI":"10.1016\/j.jiec.2011.05.031","article-title":"Improvement
+        of light olefins selectivity and catalyst lifetime in MTO reaction; using
+        Ni and Mg-modified SAPO-34 synthesized by combination of two templates","volume":"17","author":"Salmasi","year":"2011","journal-title":"J
+        Ind Eng Chem"},{"key":"10.1016\/j.scib.2024.12.050_b0110","doi-asserted-by":"crossref","first-page":"61","DOI":"10.1016\/j.crci.2017.11.006","article-title":"Fabrication
+        of hierarchical ZnSAPO-34 by alkali treatment with improved catalytic performance
+        in the methanol-to-olefin reaction","volume":"21","author":"Sun","year":"2018","journal-title":"C
+        R Chim"},{"key":"10.1016\/j.scib.2024.12.050_b0115","doi-asserted-by":"crossref","first-page":"4661","DOI":"10.1038\/s41467-021-24403-2","article-title":"Stabilizing
+        the framework of SAPO-34 zeolite toward long-term methanol-to-olefins conversion","volume":"12","author":"Yang","year":"2021","journal-title":"Nat
+        Commun"},{"key":"10.1016\/j.scib.2024.12.050_b0120","doi-asserted-by":"crossref","first-page":"171","DOI":"10.1023\/A:1019030627908","article-title":"Effects
+        of decrease in number of acid sites located on the external surface of Ni\u2010SAPO\u201034
+        crystalline catalyst by the mechanochemical method","volume":"53","author":"Kang","year":"1998","journal-title":"Catal
+        Lett"},{"key":"10.1016\/j.scib.2024.12.050_b0125","doi-asserted-by":"crossref","first-page":"59","DOI":"10.1016\/j.jiec.2014.09.009","article-title":"Optimization
+        of nano-sized SAPO-34 synthesis in methanol-to-olefin reaction by response
+        surface methodology","volume":"24","author":"Pajaie","year":"2015","journal-title":"J
+        Ind Eng Chem"},{"key":"10.1016\/j.scib.2024.12.050_b0130","doi-asserted-by":"crossref","first-page":"5810","DOI":"10.1002\/anie.201103657","article-title":"Conversion
+        of methanol to hydrocarbons: how zeolite cavity and pore size controls product
+        selectivity","volume":"51","author":"Olsbye","year":"2012","journal-title":"Angew
+        Chem Int Ed"},{"key":"10.1016\/j.scib.2024.12.050_b0135","doi-asserted-by":"crossref","first-page":"99","DOI":"10.1126\/science.276.5309.99","article-title":"Metathesis
+        of alkanes catalyzed by silica-supported transition metal hydrides","volume":"276","author":"Vidal","year":"1997","journal-title":"Science"},{"key":"10.1016\/j.scib.2024.12.050_b0140","doi-asserted-by":"crossref","first-page":"654","DOI":"10.1016\/S0144-2449(05)80167-8","article-title":"The
+        structure determination and rietveld refinement of the aluminophosphate AIPO4-18","volume":"11","author":"Simmen","year":"1991","journal-title":"Zeolites"},{"key":"10.1016\/j.scib.2024.12.050_b0145","doi-asserted-by":"crossref","first-page":"117","DOI":"10.1016\/S0144-2449(88)80076-9","article-title":"Structure
+        of defects in \u03b3-irradiated ZSM-5 and Y zeolites: an e.s.r. study","volume":"8","author":"Wichterlov\u00e1","year":"1988","journal-title":"Zeolites"},{"key":"10.1016\/j.scib.2024.12.050_b0150","doi-asserted-by":"crossref","first-page":"216","DOI":"10.1016\/j.cattod.2013.03.017","article-title":"The
+        influence of catalyst acid strength on the methanol to hydrocarbons (MTH)
+        reaction","volume":"215","author":"Westg\u00e5rd Erichsen","year":"2013","journal-title":"Catal
+        Today"},{"key":"10.1016\/j.scib.2024.12.050_b0155","doi-asserted-by":"crossref","first-page":"11979","DOI":"10.1021\/j100148a023","article-title":"Mechanisms
+        of methanol adsorption on silicalite and silica: IR spectra and ab-initio
+        calculations","volume":"97","author":"Pelmenschikov","year":"1993","journal-title":"J
+        Phys Chem"},{"key":"10.1016\/j.scib.2024.12.050_b0160","doi-asserted-by":"crossref","first-page":"3396","DOI":"10.1002\/cctc.201402714","article-title":"Combined
+        operando UV\/Vis\/IR spectroscopy reveals the role of methoxy and aromatic
+        species during the Methanol-to-Olefins reaction over H-SAPO-34","volume":"6","author":"Qian","year":"2014","journal-title":"ChemCatChem"},{"key":"10.1016\/j.scib.2024.12.050_b0165","doi-asserted-by":"crossref","first-page":"7356","DOI":"10.1021\/acscatal.8b02385","article-title":"Evolution
+        of C\u2013C bond formation in the Methanol-to-Olefins process: from direct
+        coupling to autocatalysis","volume":"8","author":"Wu","year":"2018","journal-title":"ACS
+        Catal"},{"key":"10.1016\/j.scib.2024.12.050_b0170","doi-asserted-by":"crossref","first-page":"9710","DOI":"10.1021\/jp800762v","article-title":"Conversion
+        of methanol to hydrocarbons: spectroscopic characterization of carbonaceous
+        species formed over H-ZSM-5","volume":"112","author":"Palumbo","year":"2008","journal-title":"J
+        Phys Chem C"},{"key":"10.1016\/j.scib.2024.12.050_b0175","doi-asserted-by":"crossref","DOI":"10.1063\/1.3167217","article-title":"Beamline
+        I11 at Diamond: a new instrument for high resolution powder diffraction","volume":"80","author":"Thompson","year":"2009","journal-title":"Rev
+        Sci Instrum"},{"key":"10.1016\/j.scib.2024.12.050_b0180","doi-asserted-by":"crossref","DOI":"10.1063\/1.3553295","article-title":"Experimental
+        arrangements suitable for the acquisition of inelastic neutron scattering
+        spectra of heterogeneous catalysts","volume":"82","author":"Silverwood","year":"2011","journal-title":"Rev
+        Sci Instrum"},{"key":"10.1016\/j.scib.2024.12.050_b0185","doi-asserted-by":"crossref","first-page":"120","DOI":"10.1093\/nsr\/nwad120","article-title":"Cavity-controlled
+        methanol conversion over zeolite catalysts","volume":"10","author":"Zhang","year":"2023","journal-title":"Natl
+        Sci Rev"},{"key":"10.1016\/j.scib.2024.12.050_b0190","doi-asserted-by":"crossref","first-page":"9039","DOI":"10.1002\/anie.201703902","article-title":"Direct
+        mechanism of the first Carbon\u2013Carbon bond formation in the Methanol-to-Hydrocarbons
+        process","volume":"56","author":"Wu","year":"2017","journal-title":"Angew
+        Chem Int Ed"},{"key":"10.1016\/j.scib.2024.12.050_b0195","doi-asserted-by":"crossref","DOI":"10.1016\/j.catcom.2020.106014","article-title":"Enhanced
+        reaction lifetime of a bifunctional catalyst for methanol to olefins by combining
+        formaldehyde decomposition on CeO2","volume":"141","author":"Xu","year":"2020","journal-title":"Catal
+        Commun"},{"key":"10.1016\/j.scib.2024.12.050_b0200","doi-asserted-by":"crossref","first-page":"5882","DOI":"10.1039\/C7CY01804E","article-title":"Investigation
+        of methanol conversion over high-Si beta zeolites and the reaction mechanism
+        of their high propene selectivity","volume":"7","author":"Zhao","year":"2017","journal-title":"Catal
+        Sci Technol"},{"key":"10.1016\/j.scib.2024.12.050_b0205","doi-asserted-by":"crossref","first-page":"7939","DOI":"10.1021\/ja00805a002","article-title":"Gas
+        phase ion equilibriums studies of the hydrogen ion by methanol, dimethyl ether,
+        and water. Effect of hydrogen bonding","volume":"95","author":"Grimsrud","year":"1973","journal-title":"J
+        Am Chem Soc"},{"key":"10.1016\/j.scib.2024.12.050_b0210","doi-asserted-by":"crossref","first-page":"542","DOI":"10.1093\/nsr\/nwx103","article-title":"The
+        state-of-the-art synthetic strategies for SAPO-34 zeolite catalysts in methanol-to-
+        olefin conversion","volume":"5","author":"Sun","year":"2018","journal-title":"Natl
+        Sci Rev"},{"key":"10.1016\/j.scib.2024.12.050_b0215","article-title":"Water-assisted
+        shape-selective production of ethene in methanol-to-olefins reaction on SAPO-34","volume":"4","author":"Zhang","year":"2024","journal-title":"Chem
+        Catal"}],"container-title":["Science Bulletin"],"language":"en","link":[{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:S2095927324009873?httpAccept=text\/xml","content-type":"text\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:S2095927324009873?httpAccept=text\/plain","content-type":"text\/plain","content-version":"vor","intended-application":"text-mining"}],"deposited":{"date-parts":[[2025,11,8]],"date-time":"2025-11-08T11:11:58Z","timestamp":1762600318000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/S2095927324009873"}},"issued":{"date-parts":[[2025,3]]},"references-count":43,"journal-issue":{"issue":"5","published-print":{"date-parts":[[2025,3]]}},"alternative-id":["S2095927324009873"],"URL":"https:\/\/doi.org\/10.1016\/j.scib.2024.12.050","ISSN":["2095-9273"],"issn-type":[{"value":"2095-9273","type":"print"}],"published":{"date-parts":[[2025,3]]},"assertion":[{"value":"Elsevier","name":"publisher","label":"This
+        article is maintained by"},{"value":"Selective production of olefins from
+        methanol over a heteroatomic SAPO-34 zeolite","name":"articletitle","label":"Article
+        Title"},{"value":"Science Bulletin","name":"journaltitle","label":"Journal
+        Title"},{"value":"https:\/\/doi.org\/10.1016\/j.scib.2024.12.050","name":"articlelink","label":"CrossRef
+        DOI link to publisher maintained version"},{"value":"article","name":"content_type","label":"Content
+        Type"},{"value":"\u00a9 2025 The Authors. Published by Elsevier B.V. and Science
+        China Press.","name":"copyright","label":"Copyright"}]}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:03:23 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/M013219,from-created-date:2025-01-01,until-created-date:2025-01-31
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:03:25 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '25533'
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":1,"items":[{"indexed":{"date-parts":[[2026,7,22]],"date-time":"2026-07-22T03:34:48Z","timestamp":1784691288179,"version":"3.55.0"},"reference-count":43,"publisher":"Elsevier
+        BV","issue":"5","license":[{"start":{"date-parts":[[2025,3,1]],"date-time":"2025-03-01T00:00:00Z","timestamp":1740787200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/tdm\/userlicense\/1.0\/"},{"start":{"date-parts":[[2025,3,1]],"date-time":"2025-03-01T00:00:00Z","timestamp":1740787200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/legal\/tdmrep-license"},{"start":{"date-parts":[[2025,8,18]],"date-time":"2025-08-18T00:00:00Z","timestamp":1755475200000},"content-version":"vor","delay-in-days":170,"URL":"http:\/\/creativecommons.org\/licenses\/by\/4.0\/"}],"funder":[{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/W014532\/1"],"award-info":[{"award-number":["EP\/W014532\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R026939"],"award-info":[{"award-number":["EP\/R026939"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/M013219"],"award-info":[{"award-number":["EP\/M013219"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/X034623\/1"],"award-info":[{"award-number":["EP\/X034623\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R027129"],"award-info":[{"award-number":["EP\/R027129"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R026645"],"award-info":[{"award-number":["EP\/R026645"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R026815"],"award-info":[{"award-number":["EP\/R026815"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100021187","name":"Beijing
+        National Laboratory for Molecular Sciences","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100021187","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100006829","name":"Kansas
+        Department for Children and Families","doi-asserted-by":"publisher","id":[{"id":"10.13039\/100006829","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000770","name":"University
+        of Manchester","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100000770","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100001809","name":"National
+        Natural Science Foundation of China","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100001809","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000271","name":"Science
+        and Technology Facilities Council","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100000271","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100004543","name":"China
+        Scholarship Council","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100004543","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100016128","name":"Henry
+        Royce Institute","doi-asserted-by":"publisher","award":["EP\/P025021"],"award-info":[{"award-number":["EP\/P025021"]}],"id":[{"id":"10.13039\/100016128","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100016128","name":"Henry
+        Royce Institute","doi-asserted-by":"publisher","award":["EP\/P025498"],"award-info":[{"award-number":["EP\/P025498"]}],"id":[{"id":"10.13039\/100016128","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100016128","name":"Henry
+        Royce Institute","doi-asserted-by":"publisher","award":["EP\/R00661X"],"award-info":[{"award-number":["EP\/R00661X"]}],"id":[{"id":"10.13039\/100016128","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100016128","name":"Henry
+        Royce Institute","doi-asserted-by":"publisher","award":["EP\/S019367"],"award-info":[{"award-number":["EP\/S019367"]}],"id":[{"id":"10.13039\/100016128","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100022029","name":"Cambridge
+        Crystallographic Data Centre","doi-asserted-by":"publisher","award":["2289814"],"award-info":[{"award-number":["2289814"]}],"id":[{"id":"10.13039\/501100022029","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100022029","name":"Cambridge
+        Crystallographic Data Centre","doi-asserted-by":"publisher","award":["2289812"],"award-info":[{"award-number":["2289812"]}],"id":[{"id":"10.13039\/501100022029","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100022029","name":"Cambridge
+        Crystallographic Data Centre","doi-asserted-by":"publisher","award":["CCDC
+        2289811"],"award-info":[{"award-number":["CCDC 2289811"]}],"id":[{"id":"10.13039\/501100022029","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100022029","name":"Cambridge
+        Crystallographic Data Centre","doi-asserted-by":"publisher","award":["2289813"],"award-info":[{"award-number":["2289813"]}],"id":[{"id":"10.13039\/501100022029","id-type":"DOI","asserted-by":"publisher"}]}],"content-domain":{"domain":["elsevier.com","sciencedirect.com"],"crossmark-restriction":true},"short-container-title":["Science
+        Bulletin"],"published-print":{"date-parts":[[2025,3]]},"DOI":"10.1016\/j.scib.2024.12.050","type":"journal-article","created":{"date-parts":[[2025,1,5]],"date-time":"2025-01-05T01:36:29Z","timestamp":1736040989000},"page":"694-703","update-policy":"https:\/\/doi.org\/10.1016\/elsevier_cm_policy","source":"Crossref","is-referenced-by-count":8,"title":["Selective
+        production of olefins from methanol over a heteroatomic SAPO-34 zeolite"],"prefix":"10.1016","volume":"70","author":[{"given":"Zhaodong","family":"Zhu","sequence":"first","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Mengtian","family":"Fan","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Meng","family":"He","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Bing","family":"An","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Yinlin","family":"Chen","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Shaojun","family":"Xu","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Tianze","family":"Zhou","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Alena
+        M.","family":"Sheveleva","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Meredydd","family":"Kippax-Jones","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Lutong","family":"Shan","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Yongqiang","family":"Cheng","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Hamish","family":"Cavaye","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Jeff","family":"Armstrong","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Svemir","family":"Rudi\u0107","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Stewart
+        F.","family":"Parker","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"William","family":"Thornley","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Evan","family":"Tillotson","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Matthew","family":"Lindley","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Shenglong","family":"Tian","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Daniel","family":"Lee","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Shiyu","family":"Fu","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Mark
+        D.","family":"Frogley","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Floriana","family":"Tuna","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Eric
+        J.L.","family":"McInnes","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Sarah
+        J.","family":"Haigh","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Sihai","family":"Yang","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"78","reference":[{"key":"10.1016\/j.scib.2024.12.050_b0005","doi-asserted-by":"crossref","first-page":"3395","DOI":"10.1007\/s10562-019-02914-4","article-title":"A
+        comprehensive review covering conventional and structured catalysis for methanol
+        to propylene conversion","volume":"149","author":"Ali","year":"2019","journal-title":"Catal
+        Lett"},{"key":"10.1016\/j.scib.2024.12.050_b0010","doi-asserted-by":"crossref","unstructured":"Alper
+        J. In the changing landscape of hydrocarbon feedstocks for chemical production:
+        implications for catalysis: proceedings of a workshop at NAP.edu. (The National
+        Academies Press, Washington, DC, 2016).","DOI":"10.17226\/23555"},{"key":"10.1016\/j.scib.2024.12.050_b0015","doi-asserted-by":"crossref","first-page":"822","DOI":"10.1038\/s41467-021-21062-1","article-title":"Control
+        of zeolite microenvironment for propene synthesis from methanol","volume":"12","author":"Lin","year":"2021","journal-title":"Nat
+        Commun"},{"key":"10.1016\/j.scib.2024.12.050_b0020","doi-asserted-by":"crossref","first-page":"1922","DOI":"10.1021\/acscatal.5b00007","article-title":"Methanol
+        to olefins (MTO): from fundamentals to commercialization","volume":"5","author":"Tian","year":"2015","journal-title":"ACS
+        Catal"},{"key":"10.1016\/j.scib.2024.12.050_b0025","doi-asserted-by":"crossref","first-page":"104","DOI":"10.1002\/anie.201204995","article-title":"Towards
+        oil independence through renewable methanol chemistry","volume":"52","author":"Olah","year":"2013","journal-title":"Angew
+        Chem Int Ed"},{"key":"10.1016\/j.scib.2024.12.050_b0030","doi-asserted-by":"crossref","first-page":"28787","DOI":"10.1039\/C6RA02282K","article-title":"Coke
+        suppression in MTO over hierarchical SAPO-34 zeolites","volume":"6","author":"Liu","year":"2016","journal-title":"RSC
+        Adv"},{"key":"10.1016\/j.scib.2024.12.050_b0035","doi-asserted-by":"crossref","first-page":"102514","DOI":"10.1016\/j.isci.2021.102514","article-title":"Carbon
+        neutral manufacturing via on-site CO2 recycling","volume":"24","author":"Barecka","year":"2021","journal-title":"iScience"},{"key":"10.1016\/j.scib.2024.12.050_b0040","doi-asserted-by":"crossref","first-page":"9620","DOI":"10.1002\/anie.201209384","article-title":"Green
+        carbon science: scientific basis for integrating carbon resource processing,
+        utilization, and recycling","volume":"52","author":"He","year":"2013","journal-title":"Angew
+        Chem Int Ed"},{"key":"10.1016\/j.scib.2024.12.050_b0045","doi-asserted-by":"crossref","DOI":"10.1002\/adma.201902181","article-title":"Recent
+        progress in Methanol-to-Olefins (MTO) catalysts","volume":"31","author":"Yang","year":"2019","journal-title":"Adv
+        Mater"},{"key":"10.1016\/j.scib.2024.12.050_b0050","doi-asserted-by":"crossref","first-page":"17828","DOI":"10.1039\/C4TA03419H","article-title":"High
+        performance nanosheet-like silicoaluminophosphate molecular sieves: synthesis,
+        3D EDT structural analysis and MTO catalytic studies","volume":"2","author":"Sun","year":"2014","journal-title":"J
+        Mater Chem A"},{"key":"10.1016\/j.scib.2024.12.050_b0055","doi-asserted-by":"crossref","first-page":"17","DOI":"10.1038\/s41467-020-20193-1","article-title":"Directed
+        transforming of coke to active intermediates in methanol-to-olefins catalyst
+        to boost light olefins selectivity","volume":"12","author":"Zhou","year":"2021","journal-title":"Nat
+        Commun"},{"key":"10.1016\/j.scib.2024.12.050_b0060","doi-asserted-by":"crossref","first-page":"1065","DOI":"10.1126\/science.aaf1835","article-title":"Selective
+        conversion of syngas to light olefins","volume":"351","author":"Jiao","year":"2016","journal-title":"Science"},{"key":"10.1016\/j.scib.2024.12.050_b0065","doi-asserted-by":"crossref","first-page":"15260","DOI":"10.1021\/ja0304244","article-title":"Evidence
+        for an initiation of the Methanol-to-Olefin process by reactive surface methoxy
+        groups on acidic zeolite catalysts","volume":"125","author":"Wang","year":"2003","journal-title":"J
+        Am Chem Soc"},{"key":"10.1016\/j.scib.2024.12.050_b0070","first-page":"2209","article-title":"Mechanism
+        of methanol conversion into hydrocarbons over ZSM-5 zeolite","volume":"77","author":"Ono","year":"1981","journal-title":"J
+        Am Chem Soc"},{"key":"10.1016\/j.scib.2024.12.050_b0075","doi-asserted-by":"crossref","first-page":"571","DOI":"10.1039\/f19878300571","article-title":"Hydrocarbon
+        formation from methylating agents over the zeolite catalyst ZSM-5. Comments
+        on the mechanism of carbon\u2013carbon bond and methane formation","volume":"1","author":"Hutchings","year":"1987","journal-title":"J
+        Chem Soc Faraday Trans"},{"key":"10.1016\/j.scib.2024.12.050_b0080","doi-asserted-by":"crossref","first-page":"313","DOI":"10.1021\/acscentsci.5b00226","article-title":"Cooperativity
+        between Al sites promotes hydrogen transfer and carbon\u2013carbon bond formation
+        upon dimethyl ether activation on alumina","volume":"1","author":"Comas-Vives","year":"2015","journal-title":"ACS
+        Cent Sci"},{"key":"10.1016\/j.scib.2024.12.050_b0085","doi-asserted-by":"crossref","first-page":"331","DOI":"10.1016\/j.micromeso.2016.02.009","article-title":"One-pot
+        hydrothermal synthesis of nanostructured ZrAPSO-34 powder: effect of Zr-loading
+        on physicochemical properties and catalytic performance in conversion of methanol
+        to ethylene and propylene","volume":"226","author":"Aghaei","year":"2016","journal-title":"Microporous
+        Mesoporous Mater"},{"key":"10.1016\/j.scib.2024.12.050_b0090","doi-asserted-by":"crossref","first-page":"60","DOI":"10.1016\/j.micromeso.2017.09.035","article-title":"Synthesis
+        and characterization of nanocrystalline TiAPSO-34 catalysts and their performance
+        in the conversion of methanol to light olefins","volume":"259","author":"Chae","year":"2018","journal-title":"Microporous
+        Mesoporous Mater"},{"key":"10.1016\/j.scib.2024.12.050_b0095","doi-asserted-by":"crossref","first-page":"131","DOI":"10.1016\/j.powtec.2015.11.066","article-title":"Thorough
+        study of the effect of metal-incorporated SAPO-34 molecular sieves on catalytic
+        performances in MTO process","volume":"291","author":"Sedighi","year":"2016","journal-title":"Powder
+        Technol"},{"key":"10.1016\/j.scib.2024.12.050_b0100","doi-asserted-by":"crossref","first-page":"203","DOI":"10.1016\/S0378-3820(03)00069-9","article-title":"Conversion
+        of methanol to olefins over cobalt-, manganese- and nickel-incorporated SAPO-34
+        molecular sieves","volume":"83","author":"Dubois","year":"2003","journal-title":"Fuel
+        Process Technol"},{"key":"10.1016\/j.scib.2024.12.050_b0105","doi-asserted-by":"crossref","first-page":"755","DOI":"10.1016\/j.jiec.2011.05.031","article-title":"Improvement
+        of light olefins selectivity and catalyst lifetime in MTO reaction; using
+        Ni and Mg-modified SAPO-34 synthesized by combination of two templates","volume":"17","author":"Salmasi","year":"2011","journal-title":"J
+        Ind Eng Chem"},{"key":"10.1016\/j.scib.2024.12.050_b0110","doi-asserted-by":"crossref","first-page":"61","DOI":"10.1016\/j.crci.2017.11.006","article-title":"Fabrication
+        of hierarchical ZnSAPO-34 by alkali treatment with improved catalytic performance
+        in the methanol-to-olefin reaction","volume":"21","author":"Sun","year":"2018","journal-title":"C
+        R Chim"},{"key":"10.1016\/j.scib.2024.12.050_b0115","doi-asserted-by":"crossref","first-page":"4661","DOI":"10.1038\/s41467-021-24403-2","article-title":"Stabilizing
+        the framework of SAPO-34 zeolite toward long-term methanol-to-olefins conversion","volume":"12","author":"Yang","year":"2021","journal-title":"Nat
+        Commun"},{"key":"10.1016\/j.scib.2024.12.050_b0120","doi-asserted-by":"crossref","first-page":"171","DOI":"10.1023\/A:1019030627908","article-title":"Effects
+        of decrease in number of acid sites located on the external surface of Ni\u2010SAPO\u201034
+        crystalline catalyst by the mechanochemical method","volume":"53","author":"Kang","year":"1998","journal-title":"Catal
+        Lett"},{"key":"10.1016\/j.scib.2024.12.050_b0125","doi-asserted-by":"crossref","first-page":"59","DOI":"10.1016\/j.jiec.2014.09.009","article-title":"Optimization
+        of nano-sized SAPO-34 synthesis in methanol-to-olefin reaction by response
+        surface methodology","volume":"24","author":"Pajaie","year":"2015","journal-title":"J
+        Ind Eng Chem"},{"key":"10.1016\/j.scib.2024.12.050_b0130","doi-asserted-by":"crossref","first-page":"5810","DOI":"10.1002\/anie.201103657","article-title":"Conversion
+        of methanol to hydrocarbons: how zeolite cavity and pore size controls product
+        selectivity","volume":"51","author":"Olsbye","year":"2012","journal-title":"Angew
+        Chem Int Ed"},{"key":"10.1016\/j.scib.2024.12.050_b0135","doi-asserted-by":"crossref","first-page":"99","DOI":"10.1126\/science.276.5309.99","article-title":"Metathesis
+        of alkanes catalyzed by silica-supported transition metal hydrides","volume":"276","author":"Vidal","year":"1997","journal-title":"Science"},{"key":"10.1016\/j.scib.2024.12.050_b0140","doi-asserted-by":"crossref","first-page":"654","DOI":"10.1016\/S0144-2449(05)80167-8","article-title":"The
+        structure determination and rietveld refinement of the aluminophosphate AIPO4-18","volume":"11","author":"Simmen","year":"1991","journal-title":"Zeolites"},{"key":"10.1016\/j.scib.2024.12.050_b0145","doi-asserted-by":"crossref","first-page":"117","DOI":"10.1016\/S0144-2449(88)80076-9","article-title":"Structure
+        of defects in \u03b3-irradiated ZSM-5 and Y zeolites: an e.s.r. study","volume":"8","author":"Wichterlov\u00e1","year":"1988","journal-title":"Zeolites"},{"key":"10.1016\/j.scib.2024.12.050_b0150","doi-asserted-by":"crossref","first-page":"216","DOI":"10.1016\/j.cattod.2013.03.017","article-title":"The
+        influence of catalyst acid strength on the methanol to hydrocarbons (MTH)
+        reaction","volume":"215","author":"Westg\u00e5rd Erichsen","year":"2013","journal-title":"Catal
+        Today"},{"key":"10.1016\/j.scib.2024.12.050_b0155","doi-asserted-by":"crossref","first-page":"11979","DOI":"10.1021\/j100148a023","article-title":"Mechanisms
+        of methanol adsorption on silicalite and silica: IR spectra and ab-initio
+        calculations","volume":"97","author":"Pelmenschikov","year":"1993","journal-title":"J
+        Phys Chem"},{"key":"10.1016\/j.scib.2024.12.050_b0160","doi-asserted-by":"crossref","first-page":"3396","DOI":"10.1002\/cctc.201402714","article-title":"Combined
+        operando UV\/Vis\/IR spectroscopy reveals the role of methoxy and aromatic
+        species during the Methanol-to-Olefins reaction over H-SAPO-34","volume":"6","author":"Qian","year":"2014","journal-title":"ChemCatChem"},{"key":"10.1016\/j.scib.2024.12.050_b0165","doi-asserted-by":"crossref","first-page":"7356","DOI":"10.1021\/acscatal.8b02385","article-title":"Evolution
+        of C\u2013C bond formation in the Methanol-to-Olefins process: from direct
+        coupling to autocatalysis","volume":"8","author":"Wu","year":"2018","journal-title":"ACS
+        Catal"},{"key":"10.1016\/j.scib.2024.12.050_b0170","doi-asserted-by":"crossref","first-page":"9710","DOI":"10.1021\/jp800762v","article-title":"Conversion
+        of methanol to hydrocarbons: spectroscopic characterization of carbonaceous
+        species formed over H-ZSM-5","volume":"112","author":"Palumbo","year":"2008","journal-title":"J
+        Phys Chem C"},{"key":"10.1016\/j.scib.2024.12.050_b0175","doi-asserted-by":"crossref","DOI":"10.1063\/1.3167217","article-title":"Beamline
+        I11 at Diamond: a new instrument for high resolution powder diffraction","volume":"80","author":"Thompson","year":"2009","journal-title":"Rev
+        Sci Instrum"},{"key":"10.1016\/j.scib.2024.12.050_b0180","doi-asserted-by":"crossref","DOI":"10.1063\/1.3553295","article-title":"Experimental
+        arrangements suitable for the acquisition of inelastic neutron scattering
+        spectra of heterogeneous catalysts","volume":"82","author":"Silverwood","year":"2011","journal-title":"Rev
+        Sci Instrum"},{"key":"10.1016\/j.scib.2024.12.050_b0185","doi-asserted-by":"crossref","first-page":"120","DOI":"10.1093\/nsr\/nwad120","article-title":"Cavity-controlled
+        methanol conversion over zeolite catalysts","volume":"10","author":"Zhang","year":"2023","journal-title":"Natl
+        Sci Rev"},{"key":"10.1016\/j.scib.2024.12.050_b0190","doi-asserted-by":"crossref","first-page":"9039","DOI":"10.1002\/anie.201703902","article-title":"Direct
+        mechanism of the first Carbon\u2013Carbon bond formation in the Methanol-to-Hydrocarbons
+        process","volume":"56","author":"Wu","year":"2017","journal-title":"Angew
+        Chem Int Ed"},{"key":"10.1016\/j.scib.2024.12.050_b0195","doi-asserted-by":"crossref","DOI":"10.1016\/j.catcom.2020.106014","article-title":"Enhanced
+        reaction lifetime of a bifunctional catalyst for methanol to olefins by combining
+        formaldehyde decomposition on CeO2","volume":"141","author":"Xu","year":"2020","journal-title":"Catal
+        Commun"},{"key":"10.1016\/j.scib.2024.12.050_b0200","doi-asserted-by":"crossref","first-page":"5882","DOI":"10.1039\/C7CY01804E","article-title":"Investigation
+        of methanol conversion over high-Si beta zeolites and the reaction mechanism
+        of their high propene selectivity","volume":"7","author":"Zhao","year":"2017","journal-title":"Catal
+        Sci Technol"},{"key":"10.1016\/j.scib.2024.12.050_b0205","doi-asserted-by":"crossref","first-page":"7939","DOI":"10.1021\/ja00805a002","article-title":"Gas
+        phase ion equilibriums studies of the hydrogen ion by methanol, dimethyl ether,
+        and water. Effect of hydrogen bonding","volume":"95","author":"Grimsrud","year":"1973","journal-title":"J
+        Am Chem Soc"},{"key":"10.1016\/j.scib.2024.12.050_b0210","doi-asserted-by":"crossref","first-page":"542","DOI":"10.1093\/nsr\/nwx103","article-title":"The
+        state-of-the-art synthetic strategies for SAPO-34 zeolite catalysts in methanol-to-
+        olefin conversion","volume":"5","author":"Sun","year":"2018","journal-title":"Natl
+        Sci Rev"},{"key":"10.1016\/j.scib.2024.12.050_b0215","article-title":"Water-assisted
+        shape-selective production of ethene in methanol-to-olefins reaction on SAPO-34","volume":"4","author":"Zhang","year":"2024","journal-title":"Chem
+        Catal"}],"container-title":["Science Bulletin"],"language":"en","link":[{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:S2095927324009873?httpAccept=text\/xml","content-type":"text\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:S2095927324009873?httpAccept=text\/plain","content-type":"text\/plain","content-version":"vor","intended-application":"text-mining"}],"deposited":{"date-parts":[[2025,11,8]],"date-time":"2025-11-08T11:11:58Z","timestamp":1762600318000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/S2095927324009873"}},"issued":{"date-parts":[[2025,3]]},"references-count":43,"journal-issue":{"issue":"5","published-print":{"date-parts":[[2025,3]]}},"alternative-id":["S2095927324009873"],"URL":"https:\/\/doi.org\/10.1016\/j.scib.2024.12.050","ISSN":["2095-9273"],"issn-type":[{"value":"2095-9273","type":"print"}],"published":{"date-parts":[[2025,3]]},"assertion":[{"value":"Elsevier","name":"publisher","label":"This
+        article is maintained by"},{"value":"Selective production of olefins from
+        methanol over a heteroatomic SAPO-34 zeolite","name":"articletitle","label":"Article
+        Title"},{"value":"Science Bulletin","name":"journaltitle","label":"Journal
+        Title"},{"value":"https:\/\/doi.org\/10.1016\/j.scib.2024.12.050","name":"articlelink","label":"CrossRef
+        DOI link to publisher maintained version"},{"value":"article","name":"content_type","label":"Content
+        Type"},{"value":"\u00a9 2025 The Authors. Published by Elsevier B.V. and Science
+        China Press.","name":"copyright","label":"Copyright"}]}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:03:25 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/K014706/2,from-created-date:2025-01-01,until-created-date:2025-01-31
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:03:26 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
     body:
       encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:03:26 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/K014668/1,from-created-date:2025-01-01,until-created-date:2025-01-31
+    body:
+      encoding: US-ASCII
       string: ''
-  recorded_at: Mon, 10 Aug 2026 21:30:19 GMT
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:03:26 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:03:26 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/K014854/1,from-created-date:2025-01-01,until-created-date:2025-01-31
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:03:27 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:03:27 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/K014714/1,from-created-date:2025-01-01,until-created-date:2025-01-31
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:03:27 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:03:27 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/K014706,from-created-date:2025-01-01,until-created-date:2025-01-31
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:03:27 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:03:27 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/K014668,from-created-date:2025-01-01,until-created-date:2025-01-31
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:03:28 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:03:28 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/K014854,from-created-date:2025-01-01,until-created-date:2025-01-31
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:03:28 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:03:28 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/K014714,from-created-date:2025-01-01,until-created-date:2025-01-31
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:03:29 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:03:29 GMT
 recorded_with: VCR 6.4.0

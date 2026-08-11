@@ -3,7 +3,7 @@ require_relative "lib/xref_client/version"
 Gem::Specification.new do |spec|
   spec.name        = "xref_client"
   spec.version     = XrefClient::VERSION
-  spec.authors     = ["Abraham Nieva"]
+  spec.authors     = ["Abraham Nieva de la Hidalga"]
   spec.email       = ["a_nieva@hotmail.com"]
   spec.homepage    = "https://github.com/scman1/xref_client.git"
   spec.summary     = "Summary of XrefClient."
@@ -28,3 +28,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "vcr"
   spec.add_development_dependency "webmock"
 end
+

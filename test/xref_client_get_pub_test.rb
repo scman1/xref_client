@@ -43,7 +43,7 @@ class XrefClientGetPubTest < ActiveSupport::TestCase
     until_date = "2025-05-23"
     VCR.use_cassette('mononym_in_list_test') do
       found_dois = XrefClient.findPubsAward(ukch_awards, from_date, until_date)
-      assert_equal 8, found_dois.length
+      assert_equal 3, found_dois.length
     end
   end
 

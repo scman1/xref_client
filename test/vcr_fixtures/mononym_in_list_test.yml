@@ -8,9 +8,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 21:30:22 GMT
+      - Tue, 11 Aug 2026 16:46:10 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -40,13 +40,13 @@ http_interactions:
       Server:
       - Jetty(9.4.40.v20210413)
       X-Rate-Limit-Limit:
-      - '1'
+      - '3'
       X-Rate-Limit-Interval:
       - 1s
       X-Concurrency-Limit:
-      - '1'
+      - '3'
       X-Api-Pool:
-      - public-array
+      - polite-array
       Permissions-Policy:
       - interest-cohort=()
     body:
@@ -329,7 +329,7 @@ http_interactions:
         Val\u00e8ncia (UPV), Av. de los Naranjos S\/N, Valencia 46022, Spain"}],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"316","published-online":{"date-parts":[[2025,5,20]]},"reference":[{"key":"ref1\/cit1","doi-asserted-by":"publisher","DOI":"10.1016\/j.ijhydene.2021.11.149"},{"key":"ref2\/cit2","doi-asserted-by":"publisher","DOI":"10.1016\/j.ijhydene.2022.10.084"},{"key":"ref3\/cit3","doi-asserted-by":"publisher","DOI":"10.1016\/j.ijhydene.2023.08.107"},{"key":"ref4\/cit4","doi-asserted-by":"publisher","DOI":"10.1021\/acs.iecr.0c02250"},{"key":"ref5\/cit5","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.1c01738"},{"key":"ref6\/cit6","doi-asserted-by":"publisher","DOI":"10.1021\/acssuschemeng.1c01401"},{"key":"ref7\/cit7","doi-asserted-by":"publisher","DOI":"10.1039\/D1CY00922B"},{"key":"ref8\/cit8","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcata.2020.117740"},{"key":"ref9\/cit9","doi-asserted-by":"publisher","DOI":"10.1016\/j.cej.2024.150369"},{"key":"ref10\/cit10","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcatb.2023.123663"},{"key":"ref11\/cit11","doi-asserted-by":"publisher","DOI":"10.1039\/D0RE00478B"},{"key":"ref12\/cit12","doi-asserted-by":"publisher","DOI":"10.1016\/j.egypro.2017.03.577"},{"key":"ref13\/cit13","doi-asserted-by":"publisher","DOI":"10.3389\/fchem.2020.00709"},{"key":"ref14\/cit14","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcatb.2021.120319"},{"key":"ref15\/cit15","volume-title":"Induction
         Heating","author":"Benkowsky G.","year":"1990"},{"key":"ref16\/cit16","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.9b02471"},{"key":"ref17\/cit17","doi-asserted-by":"publisher","DOI":"10.1016\/j.cattod.2014.06.010"},{"key":"ref18\/cit18","doi-asserted-by":"publisher","DOI":"10.1007\/s11367-020-01734-8"},{"key":"ref19\/cit19","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.3c05989"},{"key":"ref20\/cit20","doi-asserted-by":"publisher","DOI":"10.1021\/acs.nanolett.5b00446"},{"key":"ref21\/cit21","doi-asserted-by":"publisher","DOI":"10.1016\/j.ijhydene.2019.02.055"},{"key":"ref22\/cit22","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201913865"},{"key":"ref23\/cit23","doi-asserted-by":"publisher","DOI":"10.1021\/acsanm.4c00895"},{"key":"ref24\/cit24","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201904366"},{"key":"ref25\/cit25","doi-asserted-by":"publisher","DOI":"10.1039\/D0GC03495A"},{"key":"ref26\/cit26","doi-asserted-by":"publisher","DOI":"10.1039\/D1NR02283K"},{"key":"ref27\/cit27","doi-asserted-by":"publisher","DOI":"10.1021\/acs.iecr.7b02331"},{"key":"ref28\/cit28","doi-asserted-by":"publisher","DOI":"10.1021\/acsanm.0c00444"},{"key":"ref29\/cit29","doi-asserted-by":"publisher","DOI":"10.1021\/acsanm.0c01392"},{"key":"ref30\/cit30","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.2c01696"},{"key":"ref31\/cit31","doi-asserted-by":"publisher","DOI":"10.1002\/ange.202111854"},{"key":"ref32\/cit32","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.2c05580"},{"key":"ref33\/cit33","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.4c00310"},{"key":"ref34\/cit34","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.0c12689"},{"key":"ref35\/cit35","doi-asserted-by":"publisher","DOI":"10.1021\/acssuschemeng.1c05847"},{"key":"ref36\/cit36","doi-asserted-by":"publisher","DOI":"10.1016\/j.jece.2019.102911"},{"key":"ref37\/cit37","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcatb.2022.121670"},{"key":"ref38\/cit38","doi-asserted-by":"publisher","DOI":"10.1038\/s41598-024-61017-2"},{"key":"ref39\/cit39","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcatb.2024.123780"},{"key":"ref40\/cit40","doi-asserted-by":"publisher","DOI":"10.1021\/acsomega.1c06244"},{"key":"ref41\/cit41","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.0c08882"},{"key":"ref42\/cit42","doi-asserted-by":"publisher","DOI":"10.1016\/j.ssc.2007.03.052"},{"key":"ref43\/cit43","doi-asserted-by":"publisher","DOI":"10.1016\/j.jcis.2014.03.007"},{"key":"ref44\/cit44","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201609477"},{"key":"ref45\/cit45","doi-asserted-by":"publisher","DOI":"10.1016\/S0304-8853(98)00266-2"},{"key":"ref46\/cit46","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.3c03214"},{"key":"ref47\/cit47","doi-asserted-by":"publisher","DOI":"10.1016\/j.apsusc.2010.10.051"},{"key":"ref48\/cit48","doi-asserted-by":"publisher","DOI":"10.1039\/D0RA10033A"},{"key":"ref49\/cit49","doi-asserted-by":"publisher","DOI":"10.3390\/catal13020448"},{"key":"ref50\/cit50","doi-asserted-by":"publisher","DOI":"10.1016\/j.cej.2023.146712"},{"key":"ref51\/cit51","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.5b08396"},{"key":"ref52\/cit52","doi-asserted-by":"publisher","DOI":"10.1107\/S0909049505012719"},{"key":"ref53\/cit53","doi-asserted-by":"publisher","DOI":"10.1107\/S0021889813003531"}],"container-title":["ACS
         Catalysis"],"language":"en","link":[{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/acscatal.5c01232","content-type":"application\/pdf","content-version":"vor","intended-application":"unspecified"},{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/acscatal.5c01232","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2025,6,6]],"date-time":"2025-06-06T08:44:22Z","timestamp":1749199462000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/pubs.acs.org\/doi\/10.1021\/acscatal.5c01232"}},"issued":{"date-parts":[[2025,5,20]]},"references-count":53,"journal-issue":{"issue":"11","published-print":{"date-parts":[[2025,6,6]]}},"alternative-id":["10.1021\/acscatal.5c01232"],"URL":"https:\/\/doi.org\/10.1021\/acscatal.5c01232","ISSN":["2155-5435","2155-5435"],"issn-type":[{"value":"2155-5435","type":"print"},{"value":"2155-5435","type":"electronic"}],"published":{"date-parts":[[2025,5,20]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Mon, 10 Aug 2026 21:30:22 GMT
+  recorded_at: Tue, 11 Aug 2026 16:46:10 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R026815/1,from-created-date:2025-05-01,until-created-date:2025-05-23
@@ -338,9 +338,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -351,7 +351,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 21:30:23 GMT
+      - Tue, 11 Aug 2026 16:46:11 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -368,19 +368,19 @@ http_interactions:
       Server:
       - Jetty(9.4.40.v20210413)
       X-Rate-Limit-Limit:
-      - '1'
+      - '3'
       X-Rate-Limit-Interval:
       - 1s
       X-Concurrency-Limit:
-      - '1'
+      - '3'
       X-Api-Pool:
-      - public-array
+      - polite-array
       Permissions-Policy:
       - interest-cohort=()
     body:
       encoding: UTF-8
       string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Mon, 10 Aug 2026 21:30:22 GMT
+  recorded_at: Tue, 11 Aug 2026 16:46:11 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R026645/1,from-created-date:2025-05-01,until-created-date:2025-05-23
@@ -389,9 +389,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -402,7 +402,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 21:30:23 GMT
+      - Tue, 11 Aug 2026 16:46:12 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -419,19 +419,19 @@ http_interactions:
       Server:
       - Jetty(9.4.40.v20210413)
       X-Rate-Limit-Limit:
-      - '1'
+      - '3'
       X-Rate-Limit-Interval:
       - 1s
       X-Concurrency-Limit:
-      - '1'
+      - '3'
       X-Api-Pool:
-      - public-array
+      - polite-array
       Permissions-Policy:
       - interest-cohort=()
     body:
       encoding: UTF-8
       string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Mon, 10 Aug 2026 21:30:23 GMT
+  recorded_at: Tue, 11 Aug 2026 16:46:12 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R027129/1,from-created-date:2025-05-01,until-created-date:2025-05-23
@@ -440,9 +440,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -453,7 +453,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 21:30:24 GMT
+      - Tue, 11 Aug 2026 16:46:13 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -472,13 +472,13 @@ http_interactions:
       Server:
       - Jetty(9.4.40.v20210413)
       X-Rate-Limit-Limit:
-      - '1'
+      - '3'
       X-Rate-Limit-Interval:
       - 1s
       X-Concurrency-Limit:
-      - '1'
+      - '3'
       X-Api-Pool:
-      - public-array
+      - polite-array
       Permissions-Policy:
       - interest-cohort=()
     body:
@@ -581,7 +581,7 @@ http_interactions:
         DOI link to publisher maintained version"},{"value":"article","name":"content_type","label":"Content
         Type"},{"value":"\u00a9 2025 Elsevier Ltd. All rights are reserved, including
         those for text and data mining, AI training, and similar technologies.","name":"copyright","label":"Copyright"}],"article-number":"117522"}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Mon, 10 Aug 2026 21:30:23 GMT
+  recorded_at: Tue, 11 Aug 2026 16:46:13 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/M013219/1,from-created-date:2025-05-01,until-created-date:2025-05-23
@@ -590,9 +590,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -603,7 +603,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 21:30:24 GMT
+      - Tue, 11 Aug 2026 16:46:14 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -620,19 +620,19 @@ http_interactions:
       Server:
       - Jetty(9.4.40.v20210413)
       X-Rate-Limit-Limit:
-      - '1'
+      - '3'
       X-Rate-Limit-Interval:
       - 1s
       X-Concurrency-Limit:
-      - '1'
+      - '3'
       X-Api-Pool:
-      - public-array
+      - polite-array
       Permissions-Policy:
       - interest-cohort=()
     body:
       encoding: UTF-8
       string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Mon, 10 Aug 2026 21:30:24 GMT
+  recorded_at: Tue, 11 Aug 2026 16:46:14 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R026939,from-created-date:2025-05-01,until-created-date:2025-05-23
@@ -641,9 +641,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -654,7 +654,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 21:30:25 GMT
+      - Tue, 11 Aug 2026 16:46:15 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -671,19 +671,19 @@ http_interactions:
       Server:
       - Jetty(9.4.40.v20210413)
       X-Rate-Limit-Limit:
-      - '1'
+      - '3'
       X-Rate-Limit-Interval:
       - 1s
       X-Concurrency-Limit:
-      - '1'
+      - '3'
       X-Api-Pool:
-      - public-array
+      - polite-array
       Permissions-Policy:
       - interest-cohort=()
     body:
       encoding: UTF-8
       string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Mon, 10 Aug 2026 21:30:25 GMT
+  recorded_at: Tue, 11 Aug 2026 16:46:15 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R026815,from-created-date:2025-05-01,until-created-date:2025-05-23
@@ -692,26 +692,608 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - "*/*"
   response:
     status:
-      code: 429
-      message: Too Many Requests
+      code: 200
+      message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 21:30:25 GMT
-      Content-Length:
-      - '0'
+      - Tue, 11 Aug 2026 16:46:15 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
     body:
       encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:15 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R026645,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
       string: ''
-  recorded_at: Mon, 10 Aug 2026 21:30:25 GMT
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:15 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:16 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R027129,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:16 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:16 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/M013219,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:17 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:17 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014706/2,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:17 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:17 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014668/1,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:18 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:18 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014854/1,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:19 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:19 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014714/1,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:20 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:20 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014706,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:21 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:21 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014668,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:21 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:21 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014854,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:22 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:22 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014714,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:23 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:23 GMT
 recorded_with: VCR 6.4.0
