@@ -1,0 +1,89 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:UKRI945,from-created-date:2026-01-01,until-created-date:2026-01-30
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Aug 2026 20:37:42 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '10776'
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '1'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '1'
+      X-Api-Pool:
+      - public-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":1,"items":[{"indexed":{"date-parts":[[2026,7,7]],"date-time":"2026-07-07T10:27:31Z","timestamp":1783420051187,"version":"3.54.6"},"reference-count":58,"publisher":"American
+        Chemical Society (ACS)","issue":"2","license":[{"start":{"date-parts":[[2026,1,12]],"date-time":"2026-01-12T00:00:00Z","timestamp":1768176000000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/creativecommons.org\/licenses\/by\/4.0\/"}],"funder":[{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/S018603\/1"],"award-info":[{"award-number":["EP\/S018603\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/Z532782\/1"],"award-info":[{"award-number":["EP\/Z532782\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["UKRI945"],"award-info":[{"award-number":["UKRI945"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100022861","name":"Dutch
+        Polymer Institute","doi-asserted-by":"publisher","award":["865t22"],"award-info":[{"award-number":["865t22"]}],"id":[{"id":"10.13039\/100022861","id-type":"DOI","asserted-by":"publisher"}]}],"content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":["Macromolecules"],"published-print":{"date-parts":[[2026,1,27]]},"DOI":"10.1021\/acs.macromol.5c03136","type":"journal-article","created":{"date-parts":[[2026,1,13]],"date-time":"2026-01-13T01:58:18Z","timestamp":1768269498000},"page":"793-801","source":"Crossref","is-referenced-by-count":2,"title":["Effects
+        of Molecular Weight Distribution on the Thermal\u2013Mechanical Performance
+        and Recycling of CO\n                    <sub>2<\/sub>\n                    -Derived
+        Poly(cyclopentene carbonate)"],"prefix":"10.1021","volume":"59","author":[{"ORCID":"https:\/\/orcid.org\/0009-0004-5035-1463","authenticated-orcid":true,"given":"Bal\u00e1zs","family":"Striker","sequence":"first","affiliation":[{"name":"Department
+        of Chemistry","place":["Oxford, United Kingdom"]},{"name":"University of Oxford","place":["Oxford,
+        United Kingdom"]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Alexander
+        R.","family":"Craze","sequence":"additional","affiliation":[{"name":"Department
+        of Chemistry","place":["Oxford, United Kingdom"]},{"name":"University of Oxford","place":["Oxford,
+        United Kingdom"]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0001-6573-0926","authenticated-orcid":true,"given":"Kam
+        C.","family":"Poon","sequence":"additional","affiliation":[{"name":"Department
+        of Chemistry","place":["Oxford, United Kingdom"]},{"name":"University of Oxford","place":["Oxford,
+        United Kingdom"]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-2719-1228","authenticated-orcid":true,"given":"Thomas
+        M.","family":"McGuire","sequence":"additional","affiliation":[{"name":"Department
+        of Chemistry","place":["Oxford, United Kingdom"]},{"name":"University of Oxford","place":["Oxford,
+        United Kingdom"]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-8515-4177","authenticated-orcid":true,"given":"Kristian
+        L.","family":"Mears","sequence":"additional","affiliation":[{"name":"Department
+        of Chemistry","place":["Oxford, United Kingdom"]},{"name":"University of Oxford","place":["Oxford,
+        United Kingdom"]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-0734-1575","authenticated-orcid":true,"given":"Charlotte
+        K.","family":"Williams","sequence":"additional","affiliation":[{"name":"Department
+        of Chemistry","place":["Oxford, United Kingdom"]},{"name":"University of Oxford","place":["Oxford,
+        United Kingdom"]}],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"316","published-online":{"date-parts":[[2026,1,12]]},"reference":[{"key":"ref1\/cit1","doi-asserted-by":"publisher","DOI":"10.1021\/acs.macromol.7b00293"},{"key":"ref2\/cit2","doi-asserted-by":"publisher","DOI":"10.1038\/nature21001"},{"key":"ref3\/cit3","doi-asserted-by":"publisher","DOI":"10.1016\/j.joule.2020.12.027"},{"key":"ref4\/cit4","doi-asserted-by":"publisher","DOI":"10.1038\/s41586-019-1681-6"},{"key":"ref5\/cit5","doi-asserted-by":"publisher","DOI":"10.1038\/s41558-019-0459-z"},{"key":"ref6\/cit6","doi-asserted-by":"publisher","DOI":"10.1039\/C4GC00513A"},{"key":"ref7\/cit7","doi-asserted-by":"publisher","DOI":"10.1021\/acs.macromol.2c02483"},{"key":"ref8\/cit8","doi-asserted-by":"publisher","DOI":"10.1021\/acs.chemrev.4c00517"},{"key":"ref9\/cit9","doi-asserted-by":"publisher","DOI":"10.1002\/adfm.201704302"},{"key":"ref10\/cit10","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.3c14170"},{"key":"ref11\/cit11","doi-asserted-by":"publisher","DOI":"10.1016\/j.polymer.2020.122667"},{"key":"ref12\/cit12","doi-asserted-by":"publisher","DOI":"10.1016\/S0032-3861(00)00709-6"},{"key":"ref13\/cit13","doi-asserted-by":"publisher","DOI":"10.1021\/acs.macromol.4c00455"},{"key":"ref14\/cit14","doi-asserted-by":"publisher","DOI":"10.1002\/app.12355"},{"key":"ref15\/cit15","doi-asserted-by":"publisher","DOI":"10.1021\/acsapm.2c00299"},{"key":"ref16\/cit16","doi-asserted-by":"publisher","DOI":"10.1038\/s41578-019-0138-8"},{"key":"ref17\/cit17","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.4c16325"},{"key":"ref18\/cit18","doi-asserted-by":"publisher","DOI":"10.1021\/acsmacrolett.9b00854"},{"key":"ref19\/cit19","doi-asserted-by":"publisher","DOI":"10.1021\/acs.macromol.5b02752"},{"key":"ref20\/cit20","doi-asserted-by":"publisher","DOI":"10.1039\/C9GC00620F"},{"key":"ref21\/cit21","doi-asserted-by":"publisher","DOI":"10.1021\/ma101259k"},{"key":"ref22\/cit22","doi-asserted-by":"publisher","DOI":"10.1039\/c2py00543c"},{"key":"ref23\/cit23","doi-asserted-by":"publisher","unstructured":"Shirley,
+        P.; Myles, P.\n                      Quality Guidelines for Energy System
+        Studies: CO2 Impurity Design Parameters\n                      . OSTI.GOV,
+        2019. 10.2172\/1566771.","DOI":"10.2172\/1566771"},{"key":"ref24\/cit24","doi-asserted-by":"publisher","DOI":"10.1016\/j.egypro.2017.03.1801"},{"key":"ref25\/cit25","doi-asserted-by":"publisher","DOI":"10.1016\/j.egypro.2017.03.1789"},{"key":"ref26\/cit26","doi-asserted-by":"publisher","DOI":"10.1007\/s13202-023-01616-3"},{"key":"ref27\/cit27","unstructured":"Teles,
+        J. H.; Gumlich, K.; Bassler, P.; Bartosch, C.; Kampe, P.; G\u00f6bbel, H.G.;
+        M\u00fcller, U.; Jacubinas, R.\n                      Process for the production
+        of propylene oxide\n                      ; EP 2,649,058 B1. 2011."},{"key":"ref28\/cit28","unstructured":"Tang,
+        Y.; Xu, Y.; Pan, G.; Wang, J.; Zeng, T. Method for synthesizing cyclohexene
+        oxide CN111747908. 2020."},{"key":"ref29\/cit29","doi-asserted-by":"publisher","DOI":"10.1021\/ma050797k"},{"key":"ref30\/cit30","doi-asserted-by":"publisher","DOI":"10.1021\/ma902321g"},{"key":"ref31\/cit31","doi-asserted-by":"publisher","DOI":"10.1007\/s10118-011-1073-3"},{"key":"ref32\/cit32","doi-asserted-by":"publisher","DOI":"10.1021\/acs.inorgchem.0c01156"},{"key":"ref33\/cit33","doi-asserted-by":"publisher","DOI":"10.1039\/C6SC04477H"},{"key":"ref34\/cit34","doi-asserted-by":"publisher","DOI":"10.1021\/ja030085e"},{"key":"ref35\/cit35","doi-asserted-by":"publisher","DOI":"10.1039\/C5CC00784D"},{"key":"ref36\/cit36","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201302157"},{"key":"ref37\/cit37","doi-asserted-by":"publisher","DOI":"10.1038\/s41557-020-0450-3"},{"key":"ref38\/cit38","doi-asserted-by":"publisher","DOI":"10.1021\/acs.accounts.2c00197"},{"key":"ref39\/cit39","doi-asserted-by":"publisher","DOI":"10.1021\/cs501798s"},{"key":"ref40\/cit40","doi-asserted-by":"publisher","DOI":"10.1021\/ja307096m"},{"key":"ref41\/cit41","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.0c03651"},{"key":"ref42\/cit42","doi-asserted-by":"publisher","DOI":"10.1002\/anie.202210243"},{"key":"ref43\/cit43","doi-asserted-by":"publisher","DOI":"10.1021\/acs.inorgchem.7b00090"},{"key":"ref44\/cit44","doi-asserted-by":"publisher","DOI":"10.1039\/C9SC00385A"},{"key":"ref45\/cit45","doi-asserted-by":"publisher","DOI":"10.1021\/cs4008667"},{"key":"ref46\/cit46","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.0c07980"},{"key":"ref47\/cit47","doi-asserted-by":"publisher","DOI":"10.1021\/ma401286x"},{"key":"ref48\/cit48","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.2c06937"},{"key":"ref49\/cit49","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.3c04208"},{"key":"ref50\/cit50","doi-asserted-by":"publisher","DOI":"10.1038\/s41578-020-0190-4"},{"key":"ref51\/cit51","doi-asserted-by":"publisher","DOI":"10.1016\/j.cattod.2005.10.039"},{"key":"ref52\/cit52","doi-asserted-by":"publisher","DOI":"10.1039\/c2gc35928f"},{"key":"ref53\/cit53","doi-asserted-by":"publisher","DOI":"10.1063\/1.1699711"},{"key":"ref54\/cit54","doi-asserted-by":"publisher","DOI":"10.1021\/acs.macromol.2c01761"},{"key":"ref55\/cit55","doi-asserted-by":"publisher","DOI":"10.1021\/ja206352x"},{"key":"ref56\/cit56","doi-asserted-by":"publisher","DOI":"10.1021\/ma902162n"},{"key":"ref57\/cit57","doi-asserted-by":"publisher","DOI":"10.1002\/anie.200801852"},{"key":"ref58\/cit58","doi-asserted-by":"publisher","DOI":"10.1002\/polb.21616"}],"container-title":["Macromolecules"],"language":"en","link":[{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/acs.macromol.5c03136","content-type":"application\/pdf","content-version":"vor","intended-application":"unspecified"},{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/acs.macromol.5c03136","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,1,27]],"date-time":"2026-01-27T09:12:27Z","timestamp":1769505147000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/pubs.acs.org\/doi\/10.1021\/acs.macromol.5c03136"}},"issued":{"date-parts":[[2026,1,12]]},"references-count":58,"journal-issue":{"issue":"2","published-print":{"date-parts":[[2026,1,27]]}},"alternative-id":["10.1021\/acs.macromol.5c03136"],"URL":"https:\/\/doi.org\/10.1021\/acs.macromol.5c03136","ISSN":["0024-9297","1520-5835"],"issn-type":[{"value":"0024-9297","type":"print"},{"value":"1520-5835","type":"electronic"}],"published":{"date-parts":[[2026,1,12]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Mon, 10 Aug 2026 20:37:42 GMT
+recorded_with: VCR 6.4.0

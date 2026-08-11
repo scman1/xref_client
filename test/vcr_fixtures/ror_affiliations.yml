@@ -1,0 +1,255 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.crossref.org/works/10.1364%2Fome.469414/transform/application/vnd.citationstyles.csl+json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Aug 2026 19:14:37 GMT
+      Content-Length:
+      - '13319'
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '5'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '1'
+      X-Api-Pool:
+      - public-single
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: ASCII-8BIT
+      string: '{"indexed":{"date-parts":[[2026,7,30]],"date-time":"2026-07-30T13:02:01Z","timestamp":1785416521299,"version":"3.56.0"},"reference-count":34,"publisher":"Optica
+        Publishing Group","issue":"12","license":[{"start":{"date-parts":[[2022,11,14]],"date-time":"2022-11-14T00:00:00Z","timestamp":1668384000000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/creativecommons.org\/licenses\/by\/4.0\/"},{"start":{"date-parts":[[2022,11,14]],"date-time":"2022-11-14T00:00:00Z","timestamp":1668384000000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/opg.optica.org\/policies\/opg-tdm-policy.json"}],"funder":[{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/M013812\/1"],"award-info":[{"award-number":["EP\/M013812\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/W017075\/1"],"award-info":[{"award-number":["EP\/W017075\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000781","name":"European
+        Research Council","doi-asserted-by":"publisher","award":["789340"],"award-info":[{"award-number":["789340"]}],"id":[{"id":"10.13039\/501100000781","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100004543","name":"China
+        Scholarship Council","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100004543","id-type":"DOI","asserted-by":"publisher"}]}],"content-domain":{"domain":["opg.optica.org"],"crossmark-restriction":false},"published-print":{"date-parts":[[2022,12,1]]},"abstract":"<jats:p>\n                    Plasmonic
+        nanorod metamaterials are often used as a high-performance optical sensing
+        platform for the detection of biochemical and gas species. Here, we investigate
+        the effect of environmental humidity on their optical response. Due to the
+        high refractive index sensitivity, a significant change in the transmission
+        is observed with \u0394\n                    <jats:italic toggle=\"yes\">T<\/jats:italic>\n                    \/\n                    <jats:italic
+        toggle=\"yes\">T<\/jats:italic>\n                    reaching values of more
+        than 5% when the relative humidity is changed from 11% to 75%. This is the
+        result of the condensation of water molecules on a rough surface of the gold
+        nanorods. This finding reveals the importance of protecting plasmonic nanostructures
+        from relative humidity variations in many practical applications. By coating
+        the nanorods with a monolayer of poly-L-histidine, the fractional change of
+        transmission is doubled due to the hydrophilic property of the monolayer,
+        which can be used for the development of high-sensitivity relative humidity
+        and dew condensation sensors.\n                  <\/jats:p>","DOI":"10.1364\/ome.469414","type":"journal-article","created":{"date-parts":[[2022,8,24]],"date-time":"2022-08-24T04:00:36Z","timestamp":1661313636000},"page":"4574","update-policy":"https:\/\/doi.org\/10.1364\/crossmark_policy","source":"Crossref","is-referenced-by-count":7,"title":"Humidity-induced
+        direct modification of the optical response of plasmonic nanorod metamaterials","prefix":"10.1364","volume":"12","author":[{"given":"Yunlu","family":"Jiang","sequence":"first","affiliation":[{"id":[{"id":"https:\/\/ror.org\/0220mzb33","id-type":"ROR","asserted-by":"publisher"}]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Alexey
+        V.","family":"Krasavin","sequence":"additional","affiliation":[{"id":[{"id":"https:\/\/ror.org\/0220mzb33","id-type":"ROR","asserted-by":"publisher"}]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Mazhar
+        E.","family":"Nasir","sequence":"additional","affiliation":[{"id":[{"id":"https:\/\/ror.org\/0220mzb33","id-type":"ROR","asserted-by":"publisher"}]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0003-4209-5186","authenticated-orcid":true,"given":"Pan","family":"Wang","sequence":"additional","affiliation":[{"name":"Zhejiang
+        University"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Anatoly
+        V.","family":"Zayats","sequence":"additional","affiliation":[{"id":[{"id":"https:\/\/ror.org\/0220mzb33","id-type":"ROR","asserted-by":"publisher"}]}],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"285","published-online":{"date-parts":[[2022,11,14]]},"reference":[{"key":"ome-12-12-4574-R1","doi-asserted-by":"publisher","first-page":"1494","DOI":"10.1126\/science.1094025","volume":"303","author":"Yen","year":"2004","journal-title":"Science"},{"key":"ome-12-12-4574-R2","doi-asserted-by":"publisher","first-page":"165112","DOI":"10.1103\/PhysRevB.69.165112","volume":"69","author":"Agranovich","year":"2004","journal-title":"Phys.
+        Rev. B."},{"key":"ome-12-12-4574-R3","doi-asserted-by":"publisher","first-page":"930","DOI":"10.1126\/science.1157566","volume":"321","author":"Yao","year":"2008","journal-title":"Science"},{"key":"ome-12-12-4574-R4","doi-asserted-by":"publisher","first-page":"075103","DOI":"10.1103\/PhysRevB.74.075103","volume":"74","author":"Salandrino","year":"2006","journal-title":"Phys.
+        Rev. B."},{"key":"ome-12-12-4574-R5","doi-asserted-by":"publisher","first-page":"8247","DOI":"10.1364\/OE.14.008247","volume":"14","author":"Jacob","year":"2006","journal-title":"Opt.
+        Express"},{"key":"ome-12-12-4574-R6","doi-asserted-by":"publisher","first-page":"093901","DOI":"10.1103\/PhysRevLett.102.093901","volume":"102","author":"Lai","year":"2009","journal-title":"Phys.
+        Rev. Lett."},{"key":"ome-12-12-4574-R7","doi-asserted-by":"publisher","first-page":"224","DOI":"10.1038\/nphoton.2007.28","volume":"1","author":"Cai","year":"2007","journal-title":"Nat.
+        Photonics"},{"key":"ome-12-12-4574-R8","doi-asserted-by":"publisher","first-page":"737","DOI":"10.1038\/nphoton.2012.244","volume":"6","author":"Kauranen","year":"2012","journal-title":"Nat.
+        Photonics"},{"key":"ome-12-12-4574-R9","doi-asserted-by":"publisher","first-page":"107","DOI":"10.1038\/nnano.2010.278","volume":"6","author":"Wurtz","year":"2011","journal-title":"Nat.
+        Nanotechnol."},{"key":"ome-12-12-4574-R10","doi-asserted-by":"publisher","first-page":"30730","DOI":"10.1364\/OE.23.030730","volume":"23","author":"Segovia","year":"2015","journal-title":"Opt.
+        Express"},{"key":"ome-12-12-4574-R11","doi-asserted-by":"publisher","first-page":"1700189","DOI":"10.1002\/lpor.201700189","volume":"12","author":"Marino","year":"2018","journal-title":"Laser
+        Photonics Rev."},{"key":"ome-12-12-4574-R12","doi-asserted-by":"publisher","first-page":"e16273","DOI":"10.1038\/lsa.2016.273","volume":"6","author":"Ginzburg","year":"2017","journal-title":"Light:
+        Sci. Appl."},{"key":"ome-12-12-4574-R13","doi-asserted-by":"publisher","first-page":"2513","DOI":"10.1021\/acsphotonics.7b00767","volume":"4","author":"Roth","year":"2017","journal-title":"ACS
+        Photonics"},{"key":"ome-12-12-4574-R14","doi-asserted-by":"publisher","first-page":"674","DOI":"10.1021\/acsphotonics.7b00010","volume":"4","author":"Chandrasekar","year":"2017","journal-title":"ACS
+        Photonics"},{"key":"ome-12-12-4574-R15","doi-asserted-by":"publisher","first-page":"867","DOI":"10.1038\/nmat2546","volume":"8","author":"Kabashin","year":"2009","journal-title":"Nat.
+        Mater."},{"key":"ome-12-12-4574-R16","doi-asserted-by":"publisher","first-page":"036804","DOI":"10.1103\/PhysRevLett.111.036804","volume":"111","author":"Ginzburg","year":"2013","journal-title":"Phys.
+        Rev. Lett."},{"key":"ome-12-12-4574-R17","doi-asserted-by":"publisher","first-page":"427","DOI":"10.1515\/nanoph-2019-0411","volume":"9","author":"Krasavin","year":"2020","journal-title":"Nanophotonics"},{"key":"ome-12-12-4574-R18","doi-asserted-by":"publisher","first-page":"1536","DOI":"10.1021\/acs.nanolett.9b03871","volume":"20","author":"Wang","year":"2020","journal-title":"Nano
+        Lett."},{"key":"ome-12-12-4574-R19","doi-asserted-by":"publisher","first-page":"159","DOI":"10.1038\/s41565-017-0017-7","volume":"13","author":"Wang","year":"2018","journal-title":"Nat.
+        Nanotechnol."},{"key":"ome-12-12-4574-R20","doi-asserted-by":"publisher","first-page":"84","DOI":"10.1364\/PRJ.444490","volume":"10","author":"Yan","year":"2022","journal-title":"Photonics
+        Res."},{"key":"ome-12-12-4574-R21","doi-asserted-by":"publisher","first-page":"115411","DOI":"10.1103\/PhysRevB.76.115411","volume":"76","author":"Dickson","year":"2007","journal-title":"Phys.
+        Rev. B."},{"key":"ome-12-12-4574-R22","doi-asserted-by":"publisher","first-page":"4370","DOI":"10.1103\/PhysRevB.6.4370","volume":"6","author":"Johnson","year":"1972","journal-title":"Phys.
+        Rev. B"},{"key":"ome-12-12-4574-R23","doi-asserted-by":"publisher","first-page":"3622","DOI":"10.1364\/OME.6.003622","volume":"6","author":"Rodr\u00edguez-de
+        Marcos","year":"2016","journal-title":"Opt. Mater. Express"},{"key":"ome-12-12-4574-R24","doi-asserted-by":"publisher","first-page":"1205","DOI":"10.1364\/JOSA.55.001205","volume":"55","author":"Malitson","year":"1965","journal-title":"J.
+        Opt. Soc. Am."},{"key":"ome-12-12-4574-R25","doi-asserted-by":"publisher","first-page":"159","DOI":"10.1016\/0040-6090(74)90098-4","volume":"21","author":"Lissberger","year":"1974","journal-title":"Thin
+        Solid Films"},{"key":"ome-12-12-4574-R26","doi-asserted-by":"publisher","first-page":"127405","DOI":"10.1103\/PhysRevLett.102.127405","volume":"102","author":"Pollard","year":"2009","journal-title":"Phys.
+        Rev. Lett."},{"key":"ome-12-12-4574-R27","doi-asserted-by":"publisher","first-page":"1016","DOI":"10.1039\/D0NH00180E","volume":"5","author":"Le","year":"2020","journal-title":"Nanoscale
+        Horiz."},{"key":"ome-12-12-4574-R28","doi-asserted-by":"publisher","first-page":"171","DOI":"10.1186\/1556-276X-8-171","volume":"8","author":"Douas","year":"2013","journal-title":"Nanoscale
+        Res. Lett."},{"key":"ome-12-12-4574-R29","doi-asserted-by":"publisher","first-page":"3018","DOI":"10.1021\/acs.accounts.9b00325","volume":"52","author":"Wang","year":"2019","journal-title":"Acc.
+        Chem. Res."},{"key":"ome-12-12-4574-R30","doi-asserted-by":"publisher","first-page":"345","DOI":"10.1002\/lpor.201400457","volume":"9","author":"Vasilantonakis","year":"2015","journal-title":"Laser
+        Photonics Rev."},{"key":"ome-12-12-4574-R31","doi-asserted-by":"publisher","first-page":"14329","DOI":"10.1364\/OE.23.014329","volume":"23","author":"Vasilantonakis","year":"2015","journal-title":"Opt.
+        Express"},{"key":"ome-12-12-4574-R32","doi-asserted-by":"publisher","first-page":"1566","DOI":"10.1364\/AO.35.001566","volume":"35","author":"Ciddor","year":"1996","journal-title":"Appl.
+        Opt."},{"key":"ome-12-12-4574-R33","doi-asserted-by":"publisher","first-page":"15313","DOI":"10.1364\/OE.25.015313","volume":"25","author":"Limodehi","year":"2017","journal-title":"Opt.
+        Express"},{"key":"ome-12-12-4574-R34","doi-asserted-by":"publisher","first-page":"1857","DOI":"10.1021\/acssensors.9b00637","volume":"4","author":"Gupta","year":"2019","journal-title":"ACS
+        Sens."}],"container-title":"Optical Materials Express","original-title":[],"language":"en","link":[{"URL":"https:\/\/opg.optica.org\/viewmedia.cfm?URI=ome-12-12-4574&seq=0","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2024,8,6]],"date-time":"2024-08-06T15:29:28Z","timestamp":1722958168000},"score":1,"resource":{"primary":{"URL":"https:\/\/opg.optica.org\/abstract.cfm?URI=ome-12-12-4574"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2022,11,14]]},"references-count":34,"journal-issue":{"issue":"12","published-online":{"date-parts":[[2022]]},"published-print":{"date-parts":[[2022]]}},"URL":"http:\/\/dx.doi.org\/10.1364\/ome.469414","relation":{},"ISSN":["2159-3930"],"subject":[],"container-title-short":"Opt.
+        Mater. Express","published":{"date-parts":[[2022,11,14]]},"assertion":[{"value":"Optica
+        Publishing Group","name":"publisher","label":"This article is maintained by"},{"value":"https:\/\/doi.org\/10.1364\/OME.469414","name":"articlelink","label":"Crossref
+        DOI link to publisher maintained version"},{"value":"research-article","name":"content_type","label":"Article
+        type"},{"value":"Screened by Similarity Check","name":"cross_check","label":"Similarity
+        check"},{"value":"Yes","order":0,"name":"peer_reviewed","label":"Peer reviewed","group":{"name":"peer_review","label":"Peer
+        review"}},{"value":"Single blind","order":1,"name":"review_process","label":"Review
+        process","group":{"name":"peer_review","label":"Peer review"}},{"value":"5
+        July 2022","order":0,"name":"received","label":"Received","group":{"name":"publication_history","label":"Publication
+        History"}},{"value":"23 August 2022","order":1,"name":"accepted","label":"Accepted","group":{"name":"publication_history","label":"Publication
+        History"}},{"value":"14 November 2022","order":2,"name":"published","label":"Published","group":{"name":"publication_history","label":"Publication
+        History"}},{"value":"Published by Optica Publishing Group under the terms
+        of the Creative Commons Attribution 4.0 License. Further distribution of this
+        work must maintain attribution to the author(s) and the published article\u2019s
+        title, journal citation, and DOI.","name":"copyright","label":"Copyright"}]}'
+  recorded_at: Mon, 10 Aug 2026 19:14:37 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works/10.1364%2Fprj.522533/transform/application/vnd.citationstyles.csl+json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Aug 2026 19:14:38 GMT
+      Content-Length:
+      - '17800'
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '5'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '1'
+      X-Api-Pool:
+      - public-single
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: ASCII-8BIT
+      string: '{"indexed":{"date-parts":[[2026,7,30]],"date-time":"2026-07-30T14:25:31Z","timestamp":1785421531751,"version":"3.56.0"},"reference-count":55,"publisher":"Optica
+        Publishing Group","issue":"8","funder":[{"DOI":"10.13039\/501100001809","name":"National
+        Natural Science Foundation of China","doi-asserted-by":"publisher","award":["62075195"],"award-info":[{"award-number":["62075195"]}],"id":[{"id":"10.13039\/501100001809","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100001809","name":"National
+        Natural Science Foundation of China","doi-asserted-by":"publisher","award":["92250305"],"award-info":[{"award-number":["92250305"]}],"id":[{"id":"10.13039\/501100001809","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100012166","name":"National
+        Key Research and Development Program of China","doi-asserted-by":"publisher","award":["2023YFB2806700"],"award-info":[{"award-number":["2023YFB2806700"]}],"id":[{"id":"10.13039\/501100012166","id-type":"DOI","asserted-by":"publisher"}]},{"name":"The
+        UK EPSRC CPLAS Project","award":["EP\/W017075\/1"],"award-info":[{"award-number":["EP\/W017075\/1"]}]},{"DOI":"10.13039\/501100004731","name":"Natural
+        Science Foundation of Zhejiang Province","doi-asserted-by":"publisher","award":["LDT23F04015F05"],"award-info":[{"award-number":["LDT23F04015F05"]}],"id":[{"id":"10.13039\/501100004731","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100012226","name":"Fundamental
+        Research Funds for the Central Universities","doi-asserted-by":"publisher","award":["2023QZJH13"],"award-info":[{"award-number":["2023QZJH13"]}],"id":[{"id":"10.13039\/501100012226","id-type":"DOI","asserted-by":"publisher"}]}],"content-domain":{"domain":["opg.optica.org"],"crossmark-restriction":false},"published-print":{"date-parts":[[2024,8,1]]},"abstract":"<jats:p>Ultrathin
+        plasmonic nanostructures offer an unparalleled opportunity for the study of
+        light\u2013matter interactions at the nanoscale and realization of compact
+        nanophotonic devices. In this study, we introduce an ultrathin gold nanoribbon
+        array and demonstrate an electric approach to actively tuning its plasmonic
+        resonance, which leveraging the extreme light confinement capability in the
+        ultrathin plasmonic nanostructure and a robust nanoscale electro-optical effect
+        in indium tin oxide. Optimizing the design (to a total thickness as small
+        as 12\u00a0nm for a 2-nm-thick gold nanoribbon array), we numerically demonstrate
+        a spectral shift in the plasmonic resonance up to 36\u00a0nm along with an
+        approximately 16% change in the transmission at a gate voltage below 1.7\u00a0V
+        at the wavelength of 1.47\u00a0\u03bcm. This work presents progress towards
+        electric tuning of plasmonic resonances in ultrathin metallic nanostructures
+        for various applications including surface-enhanced spectroscopy, spontaneous
+        emission enhancement, and optical modulation.<\/jats:p>","DOI":"10.1364\/prj.522533","type":"journal-article","created":{"date-parts":[[2024,5,29]],"date-time":"2024-05-29T07:00:58Z","timestamp":1716966058000},"page":"1750","update-policy":"https:\/\/doi.org\/10.1364\/crossmark_policy","source":"Crossref","is-referenced-by-count":4,"title":"Electric
+        tuning of plasmonic resonances in ultrathin gold nanoribbon arrays","prefix":"10.1364","volume":"12","author":[{"given":"Zhenxin","family":"Wang","sequence":"first","affiliation":[{"id":[{"id":"https:\/\/ror.org\/00a2xv884","id-type":"ROR","asserted-by":"publisher"}]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Alexey
+        V.","family":"Krasavin","sequence":"additional","affiliation":[{"name":"King\u2019s
+        College London"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Chenxinyu","family":"Pan","sequence":"additional","affiliation":[{"id":[{"id":"https:\/\/ror.org\/00a2xv884","id-type":"ROR","asserted-by":"publisher"}]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Junsheng","family":"Zheng","sequence":"additional","affiliation":[{"id":[{"id":"https:\/\/ror.org\/00a2xv884","id-type":"ROR","asserted-by":"publisher"}]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-9062-548X","authenticated-orcid":true,"given":"Zhiyong","family":"Li","sequence":"additional","affiliation":[{"id":[{"id":"https:\/\/ror.org\/00a2xv884","id-type":"ROR","asserted-by":"publisher"}]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Xin","family":"Guo","sequence":"additional","affiliation":[{"id":[{"id":"https:\/\/ror.org\/00a2xv884","id-type":"ROR","asserted-by":"publisher"}]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Anatoly
+        V.","family":"Zayats","sequence":"additional","affiliation":[{"name":"King\u2019s
+        College London"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Limin","family":"Tong","sequence":"additional","affiliation":[{"id":[{"id":"https:\/\/ror.org\/00a2xv884","id-type":"ROR","asserted-by":"publisher"}]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0003-4209-5186","authenticated-orcid":true,"given":"Pan","family":"Wang","sequence":"additional","affiliation":[{"id":[{"id":"https:\/\/ror.org\/00a2xv884","id-type":"ROR","asserted-by":"publisher"}]}],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"285","published-online":{"date-parts":[[2024,8,1]]},"reference":[{"key":"prj-12-8-1750-R1","doi-asserted-by":"publisher","first-page":"83","DOI":"10.1038\/nphoton.2009.282","volume":"4","author":"Gramotnev","year":"2010","journal-title":"Nat.
+        Photonics"},{"key":"prj-12-8-1750-R2","doi-asserted-by":"publisher","first-page":"193","DOI":"10.1038\/nmat2630","volume":"9","author":"Schuller","year":"2010","journal-title":"Nat.
+        Mater."},{"key":"prj-12-8-1750-R3","doi-asserted-by":"publisher","first-page":"4357","DOI":"10.1103\/PhysRevLett.83.4357","volume":"83","author":"Xu","year":"1999","journal-title":"Phys.
+        Rev. Lett."},{"key":"prj-12-8-1750-R4","doi-asserted-by":"publisher","first-page":"189","DOI":"10.1126\/science.1114849","volume":"311","author":"Ozbay","year":"2006","journal-title":"Science"},{"key":"prj-12-8-1750-R5","doi-asserted-by":"publisher","first-page":"1072","DOI":"10.1126\/science.1224823","volume":"337","author":"Cirac\u00ec","year":"2012","journal-title":"Science"},{"key":"prj-12-8-1750-R6","doi-asserted-by":"publisher","first-page":"737","DOI":"10.1038\/nphoton.2012.244","volume":"6","author":"Kauranen","year":"2012","journal-title":"Nat.
+        Photonics"},{"key":"prj-12-8-1750-R7","doi-asserted-by":"publisher","first-page":"127","DOI":"10.1038\/nature17974","volume":"535","author":"Chikkaraddy","year":"2016","journal-title":"Nature"},{"key":"prj-12-8-1750-R8","doi-asserted-by":"publisher","first-page":"7323","DOI":"10.3390\/s100807323","volume":"10","author":"Mitchell","year":"2010","journal-title":"Sensors"},{"key":"prj-12-8-1750-R9","doi-asserted-by":"publisher","first-page":"3127","DOI":"10.1364\/OL.36.003127","volume":"36","author":"Krasavin","year":"2011","journal-title":"Opt.
+        Lett."},{"key":"prj-12-8-1750-R10","doi-asserted-by":"publisher","first-page":"1720","DOI":"10.1126\/science.1207858","volume":"333","author":"Cai","year":"2011","journal-title":"Science"},{"key":"prj-12-8-1750-R11","doi-asserted-by":"publisher","first-page":"709","DOI":"10.1038\/nphoton.2012.266","volume":"6","author":"Brolo","year":"2012","journal-title":"Nat.
+        Photonics"},{"key":"prj-12-8-1750-R12","doi-asserted-by":"publisher","first-page":"165","DOI":"10.1126\/science.aab2051","volume":"349","author":"Rodrigo","year":"2015","journal-title":"Science"},{"key":"prj-12-8-1750-R13","doi-asserted-by":"publisher","first-page":"2304","DOI":"10.1021\/nl504389f","volume":"15","author":"Olivieri","year":"2015","journal-title":"Nano
+        Lett."},{"key":"prj-12-8-1750-R14","doi-asserted-by":"publisher","first-page":"2338","DOI":"10.1109\/JPROC.2016.2603118","volume":"104","author":"Krasavin","year":"2016","journal-title":"Proc.
+        IEEE"},{"key":"prj-12-8-1750-R15","doi-asserted-by":"publisher","first-page":"239","DOI":"10.1515\/nanoph-2022-0594","volume":"12","author":"Sokhoyan","year":"2023","journal-title":"Nanophotonics"},{"key":"prj-12-8-1750-R16","doi-asserted-by":"publisher","first-page":"eabn2026","DOI":"10.1126\/sciadv.abn2026","volume":"8","author":"Zhou","year":"2022","journal-title":"Sci.
+        Adv."},{"key":"prj-12-8-1750-R17","doi-asserted-by":"publisher","first-page":"159","DOI":"10.1038\/s41565-017-0017-7","volume":"13","author":"Wang","year":"2018","journal-title":"Nat.
+        Nanotechnol."},{"key":"prj-12-8-1750-R18","doi-asserted-by":"publisher","first-page":"5319","DOI":"10.1021\/acs.nanolett.6b00555","volume":"16","author":"Huang","year":"2016","journal-title":"Nano
+        Lett."},{"key":"prj-12-8-1750-R19","doi-asserted-by":"publisher","first-page":"2238","DOI":"10.1103\/PhysRevLett.83.2238","volume":"83","author":"Moresco","year":"1999","journal-title":"Phys.
+        Rev. Lett."},{"key":"prj-12-8-1750-R20","doi-asserted-by":"publisher","first-page":"165407","DOI":"10.1103\/PhysRevB.81.165407","volume":"81","author":"Rugeramigabo","year":"2010","journal-title":"Phys.
+        Rev. B"},{"key":"prj-12-8-1750-R21","doi-asserted-by":"publisher","first-page":"328","DOI":"10.1038\/s41566-019-0366-x","volume":"13","author":"Maniyara","year":"2019","journal-title":"Nat.
+        Photonics"},{"key":"prj-12-8-1750-R22","doi-asserted-by":"publisher","first-page":"7771","DOI":"10.1021\/acsnano.9b01651","volume":"13","author":"Abd
+        El-Fattah","year":"2019","journal-title":"ACS Nano"},{"key":"prj-12-8-1750-R23","doi-asserted-by":"publisher","first-page":"13153","DOI":"10.1038\/ncomms13153","volume":"7","author":"Qian","year":"2016","journal-title":"Nat.
+        Commun."},{"key":"prj-12-8-1750-R24","doi-asserted-by":"publisher","first-page":"32144","DOI":"10.1038\/srep32144","volume":"6","author":"Yu","year":"2016","journal-title":"Sci.
+        Rep."},{"key":"prj-12-8-1750-R25","doi-asserted-by":"publisher","first-page":"2302520","DOI":"10.1002\/adma.202302520","volume":"36","author":"Mkhitaryan","year":"2023","journal-title":"Adv.
+        Mater."},{"key":"prj-12-8-1750-R26","doi-asserted-by":"publisher","first-page":"2840","DOI":"10.1038\/s41467-024-47133-7","volume":"15","author":"Pan","year":"2024","journal-title":"Nat.
+        Commun."},{"key":"prj-12-8-1750-R27","doi-asserted-by":"publisher","first-page":"71","DOI":"10.1002\/adom.201400345","volume":"3","author":"Kossoy","year":"2015","journal-title":"Adv.
+        Opt. Mater."},{"key":"prj-12-8-1750-R28","doi-asserted-by":"publisher","first-page":"46990","DOI":"10.1021\/acsami.1c10824","volume":"13","author":"Mart\u00ednez-Cerc\u00f3s","year":"2021","journal-title":"ACS
+        Appl. Mater. Interfaces"},{"key":"prj-12-8-1750-R29","doi-asserted-by":"publisher","first-page":"3054","DOI":"10.1021\/acs.chemrev.7b00252","volume":"118","author":"Jiang","year":"2018","journal-title":"Chem.
+        Rev."},{"key":"prj-12-8-1750-R30","doi-asserted-by":"publisher","first-page":"425","DOI":"10.1016\/j.carbon.2021.11.040","volume":"187","author":"Zhou","year":"2022","journal-title":"Carbon"},{"key":"prj-12-8-1750-R31","doi-asserted-by":"publisher","first-page":"033601","DOI":"10.1103\/PhysRevLett.125.033601","volume":"125","author":"Muniz","year":"2020","journal-title":"Phys.
+        Rev. Lett."},{"key":"prj-12-8-1750-R32","doi-asserted-by":"publisher","first-page":"2200331","DOI":"10.1002\/andp.202200331","volume":"535","author":"Bondarev","year":"2023","journal-title":"Annalen
+        der Physik"},{"key":"prj-12-8-1750-R33","doi-asserted-by":"publisher","first-page":"78","DOI":"10.1021\/nl403253c","volume":"14","author":"Emani","year":"2014","journal-title":"Nano
+        Lett."},{"key":"prj-12-8-1750-R34","doi-asserted-by":"publisher","first-page":"2953","DOI":"10.1515\/nanoph-2023-0042","volume":"12","author":"Damgaard-Carstensen","year":"2023","journal-title":"Nanophotonics"},{"key":"prj-12-8-1750-R35","doi-asserted-by":"publisher","first-page":"053901","DOI":"10.1103\/PhysRevLett.109.053901","volume":"109","author":"Krasavin","year":"2012","journal-title":"Phys.
+        Rev. Lett."},{"key":"prj-12-8-1750-R36","doi-asserted-by":"publisher","first-page":"6912","DOI":"10.1021\/acsnano.0c01269","volume":"14","author":"Shirmanesh","year":"2020","journal-title":"ACS
+        Nano"},{"key":"prj-12-8-1750-R37","doi-asserted-by":"publisher","first-page":"61","DOI":"10.1007\/s11468-005-9005-0","volume":"1","author":"Mulvaney","year":"2006","journal-title":"Plasmonics"},{"key":"prj-12-8-1750-R38","doi-asserted-by":"publisher","first-page":"171701","DOI":"10.1063\/5.0171298","volume":"123","author":"Wu","year":"2023","journal-title":"Appl.
+        Phys. Lett."},{"key":"prj-12-8-1750-R39","doi-asserted-by":"publisher","first-page":"2103706","DOI":"10.1002\/adfm.202103706","volume":"31","author":"Koya","year":"2021","journal-title":"Adv.
+        Funct. Mater."},{"key":"prj-12-8-1750-R40","doi-asserted-by":"publisher","first-page":"2107172","DOI":"10.1002\/adma.202107172","volume":"34","author":"Karki","year":"2022","journal-title":"Adv.
+        Mater."},{"key":"prj-12-8-1750-R41","doi-asserted-by":"publisher","first-page":"2786","DOI":"10.1021\/acs.nanolett.3c00063","volume":"23","author":"Bykov","year":"2023","journal-title":"Nano
+        Lett."},{"key":"prj-12-8-1750-R42","doi-asserted-by":"publisher","first-page":"6463","DOI":"10.1021\/nl502998z","volume":"14","author":"Lee","year":"2014","journal-title":"Nano
+        Lett."},{"key":"prj-12-8-1750-R43","doi-asserted-by":"publisher","first-page":"897","DOI":"10.1021\/nl803868k","volume":"9","author":"Dionne","year":"2009","journal-title":"Nano
+        Lett."},{"key":"prj-12-8-1750-R44","doi-asserted-by":"publisher","first-page":"17","DOI":"10.1515\/nanoph-2012-0009","volume":"1","author":"Sorger","year":"2012","journal-title":"Nanophotonics"},{"key":"prj-12-8-1750-R45","doi-asserted-by":"publisher","first-page":"2957","DOI":"10.1021\/acs.nanolett.8b00351","volume":"18","author":"Kafaie
+        Shirmanesh","year":"2018","journal-title":"Nano Lett."},{"key":"prj-12-8-1750-R46","doi-asserted-by":"publisher","first-page":"1786","DOI":"10.1021\/acs.nanolett.2c00095","volume":"22","author":"Liu","year":"2022","journal-title":"Nano
+        Lett."},{"key":"prj-12-8-1750-R47","doi-asserted-by":"publisher","first-page":"703","DOI":"10.1038\/s41467-024-44769-3","volume":"15","author":"Karaman","year":"2024","journal-title":"Nat.
+        Commun."},{"key":"prj-12-8-1750-R48","doi-asserted-by":"publisher","first-page":"2111","DOI":"10.1021\/nl1006307","volume":"10","author":"Feigenbaum","year":"2010","journal-title":"Nano
+        Lett."},{"key":"prj-12-8-1750-R49","doi-asserted-by":"publisher","first-page":"2201914","DOI":"10.1002\/adom.202201914","volume":"11","author":"Wang","year":"2023","journal-title":"Adv.
+        Opt. Mater."},{"key":"prj-12-8-1750-R50","doi-asserted-by":"publisher","first-page":"1287","DOI":"10.1038\/s41598-020-80381-3","volume":"11","author":"Amin","year":"2021","journal-title":"Sci.
+        Rep."},{"key":"prj-12-8-1750-R51","doi-asserted-by":"publisher","first-page":"8855","DOI":"10.1364\/OE.19.008855","volume":"19","author":"Melikyan","year":"2011","journal-title":"Opt.
+        Express"},{"key":"prj-12-8-1750-R52","doi-asserted-by":"publisher","first-page":"713","DOI":"10.1038\/s41598-020-57556-z","volume":"10","author":"Ni","year":"2020","journal-title":"Sci.
+        Rep."},{"key":"prj-12-8-1750-R53","doi-asserted-by":"publisher","first-page":"235147","DOI":"10.1103\/PhysRevB.86.235147","volume":"86","author":"Olmon","year":"2012","journal-title":"Phys.
+        Rev. B"},{"key":"prj-12-8-1750-R54","doi-asserted-by":"publisher","first-page":"100","DOI":"10.1017\/S0305004100019952","volume":"34","author":"Fuchs","year":"1938","journal-title":"Math.
+        Proc. Cambridge"},{"key":"prj-12-8-1750-R55","doi-asserted-by":"publisher","first-page":"499","DOI":"10.1080\/00018730110102187","volume":"50","author":"Sondheimer","year":"2001","journal-title":"Adv.
+        Phys."}],"container-title":"Photonics Research","original-title":[],"language":"en","link":[{"URL":"https:\/\/opg.optica.org\/viewmedia.cfm?URI=prj-12-8-1750&seq=0","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2024,7,31]],"date-time":"2024-07-31T14:04:12Z","timestamp":1722434652000},"score":1,"resource":{"primary":{"URL":"https:\/\/opg.optica.org\/abstract.cfm?URI=prj-12-8-1750"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2024,8,1]]},"references-count":55,"journal-issue":{"issue":"8","published-online":{"date-parts":[[2024]]},"published-print":{"date-parts":[[2024]]}},"URL":"http:\/\/dx.doi.org\/10.1364\/prj.522533","relation":{},"ISSN":["2327-9125"],"subject":[],"container-title-short":"Photon.
+        Res.","published":{"date-parts":[[2024,8,1]]},"assertion":[{"value":"Optica
+        Publishing Group","name":"publisher","label":"This article is maintained by"},{"value":"https:\/\/doi.org\/10.1364\/PRJ.522533","name":"articlelink","label":"Crossref
+        DOI link to publisher maintained version"},{"value":"research-article","name":"content_type","label":"Article
+        type"},{"value":"Screened by Similarity Check","name":"cross_check","label":"Similarity
+        check"},{"value":"Yes","order":0,"name":"peer_reviewed","label":"Peer reviewed","group":{"name":"peer_review","label":"Peer
+        review"}},{"value":"Single blind","order":1,"name":"review_process","label":"Review
+        process","group":{"name":"peer_review","label":"Peer review"}},{"value":"28
+        March 2024","order":0,"name":"received","label":"Received","group":{"name":"publication_history","label":"Publication
+        History"}},{"value":"27 May 2024","order":1,"name":"accepted","label":"Accepted","group":{"name":"publication_history","label":"Publication
+        History"}},{"value":"1 August 2024","order":2,"name":"published","label":"Published","group":{"name":"publication_history","label":"Publication
+        History"}},{"value":"\u00a9 2024 Chinese Laser Press","name":"copyright","label":"Copyright"}]}'
+  recorded_at: Mon, 10 Aug 2026 19:14:37 GMT
+recorded_with: VCR 6.4.0

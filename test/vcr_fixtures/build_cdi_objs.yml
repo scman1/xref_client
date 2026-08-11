@@ -1,0 +1,110 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.crossref.org/works/10.1002%2Faenm.202201131/transform/application/vnd.citationstyles.csl+json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Aug 2026 19:14:38 GMT
+      Content-Length:
+      - '15688'
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '5'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '1'
+      X-Api-Pool:
+      - public-single
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: ASCII-8BIT
+      string: '{"indexed":{"date-parts":[[2026,8,5]],"date-time":"2026-08-05T18:44:46Z","timestamp":1785955486955,"version":"3.56.0"},"reference-count":65,"publisher":"Wiley","issue":"45","license":[{"start":{"date-parts":[[2022,10,3]],"date-time":"2022-10-03T00:00:00Z","timestamp":1664755200000},"content-version":"vor","delay-in-days":0,"URL":"http:\/\/creativecommons.org\/licenses\/by\/4.0\/"}],"funder":[{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R023522\/1"],"award-info":[{"award-number":["EP\/R023522\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R023603\/1"],"award-info":[{"award-number":["EP\/R023603\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R023921\/1"],"award-info":[{"award-number":["EP\/R023921\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R023638\/1"],"award-info":[{"award-number":["EP\/R023638\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R008841\/1"],"award-info":[{"award-number":["EP\/R008841\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/V055232\/1"],"award-info":[{"award-number":["EP\/V055232\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R027129\/1"],"award-info":[{"award-number":["EP\/R027129\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/P007821\/1"],"award-info":[{"award-number":["EP\/P007821\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/L000202"],"award-info":[{"award-number":["EP\/L000202"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/709
+        P007821\/1"],"award-info":[{"award-number":["EP\/709 P007821\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R029431"],"award-info":[{"award-number":["EP\/R029431"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/T022213"],"award-info":[{"award-number":["EP\/T022213"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]}],"content-domain":{"domain":["advanced.onlinelibrary.wiley.com"],"crossmark-restriction":true},"published-print":{"date-parts":[[2022,12]]},"abstract":"<jats:title>Abstract<\/jats:title><jats:p>High\u2010performance
+        nanoparticle platforms can drive catalysis progress to new horizons, delivering
+        environmental and energy targets. Nanoparticle exsolution offers unprecedented
+        opportunities that are limited by current demanding process conditions. Unraveling
+        new exsolution pathways, particularly at low\u2010temperatures, represents
+        an important milestone that will enable improved sustainable synthetic route,
+        more control of catalysis microstructure as well as new application opportunities.
+        Herein it is demonstrated that plasma direct exsolution at room temperature
+        represents just such a step change in the synthesis. Moreover, the factors
+        that most affect the exsolution process are identified. It is shown that the
+        surface defects produced initiate exsolution under a brief ion bombardment
+        of an argon low\u2010pressure and low\u2010temperature plasma. This results
+        in controlled nanoparticles with diameters \u224819\u201322\u00a0nm with very
+        high number densities thus creating a highly active catalytic material for
+        CO oxidation which rivals traditionally created exsolved samples.<\/jats:p>","DOI":"10.1002\/aenm.202201131","type":"journal-article","created":{"date-parts":[[2022,10,3]],"date-time":"2022-10-03T08:02:44Z","timestamp":1664784164000},"update-policy":"https:\/\/doi.org\/10.1002\/crossmark_policy","source":"Crossref","is-referenced-by-count":57,"title":"Rapid
+        Plasma Exsolution from an A\u2010site Deficient Perovskite Oxide at Room Temperature","prefix":"10.1002","volume":"12","author":[{"ORCID":"https:\/\/orcid.org\/0000-0001-8033-303X","authenticated-orcid":false,"given":"Hessan","family":"Khalid","sequence":"first","affiliation":[{"name":"Nanotechnology
+        and Integrated Bio\u2010Engineering Centre (NIBEC) Ulster University  Newtownabbey
+        BT37 0QB UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Atta
+        ul","family":"Haq","sequence":"additional","affiliation":[{"name":"Nanotechnology
+        and Integrated Bio\u2010Engineering Centre (NIBEC) Ulster University  Newtownabbey
+        BT37 0QB UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Bruno","family":"Alessi","sequence":"additional","affiliation":[{"name":"Nanotechnology
+        and Integrated Bio\u2010Engineering Centre (NIBEC) Ulster University  Newtownabbey
+        BT37 0QB UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Ji","family":"Wu","sequence":"additional","affiliation":[{"name":"Department
+        of Chemistry University of Bath  Claverton Down Bath BA2 7AX UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Cristian
+        D.","family":"Savaniu","sequence":"additional","affiliation":[{"name":"School
+        of Chemistry University of St. Andrews  Scotland Fife KY16 9ST UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Kalliopi","family":"Kousi","sequence":"additional","affiliation":[{"name":"Department
+        of Chemical and Process Engineering University of Surrey  Guildford Surrey
+        GU2 7XH UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Ian
+        S.","family":"Metcalfe","sequence":"additional","affiliation":[{"name":"School
+        of Engineering Newcastle University  Newcastle upon Tyne NE1 7RU UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Stephen
+        C.","family":"Parker","sequence":"additional","affiliation":[{"name":"Department
+        of Chemistry University of Bath  Claverton Down Bath BA2 7AX UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"John
+        T. S.","family":"Irvine","sequence":"additional","affiliation":[{"name":"School
+        of Chemistry University of St. Andrews  Scotland Fife KY16 9ST UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Paul","family":"Maguire","sequence":"additional","affiliation":[{"name":"Nanotechnology
+        and Integrated Bio\u2010Engineering Centre (NIBEC) Ulster University  Newtownabbey
+        BT37 0QB UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Evangelos
+        I.","family":"Papaioannou","sequence":"additional","affiliation":[{"name":"School
+        of Engineering Newcastle University  Newcastle upon Tyne NE1 7RU UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0003-1504-4383","authenticated-orcid":false,"given":"Davide","family":"Mariotti","sequence":"additional","affiliation":[{"name":"Nanotechnology
+        and Integrated Bio\u2010Engineering Centre (NIBEC) Ulster University  Newtownabbey
+        BT37 0QB UK"}],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"311","published-online":{"date-parts":[[2022,10,3]]},"reference":[{"key":"e_1_2_8_1_1","doi-asserted-by":"publisher","DOI":"10.1002\/aenm.202000459"},{"key":"e_1_2_8_2_1","doi-asserted-by":"publisher","DOI":"10.1021\/acs.chemmater.0c00721"},{"key":"e_1_2_8_3_1","doi-asserted-by":"publisher","DOI":"10.1038\/nchem.1773"},{"key":"e_1_2_8_4_1","doi-asserted-by":"publisher","DOI":"10.1088\/2515-7655\/ab8c1f"},{"key":"e_1_2_8_5_1","doi-asserted-by":"publisher","DOI":"10.3390\/electrochem1010004"},{"key":"e_1_2_8_6_1","doi-asserted-by":"publisher","DOI":"10.1007\/s11814-020-0569-3"},{"key":"e_1_2_8_7_1","doi-asserted-by":"publisher","DOI":"10.1002\/smll.202006479"},{"key":"e_1_2_8_8_1","doi-asserted-by":"publisher","DOI":"10.1023\/A:1020589132547"},{"key":"e_1_2_8_9_1","doi-asserted-by":"publisher","DOI":"10.1038\/ncomms9120"},{"key":"e_1_2_8_10_1","doi-asserted-by":"publisher","DOI":"10.1039\/C2EE22547F"},{"key":"e_1_2_8_11_1","doi-asserted-by":"publisher","DOI":"10.1038\/ncomms14785"},{"key":"e_1_2_8_12_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201915140"},{"key":"e_1_2_8_13_1","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.8b16732"},{"key":"e_1_2_8_14_1","doi-asserted-by":"publisher","DOI":"10.1038\/s41467-017-01880-y"},{"key":"e_1_2_8_15_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.jpowsour.2019.227077"},{"key":"e_1_2_8_16_1","doi-asserted-by":"publisher","DOI":"10.1038\/s41557-021-00696-0"},{"key":"e_1_2_8_17_1","doi-asserted-by":"publisher","DOI":"10.1039\/c3ta11315a"},{"key":"e_1_2_8_18_1","doi-asserted-by":"publisher","DOI":"10.1002\/aenm.201903693"},{"key":"e_1_2_8_19_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.cattod.2006.05.029"},{"key":"e_1_2_8_20_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.ijhydene.2011.09.067"},{"key":"e_1_2_8_21_1","doi-asserted-by":"publisher","DOI":"10.1149\/1.3571039"},{"key":"e_1_2_8_22_1","doi-asserted-by":"publisher","DOI":"10.1038\/nature02278"},{"key":"e_1_2_8_23_1","doi-asserted-by":"publisher","DOI":"10.1126\/science.1191778"},{"key":"e_1_2_8_24_1","doi-asserted-by":"publisher","DOI":"10.1038\/s41467-019-09395-4"},{"key":"e_1_2_8_25_1","doi-asserted-by":"publisher","DOI":"10.1021\/acsnano.9b05652"},{"key":"e_1_2_8_26_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja110302t"},{"key":"e_1_2_8_27_1","doi-asserted-by":"publisher","DOI":"10.1038\/nature00893"},{"key":"e_1_2_8_28_1","doi-asserted-by":"publisher","DOI":"10.1038\/nature19090"},{"key":"e_1_2_8_29_1","doi-asserted-by":"publisher","DOI":"10.1002\/smtd.202100868"},{"key":"e_1_2_8_30_1","doi-asserted-by":"publisher","DOI":"10.1038\/s41598-017-09031-5"},{"key":"e_1_2_8_31_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcatb.2019.117950"},{"key":"e_1_2_8_32_1","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.9b01882"},{"key":"e_1_2_8_33_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.electacta.2019.03.126"},{"key":"e_1_2_8_34_1","doi-asserted-by":"publisher","DOI":"10.1002\/admi.202001598"},{"key":"e_1_2_8_35_1","doi-asserted-by":"publisher","DOI":"10.1002\/advs.202200250"},{"key":"e_1_2_8_36_1","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.1c12970"},{"key":"e_1_2_8_37_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcatb.2012.07.001"},{"key":"e_1_2_8_38_1","doi-asserted-by":"publisher","DOI":"10.1039\/D0EE00092B"},{"key":"e_1_2_8_39_1","doi-asserted-by":"publisher","DOI":"10.1039\/D0TA04362A"},{"key":"e_1_2_8_40_1","doi-asserted-by":"publisher","DOI":"10.1039\/c3ta10689f"},{"key":"e_1_2_8_41_1","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.7b07039"},{"key":"e_1_2_8_42_1","doi-asserted-by":"publisher","DOI":"10.1039\/C3NJ01367G"},{"key":"e_1_2_8_43_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.nanoen.2016.07.013"},{"key":"e_1_2_8_44_1","doi-asserted-by":"publisher","DOI":"10.1002\/0471724254.ch1"},{"key":"e_1_2_8_45_1","doi-asserted-by":"publisher","DOI":"10.1038\/s41598-016-0001-8"},{"key":"e_1_2_8_46_1","doi-asserted-by":"publisher","DOI":"10.1021\/acssuschemeng.8b05717"},{"key":"e_1_2_8_47_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201600687"},{"key":"e_1_2_8_48_1","doi-asserted-by":"publisher","DOI":"10.1021\/acs.jpclett.8b01380"},{"key":"e_1_2_8_49_1","doi-asserted-by":"publisher","DOI":"10.1557\/PROC-335-107"},{"key":"e_1_2_8_50_1","doi-asserted-by":"publisher","DOI":"10.1103\/PhysRevB.44.5970"},{"key":"e_1_2_8_51_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.carbon.2008.10.005"},{"key":"e_1_2_8_52_1","doi-asserted-by":"publisher","DOI":"10.1063\/1.3012572"},{"key":"e_1_2_8_53_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.carbon.2009.04.031"},{"key":"e_1_2_8_54_1","doi-asserted-by":"publisher","DOI":"10.1103\/PhysRevB.85.075323"},{"key":"e_1_2_8_55_1","doi-asserted-by":"publisher","DOI":"10.1007\/s11244-018-1053-8"},{"key":"e_1_2_8_56_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.cocis.2009.04.006"},{"key":"e_1_2_8_57_1","doi-asserted-by":"publisher","DOI":"10.1007\/s11244-005-3786-4"},{"key":"e_1_2_8_58_1","doi-asserted-by":"publisher","DOI":"10.1016\/0927-0256(96)00008-0"},{"key":"e_1_2_8_59_1","doi-asserted-by":"publisher","DOI":"10.1103\/PhysRevB.49.14251"},{"key":"e_1_2_8_60_1","doi-asserted-by":"publisher","DOI":"10.1103\/PhysRevB.54.11169"},{"key":"e_1_2_8_61_1","doi-asserted-by":"publisher","DOI":"10.1103\/PhysRevB.47.558"},{"key":"e_1_2_8_62_1","doi-asserted-by":"publisher","DOI":"10.1103\/PhysRevB.50.17953"},{"key":"e_1_2_8_63_1","doi-asserted-by":"publisher","DOI":"10.1103\/PhysRevB.59.1758"},{"key":"e_1_2_8_64_1","doi-asserted-by":"publisher","DOI":"10.1080\/0892702031000104887"},{"key":"e_1_2_8_65_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.jssc.2021.122523"}],"container-title":"Advanced
+        Energy Materials","original-title":[],"language":"en","link":[{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/pdf\/10.1002\/aenm.202201131","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/full-xml\/10.1002\/aenm.202201131","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/advanced.onlinelibrary.wiley.com\/doi\/pdf\/10.1002\/aenm.202201131","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2025,10,7]],"date-time":"2025-10-07T22:53:59Z","timestamp":1759877639000},"score":1,"resource":{"primary":{"URL":"https:\/\/advanced.onlinelibrary.wiley.com\/doi\/10.1002\/aenm.202201131"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2022,10,3]]},"references-count":65,"journal-issue":{"issue":"45","published-print":{"date-parts":[[2022,12]]}},"alternative-id":["10.1002\/aenm.202201131"],"URL":"http:\/\/dx.doi.org\/10.1002\/aenm.202201131","relation":{},"ISSN":["1614-6832","1614-6840"],"subject":[],"container-title-short":"Advanced
+        Energy Materials","published":{"date-parts":[[2022,10,3]]},"assertion":[{"value":"2022-04-01","order":0,"name":"received","label":"Received","group":{"name":"publication_history","label":"Publication
+        History"}},{"value":"2022-10-03","order":3,"name":"published","label":"Published","group":{"name":"publication_history","label":"Publication
+        History"}}],"article-number":"2201131"}'
+  recorded_at: Mon, 10 Aug 2026 19:14:38 GMT
+recorded_with: VCR 6.4.0

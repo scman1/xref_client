@@ -1,0 +1,1299 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R026939/1,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:10 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '47103'
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":2,"items":[{"indexed":{"date-parts":[[2025,10,2]],"date-time":"2025-10-02T10:33:04Z","timestamp":1759401184880,"version":"3.41.0"},"reference-count":76,"publisher":"IOP
+        Publishing","issue":"3","license":[{"start":{"date-parts":[[2025,6,6]],"date-time":"2025-06-06T00:00:00Z","timestamp":1749168000000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/creativecommons.org\/licenses\/by\/4.0\/"},{"start":{"date-parts":[[2025,6,6]],"date-time":"2025-06-06T00:00:00Z","timestamp":1749168000000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/iopscience.iop.org\/info\/page\/text-and-data-mining"}],"funder":[{"DOI":"10.13039\/501100000266","name":"EPSRC","doi-asserted-by":"crossref","award":["EP\/R026939\/1"],"award-info":[{"award-number":["EP\/R026939\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"crossref"}]},{"DOI":"10.13039\/501100004543","name":"China
+        Scholarship Council","doi-asserted-by":"crossref","award":["202106100037 and
+        202006100040"],"award-info":[{"award-number":["202106100037 and 202006100040"]}],"id":[{"id":"10.13039\/501100004543","id-type":"DOI","asserted-by":"crossref"}]},{"name":"Beijing
+        Natural Science Foundation","award":["2242001"],"award-info":[{"award-number":["2242001"]}]},{"name":"European
+        Union\u2019s Horizon 2020 research and innovation program","award":["872102"],"award-info":[{"award-number":["872102"]}]}],"content-domain":{"domain":["iopscience.iop.org"],"crossmark-restriction":false},"short-container-title":["Sustain.
+        Sci. Technol."],"published-print":{"date-parts":[[2025,9,1]]},"DOI":"10.1088\/2977-3504\/add7e0","type":"journal-article","created":{"date-parts":[[2025,5,13]],"date-time":"2025-05-13T22:47:51Z","timestamp":1747176471000},"page":"034002","update-policy":"https:\/\/doi.org\/10.1088\/crossmark-policy","source":"Crossref","is-referenced-by-count":1,"title":["Sulfonic
+        acid-functionalised zeolites for fructose dehydration into 5-hydroxymethylfurfural"],"prefix":"10.1088","volume":"2","author":[{"ORCID":"https:\/\/orcid.org\/0000-0001-5465-4673","authenticated-orcid":true,"given":"Huaizhong","family":"Xiang","sequence":"first","affiliation":[],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Yao","family":"Zhang","sequence":"additional","affiliation":[],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Xin","family":"Zhong","sequence":"additional","affiliation":[],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Boji","family":"Wang","sequence":"additional","affiliation":[],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Charalampos","family":"Drivas","sequence":"additional","affiliation":[],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Mark
+        A","family":"Isaacs","sequence":"additional","affiliation":[],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Aina","family":"Syahida
+        Jamal","sequence":"additional","affiliation":[],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Zhipeng","family":"Qie","sequence":"additional","affiliation":[],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Qiang","family":"Zhang","sequence":"additional","affiliation":[],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Shaojun","family":"Xu","sequence":"additional","affiliation":[],"role":[{"role":"author","vocabulary":"crossref"}]},{"ORCID":"https:\/\/orcid.org\/0000-0003-3729-5378","authenticated-orcid":true,"given":"Jes\u00fas","family":"Esteban","sequence":"additional","affiliation":[],"role":[{"role":"author","vocabulary":"crossref"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-3651-7314","authenticated-orcid":true,"given":"Christopher
+        M A","family":"Parlett","sequence":"additional","affiliation":[],"role":[{"role":"author","vocabulary":"crossref"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-9039-6736","authenticated-orcid":true,"given":"Xiaolei","family":"Fan","sequence":"additional","affiliation":[],"role":[{"role":"author","vocabulary":"crossref"}]}],"member":"266","published-online":{"date-parts":[[2025,6,6]]},"reference":[{"key":"sstechadd7e0bib1","doi-asserted-by":"publisher","DOI":"10.1016\/j.cej.2019.122766","article-title":"Production
+        of HMF in high yield using a low cost and recyclable carbonaceous catalyst","volume":"382","author":"Portillo
+        Perez","year":"2020","journal-title":"Chem. Eng. J."},{"key":"sstechadd7e0bib2","doi-asserted-by":"publisher","DOI":"10.1016\/j.rser.2020.110317","article-title":"Recent
+        advances in catalytic and autocatalytic production of biomass-derived 5-hydroxymethylfurfural","volume":"134","author":"Hu","year":"2020","journal-title":"Renew.
+        Sustain. Energy Rev."},{"key":"sstechadd7e0bib3","doi-asserted-by":"publisher","DOI":"10.1016\/j.fuproc.2022.107338","article-title":"Recent
+        advances on solid acid catalyic systems for production of 5-hydroxymethylfurfural
+        from biomass derivatives","volume":"234","author":"Xu","year":"2022","journal-title":"Fuel
+        Process. Technol."},{"key":"sstechadd7e0bib4","doi-asserted-by":"publisher","first-page":"246","DOI":"10.1016\/j.cej.2017.07.020","article-title":"Valorization
+        of biomass to hydroxymethylfurfural, levulinic acid, and fatty acid methyl
+        ester by heterogeneous catalysts","volume":"328","author":"Chen","year":"2017","journal-title":"Chem.
+        Eng. J."},{"key":"sstechadd7e0bib5","doi-asserted-by":"publisher","first-page":"88","DOI":"10.1016\/j.compositesb.2018.08.044","article-title":"High
+        selective production of 5-hydroxymethylfurfural from fructose by sulfonic
+        acid functionalised SBA-15 catalyst","volume":"156","author":"Wang","year":"2019","journal-title":"Composites
+        B"},{"key":"sstechadd7e0bib6","doi-asserted-by":"publisher","first-page":"5220","DOI":"10.1021\/acs.iecr.5b00628","article-title":"Fructose
+        dehydration to 5-hydroxymethylfurfural over sulfated TiO2\u2013SiO2, Ti-SBA-15,
+        ZrO2, SiO2, and activated carbon catalysts","volume":"54","author":"K\u0131l\u0131\u00e7","year":"2015","journal-title":"Ind.
+        Eng. Chem. Res."},{"key":"sstechadd7e0bib7","doi-asserted-by":"publisher","first-page":"35","DOI":"10.1016\/j.carres.2012.01.003","article-title":"Selective
+        dehydration of fructose to 5-hydroxymethylfurfural catalysed by mesoporous
+        SBA-15-SO3H in ionic liquid BmimCl","volume":"351","author":"Guo","year":"2012","journal-title":"Carbohydrate
+        Res."},{"key":"sstechadd7e0bib8","doi-asserted-by":"publisher","first-page":"380","DOI":"10.1016\/j.cej.2016.02.082","article-title":"The
+        catalytic conversion of fructose into 5-hydroxymethylfurfural over acid-functionalised
+        KIT-6, an ordered mesoporous silica","volume":"294","author":"Hafizi","year":"2016","journal-title":"Chem.
+        Eng. J."},{"key":"sstechadd7e0bib9","doi-asserted-by":"publisher","first-page":"5591","DOI":"10.1021\/acscatal.8b01197","article-title":"Unifying
+        mechanistic analysis of factors controlling selectivity in fructose dehydration
+        to 5-hydroxymethylfurfural by homogeneous acid catalysts in aprotic solvents","volume":"8","author":"Svenningsen","year":"2018","journal-title":"ACS
+        Catal."},{"key":"sstechadd7e0bib10","doi-asserted-by":"publisher","first-page":"212","DOI":"10.3390\/challe3020212","article-title":"5-hydroxymethylfurfural
+        (5-HMF) production from hexoses: limits of heterogeneous catalysis in hydrothermal
+        conditions and potential of concentrated aqueous organic acids as reactive
+        solvent system","volume":"3","author":"De Souza","year":"2012","journal-title":"Challenges"},{"key":"sstechadd7e0bib11","doi-asserted-by":"publisher","first-page":"3783","DOI":"10.1021\/acs.energyfuels.7b03684","article-title":"Acid
+        modified H-USY zeolite for efficient catalytic transformation of fructose
+        to 5-Hydroxymethyl furfural (biofuel precursor) in methyl isobutyl ketone\u2013water
+        biphasic system","volume":"32","author":"Pande","year":"2018","journal-title":"Energy
+        Fuels"},{"key":"sstechadd7e0bib12","doi-asserted-by":"publisher","first-page":"1530","DOI":"10.1039\/D3SU00162H","article-title":"Hierarchical
+        zeolite catalysed fructose dehydration to 5-hydroxymethylfurfural within a
+        biphasic solvent system under microwave irradiation","volume":"1","author":"Xiang","year":"2023","journal-title":"RSC
+        Sustain."},{"key":"sstechadd7e0bib13","doi-asserted-by":"publisher","first-page":"1933","DOI":"10.1126\/science.1126337","article-title":"Phase
+        modifiers promote efficient production of hydroxymethylfurfural from fructose","volume":"312","author":"Roman-Leshkov","year":"2006","journal-title":"Science"},{"key":"sstechadd7e0bib14","doi-asserted-by":"publisher","first-page":"3","DOI":"10.1002\/cplu.202300413","article-title":"Impact
+        of porous silica nanosphere architectures on the catalytic performance of
+        supported sulphonic acid sites for fructose dehydration to 5-hydroxymethylfurfural","volume":"88","author":"Price","year":"2023","journal-title":"ChemPlusChem"},{"key":"sstechadd7e0bib15","doi-asserted-by":"publisher","DOI":"10.1021\/acs.chemrev.6b00311","article-title":"Heterogeneously
+        catalyzed hydrothermal processing of C5\u2013C6 sugars","volume":"116","author":"Zhang","year":"2016","journal-title":"Chem.
+        Rev."},{"key":"sstechadd7e0bib16","doi-asserted-by":"publisher","first-page":"43","DOI":"10.1016\/j.micromeso.2019.04.022","article-title":"Functionalised
+        zeolite-solvent catalytic systems for microwave-assisted dehydration of fructose
+        to 5-hydroxymethylfurfural","volume":"284","author":"Jia","year":"2019","journal-title":"Microporous
+        Mesoporous Mater."},{"key":"sstechadd7e0bib17","doi-asserted-by":"publisher","DOI":"10.1016\/j.cej.2021.131143","article-title":"Energy
+        efficient production of 5-hydroxymethylfurfural (5-HMF) over surface functionalised
+        carbon superstructures under microwave irradiation","volume":"428","author":"Lyu","year":"2022","journal-title":"Chem.
+        Eng. J."},{"key":"sstechadd7e0bib18","doi-asserted-by":"publisher","first-page":"146","DOI":"10.1016\/j.carbpol.2013.05.074","article-title":"Sulfonated
+        hierarchical H-USY zeolite for efficient hydrolysis of hemicellulose\/cellulose","volume":"98","author":"Zhou","year":"2013","journal-title":"Carbohydrate
+        Polym."},{"key":"sstechadd7e0bib19","doi-asserted-by":"publisher","DOI":"10.1002\/ep.13530","article-title":"Milder
+        operating parameters for one-step conversion of fructose to levulinic acid
+        over sulfonated H-\u03b2 zeolite in aqueous media","volume":"40","author":"Bisen","year":"2021","journal-title":"Environ.
+        Prog. Sustain. Energy"},{"key":"sstechadd7e0bib20","doi-asserted-by":"publisher","first-page":"1650","DOI":"10.1016\/j.ijhydene.2018.11.110","article-title":"Sulfonated
+        mesoporous Y zeolite with nickel to catalyse hydrocracking of microalgae biodiesel
+        into jet fuel range hydrocarbons","volume":"44","author":"Cheng","year":"2019","journal-title":"Int.
+        J. Hydrog. Energy"},{"key":"sstechadd7e0bib21","doi-asserted-by":"publisher","DOI":"10.1016\/j.biombioe.2020.105646","article-title":"Maximization
+        of furanic compounds formation by dehydration and hydrogenation of xylose
+        in one step over SO3\u2013H functionalised H-\u03b2 catalyst in alcohol media","volume":"139","author":"Gupta","year":"2020","journal-title":"Biomass
+        Bioenergy"},{"key":"sstechadd7e0bib22","doi-asserted-by":"publisher","DOI":"10.1016\/j.ijhydene.2012.06.050","article-title":"Organosulfonic
+        acid functionalised zeolite ZSM-5 as temperature tolerant proton conducting
+        material","volume":"37","author":"Nur","year":"2012","journal-title":"Int.
+        J. Hydrog. Energy"},{"year":"2000","author":"Anastas","key":"sstechadd7e0bib23"},{"key":"sstechadd7e0bib24","doi-asserted-by":"publisher","first-page":"4506","DOI":"10.1039\/C4GC01139B","article-title":"Hydrothermal
+        saline promoted grafting: a route to sulfonic acid SBA-15 silica with ultra-high
+        acid site loading for biodiesel synthesis","volume":"16","author":"Pirez","year":"2014","journal-title":"Green
+        Chem."},{"key":"sstechadd7e0bib25","doi-asserted-by":"publisher","first-page":"42","DOI":"10.1016\/j.cattod.2013.11.027","article-title":"Heterogeneous
+        acid-catalysts for the production of furan-derived compounds (furfural and
+        hydroxymethylfurfural) from renewable carbohydrates: a review","volume":"234","author":"Agirrezabal-Telleria","year":"2014","journal-title":"Catal.
+        Today"},{"key":"sstechadd7e0bib26","doi-asserted-by":"publisher","first-page":"2230","DOI":"10.1039\/c3gc40683k","article-title":"Microwave-assisted
+        synthesis of sulfonic acid-functionalised microporous materials for the catalytic
+        etherification of glycerol with isobutene","volume":"15","author":"Gonz\u00e1lez","year":"2013","journal-title":"Green
+        Chem."},{"key":"sstechadd7e0bib27","doi-asserted-by":"publisher","first-page":"11","DOI":"10.1016\/S0927-7757(97)00078-2","article-title":"The
+        removal of copper and nickel from aqueous solution using Y zeolite ion exchangers","volume":"138","author":"Keane","year":"1998","journal-title":"Colloids
+        Surf. A"},{"key":"sstechadd7e0bib28","doi-asserted-by":"publisher","first-page":"838","DOI":"10.1007\/BF02706978","article-title":"Preparation
+        of PAN-zeolite 4A composite ion exchanger and its uptake behavior for Sr and
+        Cs ions in acid solution","volume":"19","author":"Moon","year":"2002","journal-title":"Korean
+        J. Chem. Eng."},{"key":"sstechadd7e0bib29","doi-asserted-by":"publisher","first-page":"7044","DOI":"10.1039\/c5cs00029g","article-title":"Advances
+        in theory and their application within the field of zeolite chemistry","volume":"44","author":"Van
+        Speybroeck","year":"2015","journal-title":"Chem. Soc. Rev."},{"key":"sstechadd7e0bib30","doi-asserted-by":"publisher","first-page":"58","DOI":"10.1021\/ar900116g","article-title":"Synthesis,
+        structure, and carbon dioxide capture properties of zeolitic imidazolate frameworks","volume":"43","author":"Phan","year":"2010","journal-title":"Acc.
+        Chem. Res."},{"key":"sstechadd7e0bib31","doi-asserted-by":"publisher","first-page":"3","DOI":"10.1016\/j.cattod.2011.01.007","article-title":"Catalysis
+        with hierarchical zeolites","volume":"168","author":"Holm","year":"2011","journal-title":"Catal.
+        Today"},{"key":"sstechadd7e0bib32","doi-asserted-by":"publisher","first-page":"191","DOI":"10.1016\/j.apcata.2009.05.055","article-title":"Mesoporous
+        ZSM-5 zeolite catalysts prepared by desilication with organic hydroxides and
+        comparison with NaOH leaching","volume":"364","author":"Abell\u00f3","year":"2009","journal-title":"Appl.
+        Catal. A"},{"key":"sstechadd7e0bib33","doi-asserted-by":"publisher","first-page":"278","DOI":"10.1016\/j.matchemphys.2011.02.003","article-title":"Preparation
+        of organic-functionalised mesoporous ZSM-5 zeolites by consecutive desilication
+        and silanisation","volume":"127","author":"Mitchell","year":"2011","journal-title":"Mater.
+        Chem. Phys."},{"key":"sstechadd7e0bib34","doi-asserted-by":"publisher","first-page":"501","DOI":"10.1002\/cctc.201402941","article-title":"The
+        role of salts and Br\u00f8nsted acids in lewis acid-catalyzed aqueous-phase
+        glucose dehydration to 5-hydroxymethylfurfural","volume":"7","author":"Wrigstedt","year":"2015","journal-title":"ChemCatChem"},{"key":"sstechadd7e0bib35","doi-asserted-by":"publisher","first-page":"501","DOI":"10.1002\/cssc.201902309","article-title":"Solvent
+        effects on degradative condensation side reactions of fructose in its initial
+        conversion to 5-hydroxymethylfurfural","volume":"13","author":"Fu","year":"2020","journal-title":"ChemSusChem"},{"key":"sstechadd7e0bib36","doi-asserted-by":"publisher","first-page":"1919","DOI":"10.1038\/s41598-020-80285-2","article-title":"Dehydration
+        of D-fructose to 5-hydroxymethyl-2-furfural in DMSO using a hydrophilic sulfonated
+        silica catalyst in a process promoted by microwave irradiation","volume":"11","author":"Barbosa","year":"2021","journal-title":"Sci.
+        Rep."},{"key":"sstechadd7e0bib37","doi-asserted-by":"publisher","first-page":"41","DOI":"10.1016\/j.catcom.2013.03.021","article-title":"Fructose
+        dehydration to 5-hydroxymethylfurfural: remarkable solvent influence on recyclability
+        of Amberlyst-15 catalyst and regeneration studies","volume":"37","author":"Sampath","year":"2013","journal-title":"Catal.
+        Commun."},{"key":"sstechadd7e0bib38","doi-asserted-by":"publisher","first-page":"2244","DOI":"10.1016\/j.jclepro.2016.11.053","article-title":"Efficient
+        dehydration of fructose into 5-hydroxymethylfurfural in aqueous medium over
+        silica-included heteropolyacids","volume":"142","author":"Lv","year":"2017","journal-title":"J.
+        Clean. Prod."},{"key":"sstechadd7e0bib39","doi-asserted-by":"publisher","DOI":"10.1039\/c2cp42751f","article-title":"Conversion
+        and kinetics study of fructose-to-5-hydroxymethylfurfural (HMF) using sulfonic
+        and ionic liquid groups bi-functionalised mesoporous silica nanoparticles
+        as recyclable solid catalysts in DMSO systems","volume":"14","author":"Lee","year":"2012","journal-title":"Phys.
+        Chem. Chem. Phys."},{"key":"sstechadd7e0bib40","doi-asserted-by":"publisher","first-page":"1669","DOI":"10.1002\/cssc.201700239","article-title":"Acidic
+        Zeolite\u2005L as a highly efficient catalyst for dehydration of fructose
+        to 5-hydroxymethylfurfural in ionic liquid","volume":"10","author":"Ma","year":"2017","journal-title":"ChemSusChem"},{"key":"sstechadd7e0bib41","doi-asserted-by":"publisher","first-page":"1499","DOI":"10.1021\/cr300182k","article-title":"Hydroxymethylfurfural,
+        a versatile platform chemical made from renewable resources","volume":"113","author":"van
+        Putten","year":"2013","journal-title":"Chem. Rev."},{"key":"sstechadd7e0bib42","doi-asserted-by":"publisher","first-page":"123","DOI":"10.1039\/B006677J","article-title":"Applications
+        of ionic liquids in the chemical industry","volume":"37","author":"Plechkova","year":"2008","journal-title":"Chem.
+        Soc. Rev."},{"key":"sstechadd7e0bib43","doi-asserted-by":"publisher","first-page":"68","DOI":"10.1016\/j.jcat.2011.12.002","article-title":"The
+        effect of solvent addition on fructose dehydration to 5-hydroxymethylfurfural
+        in biphasic system over zeolites","volume":"287","author":"Ordomsky","year":"2012","journal-title":"J.
+        Catal."},{"key":"sstechadd7e0bib44","doi-asserted-by":"publisher","first-page":"1014","DOI":"10.1016\/j.jclepro.2018.03.204","article-title":"A
+        microwave-assisted process for the in-situ production of 5-hydroxymethylfurfural
+        and furfural from lignocellulosic polysaccharides in a biphasic reaction system","volume":"187","author":"Sweygers","year":"2018","journal-title":"J.
+        Clean. Prod."},{"key":"sstechadd7e0bib45","doi-asserted-by":"publisher","first-page":"288","DOI":"10.1039\/C5GC01008J","article-title":"CHEM21
+        selection guide of classical- and less classical-solvents","volume":"18","author":"Prat","year":"2016","journal-title":"Green
+        Chem."},{"year":"2012","author":"Mohammad","key":"sstechadd7e0bib46"},{"key":"sstechadd7e0bib47","doi-asserted-by":"publisher","DOI":"10.1021\/jp953006x","article-title":"Dealuminated
+        H\u2212Y zeolites:\u2009 relation between physicochemical properties and catalytic
+        activity in heptane and decane isomerization","volume":"100","author":"Remy","year":"1996","journal-title":"J.
+        Phys. Chem."},{"key":"sstechadd7e0bib48","doi-asserted-by":"publisher","first-page":"1","DOI":"10.1016\/j.cej.2016.11.116","article-title":"Creating
+        hierarchies promptly: microwave-accelerated synthesis of ZSM-5 zeolites on
+        macrocellular silicon carbide (SiC) foams","volume":"312","author":"Ou","year":"2017","journal-title":"Chem.
+        Eng. J."},{"key":"sstechadd7e0bib49","doi-asserted-by":"publisher","first-page":"104","DOI":"10.1016\/j.apcata.2017.07.036","article-title":"Vapor-phase
+        transport (VPT) modification of ZSM-5\/SiC foam catalyst using TPAOH vapor
+        to improve the methanol-to-propylene (MTP) reaction","volume":"545","author":"Jiao","year":"2017","journal-title":"Appl.
+        Catal. A"},{"key":"sstechadd7e0bib50","doi-asserted-by":"publisher","first-page":"442","DOI":"10.1016\/j.jiec.2022.02.034","article-title":"Solventless
+        esterification of glycerol with p-methoxycinnamic acid catalysed by a novel
+        sulfonic acid mesoporous solid: reaction kinetics","volume":"109","author":"Molinero","year":"2022","journal-title":"J.
+        Ind. Eng. Chem."},{"key":"sstechadd7e0bib51","doi-asserted-by":"publisher","first-page":"2097","DOI":"10.1039\/C9GC04208C","article-title":"An
+        overview of the biphasic dehydration of sugars to 5-hydroxymethylfurfural
+        and furfural: a rational selection of solvents using COSMO-RS and selection
+        guides","volume":"22","author":"Esteban","year":"2020","journal-title":"Green
+        Chem."},{"key":"sstechadd7e0bib52","doi-asserted-by":"publisher","first-page":"752","DOI":"10.1039\/C4GC01563K","article-title":"Overcoming
+        barriers to green chemistry in the pharmaceutical industry\u2014the Green
+        Aspiration Level\u2122 concept","volume":"17","author":"Roschangar","year":"2015","journal-title":"Green
+        Chem."},{"key":"sstechadd7e0bib53","doi-asserted-by":"publisher","first-page":"9508","DOI":"10.1021\/acssuschemeng.1c02501","article-title":"Quantitative
+        sustainability assessment of flow chemistry\u2013from simple metrics to holistic
+        assessment","volume":"9","author":"Hessel","year":"2021","journal-title":"ACS
+        Sustain. Chem. Eng."},{"key":"sstechadd7e0bib54","doi-asserted-by":"publisher","first-page":"3765","DOI":"10.1039\/D1GC00887K","article-title":"Chemolytic
+        depolymerisation of PET: a review","volume":"23","author":"Barnard","year":"2021","journal-title":"Green
+        Chem."},{"key":"sstechadd7e0bib55","doi-asserted-by":"publisher","first-page":"32","DOI":"10.1021\/acssuschemeng.7b03505","article-title":"Metrics
+        of green chemistry and sustainability: past, present, and future","volume":"6","author":"Sheldon","year":"2018","journal-title":"ACS
+        Sustain. Chem. Eng."},{"key":"sstechadd7e0bib56","doi-asserted-by":"publisher","first-page":"2490","DOI":"10.1039\/C3GC42414F","article-title":"Conversion
+        of fructose into 5-hydroxymethylfurfural catalysed by recyclable sulfonic
+        acid-functionalised metal\u2013organic frameworks","volume":"16","author":"Chen","year":"2014","journal-title":"Green
+        Chem."},{"key":"sstechadd7e0bib57","doi-asserted-by":"publisher","first-page":"984","DOI":"10.3390\/catal12090984","article-title":"Effective
+        production of 5-hydroxymethylfurfural from fructose over a highly active sulfonic
+        acid functionalized SBA-15 catalyst","volume":"12","author":"Zhu","year":"2022","journal-title":"Catalysts"},{"key":"sstechadd7e0bib58","doi-asserted-by":"publisher","first-page":"799","DOI":"10.1039\/b801641k","article-title":"Catalytic
+        dehydration of fructose into 5-hydroxymethylfurfural by ion-exchange resin
+        in mixed-aqueous system by microwave heating","volume":"10","author":"Qi","year":"2008","journal-title":"Green
+        Chem."},{"author":"McCusker","key":"sstechadd7e0bib59","doi-asserted-by":"publisher","DOI":"10.1107\/97809553602060000961"},{"key":"sstechadd7e0bib60","doi-asserted-by":"publisher","first-page":"319","DOI":"10.1016\/j.colsurfa.2011.03.010","article-title":"One-pot
+        synthesis of core\u2013shell silica\u2013aluminosilicate composites: effect
+        of pH and chitosan addition","volume":"380","author":"Chamnankid","year":"2011","journal-title":"Colloids
+        Surf. A"},{"key":"sstechadd7e0bib61","doi-asserted-by":"publisher","first-page":"268","DOI":"10.1007\/s11244-015-0432-7","article-title":"Impact
+        of the desilication treatment of Y zeolite on the catalytic cracking of bulky
+        hydrocarbon molecules","volume":"59","author":"Garc\u00eda","year":"2015","journal-title":"Top.
+        Catal."},{"key":"sstechadd7e0bib62","doi-asserted-by":"publisher","DOI":"10.1016\/j.mcat.2021.111686","article-title":"Modification
+        of commercial Y zeolites by alkaline-treatment for improved performance in
+        the isomerisation of glucose to fructose","volume":"510","author":"Zhu","year":"2021","journal-title":"Mol.
+        Catal."},{"key":"sstechadd7e0bib63","doi-asserted-by":"publisher","first-page":"219","DOI":"10.1016\/j.molcata.2003.10.043","article-title":"Silica
+        functionalised sulphonic acid groups: synthesis, characterisation and catalytic
+        activity in acetalisation and acetylation reactions","volume":"212","author":"Shylesh","year":"2004","journal-title":"J.
+        Mol. Catal. A"},{"key":"sstechadd7e0bib64","doi-asserted-by":"publisher","first-page":"341","DOI":"10.1016\/j.cej.2014.07.036","article-title":"Conversion
+        of xylose to levulinic acid over modified acid functions of alkaline-treated
+        zeolite Y in hot-compressed water","volume":"258","author":"Chamnankid","year":"2014","journal-title":"Chem.
+        Eng. J."},{"key":"sstechadd7e0bib65","doi-asserted-by":"publisher","first-page":"7621","DOI":"10.1021\/la034520u","article-title":"Acid-functionalized
+        amorphous silica by chemical grafting\u2212quantitative oxidation of thiol
+        groups","volume":"19","author":"Cano-Serrano","year":"2003","journal-title":"Langmuir"},{"key":"sstechadd7e0bib66","doi-asserted-by":"publisher","first-page":"4653","DOI":"10.1016\/j.jpowsour.2010.01.087","article-title":"New
+        sulfonic acid moiety grafted on montmorillonite as filler of organic\u2013inorganic
+        composite membrane for non-humidified proton-exchange membrane fuel cells","volume":"195","author":"Kim","year":"2010","journal-title":"J.
+        Power Sources"},{"key":"sstechadd7e0bib67","doi-asserted-by":"publisher","first-page":"59","DOI":"10.1016\/j.cattod.2006.12.006","article-title":"An
+        overview of dehydration, aldol-condensation and hydrogenation processes for
+        production of liquid alkanes from biomass-derived carbohydrates","volume":"123","author":"Chheda","year":"2007","journal-title":"Catal.
+        Today"},{"key":"sstechadd7e0bib68","doi-asserted-by":"publisher","first-page":"342","DOI":"10.1039\/B611568C","article-title":"Production
+        of 5-hydroxymethylfurfural and furfural by dehydration of biomass-derived
+        mono- and poly-saccharides","volume":"9","author":"Chheda","year":"2007","journal-title":"Green
+        Chem."},{"key":"sstechadd7e0bib69","doi-asserted-by":"publisher","first-page":"8126","DOI":"10.1021\/acssuschemeng.8b05720","article-title":"Matching
+        the activity of homogeneous sulfonic acids: the fructose-to-HMF conversion
+        catalyzed by hierarchically porous sulfonic-acid-functionalized porous organic
+        polymer (POP) catalysts","volume":"7","author":"Du","year":"2019","journal-title":"ACS
+        Sustain. Chem. Eng."},{"key":"sstechadd7e0bib70","doi-asserted-by":"publisher","first-page":"4745","DOI":"10.1021\/ef2010157","article-title":"Formation
+        and growth of humins via aldol addition and condensation during acid-catalyzed
+        conversion of 5-hydroxymethylfurfural","volume":"25","author":"Patil","year":"2011","journal-title":"Energy
+        Fuels"},{"key":"sstechadd7e0bib71","doi-asserted-by":"publisher","first-page":"5281","DOI":"10.1021\/ef3007454","article-title":"Comparison
+        of structural features of humins formed catalytically from glucose, fructose,
+        and 5-hydroxymethylfurfuraldehyde","volume":"26","author":"Patil","year":"2012","journal-title":"Energy
+        Fuels"},{"key":"sstechadd7e0bib72","doi-asserted-by":"publisher","first-page":"7703","DOI":"10.1021\/ie061673e","article-title":"Kinetics
+        of the decomposition of fructose catalyzed by hydrochloric acid in subcritical
+        water:\u2009 formation of 5-hydroxymethylfurfural, levulinic, and formic acids","volume":"46","author":"Asghari","year":"2007","journal-title":"Ind.
+        Eng. Chem. Res."},{"key":"sstechadd7e0bib73","doi-asserted-by":"publisher","DOI":"10.1016\/j.cej.2021.132556","article-title":"Intensified
+        reactive extraction for the acid-catalysed conversion of fructose to 5-hydroxymethyl
+        furfural","volume":"428","author":"Desir","year":"2022","journal-title":"Chem.
+        Eng. J."},{"key":"sstechadd7e0bib74","doi-asserted-by":"publisher","DOI":"10.1039\/c3ra43197e","article-title":"Influence
+        of properties of SAPO\u2019s on the one-pot conversion of mono-, di- and poly-saccharides
+        into 5-hydroxymethylfurfural","volume":"3","author":"Bhaumik","year":"2013","journal-title":"RSC
+        Adv."},{"key":"sstechadd7e0bib75","doi-asserted-by":"publisher","first-page":"778","DOI":"10.1016\/j.cej.2015.08.031","article-title":"Design
+        of sulfonated mesoporous silica catalyst for fructose dehydration guided by
+        difructose anhydride intermediate incorporated reaction network","volume":"283","author":"Huang","year":"2016","journal-title":"Chem.
+        Eng. J."},{"key":"sstechadd7e0bib76","doi-asserted-by":"publisher","first-page":"719","DOI":"10.1021\/cs2001237","article-title":"Acid-functionalized
+        SBA-15-type silica catalysts for carbohydrate dehydration","volume":"1","author":"Crisci","year":"2011","journal-title":"ACS
+        Catal."}],"container-title":["Sustainability Science and Technology"],"link":[{"URL":"https:\/\/iopscience.iop.org\/article\/10.1088\/2977-3504\/add7e0","content-type":"text\/html","content-version":"am","intended-application":"text-mining"},{"URL":"https:\/\/iopscience.iop.org\/article\/10.1088\/2977-3504\/add7e0\/pdf","content-type":"application\/pdf","content-version":"am","intended-application":"text-mining"},{"URL":"https:\/\/iopscience.iop.org\/article\/10.1088\/2977-3504\/add7e0","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/iopscience.iop.org\/article\/10.1088\/2977-3504\/add7e0\/pdf","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/iopscience.iop.org\/article\/10.1088\/2977-3504\/add7e0\/pdf","content-type":"application\/pdf","content-version":"am","intended-application":"syndication"},{"URL":"https:\/\/iopscience.iop.org\/article\/10.1088\/2977-3504\/add7e0\/pdf","content-type":"application\/pdf","content-version":"vor","intended-application":"syndication"},{"URL":"https:\/\/iopscience.iop.org\/article\/10.1088\/2977-3504\/add7e0\/pdf","content-type":"application\/pdf","content-version":"am","intended-application":"similarity-checking"},{"URL":"https:\/\/iopscience.iop.org\/article\/10.1088\/2977-3504\/add7e0\/pdf","content-type":"application\/pdf","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2025,6,6]],"date-time":"2025-06-06T06:00:27Z","timestamp":1749189627000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/iopscience.iop.org\/article\/10.1088\/2977-3504\/add7e0"}},"issued":{"date-parts":[[2025,6,6]]},"references-count":76,"journal-issue":{"issue":"3","published-online":{"date-parts":[[2025,6,6]]},"published-print":{"date-parts":[[2025,9,1]]}},"URL":"https:\/\/doi.org\/10.1088\/2977-3504\/add7e0","ISSN":["2977-3504"],"issn-type":[{"type":"electronic","value":"2977-3504"}],"published":{"date-parts":[[2025,6,6]]},"assertion":[{"value":"Sulfonic
+        acid-functionalised zeolites for fructose dehydration into 5-hydroxymethylfurfural","name":"article_title","label":"Article
+        Title"},{"value":"Sustainability Science and Technology","name":"journal_title","label":"Journal
+        Title"},{"value":"paper","name":"article_type","label":"Article Type"},{"value":"\u00a9
+        2025 The Author(s). Published by IOP Publishing Ltd","name":"copyright_information","label":"Copyright
+        Information"},{"value":"2024-10-18","name":"date_received","label":"Date Received","group":{"name":"publication_dates","label":"Publication
+        dates"}},{"value":"2025-05-13","name":"date_accepted","label":"Date Accepted","group":{"name":"publication_dates","label":"Publication
+        dates"}},{"value":"2025-06-06","name":"date_epub","label":"Online publication
+        date","group":{"name":"publication_dates","label":"Publication dates"}}]},{"indexed":{"date-parts":[[2026,7,29]],"date-time":"2026-07-29T21:22:17Z","timestamp":1785360137714,"version":"3.55.0"},"reference-count":53,"publisher":"American
+        Chemical Society (ACS)","issue":"11","license":[{"start":{"date-parts":[[2025,5,20]],"date-time":"2025-05-20T00:00:00Z","timestamp":1747699200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/creativecommons.org\/licenses\/by\/4.0\/"}],"funder":[{"DOI":"10.13039\/501100003359","name":"Generalitat
+        Valenciana","doi-asserted-by":"publisher","award":["CIPROM\/2022\/10"],"award-info":[{"award-number":["CIPROM\/2022\/10"]}],"id":[{"id":"10.13039\/501100003359","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100003359","name":"Generalitat
+        Valenciana","doi-asserted-by":"publisher","award":["MFA\/2022\/047"],"award-info":[{"award-number":["MFA\/2022\/047"]}],"id":[{"id":"10.13039\/501100003359","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100003339","name":"Consejo
+        Superior de Investigaciones Cient?ficas","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100003339","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100014440","name":"Ministerio
+        de Ciencia, Innovaci?n y Universidades","doi-asserted-by":"publisher","award":["FPU21\/02562"],"award-info":[{"award-number":["FPU21\/02562"]}],"id":[{"id":"10.13039\/100014440","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100011011","name":"Junta
+        de Andaluc?a","doi-asserted-by":"publisher","award":["ProyExcel_00706"],"award-info":[{"award-number":["ProyExcel_00706"]}],"id":[{"id":"10.13039\/501100011011","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100011033","name":"Agencia
+        Estatal de Investigaci?n","doi-asserted-by":"publisher","award":["CEX2021-001230-S"],"award-info":[{"award-number":["CEX2021-001230-S"]}],"id":[{"id":"10.13039\/501100011033","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100011033","name":"Agencia
+        Estatal de Investigaci?n","doi-asserted-by":"publisher","award":["CNS2023-145078"],"award-info":[{"award-number":["CNS2023-145078"]}],"id":[{"id":"10.13039\/501100011033","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100011033","name":"Agencia
+        Estatal de Investigaci?n","doi-asserted-by":"publisher","award":["PID2021-126080OA-I00"],"award-info":[{"award-number":["PID2021-126080OA-I00"]}],"id":[{"id":"10.13039\/501100011033","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100011033","name":"Agencia
+        Estatal de Investigaci?n","doi-asserted-by":"publisher","award":["PID2022-140111OB-I00"],"award-info":[{"award-number":["PID2022-140111OB-I00"]}],"id":[{"id":"10.13039\/501100011033","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100011033","name":"Agencia
+        Estatal de Investigaci?n","doi-asserted-by":"publisher","award":["TED2021-130191B-C41"],"award-info":[{"award-number":["TED2021-130191B-C41"]}],"id":[{"id":"10.13039\/501100011033","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100011033","name":"Agencia
+        Estatal de Investigaci?n","doi-asserted-by":"publisher","award":["TED2021-132087A-I00"],"award-info":[{"award-number":["TED2021-132087A-I00"]}],"id":[{"id":"10.13039\/501100011033","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100030857","name":"UK
+        Carbon Capture and Storage Research Community","doi-asserted-by":"publisher","award":["EP\/R026939\/1"],"award-info":[{"award-number":["EP\/R026939\/1"]}],"id":[{"id":"10.13039\/100030857","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100010665","name":"H2020
+        Marie Sklodowska-Curie Actions","doi-asserted-by":"publisher","award":["101109254"],"award-info":[{"award-number":["101109254"]}],"id":[{"id":"10.13039\/100010665","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100004233","name":"Universitat
+        Polit?cnica de Val?ncia","doi-asserted-by":"publisher","award":["PAID-10-23"],"award-info":[{"award-number":["PAID-10-23"]}],"id":[{"id":"10.13039\/501100004233","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100003033","name":"Ministerio
+        de Ciencia, Tecnolog?a e Innovaci?n","doi-asserted-by":"publisher","award":["CEX2021-001230-S"],"award-info":[{"award-number":["CEX2021-001230-S"]}],"id":[{"id":"10.13039\/501100003033","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100010661","name":"Horizon
+        2020 Framework Programme","doi-asserted-by":"publisher","award":["101022507"],"award-info":[{"award-number":["101022507"]}],"id":[{"id":"10.13039\/100010661","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100031478","name":"NextGenerationEU","doi-asserted-by":"publisher","award":["PRTR-C17.
+        I1"],"award-info":[{"award-number":["PRTR-C17. I1"]}],"id":[{"id":"10.13039\/100031478","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100017204","name":"Instituto
+        de Tecnolog?a Qu?mica","doi-asserted-by":"publisher","id":[{"id":"10.13039\/100017204","id-type":"DOI","asserted-by":"publisher"}]}],"content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":["ACS
+        Catal."],"published-print":{"date-parts":[[2025,6,6]]},"DOI":"10.1021\/acscatal.5c01232","type":"journal-article","created":{"date-parts":[[2025,5,20]],"date-time":"2025-05-20T11:44:06Z","timestamp":1747741446000},"page":"9489-9502","source":"Crossref","is-referenced-by-count":15,"title":["Pd-Enhanced
+        Carbon-Encapsulated Co Nanoparticles for Efficient Reverse Water\u2013Gas
+        Shift under Magnetic Induction Heating"],"prefix":"10.1021","volume":"15","author":[{"ORCID":"https:\/\/orcid.org\/0000-0001-5114-1063","authenticated-orcid":true,"given":"Adri\u00e1n","family":"Garc\u00eda-Zaragoza","sequence":"first","affiliation":[{"name":"ITQ,
+        Instituto de Tecnolog\u00eda Qu\u00edmica, Universitat Polit\u00e8cnica de
+        Val\u00e8ncia (UPV), Av. de los Naranjos S\/N, Valencia 46022, Spain"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Jos\u00e9
+        Luis","family":"del R\u00edo-Rodr\u00edguez","sequence":"additional","affiliation":[{"name":"ITQ,
+        Instituto de Tecnolog\u00eda Qu\u00edmica, Universitat Polit\u00e8cnica de
+        Val\u00e8ncia (UPV), Av. de los Naranjos S\/N, Valencia 46022, Spain"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0001-9537-0642","authenticated-orcid":true,"given":"Christian","family":"Cerezo-Navarrete","sequence":"additional","affiliation":[{"name":"ITQ,
+        Instituto de Tecnolog\u00eda Qu\u00edmica, Universitat Polit\u00e8cnica de
+        Val\u00e8ncia (UPV), Av. de los Naranjos S\/N, Valencia 46022, Spain"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Silvia","family":"Guti\u00e9rrez-Tarri\u00f1o","sequence":"additional","affiliation":[{"name":"ITQ,
+        Instituto de Tecnolog\u00eda Qu\u00edmica, Universitat Polit\u00e8cnica de
+        Val\u00e8ncia (UPV), Av. de los Naranjos S\/N, Valencia 46022, Spain"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-2475-7433","authenticated-orcid":true,"given":"M.
+        Asunci\u00f3n","family":"Molina","sequence":"additional","affiliation":[{"name":"Department
+        of Chemistry, University College London, 20 Gordon Street, London WC1H 0AJ,
+        U.K."},{"name":"Research Complex at Harwell, Rutherford Appleton Laboratories","place":["Didcot,
+        U.K."]},{"name":"Harwell Science and Innovation Campus","place":["Didcot,
+        U.K."]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Lucy","family":"Costley-Wood","sequence":"additional","affiliation":[{"name":"Department
+        of Chemistry, University College London, 20 Gordon Street, London WC1H 0AJ,
+        U.K."},{"name":"Research Complex at Harwell, Rutherford Appleton Laboratories","place":["Didcot,
+        U.K."]},{"name":"Harwell Science and Innovation Campus","place":["Didcot,
+        U.K."]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-1746-4552","authenticated-orcid":true,"given":"Jaime","family":"Mazar\u00edo","sequence":"additional","affiliation":[{"name":"LPCNO,
+        Laboratoire de Physique et Chimie des Nano-Objets","place":["Toulouse, France"]},{"name":"Universit\u00e9
+        de Toulouse, CNRS, INSA, UPS","place":["Toulouse, France"]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0001-9290-6421","authenticated-orcid":true,"given":"Bruno","family":"Chaudret","sequence":"additional","affiliation":[{"name":"LPCNO,
+        Laboratoire de Physique et Chimie des Nano-Objets","place":["Toulouse, France"]},{"name":"Universit\u00e9
+        de Toulouse, CNRS, INSA, UPS","place":["Toulouse, France"]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-3401-4967","authenticated-orcid":true,"given":"Luis
+        M.","family":"Mart\u00ednez-Prieto","sequence":"additional","affiliation":[{"name":"ITQ,
+        Instituto de Tecnolog\u00eda Qu\u00edmica, Universitat Polit\u00e8cnica de
+        Val\u00e8ncia (UPV), Av. de los Naranjos S\/N, Valencia 46022, Spain"},{"name":"IIQ,
+        Instituto de Investigaciones Qu\u00edmicas (CSIC-Universidad de Sevilla),
+        Avda. Americo Vespucio 49, Seville 41092, Spain"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-0923-1433","authenticated-orcid":true,"given":"Andrew
+        M.","family":"Beale","sequence":"additional","affiliation":[{"name":"Department
+        of Chemistry, University College London, 20 Gordon Street, London WC1H 0AJ,
+        U.K."},{"name":"Research Complex at Harwell, Rutherford Appleton Laboratories","place":["Didcot,
+        U.K."]},{"name":"Harwell Science and Innovation Campus","place":["Didcot,
+        U.K."]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-2341-7867","authenticated-orcid":true,"given":"Pascual","family":"O\u00f1a-Burgos","sequence":"additional","affiliation":[{"name":"ITQ,
+        Instituto de Tecnolog\u00eda Qu\u00edmica, Universitat Polit\u00e8cnica de
+        Val\u00e8ncia (UPV), Av. de los Naranjos S\/N, Valencia 46022, Spain"}],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"316","published-online":{"date-parts":[[2025,5,20]]},"reference":[{"key":"ref1\/cit1","doi-asserted-by":"publisher","DOI":"10.1016\/j.ijhydene.2021.11.149"},{"key":"ref2\/cit2","doi-asserted-by":"publisher","DOI":"10.1016\/j.ijhydene.2022.10.084"},{"key":"ref3\/cit3","doi-asserted-by":"publisher","DOI":"10.1016\/j.ijhydene.2023.08.107"},{"key":"ref4\/cit4","doi-asserted-by":"publisher","DOI":"10.1021\/acs.iecr.0c02250"},{"key":"ref5\/cit5","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.1c01738"},{"key":"ref6\/cit6","doi-asserted-by":"publisher","DOI":"10.1021\/acssuschemeng.1c01401"},{"key":"ref7\/cit7","doi-asserted-by":"publisher","DOI":"10.1039\/D1CY00922B"},{"key":"ref8\/cit8","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcata.2020.117740"},{"key":"ref9\/cit9","doi-asserted-by":"publisher","DOI":"10.1016\/j.cej.2024.150369"},{"key":"ref10\/cit10","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcatb.2023.123663"},{"key":"ref11\/cit11","doi-asserted-by":"publisher","DOI":"10.1039\/D0RE00478B"},{"key":"ref12\/cit12","doi-asserted-by":"publisher","DOI":"10.1016\/j.egypro.2017.03.577"},{"key":"ref13\/cit13","doi-asserted-by":"publisher","DOI":"10.3389\/fchem.2020.00709"},{"key":"ref14\/cit14","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcatb.2021.120319"},{"key":"ref15\/cit15","volume-title":"Induction
+        Heating","author":"Benkowsky G.","year":"1990"},{"key":"ref16\/cit16","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.9b02471"},{"key":"ref17\/cit17","doi-asserted-by":"publisher","DOI":"10.1016\/j.cattod.2014.06.010"},{"key":"ref18\/cit18","doi-asserted-by":"publisher","DOI":"10.1007\/s11367-020-01734-8"},{"key":"ref19\/cit19","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.3c05989"},{"key":"ref20\/cit20","doi-asserted-by":"publisher","DOI":"10.1021\/acs.nanolett.5b00446"},{"key":"ref21\/cit21","doi-asserted-by":"publisher","DOI":"10.1016\/j.ijhydene.2019.02.055"},{"key":"ref22\/cit22","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201913865"},{"key":"ref23\/cit23","doi-asserted-by":"publisher","DOI":"10.1021\/acsanm.4c00895"},{"key":"ref24\/cit24","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201904366"},{"key":"ref25\/cit25","doi-asserted-by":"publisher","DOI":"10.1039\/D0GC03495A"},{"key":"ref26\/cit26","doi-asserted-by":"publisher","DOI":"10.1039\/D1NR02283K"},{"key":"ref27\/cit27","doi-asserted-by":"publisher","DOI":"10.1021\/acs.iecr.7b02331"},{"key":"ref28\/cit28","doi-asserted-by":"publisher","DOI":"10.1021\/acsanm.0c00444"},{"key":"ref29\/cit29","doi-asserted-by":"publisher","DOI":"10.1021\/acsanm.0c01392"},{"key":"ref30\/cit30","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.2c01696"},{"key":"ref31\/cit31","doi-asserted-by":"publisher","DOI":"10.1002\/ange.202111854"},{"key":"ref32\/cit32","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.2c05580"},{"key":"ref33\/cit33","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.4c00310"},{"key":"ref34\/cit34","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.0c12689"},{"key":"ref35\/cit35","doi-asserted-by":"publisher","DOI":"10.1021\/acssuschemeng.1c05847"},{"key":"ref36\/cit36","doi-asserted-by":"publisher","DOI":"10.1016\/j.jece.2019.102911"},{"key":"ref37\/cit37","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcatb.2022.121670"},{"key":"ref38\/cit38","doi-asserted-by":"publisher","DOI":"10.1038\/s41598-024-61017-2"},{"key":"ref39\/cit39","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcatb.2024.123780"},{"key":"ref40\/cit40","doi-asserted-by":"publisher","DOI":"10.1021\/acsomega.1c06244"},{"key":"ref41\/cit41","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.0c08882"},{"key":"ref42\/cit42","doi-asserted-by":"publisher","DOI":"10.1016\/j.ssc.2007.03.052"},{"key":"ref43\/cit43","doi-asserted-by":"publisher","DOI":"10.1016\/j.jcis.2014.03.007"},{"key":"ref44\/cit44","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201609477"},{"key":"ref45\/cit45","doi-asserted-by":"publisher","DOI":"10.1016\/S0304-8853(98)00266-2"},{"key":"ref46\/cit46","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.3c03214"},{"key":"ref47\/cit47","doi-asserted-by":"publisher","DOI":"10.1016\/j.apsusc.2010.10.051"},{"key":"ref48\/cit48","doi-asserted-by":"publisher","DOI":"10.1039\/D0RA10033A"},{"key":"ref49\/cit49","doi-asserted-by":"publisher","DOI":"10.3390\/catal13020448"},{"key":"ref50\/cit50","doi-asserted-by":"publisher","DOI":"10.1016\/j.cej.2023.146712"},{"key":"ref51\/cit51","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.5b08396"},{"key":"ref52\/cit52","doi-asserted-by":"publisher","DOI":"10.1107\/S0909049505012719"},{"key":"ref53\/cit53","doi-asserted-by":"publisher","DOI":"10.1107\/S0021889813003531"}],"container-title":["ACS
+        Catalysis"],"language":"en","link":[{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/acscatal.5c01232","content-type":"application\/pdf","content-version":"vor","intended-application":"unspecified"},{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/acscatal.5c01232","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2025,6,6]],"date-time":"2025-06-06T08:44:22Z","timestamp":1749199462000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/pubs.acs.org\/doi\/10.1021\/acscatal.5c01232"}},"issued":{"date-parts":[[2025,5,20]]},"references-count":53,"journal-issue":{"issue":"11","published-print":{"date-parts":[[2025,6,6]]}},"alternative-id":["10.1021\/acscatal.5c01232"],"URL":"https:\/\/doi.org\/10.1021\/acscatal.5c01232","ISSN":["2155-5435","2155-5435"],"issn-type":[{"value":"2155-5435","type":"print"},{"value":"2155-5435","type":"electronic"}],"published":{"date-parts":[[2025,5,20]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:10 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R026815/1,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:11 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:11 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R026645/1,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:12 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:12 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R027129/1,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:13 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '16297'
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":1,"items":[{"indexed":{"date-parts":[[2025,6,2]],"date-time":"2025-06-02T07:10:05Z","timestamp":1748848205516,"version":"3.41.0"},"reference-count":33,"publisher":"Elsevier
+        BV","issue":"13","license":[{"start":{"date-parts":[[2025,10,1]],"date-time":"2025-10-01T00:00:00Z","timestamp":1759276800000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/tdm\/userlicense\/1.0\/"},{"start":{"date-parts":[[2025,10,1]],"date-time":"2025-10-01T00:00:00Z","timestamp":1759276800000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/legal\/tdmrep-license"},{"start":{"date-parts":[[2025,10,1]],"date-time":"2025-10-01T00:00:00Z","timestamp":1759276800000},"content-version":"stm-asf","delay-in-days":0,"URL":"https:\/\/doi.org\/10.15223\/policy-017"},{"start":{"date-parts":[[2025,10,1]],"date-time":"2025-10-01T00:00:00Z","timestamp":1759276800000},"content-version":"stm-asf","delay-in-days":0,"URL":"https:\/\/doi.org\/10.15223\/policy-037"},{"start":{"date-parts":[[2025,10,1]],"date-time":"2025-10-01T00:00:00Z","timestamp":1759276800000},"content-version":"stm-asf","delay-in-days":0,"URL":"https:\/\/doi.org\/10.15223\/policy-012"},{"start":{"date-parts":[[2025,10,1]],"date-time":"2025-10-01T00:00:00Z","timestamp":1759276800000},"content-version":"stm-asf","delay-in-days":0,"URL":"https:\/\/doi.org\/10.15223\/policy-029"},{"start":{"date-parts":[[2025,10,1]],"date-time":"2025-10-01T00:00:00Z","timestamp":1759276800000},"content-version":"stm-asf","delay-in-days":0,"URL":"https:\/\/doi.org\/10.15223\/policy-004"}],"funder":[{"DOI":"10.13039\/501100002858","name":"China
+        Postdoctoral Science Foundation","doi-asserted-by":"publisher","award":["2023M740535"],"award-info":[{"award-number":["2023M740535"]}],"id":[{"id":"10.13039\/501100002858","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100007620","name":"Department
+        of Education of Liaoning Province","doi-asserted-by":"publisher","award":["LJKZ0252"],"award-info":[{"award-number":["LJKZ0252"]}],"id":[{"id":"10.13039\/501100007620","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100019229","name":"UK
+        Catalysis Hub","doi-asserted-by":"publisher","award":["EP\/R027129\/1"],"award-info":[{"award-number":["EP\/R027129\/1"]}],"id":[{"id":"10.13039\/501100019229","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/100012841","name":"Shenyang
+        Ligong University","doi-asserted-by":"publisher","award":["1010147000928"],"award-info":[{"award-number":["1010147000928"]}],"id":[{"id":"10.13039\/100012841","id-type":"DOI","asserted-by":"publisher"}]}],"content-domain":{"domain":["elsevier.com","sciencedirect.com"],"crossmark-restriction":true},"short-container-title":["Journal
+        of the European Ceramic Society"],"published-print":{"date-parts":[[2025,10]]},"DOI":"10.1016\/j.jeurceramsoc.2025.117522","type":"journal-article","created":{"date-parts":[[2025,5,8]],"date-time":"2025-05-08T21:19:06Z","timestamp":1746739146000},"page":"117522","update-policy":"https:\/\/doi.org\/10.1016\/elsevier_cm_policy","source":"Crossref","is-referenced-by-count":0,"title":["Boosting
+        the CO2 permeability in a supported molten-carbonate membrane by tuning the
+        ratio between the ionic and electronic conducting phases"],"prefix":"10.1016","volume":"45","author":[{"given":"Liu","family":"Qu","sequence":"first","affiliation":[],"role":[{"role":"author","vocabulary":"crossref"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-8583-6864","authenticated-orcid":false,"given":"Evangelos
+        I.","family":"Papaioannou","sequence":"additional","affiliation":[],"role":[{"role":"author","vocabulary":"crossref"}]}],"member":"78","reference":[{"key":"10.1016\/j.jeurceramsoc.2025.117522_bib1","doi-asserted-by":"crossref","DOI":"10.1039\/D4TA05021E","article-title":"Controlling
+        CO2 flux in a CO2-permeable membrane with a H2O driving force","author":"Penn","year":"2024","journal-title":"J.
+        Mater. Chem. A"},{"key":"10.1016\/j.jeurceramsoc.2025.117522_bib2","doi-asserted-by":"crossref","first-page":"1062","DOI":"10.1039\/C7EE02342A","article-title":"Carbon
+        capture and storage (CCS): the way forward","volume":"11","author":"Bui","year":"2018","journal-title":"Energy
+        Environ. Sci."},{"issue":"1","key":"10.1016\/j.jeurceramsoc.2025.117522_bib3","doi-asserted-by":"crossref","first-page":"50","DOI":"10.1021\/acsengineeringau.1c00002","article-title":"Postcombustion
+        CO2 capture: a comparative techno-economic assessment of three technologies
+        using a solvent, an adsorbent, and a membrane","volume":"1","author":"Zanco","year":"2021","journal-title":"ACS
+        Eng. Au"},{"issue":"30","key":"10.1016\/j.jeurceramsoc.2025.117522_bib4","doi-asserted-by":"crossref","first-page":"13706","DOI":"10.1021\/acs.iecr.0c01668","article-title":"Ceramic\/metal
+        supported, tubular, molten carbonate membranes for high-temperature CO2 separations","volume":"59","author":"Yang","year":"2020","journal-title":"Ind.
+        Eng. Chem. Res."},{"key":"10.1016\/j.jeurceramsoc.2025.117522_bib5","first-page":"1074","article-title":"Separation
+        and concentration of CO2 from air using a humidity-driven molten-carbonate
+        membrane","volume":"9","author":"Metcalfe","year":"2024","journal-title":"Nat.
+        Energy"},{"issue":"119506","key":"10.1016\/j.jeurceramsoc.2025.117522_bib6","first-page":"1","article-title":"Fabrication
+        of molten nitrate\/nitrite dual-phase four-channel hollow fiber membranes
+        for nitrogen oxides separation","volume":"635","author":"Xu","year":"2021","journal-title":"J.
+        Membr. Sci."},{"issue":"6","key":"10.1016\/j.jeurceramsoc.2025.117522_bib7","doi-asserted-by":"crossref","first-page":"1766","DOI":"10.1039\/C9EE03497H","article-title":"Dendritic
+        silver self-assembly in molten-carbonate membranes for efficient carbon dioxide
+        capture","volume":"13","author":"McNeil","year":"2020","journal-title":"Energy
+        Environ. Sci."},{"issue":"2","key":"10.1016\/j.jeurceramsoc.2025.117522_bib8","doi-asserted-by":"crossref","first-page":"165","DOI":"10.1016\/0376-7388(91)80060-J","article-title":"Correlation
+        of separation factor versus permeability for polymeric membranes","volume":"62","author":"Robeson","year":"1991","journal-title":"J.
+        Membr. Sci."},{"issue":"1-2","key":"10.1016\/j.jeurceramsoc.2025.117522_bib9","doi-asserted-by":"crossref","first-page":"390","DOI":"10.1016\/j.memsci.2008.04.030","article-title":"The
+        upper bound revisited","volume":"320","author":"Robeson","year":"2008","journal-title":"J.
+        Membr. Sci."},{"key":"10.1016\/j.jeurceramsoc.2025.117522_bib10","doi-asserted-by":"crossref","first-page":"299","DOI":"10.1016\/j.memsci.2012.07.029","article-title":"Membrane
+        processes for carbon capture from coal-fired power plant flue gas: a modeling
+        and cost study","volume":"421-422","author":"Ramasubramanian","year":"2012","journal-title":"J.
+        Membr. Sci."},{"key":"10.1016\/j.jeurceramsoc.2025.117522_bib11","doi-asserted-by":"crossref","DOI":"10.1016\/j.seppur.2021.119970","article-title":"A
+        chemically stable La0.2Sr0.8Fe0.9Mo0.1O3-\u03b4-molten carbonate dual-phase
+        membrane for CO2 separation","volume":"280","author":"Zeng","year":"2022","journal-title":"Sep.
+        Purif. Technol."},{"issue":"25","key":"10.1016\/j.jeurceramsoc.2025.117522_bib12","doi-asserted-by":"crossref","first-page":"12769","DOI":"10.1039\/C7TA04096B","article-title":"A
+        self-forming dual-phase membrane for high temperature electrochemical CO2
+        capture","volume":"5","author":"Zhang","year":"2017","journal-title":"J. Mater.
+        Chem. A"},{"key":"10.1016\/j.jeurceramsoc.2025.117522_bib13","doi-asserted-by":"crossref","first-page":"11","DOI":"10.1016\/j.memsci.2017.10.021","article-title":"Ce0.85Sm0.15O2-Sm0.6Sr0.4Al0.3Fe0.7O3
+        composite for the preparation of dense ceramic-carbonate membranes for CO2
+        separation","volume":"547","author":"Ovalle-Encinia","year":"2018","journal-title":"J.
+        Membr. Sci."},{"issue":"119057","key":"10.1016\/j.jeurceramsoc.2025.117522_bib14","first-page":"1","article-title":"High
+        CO2 permeability in supported molten-salt membranes with highly dense and
+        aligned pores produced by directional solidification","volume":"630","author":"Grima","year":"2021","journal-title":"J.
+        Membr. Sci."},{"issue":"118640","key":"10.1016\/j.jeurceramsoc.2025.117522_bib15","first-page":"1","article-title":"Controlling
+        molten carbonate distribution in dual-phase molten salt-ceramic membranes
+        to increase carbon dioxide permeation rates","volume":"617","author":"Kazakli","year":"2021","journal-title":"J.
+        Membr. Sci."},{"issue":"6","key":"10.1016\/j.jeurceramsoc.2025.117522_bib16","doi-asserted-by":"crossref","first-page":"2432","DOI":"10.1021\/ie4033523","article-title":"Stability
+        of La\u2013Sr\u2013Co\u2013Fe oxide\u2013carbonate dual-phase membranes for
+        carbon dioxide separation at high temperatures","volume":"53","author":"Norton","year":"2014","journal-title":"Ind.
+        Eng. Chem. Res."},{"issue":"10","key":"10.1016\/j.jeurceramsoc.2025.117522_bib17","doi-asserted-by":"crossref","first-page":"6244","DOI":"10.1111\/jace.19216","article-title":"Study
+        of CO2 permeation in Zn2+-modified Al2O3-carbonate membrane","volume":"106","author":"Qu","year":"2023","journal-title":"J.
+        Am. Ceram. Soc."},{"key":"10.1016\/j.jeurceramsoc.2025.117522_bib18","doi-asserted-by":"crossref","first-page":"87","DOI":"10.1016\/j.memsci.2015.03.013","article-title":"''Uphill''
+        permeation of carbon dioxide across a composite molten salt-ceramic membrane","volume":"458","author":"Papaioannou","year":"2015","journal-title":"J.
+        Membr. Sci."},{"issue":"21","key":"10.1016\/j.jeurceramsoc.2025.117522_bib19","doi-asserted-by":"crossref","first-page":"12951","DOI":"10.1039\/C9TA01979K","article-title":"Supported
+        molten-salt membranes for carbon dioxide permeation","volume":"7","author":"Mutch","year":"2019","journal-title":"J.
+        Mater. Chem. A"},{"issue":"51","key":"10.1016\/j.jeurceramsoc.2025.117522_bib20","first-page":"1","article-title":"Fast
+        ionic conduction in semiconductor CeO2-\u03b4 electrolyte fuel cells","volume":"11","author":"Wang","year":"2019","journal-title":"NPG
+        Asia Mater."},{"issue":"3","key":"10.1016\/j.jeurceramsoc.2025.117522_bib21","doi-asserted-by":"crossref","first-page":"B21","DOI":"10.1149\/1.3276731","article-title":"Electronic
+        conductivity of CeO2: its dependence on oxygen partial pressure and temperature","volume":"13","author":"Xiong","year":"2010","journal-title":"Electrochem.
+        Solid-State Lett."},{"key":"10.1016\/j.jeurceramsoc.2025.117522_bib22","doi-asserted-by":"crossref","first-page":"4875","DOI":"10.1007\/s11664-016-4751-7","article-title":"Fabrication
+        of Al-doped ZnO film with high conductivity induced by photocatalytic activity","volume":"45","author":"Hong","year":"2016","journal-title":"J.
+        Electron. Mater."},{"issue":"15","key":"10.1016\/j.jeurceramsoc.2025.117522_bib23","doi-asserted-by":"crossref","first-page":"5529","DOI":"10.1016\/j.jeurceramsoc.2020.06.030","article-title":"Defects
+        and microstructure of highly conducting Al-doped ZnO ceramics obtained via
+        spark plasma sintering","volume":"40","author":"Chen","year":"2020","journal-title":"J.
+        Eur. Ceram. Soc."},{"key":"10.1016\/j.jeurceramsoc.2025.117522_bib24","doi-asserted-by":"crossref","first-page":"307","DOI":"10.1016\/S0081-1947(08)60135-6","article-title":"Relations
+        between the concentrations of imperfections in crystalline solids","volume":"3","author":"Kr\u00f6ger","year":"1956","journal-title":"Solid
+        State Phys."},{"issue":"7","key":"10.1016\/j.jeurceramsoc.2025.117522_bib25","doi-asserted-by":"crossref","first-page":"2449","DOI":"10.1149\/1.1391954","article-title":"Complex
+        formation during dissolution of metal oxides in molten alkali carbonates","volume":"146","author":"Li","year":"1999","journal-title":"J.
+        Electrochem. Soc."},{"issue":"1-2","key":"10.1016\/j.jeurceramsoc.2025.117522_bib26","doi-asserted-by":"crossref","first-page":"20","DOI":"10.1016\/j.memsci.2010.10.053","article-title":"Composite
+        electrolyte membranes for high temperature CO2 separation","volume":"369","author":"Wade","year":"2011","journal-title":"J.
+        Membr. Sci."},{"issue":"1-2","key":"10.1016\/j.jeurceramsoc.2025.117522_bib27","doi-asserted-by":"crossref","first-page":"122","DOI":"10.1016\/j.memsci.2010.04.009","article-title":"Carbonate\u2013ceramic
+        dual-phase membrane for carbon dioxide separation","volume":"357","author":"Anderson","year":"2010","journal-title":"J.
+        Membr. Sci."},{"key":"10.1016\/j.jeurceramsoc.2025.117522_bib28","doi-asserted-by":"crossref","DOI":"10.1016\/j.apsusc.2024.160515","article-title":"Frustrated
+        Lewis pairs on Al-doped CeO2 for efficient reverse water\u2013gas shift reaction","volume":"669","author":"Feng","year":"2024","journal-title":"Appl.
+        Surf. Sci."},{"key":"10.1016\/j.jeurceramsoc.2025.117522_bib29","doi-asserted-by":"crossref","DOI":"10.1016\/j.seppur.2024.126418","article-title":"A
+        layered perovskite La2Ni1-xSbxO4+\u03b4-molten carbonate dual-phase membrane
+        for CO2 separation","volume":"337","author":"Zhang","year":"2024","journal-title":"Sep.
+        Purif. Technol."},{"key":"10.1016\/j.jeurceramsoc.2025.117522_bib30","first-page":"6824","article-title":"Enhancing
+        grain boundary ionic conductivity in mixed ionic\u2013electronic conductors.
+        Nature","volume":"6","author":"Lin","year":"2015","journal-title":"Communications"},{"key":"10.1016\/j.jeurceramsoc.2025.117522_bib31","doi-asserted-by":"crossref","first-page":"28","DOI":"10.1007\/s10008-005-0650-1","article-title":"Oxygen
+        permeability of mixed-conducting composite membranes: effects of phase interaction","volume":"10","author":"Shaula","year":"2006","journal-title":"J.
+        Solid State Electrochem."},{"key":"10.1016\/j.jeurceramsoc.2025.117522_bib32","doi-asserted-by":"crossref","DOI":"10.1016\/j.seppur.2018.11.090","article-title":"Improved
+        CO2 flux by dissolution of oxide ions into the molten carbonate phase of dual-phase
+        CO2 separation membranes","volume":"212","author":"Xing","year":"2019","journal-title":"Sep.
+        Purif. Technol."},{"key":"10.1016\/j.jeurceramsoc.2025.117522_bib33","doi-asserted-by":"crossref","first-page":"F150","DOI":"10.1149\/1.2917212","article-title":"Density,
+        surface tension, and electrical conductivity of ternary molten carbonate system
+        Li2CO3 \u2013\u2009Na2CO3 \u2013\u2009K2CO3 and methods for their estimation","volume":"155","author":"Kojima","year":"2008","journal-title":"J.
+        Electrochem. Soc."}],"container-title":["Journal of the European Ceramic Society"],"language":"en","link":[{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:S0955221925003425?httpAccept=text\/xml","content-type":"text\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:S0955221925003425?httpAccept=text\/plain","content-type":"text\/plain","content-version":"vor","intended-application":"text-mining"}],"deposited":{"date-parts":[[2025,6,2]],"date-time":"2025-06-02T06:45:35Z","timestamp":1748846735000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/S0955221925003425"}},"issued":{"date-parts":[[2025,10]]},"references-count":33,"journal-issue":{"issue":"13","published-print":{"date-parts":[[2025,10]]}},"alternative-id":["S0955221925003425"],"URL":"https:\/\/doi.org\/10.1016\/j.jeurceramsoc.2025.117522","ISSN":["0955-2219"],"issn-type":[{"type":"print","value":"0955-2219"}],"published":{"date-parts":[[2025,10]]},"assertion":[{"value":"Elsevier","name":"publisher","label":"This
+        article is maintained by"},{"value":"Boosting the CO2 permeability in a supported
+        molten-carbonate membrane by tuning the ratio between the ionic and electronic
+        conducting phases","name":"articletitle","label":"Article Title"},{"value":"Journal
+        of the European Ceramic Society","name":"journaltitle","label":"Journal Title"},{"value":"https:\/\/doi.org\/10.1016\/j.jeurceramsoc.2025.117522","name":"articlelink","label":"CrossRef
+        DOI link to publisher maintained version"},{"value":"article","name":"content_type","label":"Content
+        Type"},{"value":"\u00a9 2025 Elsevier Ltd. All rights are reserved, including
+        those for text and data mining, AI training, and similar technologies.","name":"copyright","label":"Copyright"}],"article-number":"117522"}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:13 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/M013219/1,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:14 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:14 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R026939,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:15 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:15 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R026815,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:15 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:15 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R026645,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:15 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:16 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R027129,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:16 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:16 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/M013219,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:17 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:17 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014706/2,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:17 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:17 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014668/1,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:18 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:18 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014854/1,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:19 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:19 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014714/1,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:20 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:20 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014706,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:21 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:21 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014668,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:21 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:21 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014854,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:22 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:22 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014714,from-created-date:2025-05-01,until-created-date:2025-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:abe.nieva@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Aug 2026 16:46:23 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 11 Aug 2026 16:46:23 GMT
+recorded_with: VCR 6.4.0

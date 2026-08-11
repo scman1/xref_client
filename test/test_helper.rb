@@ -13,3 +13,11 @@ if ActiveSupport::TestCase.respond_to?(:fixture_paths=)
   ActiveSupport::TestCase.file_fixture_path = File.expand_path("fixtures", __dir__) + "/files"
   ActiveSupport::TestCase.fixtures :all
 end
+
+require 'webmock/minitest'
+require 'vcr'
+
+VCR.configure do |c|
+  c.cassette_library_dir = "test/vcr_fixtures"
+  c.hook_into :webmock
+end
