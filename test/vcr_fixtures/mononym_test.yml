@@ -8,9 +8,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 19:14:37 GMT
+      - Tue, 11 Aug 2026 17:36:40 GMT
       Content-Length:
       - '13725'
       Connection:
@@ -38,13 +38,13 @@ http_interactions:
       Server:
       - Jetty(9.4.40.v20210413)
       X-Rate-Limit-Limit:
-      - '5'
+      - '10'
       X-Rate-Limit-Interval:
       - 1s
       X-Concurrency-Limit:
-      - '1'
+      - '3'
       X-Api-Pool:
-      - public-single
+      - polite-single
       Permissions-Policy:
       - interest-cohort=()
     body:
@@ -101,5 +101,5 @@ http_interactions:
         Parker STFC ISIS Neutron and Muon Source2018 doi: 10.5286\/ISIS.\u2005E.RB1720211."}],"container-title":"ChemCatChem","original-title":[],"language":"en","link":[{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/pdf\/10.1002\/cctc.202100286","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/full-xml\/10.1002\/cctc.202100286","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/chemistry-europe.onlinelibrary.wiley.com\/doi\/pdf\/10.1002\/cctc.202100286","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2025,10,12]],"date-time":"2025-10-12T10:00:01Z","timestamp":1760263201000},"score":1,"resource":{"primary":{"URL":"https:\/\/chemistry-europe.onlinelibrary.wiley.com\/doi\/10.1002\/cctc.202100286"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2021,5,4]]},"references-count":70,"journal-issue":{"issue":"11","published-print":{"date-parts":[[2021,6,8]]}},"alternative-id":["10.1002\/cctc.202100286"],"URL":"http:\/\/dx.doi.org\/10.1002\/cctc.202100286","relation":{},"ISSN":["1867-3880","1867-3899"],"subject":[],"container-title-short":"ChemCatChem","published":{"date-parts":[[2021,5,4]]},"assertion":[{"value":"2021-02-24","order":0,"name":"received","label":"Received","group":{"name":"publication_history","label":"Publication
         History"}},{"value":"2021-05-04","order":3,"name":"published","label":"Published","group":{"name":"publication_history","label":"Publication
         History"}}]}'
-  recorded_at: Mon, 10 Aug 2026 19:14:37 GMT
+  recorded_at: Tue, 11 Aug 2026 17:36:40 GMT
 recorded_with: VCR 6.4.0

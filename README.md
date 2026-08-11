@@ -61,11 +61,18 @@ POSSIBILITY OF SUCH DAMAGE.
 
 ## Synopsis
 
-xref_client is a mapping engine designed to facilitate importing crossref publication data for the [Catalysis Data Infrastructure](http://cdi.ukcatalysishub.org).
+xref_client is a mapping engine designed to facilitate importing crossref
+publication data for the [Catalysis Data Infrastructure](http://cdi.ukcatalysishub.org).
 
-Requests from crossref are being throtled for public users so we needed to implement a manual limiter for 1 request per second. As the updates run weekly this may not be an issue.
+Requests from crossref are being throtled for public users so we needed to
+implement a manual limiter for 1 request per second. As the updates run
+weekly this may not be an issue.
 
 ### Funding
-UK Catalysis Hub supported the development of this resource as part of the Phase II Core theme, funded by EPSRC grants: EP/R026939/1, EP/R026815/1, EP/R026645/1, EP/R027129/1, and EP/M013219/1(biocatalysis).
+UK Catalysis Hub supported the development of this resource as part of the
+Phase III UKRI945.
 
-Additional funding provided by "Phisical Sciences Research Infrastructure (PSDI)" project 2021 - 2025. The PSDI is funded through EPSRC DRI (EP/W032252/1, EP/X032701/1 and EP/X032663/1).
+Additional funding provided by "Phisical Sciences Research Infrastructure
+(PSDI)" project 2021 - 2025. The PSDI is funded through EPSRC DRI
+(EP/W032252/1, EP/X032701/1 and EP/X032663/1).
+

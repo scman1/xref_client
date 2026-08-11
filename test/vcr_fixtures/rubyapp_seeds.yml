@@ -8,9 +8,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 19:14:39 GMT
+      - Tue, 11 Aug 2026 17:36:51 GMT
       Content-Length:
       - '15477'
       Connection:
@@ -38,13 +38,13 @@ http_interactions:
       Server:
       - Jetty(9.4.40.v20210413)
       X-Rate-Limit-Limit:
-      - '5'
+      - '10'
       X-Rate-Limit-Interval:
       - 1s
       X-Concurrency-Limit:
-      - '1'
+      - '3'
       X-Api-Pool:
-      - public-single
+      - polite-single
       Permissions-Policy:
       - interest-cohort=()
     body:
@@ -107,7 +107,7 @@ http_interactions:
         of alphafold3 with heterogeneous cryo-em data, 2025. URL https:\/\/arxiv.org\/abs\/2506.04490."},{"key":"2025072208201138000_2025.07.05.663138v2.54","doi-asserted-by":"publisher","DOI":"10.1002\/wcms.1121"},{"key":"2025072208201138000_2025.07.05.663138v2.55","doi-asserted-by":"publisher","DOI":"10.1063\/1.1873592"},{"key":"2025072208201138000_2025.07.05.663138v2.56","doi-asserted-by":"publisher","DOI":"10.1063\/1.2136884"},{"key":"2025072208201138000_2025.07.05.663138v2.57","doi-asserted-by":"publisher","DOI":"10.1021\/ct300263z"},{"key":"2025072208201138000_2025.07.05.663138v2.58","doi-asserted-by":"publisher","DOI":"10.1038\/s41467-023-37701-8"},{"key":"2025072208201138000_2025.07.05.663138v2.59","doi-asserted-by":"publisher","DOI":"10.1039\/d2tb00922f"},{"key":"2025072208201138000_2025.07.05.663138v2.60","doi-asserted-by":"publisher","DOI":"10.1101\/2025.05.19.654846"},{"key":"2025072208201138000_2025.07.05.663138v2.61","doi-asserted-by":"publisher","DOI":"10.1021\/acsmedchemlett.3c00037"},{"key":"2025072208201138000_2025.07.05.663138v2.62","doi-asserted-by":"publisher","DOI":"10.1038\/s41586-025-09021-y"},{"key":"2025072208201138000_2025.07.05.663138v2.63","doi-asserted-by":"publisher","DOI":"10.1038\/s41586-024-08070-z"},{"key":"2025072208201138000_2025.07.05.663138v2.64","doi-asserted-by":"publisher","DOI":"10.1038\/s42256-024-00836-4"},{"key":"2025072208201138000_2025.07.05.663138v2.65","unstructured":"Stefano
         Angioletti-Uberti , Jakub L\u00e1la , and Arnav Cheruku . softnanolab\/bagel:
         v0.1.0 - first public release, July 2025. URL https:\/\/doi.org\/10.5281\/zenodo.15808839."}],"container-title":[],"original-title":[],"link":[{"URL":"https:\/\/syndication.highwire.org\/content\/doi\/10.1101\/2025.07.05.663138","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,6,24]],"date-time":"2026-06-24T05:00:20Z","timestamp":1782277220000},"score":1,"resource":{"primary":{"URL":"http:\/\/biorxiv.org\/lookup\/doi\/10.1101\/2025.07.05.663138"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2025,7,8]]},"references-count":65,"URL":"http:\/\/dx.doi.org\/10.1101\/2025.07.05.663138","relation":{"is-preprint-of":[{"id-type":"doi","id":"10.1371\/journal.pcbi.1013774","asserted-by":"subject"}]},"subject":[],"published":{"date-parts":[[2025,7,8]]},"subtype":"preprint"}'
-  recorded_at: Mon, 10 Aug 2026 19:14:39 GMT
+  recorded_at: Tue, 11 Aug 2026 17:36:51 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.26434%2Fchemrxiv-2024-cpjsk/transform/application/vnd.citationstyles.csl+json
@@ -116,9 +116,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -129,7 +129,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 19:14:40 GMT
+      - Tue, 11 Aug 2026 17:36:52 GMT
       Content-Length:
       - '8949'
       Connection:
@@ -146,13 +146,13 @@ http_interactions:
       Server:
       - Jetty(9.4.40.v20210413)
       X-Rate-Limit-Limit:
-      - '5'
+      - '10'
       X-Rate-Limit-Interval:
       - 1s
       X-Concurrency-Limit:
-      - '1'
+      - '3'
       X-Api-Pool:
-      - public-single
+      - polite-single
       Permissions-Policy:
       - interest-cohort=()
     body:
@@ -205,7 +205,7 @@ http_interactions:
         Toulouse III - Paul Sabatier","place":["France"]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Aron","family":"Walsh","sequence":"additional","affiliation":[{"id":[{"id":"https:\/\/ror.org\/041kmwe10","id-type":"ROR","asserted-by":"publisher"}],"name":"Imperial
         College London","place":["United Kingdom"]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Alexander","family":"Forse","sequence":"additional","affiliation":[{"id":[{"id":"https:\/\/ror.org\/013meh722","id-type":"ROR","asserted-by":"publisher"}],"name":"University
         of Cambridge","place":["United Kingdom"]}],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"316","container-title":[],"original-title":[],"link":[{"URL":"https:\/\/chemrxiv.org\/doi\/pdf\/10.26434\/chemrxiv-2024-cpjsk","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,5,14]],"date-time":"2026-05-14T10:37:54Z","timestamp":1778755074000},"score":1,"resource":{"primary":{"URL":"https:\/\/chemrxiv.org\/doi\/full\/10.26434\/chemrxiv-2024-cpjsk"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2024,4,17]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.26434\/chemrxiv-2024-cpjsk","relation":{"is-preprint-of":[{"id-type":"doi","id":"10.1021\/jacs.4c05330","asserted-by":"subject"}]},"subject":[],"published":{"date-parts":[[2024,4,17]]},"subtype":"preprint"}'
-  recorded_at: Mon, 10 Aug 2026 19:14:39 GMT
+  recorded_at: Tue, 11 Aug 2026 17:36:52 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1021%2Facsmaterialslett.1c00766/transform/application/vnd.citationstyles.csl+json
@@ -214,9 +214,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -227,7 +227,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 19:14:40 GMT
+      - Tue, 11 Aug 2026 17:36:52 GMT
       Content-Length:
       - '9925'
       Connection:
@@ -244,13 +244,13 @@ http_interactions:
       Server:
       - Jetty(9.4.40.v20210413)
       X-Rate-Limit-Limit:
-      - '5'
+      - '10'
       X-Rate-Limit-Interval:
       - 1s
       X-Concurrency-Limit:
-      - '1'
+      - '3'
       X-Api-Pool:
-      - public-single
+      - polite-single
       Permissions-Policy:
       - interest-cohort=()
     body:
@@ -271,5 +271,5 @@ http_interactions:
         of Materials, University of Oxford, Oxford, OX1 3PH, U.K."}],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"316","published-online":{"date-parts":[[2022,1,26]]},"reference":[{"key":"ref1\/cit1","doi-asserted-by":"publisher","DOI":"10.1038\/s41563-019-0431-3"},{"key":"ref2\/cit2","doi-asserted-by":"publisher","DOI":"10.1039\/C8EE01053F"},{"key":"ref3\/cit3","doi-asserted-by":"publisher","DOI":"10.1038\/natrevmats.2016.103"},{"key":"ref4\/cit4","doi-asserted-by":"publisher","DOI":"10.1021\/acs.chemrev.5b00563"},{"key":"ref5\/cit5","doi-asserted-by":"publisher","DOI":"10.1038\/nenergy.2016.141"},{"key":"ref6\/cit6","doi-asserted-by":"publisher","DOI":"10.1038\/nmat3066"},{"key":"ref7\/cit7","doi-asserted-by":"publisher","DOI":"10.1021\/cm203303y"},{"key":"ref8\/cit8","doi-asserted-by":"publisher","DOI":"10.1039\/c2jm16688g"},{"key":"ref9\/cit9","doi-asserted-by":"publisher","DOI":"10.1039\/C2EE23355J"},{"key":"ref10\/cit10","doi-asserted-by":"publisher","DOI":"10.1039\/c3ee41728j"},{"key":"ref11\/cit11","doi-asserted-by":"publisher","DOI":"10.1039\/C4CP02046D"},{"key":"ref12\/cit12","doi-asserted-by":"publisher","DOI":"10.1002\/adma.201500180"},{"key":"ref13\/cit13","doi-asserted-by":"publisher","DOI":"10.1021\/acs.chemmater.6b02424"},{"key":"ref14\/cit14","doi-asserted-by":"publisher","DOI":"10.1002\/aenm.201501590"},{"key":"ref15\/cit15","doi-asserted-by":"publisher","DOI":"10.3389\/fenrg.2016.00038"},{"key":"ref16\/cit16","doi-asserted-by":"publisher","DOI":"10.1016\/j.jpowsour.2016.08.115"},{"key":"ref17\/cit17","doi-asserted-by":"publisher","DOI":"10.1038\/nenergy.2016.30"},{"key":"ref18\/cit18","doi-asserted-by":"publisher","DOI":"10.1016\/j.jpowsour.2016.05.100"},{"key":"ref19\/cit19","doi-asserted-by":"publisher","DOI":"10.1021\/acs.chemmater.7b00886"},{"key":"ref20\/cit20","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201807304"},{"key":"ref21\/cit21","doi-asserted-by":"publisher","DOI":"10.1021\/acs.chemmater.8b01163"},{"key":"ref22\/cit22","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.7b11530"},{"key":"ref23\/cit23","doi-asserted-by":"publisher","DOI":"10.1002\/smtd.201900261"},{"key":"ref24\/cit24","doi-asserted-by":"publisher","DOI":"10.1021\/acs.chemmater.9b01639"},{"key":"ref25\/cit25","doi-asserted-by":"publisher","DOI":"10.1021\/acs.chemmater.9b00420"},{"key":"ref26\/cit26","doi-asserted-by":"publisher","DOI":"10.1021\/acsenergylett.0c02617"},{"key":"ref27\/cit27","doi-asserted-by":"publisher","DOI":"10.1039\/D0TA07589B"},{"key":"ref28\/cit28","doi-asserted-by":"publisher","DOI":"10.1039\/D0TA09313K"},{"key":"ref29\/cit29","doi-asserted-by":"publisher","DOI":"10.1039\/D0EE03212C"},{"key":"ref30\/cit30","doi-asserted-by":"publisher","DOI":"10.1002\/aenm.202002153"},{"key":"ref31\/cit31","doi-asserted-by":"publisher","DOI":"10.1039\/D1TA00552A"},{"key":"ref32\/cit32","doi-asserted-by":"publisher","DOI":"10.1021\/acs.nanolett.1c04076"},{"key":"ref33\/cit33","doi-asserted-by":"publisher","DOI":"10.1038\/nmat1368"},{"key":"ref34\/cit34","doi-asserted-by":"publisher","DOI":"10.1021\/acs.chemmater.9b01794"},{"key":"ref35\/cit35","doi-asserted-by":"publisher","DOI":"10.1038\/srep02261"},{"key":"ref36\/cit36","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.7b10593"},{"key":"ref37\/cit37","doi-asserted-by":"publisher","DOI":"10.1021\/am508111r"},{"key":"ref38\/cit38","doi-asserted-by":"publisher","DOI":"10.1002\/celc.201801229"},{"key":"ref39\/cit39","doi-asserted-by":"publisher","DOI":"10.1039\/c4ee00382a"},{"key":"ref40\/cit40","doi-asserted-by":"publisher","DOI":"10.1021\/acsenergylett.9b00610"},{"key":"ref41\/cit41","doi-asserted-by":"publisher","DOI":"10.1021\/acs.chemmater.7b02805"},{"key":"ref42\/cit42","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.6b05066"},{"key":"ref43\/cit43","doi-asserted-by":"publisher","DOI":"10.1021\/acs.chemmater.8b00649"},{"key":"ref44\/cit44","doi-asserted-by":"publisher","DOI":"10.1021\/ja3110895"},{"key":"ref45\/cit45","doi-asserted-by":"publisher","DOI":"10.1021\/acs.chemmater.8b02753"},{"key":"ref46\/cit46","doi-asserted-by":"publisher","DOI":"10.1038\/s41598-017-04030-y"},{"key":"ref47\/cit47","doi-asserted-by":"publisher","DOI":"10.1016\/j.nanoen.2016.09.002"},{"key":"ref48\/cit48","doi-asserted-by":"publisher","DOI":"10.1021\/acs.jpcc.5b03589"},{"key":"ref49\/cit49","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.6b16233"},{"key":"ref50\/cit50","doi-asserted-by":"publisher","DOI":"10.1063\/1.4812323"},{"key":"ref51\/cit51","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.0c03290"},{"key":"ref52\/cit52","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.8b16116"},{"key":"ref53\/cit53","doi-asserted-by":"publisher","DOI":"10.1039\/C9TA00146H"},{"key":"ref54\/cit54","doi-asserted-by":"publisher","DOI":"10.1002\/aenm.202101111"},{"key":"ref55\/cit55","doi-asserted-by":"publisher","DOI":"10.1021\/acs.nanolett.9b04597"},{"key":"ref56\/cit56","doi-asserted-by":"publisher","DOI":"10.1016\/j.ssi.2017.01.023"},{"key":"ref57\/cit57","doi-asserted-by":"publisher","DOI":"10.1039\/C9TA10964A"},{"key":"ref58\/cit58","doi-asserted-by":"publisher","DOI":"10.1103\/PhysRevMaterials.3.055404"},{"key":"ref59\/cit59","doi-asserted-by":"publisher","DOI":"10.1039\/C6EE02697D"},{"key":"ref60\/cit60","doi-asserted-by":"publisher","DOI":"10.1021\/acs.jpcc.8b08208"},{"key":"ref61\/cit61","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.8b17524"},{"key":"ref62\/cit62","doi-asserted-by":"publisher","DOI":"10.1016\/j.ssi.2019.115192"},{"key":"ref63\/cit63","doi-asserted-by":"publisher","DOI":"10.1039\/D0TA11539H"},{"key":"ref64\/cit64","doi-asserted-by":"publisher","DOI":"10.1006\/jcph.1995.1039"},{"key":"ref65\/cit65","doi-asserted-by":"publisher","DOI":"10.1038\/ncomms15893"},{"key":"ref66\/cit66","doi-asserted-by":"publisher","DOI":"10.1063\/1.449071"},{"key":"ref67\/cit67","doi-asserted-by":"publisher","DOI":"10.1080\/0892702031000104887"},{"key":"ref68\/cit68","doi-asserted-by":"publisher","DOI":"10.1088\/0953-8984\/21\/8\/084204"},{"key":"ref69\/cit69","doi-asserted-by":"publisher","DOI":"10.1103\/PhysRevB.54.11169"},{"key":"ref70\/cit70","doi-asserted-by":"publisher","DOI":"10.1103\/PhysRevB.50.17953"},{"key":"ref71\/cit71","doi-asserted-by":"publisher","DOI":"10.1103\/PhysRevLett.100.136406"},{"key":"ref72\/cit72","doi-asserted-by":"publisher","DOI":"10.1016\/j.cpc.2015.07.012"}],"container-title":"ACS
         Materials Letters","original-title":[],"language":"en","link":[{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/acsmaterialslett.1c00766","content-type":"application\/pdf","content-version":"vor","intended-application":"unspecified"},{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/acsmaterialslett.1c00766","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2023,4,26]],"date-time":"2023-04-26T06:42:41Z","timestamp":1682491361000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.acs.org\/doi\/10.1021\/acsmaterialslett.1c00766"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2022,1,26]]},"references-count":72,"journal-issue":{"issue":"2","published-print":{"date-parts":[[2022,2,7]]}},"alternative-id":["10.1021\/acsmaterialslett.1c00766"],"URL":"http:\/\/dx.doi.org\/10.1021\/acsmaterialslett.1c00766","relation":{},"ISSN":["2639-4979","2639-4979"],"subject":[],"container-title-short":"ACS
         Materials Lett.","published":{"date-parts":[[2022,1,26]]}}'
-  recorded_at: Mon, 10 Aug 2026 19:14:40 GMT
+  recorded_at: Tue, 11 Aug 2026 17:36:52 GMT
 recorded_with: VCR 6.4.0

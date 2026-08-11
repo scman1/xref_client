@@ -8,9 +8,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 19:14:37 GMT
+      - Tue, 11 Aug 2026 17:36:53 GMT
       Content-Length:
       - '13319'
       Connection:
@@ -38,13 +38,13 @@ http_interactions:
       Server:
       - Jetty(9.4.40.v20210413)
       X-Rate-Limit-Limit:
-      - '5'
+      - '10'
       X-Rate-Limit-Interval:
       - 1s
       X-Concurrency-Limit:
-      - '1'
+      - '3'
       X-Api-Pool:
-      - public-single
+      - polite-single
       Permissions-Policy:
       - interest-cohort=()
     body:
@@ -119,7 +119,7 @@ http_interactions:
         of the Creative Commons Attribution 4.0 License. Further distribution of this
         work must maintain attribution to the author(s) and the published article\u2019s
         title, journal citation, and DOI.","name":"copyright","label":"Copyright"}]}'
-  recorded_at: Mon, 10 Aug 2026 19:14:37 GMT
+  recorded_at: Tue, 11 Aug 2026 17:36:53 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1364%2Fprj.522533/transform/application/vnd.citationstyles.csl+json
@@ -128,9 +128,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -141,7 +141,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Aug 2026 19:14:38 GMT
+      - Tue, 11 Aug 2026 17:36:53 GMT
       Content-Length:
       - '17800'
       Connection:
@@ -158,13 +158,13 @@ http_interactions:
       Server:
       - Jetty(9.4.40.v20210413)
       X-Rate-Limit-Limit:
-      - '5'
+      - '10'
       X-Rate-Limit-Interval:
       - 1s
       X-Concurrency-Limit:
-      - '1'
+      - '3'
       X-Api-Pool:
-      - public-single
+      - polite-single
       Permissions-Policy:
       - interest-cohort=()
     body:
@@ -251,5 +251,5 @@ http_interactions:
         History"}},{"value":"27 May 2024","order":1,"name":"accepted","label":"Accepted","group":{"name":"publication_history","label":"Publication
         History"}},{"value":"1 August 2024","order":2,"name":"published","label":"Published","group":{"name":"publication_history","label":"Publication
         History"}},{"value":"\u00a9 2024 Chinese Laser Press","name":"copyright","label":"Copyright"}]}'
-  recorded_at: Mon, 10 Aug 2026 19:14:37 GMT
+  recorded_at: Tue, 11 Aug 2026 17:36:53 GMT
 recorded_with: VCR 6.4.0
