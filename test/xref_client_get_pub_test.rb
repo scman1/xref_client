@@ -71,7 +71,7 @@ class XrefClientGetPubTest < ActiveSupport::TestCase
         assert 1, pub_data.length
         result = XrefClient::ObjectMapper.map_xref_to_cdi(pub_data)
         assert_equal 3, result.length()
-        puts result
+        #puts result
       end
     end
   end

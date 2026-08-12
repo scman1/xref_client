@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:18 GMT
+      - Wed, 12 Aug 2026 17:17:46 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -50,7 +50,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:18 GMT
+  recorded_at: Wed, 12 Aug 2026 17:17:45 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/R026815/1,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
@@ -72,7 +72,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:18 GMT
+      - Wed, 12 Aug 2026 17:17:46 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -225,7 +225,7 @@ http_interactions:
         materials","explanation":{"URL":"https:\/\/scripts.iucr.org\/cgi-bin\/sendsup?nb5289"}},{"value":"\u00a9
         2020 International Union of Crystallography","order":0,"name":"copyright","label":"Copyright","explanation":{"URL":"http:\/\/journals.iucr.org\/services\/copyrightpolicy.html"},"group":{"name":"copyright_and_licensing","label":"Copyright
         and licencing"}}]}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:18 GMT
+  recorded_at: Wed, 12 Aug 2026 17:17:46 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/R026645/1,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
@@ -247,7 +247,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:20 GMT
+      - Wed, 12 Aug 2026 17:17:48 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -276,7 +276,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:20 GMT
+  recorded_at: Wed, 12 Aug 2026 17:17:48 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/R027129/1,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
@@ -298,7 +298,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:20 GMT
+      - Wed, 12 Aug 2026 17:17:48 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -327,7 +327,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:20 GMT
+  recorded_at: Wed, 12 Aug 2026 17:17:48 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/M013219/1,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
@@ -349,7 +349,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:21 GMT
+      - Wed, 12 Aug 2026 17:17:49 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -378,7 +378,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:21 GMT
+  recorded_at: Wed, 12 Aug 2026 17:17:48 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/R026939,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
@@ -400,7 +400,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:21 GMT
+      - Wed, 12 Aug 2026 17:17:49 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -453,7 +453,7 @@ http_interactions:
         of Chemistry and Molecular Engineering, Beijing National Laboratory for Molecular
         Sciences, Peking University, Beijing 100871, China"}],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"316","published-online":{"date-parts":[[2024,11,7]]},"reference":[{"key":"ref1\/cit1","doi-asserted-by":"publisher","DOI":"10.1016\/j.chempr.2019.05.008"},{"key":"ref2\/cit2","doi-asserted-by":"publisher","DOI":"10.1021\/acs.accounts.6b00534"},{"key":"ref3\/cit3","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.1c08063"},{"key":"ref4\/cit4","doi-asserted-by":"publisher","DOI":"10.1039\/D2EE01010K"},{"key":"ref5\/cit5","doi-asserted-by":"publisher","DOI":"10.1126\/science.1067208"},{"key":"ref6\/cit6","doi-asserted-by":"publisher","DOI":"10.1038\/nchem.1192"},{"key":"ref7\/cit7","doi-asserted-by":"publisher","DOI":"10.1038\/nchem.1457"},{"key":"ref8\/cit8","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.0c11930"},{"key":"ref9\/cit9","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.6b01323"},{"key":"ref10\/cit10","doi-asserted-by":"publisher","DOI":"10.1002\/chem.202303934"},{"key":"ref11\/cit11","doi-asserted-by":"publisher","DOI":"10.1016\/S0021-9258(20)80579-1"},{"key":"ref12\/cit12","doi-asserted-by":"publisher","DOI":"10.1038\/s41563-022-01279-1"},{"key":"ref13\/cit13","doi-asserted-by":"publisher","DOI":"10.1021\/ja501810r"},{"key":"ref14\/cit14","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.7b05453"},{"key":"ref15\/cit15","doi-asserted-by":"publisher","DOI":"10.1002\/chem.201304799"},{"key":"ref16\/cit16","doi-asserted-by":"publisher","DOI":"10.1021\/ja501606h"},{"key":"ref17\/cit17","doi-asserted-by":"publisher","DOI":"10.1038\/nature15732"},{"key":"ref18\/cit18","doi-asserted-by":"publisher","DOI":"10.1016\/S0920-5861(00)00455-7"},{"key":"ref19\/cit19","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.7b02936"},{"key":"ref20\/cit20","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.9b02902"},{"key":"ref21\/cit21","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.8b11525"},{"key":"ref22\/cit22","doi-asserted-by":"publisher","DOI":"10.1016\/j.cej.2022.138472"},{"key":"ref23\/cit23","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.3c06981"},{"key":"ref24\/cit24","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.8b00505"},{"key":"ref25\/cit25","doi-asserted-by":"publisher","DOI":"10.1002\/chem.202003894"},{"key":"ref26\/cit26","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.1c04766"},{"key":"ref27\/cit27","doi-asserted-by":"publisher","DOI":"10.1002\/anie.202013807"},{"key":"ref28\/cit28","doi-asserted-by":"publisher","DOI":"10.1002\/anie.202205077"},{"key":"ref29\/cit29","doi-asserted-by":"publisher","DOI":"10.1016\/j.scib.2023.07.031"},{"key":"ref30\/cit30","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.0c02273"},{"key":"ref31\/cit31","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.3c03310"},{"key":"ref32\/cit32","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.2c02823"},{"key":"ref33\/cit33","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.3c02121"},{"key":"ref34\/cit34","doi-asserted-by":"publisher","DOI":"10.1016\/j.catcom.2021.106338"},{"key":"ref35\/cit35","doi-asserted-by":"publisher","DOI":"10.1039\/D3TA03712F"},{"key":"ref36\/cit36","doi-asserted-by":"publisher","DOI":"10.1016\/j.matlet.2021.131078"},{"key":"ref37\/cit37","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.3c03535"},{"key":"ref38\/cit38","doi-asserted-by":"publisher","DOI":"10.1016\/j.jcis.2022.05.060"},{"key":"ref39\/cit39","doi-asserted-by":"publisher","DOI":"10.1038\/nature03311"},{"key":"ref40\/cit40","doi-asserted-by":"publisher","DOI":"10.1016\/j.cbpa.2016.10.001"},{"key":"ref41\/cit41","doi-asserted-by":"publisher","DOI":"10.1126\/science.aav2572"},{"key":"ref42\/cit42","doi-asserted-by":"publisher","DOI":"10.1126\/science.aam9035"},{"key":"ref43\/cit43","doi-asserted-by":"publisher","DOI":"10.1002\/anie.200460982"},{"key":"ref44\/cit44","doi-asserted-by":"publisher","DOI":"10.1038\/s41929-018-0170-x"},{"key":"ref45\/cit45","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.1c10963"},{"key":"ref46\/cit46","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.0c10774"},{"key":"ref47\/cit47","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.8b13356"},{"key":"ref48\/cit48","doi-asserted-by":"publisher","DOI":"10.1002\/advs.202001946"},{"key":"ref49\/cit49","doi-asserted-by":"publisher","DOI":"10.1016\/j.joule.2019.10.004"},{"key":"ref50\/cit50","doi-asserted-by":"publisher","DOI":"10.1039\/C3CS60395D"},{"key":"ref51\/cit51","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcatb.2019.118195"},{"key":"ref52\/cit52","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.3c03935"},{"key":"ref53\/cit53","doi-asserted-by":"publisher","DOI":"10.1126\/science.aad9289"},{"key":"ref54\/cit54","doi-asserted-by":"publisher","DOI":"10.1126\/science.aad9730"},{"key":"ref55\/cit55","doi-asserted-by":"publisher","DOI":"10.1038\/s41929-018-0069-6"},{"key":"ref56\/cit56","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.9b04285"},{"key":"ref57\/cit57","doi-asserted-by":"publisher","DOI":"10.1039\/D4CC01568A"},{"key":"ref58\/cit58","doi-asserted-by":"publisher","DOI":"10.1002\/adfm.202309089"}],"container-title":["Accounts
         of Materials Research"],"language":"en","link":[{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/accountsmr.4c00279","content-type":"application\/pdf","content-version":"vor","intended-application":"unspecified"},{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/accountsmr.4c00279","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2025,1,24]],"date-time":"2025-01-24T09:17:19Z","timestamp":1737710239000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/pubs.acs.org\/doi\/10.1021\/accountsmr.4c00279"}},"issued":{"date-parts":[[2024,11,7]]},"references-count":58,"journal-issue":{"issue":"1","published-print":{"date-parts":[[2025,1,24]]}},"alternative-id":["10.1021\/accountsmr.4c00279"],"URL":"https:\/\/doi.org\/10.1021\/accountsmr.4c00279","ISSN":["2643-6728","2643-6728"],"issn-type":[{"value":"2643-6728","type":"print"},{"value":"2643-6728","type":"electronic"}],"published":{"date-parts":[[2024,11,7]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:21 GMT
+  recorded_at: Wed, 12 Aug 2026 17:17:49 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/R026815,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
@@ -475,7 +475,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:23 GMT
+      - Wed, 12 Aug 2026 17:17:52 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -528,7 +528,7 @@ http_interactions:
         of Chemistry and Molecular Engineering, Beijing National Laboratory for Molecular
         Sciences, Peking University, Beijing 100871, China"}],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"316","published-online":{"date-parts":[[2024,11,7]]},"reference":[{"key":"ref1\/cit1","doi-asserted-by":"publisher","DOI":"10.1016\/j.chempr.2019.05.008"},{"key":"ref2\/cit2","doi-asserted-by":"publisher","DOI":"10.1021\/acs.accounts.6b00534"},{"key":"ref3\/cit3","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.1c08063"},{"key":"ref4\/cit4","doi-asserted-by":"publisher","DOI":"10.1039\/D2EE01010K"},{"key":"ref5\/cit5","doi-asserted-by":"publisher","DOI":"10.1126\/science.1067208"},{"key":"ref6\/cit6","doi-asserted-by":"publisher","DOI":"10.1038\/nchem.1192"},{"key":"ref7\/cit7","doi-asserted-by":"publisher","DOI":"10.1038\/nchem.1457"},{"key":"ref8\/cit8","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.0c11930"},{"key":"ref9\/cit9","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.6b01323"},{"key":"ref10\/cit10","doi-asserted-by":"publisher","DOI":"10.1002\/chem.202303934"},{"key":"ref11\/cit11","doi-asserted-by":"publisher","DOI":"10.1016\/S0021-9258(20)80579-1"},{"key":"ref12\/cit12","doi-asserted-by":"publisher","DOI":"10.1038\/s41563-022-01279-1"},{"key":"ref13\/cit13","doi-asserted-by":"publisher","DOI":"10.1021\/ja501810r"},{"key":"ref14\/cit14","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.7b05453"},{"key":"ref15\/cit15","doi-asserted-by":"publisher","DOI":"10.1002\/chem.201304799"},{"key":"ref16\/cit16","doi-asserted-by":"publisher","DOI":"10.1021\/ja501606h"},{"key":"ref17\/cit17","doi-asserted-by":"publisher","DOI":"10.1038\/nature15732"},{"key":"ref18\/cit18","doi-asserted-by":"publisher","DOI":"10.1016\/S0920-5861(00)00455-7"},{"key":"ref19\/cit19","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.7b02936"},{"key":"ref20\/cit20","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.9b02902"},{"key":"ref21\/cit21","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.8b11525"},{"key":"ref22\/cit22","doi-asserted-by":"publisher","DOI":"10.1016\/j.cej.2022.138472"},{"key":"ref23\/cit23","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.3c06981"},{"key":"ref24\/cit24","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.8b00505"},{"key":"ref25\/cit25","doi-asserted-by":"publisher","DOI":"10.1002\/chem.202003894"},{"key":"ref26\/cit26","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.1c04766"},{"key":"ref27\/cit27","doi-asserted-by":"publisher","DOI":"10.1002\/anie.202013807"},{"key":"ref28\/cit28","doi-asserted-by":"publisher","DOI":"10.1002\/anie.202205077"},{"key":"ref29\/cit29","doi-asserted-by":"publisher","DOI":"10.1016\/j.scib.2023.07.031"},{"key":"ref30\/cit30","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.0c02273"},{"key":"ref31\/cit31","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.3c03310"},{"key":"ref32\/cit32","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.2c02823"},{"key":"ref33\/cit33","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.3c02121"},{"key":"ref34\/cit34","doi-asserted-by":"publisher","DOI":"10.1016\/j.catcom.2021.106338"},{"key":"ref35\/cit35","doi-asserted-by":"publisher","DOI":"10.1039\/D3TA03712F"},{"key":"ref36\/cit36","doi-asserted-by":"publisher","DOI":"10.1016\/j.matlet.2021.131078"},{"key":"ref37\/cit37","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.3c03535"},{"key":"ref38\/cit38","doi-asserted-by":"publisher","DOI":"10.1016\/j.jcis.2022.05.060"},{"key":"ref39\/cit39","doi-asserted-by":"publisher","DOI":"10.1038\/nature03311"},{"key":"ref40\/cit40","doi-asserted-by":"publisher","DOI":"10.1016\/j.cbpa.2016.10.001"},{"key":"ref41\/cit41","doi-asserted-by":"publisher","DOI":"10.1126\/science.aav2572"},{"key":"ref42\/cit42","doi-asserted-by":"publisher","DOI":"10.1126\/science.aam9035"},{"key":"ref43\/cit43","doi-asserted-by":"publisher","DOI":"10.1002\/anie.200460982"},{"key":"ref44\/cit44","doi-asserted-by":"publisher","DOI":"10.1038\/s41929-018-0170-x"},{"key":"ref45\/cit45","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.1c10963"},{"key":"ref46\/cit46","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.0c10774"},{"key":"ref47\/cit47","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.8b13356"},{"key":"ref48\/cit48","doi-asserted-by":"publisher","DOI":"10.1002\/advs.202001946"},{"key":"ref49\/cit49","doi-asserted-by":"publisher","DOI":"10.1016\/j.joule.2019.10.004"},{"key":"ref50\/cit50","doi-asserted-by":"publisher","DOI":"10.1039\/C3CS60395D"},{"key":"ref51\/cit51","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcatb.2019.118195"},{"key":"ref52\/cit52","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.3c03935"},{"key":"ref53\/cit53","doi-asserted-by":"publisher","DOI":"10.1126\/science.aad9289"},{"key":"ref54\/cit54","doi-asserted-by":"publisher","DOI":"10.1126\/science.aad9730"},{"key":"ref55\/cit55","doi-asserted-by":"publisher","DOI":"10.1038\/s41929-018-0069-6"},{"key":"ref56\/cit56","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.9b04285"},{"key":"ref57\/cit57","doi-asserted-by":"publisher","DOI":"10.1039\/D4CC01568A"},{"key":"ref58\/cit58","doi-asserted-by":"publisher","DOI":"10.1002\/adfm.202309089"}],"container-title":["Accounts
         of Materials Research"],"language":"en","link":[{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/accountsmr.4c00279","content-type":"application\/pdf","content-version":"vor","intended-application":"unspecified"},{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/accountsmr.4c00279","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2025,1,24]],"date-time":"2025-01-24T09:17:19Z","timestamp":1737710239000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/pubs.acs.org\/doi\/10.1021\/accountsmr.4c00279"}},"issued":{"date-parts":[[2024,11,7]]},"references-count":58,"journal-issue":{"issue":"1","published-print":{"date-parts":[[2025,1,24]]}},"alternative-id":["10.1021\/accountsmr.4c00279"],"URL":"https:\/\/doi.org\/10.1021\/accountsmr.4c00279","ISSN":["2643-6728","2643-6728"],"issn-type":[{"value":"2643-6728","type":"print"},{"value":"2643-6728","type":"electronic"}],"published":{"date-parts":[[2024,11,7]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:23 GMT
+  recorded_at: Wed, 12 Aug 2026 17:17:51 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/R026645,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
@@ -550,7 +550,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:25 GMT
+      - Wed, 12 Aug 2026 17:17:53 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -603,7 +603,7 @@ http_interactions:
         of Chemistry and Molecular Engineering, Beijing National Laboratory for Molecular
         Sciences, Peking University, Beijing 100871, China"}],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"316","published-online":{"date-parts":[[2024,11,7]]},"reference":[{"key":"ref1\/cit1","doi-asserted-by":"publisher","DOI":"10.1016\/j.chempr.2019.05.008"},{"key":"ref2\/cit2","doi-asserted-by":"publisher","DOI":"10.1021\/acs.accounts.6b00534"},{"key":"ref3\/cit3","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.1c08063"},{"key":"ref4\/cit4","doi-asserted-by":"publisher","DOI":"10.1039\/D2EE01010K"},{"key":"ref5\/cit5","doi-asserted-by":"publisher","DOI":"10.1126\/science.1067208"},{"key":"ref6\/cit6","doi-asserted-by":"publisher","DOI":"10.1038\/nchem.1192"},{"key":"ref7\/cit7","doi-asserted-by":"publisher","DOI":"10.1038\/nchem.1457"},{"key":"ref8\/cit8","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.0c11930"},{"key":"ref9\/cit9","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.6b01323"},{"key":"ref10\/cit10","doi-asserted-by":"publisher","DOI":"10.1002\/chem.202303934"},{"key":"ref11\/cit11","doi-asserted-by":"publisher","DOI":"10.1016\/S0021-9258(20)80579-1"},{"key":"ref12\/cit12","doi-asserted-by":"publisher","DOI":"10.1038\/s41563-022-01279-1"},{"key":"ref13\/cit13","doi-asserted-by":"publisher","DOI":"10.1021\/ja501810r"},{"key":"ref14\/cit14","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.7b05453"},{"key":"ref15\/cit15","doi-asserted-by":"publisher","DOI":"10.1002\/chem.201304799"},{"key":"ref16\/cit16","doi-asserted-by":"publisher","DOI":"10.1021\/ja501606h"},{"key":"ref17\/cit17","doi-asserted-by":"publisher","DOI":"10.1038\/nature15732"},{"key":"ref18\/cit18","doi-asserted-by":"publisher","DOI":"10.1016\/S0920-5861(00)00455-7"},{"key":"ref19\/cit19","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.7b02936"},{"key":"ref20\/cit20","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.9b02902"},{"key":"ref21\/cit21","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.8b11525"},{"key":"ref22\/cit22","doi-asserted-by":"publisher","DOI":"10.1016\/j.cej.2022.138472"},{"key":"ref23\/cit23","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.3c06981"},{"key":"ref24\/cit24","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.8b00505"},{"key":"ref25\/cit25","doi-asserted-by":"publisher","DOI":"10.1002\/chem.202003894"},{"key":"ref26\/cit26","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.1c04766"},{"key":"ref27\/cit27","doi-asserted-by":"publisher","DOI":"10.1002\/anie.202013807"},{"key":"ref28\/cit28","doi-asserted-by":"publisher","DOI":"10.1002\/anie.202205077"},{"key":"ref29\/cit29","doi-asserted-by":"publisher","DOI":"10.1016\/j.scib.2023.07.031"},{"key":"ref30\/cit30","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.0c02273"},{"key":"ref31\/cit31","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.3c03310"},{"key":"ref32\/cit32","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.2c02823"},{"key":"ref33\/cit33","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.3c02121"},{"key":"ref34\/cit34","doi-asserted-by":"publisher","DOI":"10.1016\/j.catcom.2021.106338"},{"key":"ref35\/cit35","doi-asserted-by":"publisher","DOI":"10.1039\/D3TA03712F"},{"key":"ref36\/cit36","doi-asserted-by":"publisher","DOI":"10.1016\/j.matlet.2021.131078"},{"key":"ref37\/cit37","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.3c03535"},{"key":"ref38\/cit38","doi-asserted-by":"publisher","DOI":"10.1016\/j.jcis.2022.05.060"},{"key":"ref39\/cit39","doi-asserted-by":"publisher","DOI":"10.1038\/nature03311"},{"key":"ref40\/cit40","doi-asserted-by":"publisher","DOI":"10.1016\/j.cbpa.2016.10.001"},{"key":"ref41\/cit41","doi-asserted-by":"publisher","DOI":"10.1126\/science.aav2572"},{"key":"ref42\/cit42","doi-asserted-by":"publisher","DOI":"10.1126\/science.aam9035"},{"key":"ref43\/cit43","doi-asserted-by":"publisher","DOI":"10.1002\/anie.200460982"},{"key":"ref44\/cit44","doi-asserted-by":"publisher","DOI":"10.1038\/s41929-018-0170-x"},{"key":"ref45\/cit45","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.1c10963"},{"key":"ref46\/cit46","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.0c10774"},{"key":"ref47\/cit47","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.8b13356"},{"key":"ref48\/cit48","doi-asserted-by":"publisher","DOI":"10.1002\/advs.202001946"},{"key":"ref49\/cit49","doi-asserted-by":"publisher","DOI":"10.1016\/j.joule.2019.10.004"},{"key":"ref50\/cit50","doi-asserted-by":"publisher","DOI":"10.1039\/C3CS60395D"},{"key":"ref51\/cit51","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcatb.2019.118195"},{"key":"ref52\/cit52","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.3c03935"},{"key":"ref53\/cit53","doi-asserted-by":"publisher","DOI":"10.1126\/science.aad9289"},{"key":"ref54\/cit54","doi-asserted-by":"publisher","DOI":"10.1126\/science.aad9730"},{"key":"ref55\/cit55","doi-asserted-by":"publisher","DOI":"10.1038\/s41929-018-0069-6"},{"key":"ref56\/cit56","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.9b04285"},{"key":"ref57\/cit57","doi-asserted-by":"publisher","DOI":"10.1039\/D4CC01568A"},{"key":"ref58\/cit58","doi-asserted-by":"publisher","DOI":"10.1002\/adfm.202309089"}],"container-title":["Accounts
         of Materials Research"],"language":"en","link":[{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/accountsmr.4c00279","content-type":"application\/pdf","content-version":"vor","intended-application":"unspecified"},{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/accountsmr.4c00279","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2025,1,24]],"date-time":"2025-01-24T09:17:19Z","timestamp":1737710239000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/pubs.acs.org\/doi\/10.1021\/accountsmr.4c00279"}},"issued":{"date-parts":[[2024,11,7]]},"references-count":58,"journal-issue":{"issue":"1","published-print":{"date-parts":[[2025,1,24]]}},"alternative-id":["10.1021\/accountsmr.4c00279"],"URL":"https:\/\/doi.org\/10.1021\/accountsmr.4c00279","ISSN":["2643-6728","2643-6728"],"issn-type":[{"value":"2643-6728","type":"print"},{"value":"2643-6728","type":"electronic"}],"published":{"date-parts":[[2024,11,7]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:25 GMT
+  recorded_at: Wed, 12 Aug 2026 17:17:53 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/R027129,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
@@ -625,7 +625,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:27 GMT
+      - Wed, 12 Aug 2026 17:17:55 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -678,7 +678,7 @@ http_interactions:
         of Chemistry and Molecular Engineering, Beijing National Laboratory for Molecular
         Sciences, Peking University, Beijing 100871, China"}],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"316","published-online":{"date-parts":[[2024,11,7]]},"reference":[{"key":"ref1\/cit1","doi-asserted-by":"publisher","DOI":"10.1016\/j.chempr.2019.05.008"},{"key":"ref2\/cit2","doi-asserted-by":"publisher","DOI":"10.1021\/acs.accounts.6b00534"},{"key":"ref3\/cit3","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.1c08063"},{"key":"ref4\/cit4","doi-asserted-by":"publisher","DOI":"10.1039\/D2EE01010K"},{"key":"ref5\/cit5","doi-asserted-by":"publisher","DOI":"10.1126\/science.1067208"},{"key":"ref6\/cit6","doi-asserted-by":"publisher","DOI":"10.1038\/nchem.1192"},{"key":"ref7\/cit7","doi-asserted-by":"publisher","DOI":"10.1038\/nchem.1457"},{"key":"ref8\/cit8","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.0c11930"},{"key":"ref9\/cit9","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.6b01323"},{"key":"ref10\/cit10","doi-asserted-by":"publisher","DOI":"10.1002\/chem.202303934"},{"key":"ref11\/cit11","doi-asserted-by":"publisher","DOI":"10.1016\/S0021-9258(20)80579-1"},{"key":"ref12\/cit12","doi-asserted-by":"publisher","DOI":"10.1038\/s41563-022-01279-1"},{"key":"ref13\/cit13","doi-asserted-by":"publisher","DOI":"10.1021\/ja501810r"},{"key":"ref14\/cit14","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.7b05453"},{"key":"ref15\/cit15","doi-asserted-by":"publisher","DOI":"10.1002\/chem.201304799"},{"key":"ref16\/cit16","doi-asserted-by":"publisher","DOI":"10.1021\/ja501606h"},{"key":"ref17\/cit17","doi-asserted-by":"publisher","DOI":"10.1038\/nature15732"},{"key":"ref18\/cit18","doi-asserted-by":"publisher","DOI":"10.1016\/S0920-5861(00)00455-7"},{"key":"ref19\/cit19","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.7b02936"},{"key":"ref20\/cit20","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.9b02902"},{"key":"ref21\/cit21","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.8b11525"},{"key":"ref22\/cit22","doi-asserted-by":"publisher","DOI":"10.1016\/j.cej.2022.138472"},{"key":"ref23\/cit23","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.3c06981"},{"key":"ref24\/cit24","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.8b00505"},{"key":"ref25\/cit25","doi-asserted-by":"publisher","DOI":"10.1002\/chem.202003894"},{"key":"ref26\/cit26","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.1c04766"},{"key":"ref27\/cit27","doi-asserted-by":"publisher","DOI":"10.1002\/anie.202013807"},{"key":"ref28\/cit28","doi-asserted-by":"publisher","DOI":"10.1002\/anie.202205077"},{"key":"ref29\/cit29","doi-asserted-by":"publisher","DOI":"10.1016\/j.scib.2023.07.031"},{"key":"ref30\/cit30","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.0c02273"},{"key":"ref31\/cit31","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.3c03310"},{"key":"ref32\/cit32","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.2c02823"},{"key":"ref33\/cit33","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.3c02121"},{"key":"ref34\/cit34","doi-asserted-by":"publisher","DOI":"10.1016\/j.catcom.2021.106338"},{"key":"ref35\/cit35","doi-asserted-by":"publisher","DOI":"10.1039\/D3TA03712F"},{"key":"ref36\/cit36","doi-asserted-by":"publisher","DOI":"10.1016\/j.matlet.2021.131078"},{"key":"ref37\/cit37","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.3c03535"},{"key":"ref38\/cit38","doi-asserted-by":"publisher","DOI":"10.1016\/j.jcis.2022.05.060"},{"key":"ref39\/cit39","doi-asserted-by":"publisher","DOI":"10.1038\/nature03311"},{"key":"ref40\/cit40","doi-asserted-by":"publisher","DOI":"10.1016\/j.cbpa.2016.10.001"},{"key":"ref41\/cit41","doi-asserted-by":"publisher","DOI":"10.1126\/science.aav2572"},{"key":"ref42\/cit42","doi-asserted-by":"publisher","DOI":"10.1126\/science.aam9035"},{"key":"ref43\/cit43","doi-asserted-by":"publisher","DOI":"10.1002\/anie.200460982"},{"key":"ref44\/cit44","doi-asserted-by":"publisher","DOI":"10.1038\/s41929-018-0170-x"},{"key":"ref45\/cit45","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.1c10963"},{"key":"ref46\/cit46","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.0c10774"},{"key":"ref47\/cit47","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.8b13356"},{"key":"ref48\/cit48","doi-asserted-by":"publisher","DOI":"10.1002\/advs.202001946"},{"key":"ref49\/cit49","doi-asserted-by":"publisher","DOI":"10.1016\/j.joule.2019.10.004"},{"key":"ref50\/cit50","doi-asserted-by":"publisher","DOI":"10.1039\/C3CS60395D"},{"key":"ref51\/cit51","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcatb.2019.118195"},{"key":"ref52\/cit52","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.3c03935"},{"key":"ref53\/cit53","doi-asserted-by":"publisher","DOI":"10.1126\/science.aad9289"},{"key":"ref54\/cit54","doi-asserted-by":"publisher","DOI":"10.1126\/science.aad9730"},{"key":"ref55\/cit55","doi-asserted-by":"publisher","DOI":"10.1038\/s41929-018-0069-6"},{"key":"ref56\/cit56","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.9b04285"},{"key":"ref57\/cit57","doi-asserted-by":"publisher","DOI":"10.1039\/D4CC01568A"},{"key":"ref58\/cit58","doi-asserted-by":"publisher","DOI":"10.1002\/adfm.202309089"}],"container-title":["Accounts
         of Materials Research"],"language":"en","link":[{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/accountsmr.4c00279","content-type":"application\/pdf","content-version":"vor","intended-application":"unspecified"},{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/accountsmr.4c00279","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2025,1,24]],"date-time":"2025-01-24T09:17:19Z","timestamp":1737710239000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/pubs.acs.org\/doi\/10.1021\/accountsmr.4c00279"}},"issued":{"date-parts":[[2024,11,7]]},"references-count":58,"journal-issue":{"issue":"1","published-print":{"date-parts":[[2025,1,24]]}},"alternative-id":["10.1021\/accountsmr.4c00279"],"URL":"https:\/\/doi.org\/10.1021\/accountsmr.4c00279","ISSN":["2643-6728","2643-6728"],"issn-type":[{"value":"2643-6728","type":"print"},{"value":"2643-6728","type":"electronic"}],"published":{"date-parts":[[2024,11,7]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:27 GMT
+  recorded_at: Wed, 12 Aug 2026 17:17:54 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/M013219,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
@@ -700,7 +700,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:28 GMT
+      - Wed, 12 Aug 2026 17:17:56 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -729,7 +729,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:28 GMT
+  recorded_at: Wed, 12 Aug 2026 17:17:56 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/K014706/2,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
@@ -751,7 +751,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:29 GMT
+      - Wed, 12 Aug 2026 17:17:57 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -780,7 +780,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:29 GMT
+  recorded_at: Wed, 12 Aug 2026 17:17:56 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/K014668/1,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
@@ -802,7 +802,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:29 GMT
+      - Wed, 12 Aug 2026 17:17:57 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -831,7 +831,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:29 GMT
+  recorded_at: Wed, 12 Aug 2026 17:17:57 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/K014854/1,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
@@ -853,7 +853,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:30 GMT
+      - Wed, 12 Aug 2026 17:17:58 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -882,7 +882,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:30 GMT
+  recorded_at: Wed, 12 Aug 2026 17:17:58 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/K014714/1,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
@@ -904,7 +904,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:30 GMT
+      - Wed, 12 Aug 2026 17:17:59 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -933,7 +933,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:30 GMT
+  recorded_at: Wed, 12 Aug 2026 17:17:58 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/K014706,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
@@ -955,7 +955,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:30 GMT
+      - Wed, 12 Aug 2026 17:17:59 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -984,7 +984,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:31 GMT
+  recorded_at: Wed, 12 Aug 2026 17:17:59 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/K014668,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
@@ -1006,7 +1006,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:31 GMT
+      - Wed, 12 Aug 2026 17:17:59 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1035,7 +1035,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:31 GMT
+  recorded_at: Wed, 12 Aug 2026 17:17:59 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/K014854,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
@@ -1057,7 +1057,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:31 GMT
+      - Wed, 12 Aug 2026 17:18:00 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1086,7 +1086,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:31 GMT
+  recorded_at: Wed, 12 Aug 2026 17:17:59 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:EP/K014714,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
@@ -1108,7 +1108,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:32 GMT
+      - Wed, 12 Aug 2026 17:18:00 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1137,5 +1137,158 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:32 GMT
+  recorded_at: Wed, 12 Aug 2026 17:18:00 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:UKRI945,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 12 Aug 2026 17:18:01 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Wed, 12 Aug 2026 17:18:00 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:UKRI-945,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 12 Aug 2026 17:18:01 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Wed, 12 Aug 2026 17:18:01 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.funder:10.13039/501100000266,award.number:UKRI%20945,from-deposit-date:2025-01-01,until-deposit-date:2025-01-31
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      X-User-Agent:
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 12 Aug 2026 17:18:02 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Rate-Limit-Limit:
+      - '3'
+      X-Rate-Limit-Interval:
+      - 1s
+      X-Concurrency-Limit:
+      - '3'
+      X-Api-Pool:
+      - polite-array
+      Permissions-Policy:
+      - interest-cohort=()
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Wed, 12 Aug 2026 17:18:02 GMT
 recorded_with: VCR 6.4.0
