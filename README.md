@@ -1,6 +1,15 @@
 # XrefClient
 This engine allows mapping crossref data to the CDI publication, author and institution objects.
 
+## Synopsis
+
+xref_client is a mapping engine designed to facilitate importing crossref
+publication data for the [Catalysis Data Infrastructure](http://cdi.ukcatalysishub.org).
+
+### Note
+Requests from crossref are being throtled for public users so we needed to
+implement a manual limiter for 1 request per second. As the updates run
+weekly this may not be an issue.
 
 ## Usage
 The engine needs to be mounted into a CDI application
@@ -59,16 +68,7 @@ POSSIBILITY OF SUCH DAMAGE.
 ## Authors
   Abraham Nieva de la Hidalga
 
-## Synopsis
-
-xref_client is a mapping engine designed to facilitate importing crossref
-publication data for the [Catalysis Data Infrastructure](http://cdi.ukcatalysishub.org).
-
-Requests from crossref are being throtled for public users so we needed to
-implement a manual limiter for 1 request per second. As the updates run
-weekly this may not be an issue.
-
-### Funding
+## Funding
 UK Catalysis Hub supported the development of this resource as part of the
 Phase III UKRI945.
 
