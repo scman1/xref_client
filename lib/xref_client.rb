@@ -7,14 +7,15 @@ module XrefClient
         art_bib = JSON.parse(Serrano.content_negotiation(ids: doi_text, format: "citeproc-json"))
         return art_bib
     rescue => e
-        puts "failed getting data for " + doi_text
-        "Exception: #{e.message}"
+        puts "failed getting data for " + doi_text +
+          "Exception: #{e.message}"
         return nil
     end
   end
 
-  def self.findPubsAward(award_list, date_from, date_to,funder_list=nil)
+  def self.findPubsAward(award_list, date_from, date_to,funder_list=nil,cr_wait=true)
     collected_dois = {}
+    puts cr_wait
     for an_award in award_list do
       if funder_list
         art_bib = Serrano.works(filter: {has_funder: true,
@@ -44,13 +45,17 @@ module XrefClient
             collected_dois[a_result["DOI"]] = a_pub
           end
         end
-      sleep(1.0) # throttle for crossref
+      end
+      puts cr_wait
+      if cr_wait
+        puts "i am waiting for CR"
+        sleep(1.0)  # throttle for crossref
       end
     end
     return collected_dois
   end
 
-  def self.findPubsByAffiliation(group_size = 100, affiliation_synonyms=["UK Catalysis Hub"], date_from, date_to)
+  def self.findPubsByAffiliation(group_size = 100, affiliation_synonyms=["UK Catalysis Hub"], cr_wait=true, date_from, date_to)
     cursor = "*"
     found_pubs = {}
     accumulated = 0
@@ -65,14 +70,10 @@ module XrefClient
       filtered_pubs = filterJSONResults(json_pages, affiliation_synonyms, date_to)
       found_pubs.merge!(filtered_pubs)
       # break when remaining is less than group_size
-      #puts "*"*60
-      #puts "Loop :       #{counter}"
-      #puts "Expected:    #{expected_results}"
-      #puts "Accumulated: #{accumulated}"
-      #puts "Remaining:   #{expected_results - accumulated}"
-      #puts "first:       #{json_pages[0]["message"]["items"][0]["title"]}"
       break if (expected_results - accumulated) < group_size || cursor.nil?
-      sleep(1.0) #throttle for crossref
+      if cr_wait
+        sleep(1.0)# throttle for crossref
+      end
     end
     found_pubs
   end

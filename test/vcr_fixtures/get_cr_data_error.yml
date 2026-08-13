@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:50 GMT
+      - Thu, 13 Aug 2026 12:21:41 GMT
       Content-Length:
       - '12238'
       Connection:
@@ -110,7 +110,7 @@ http_interactions:
         Chem. Phys."},{"key":"D2CC01785G\/cit20\/1","doi-asserted-by":"crossref","first-page":"77","DOI":"10.1016\/j.molstruc.2007.06.004","volume":"876","author":"Kaczor","year":"2008","journal-title":"J.
         Mol. Struct."}],"container-title":"Chemical Communications","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2022\/CC\/D2CC01785G","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,6,30]],"date-time":"2026-06-30T20:46:19Z","timestamp":1782852379000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/cc\/article\/58\/56\/7789-7792\/757345"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2022]]},"references-count":20,"journal-issue":{"issue":"56","published-print":{"date-parts":[[2022,7,12]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d2cc01785g","relation":{},"ISSN":["1359-7345","1364-548X"],"subject":[],"container-title-short":"Chem.
         Commun.","published":{"date-parts":[[2022]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:45:50 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:41 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd5cy00336a/transform/application/vnd.citationstyles.csl+json
@@ -132,7 +132,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:51 GMT
+      - Thu, 13 Aug 2026 12:21:41 GMT
       Content-Length:
       - '14193'
       Connection:
@@ -223,7 +223,7 @@ http_interactions:
         , ARCHER2 Service Description,  Zenodo ,  2024 ,  10.5281\/zenodo.14507040"}],"container-title":"Catalysis
         Science &amp; Technology","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2025\/CY\/D5CY00336A","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T21:50:52Z","timestamp":1782942652000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/cy\/article\/15\/17\/5046-5054\/888508"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2025]]},"references-count":47,"journal-issue":{"issue":"17","published-print":{"date-parts":[[2025,8,26]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d5cy00336a","relation":{},"ISSN":["2044-4753","2044-4761"],"subject":[],"container-title-short":"Catal.
         Sci. Technol.","published":{"date-parts":[[2025]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:45:50 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:41 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd0sc01924k/transform/application/vnd.citationstyles.csl+json
@@ -245,7 +245,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:51 GMT
+      - Thu, 13 Aug 2026 12:21:42 GMT
       Content-Length:
       - '20749'
       Connection:
@@ -379,7 +379,7 @@ http_interactions:
         REVIEW METHOD"}},{"value":"Received 3 April 2020; Accepted 1 June 2020;  Advance
         Article published 17 June 2020;  Version of Record published 8 July 2020","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:45:51 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:42 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd2su00082b/transform/application/vnd.citationstyles.csl+json
@@ -401,7 +401,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:51 GMT
+      - Thu, 13 Aug 2026 12:21:42 GMT
       Content-Length:
       - '23127'
       Connection:
@@ -555,7 +555,7 @@ http_interactions:
         CO2 Util."},{"key":"D2SU00082B\/cit75\/1","doi-asserted-by":"crossref","first-page":"349","DOI":"10.1016\/j.apcatb.2013.01.040","volume":"134\u2013135","author":"Liu","year":"2013","journal-title":"Appl.
         Catal., B"}],"container-title":"RSC Sustainability","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2023\/SU\/D2SU00082B","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T06:09:19Z","timestamp":1782886159000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/su\/article\/1\/3\/494-503\/789097"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2023]]},"references-count":75,"journal-issue":{"issue":"3","published-print":{"date-parts":[[2023,5,11]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d2su00082b","relation":{},"ISSN":["2753-8125"],"subject":[],"container-title-short":"RSC
         Sustainability","published":{"date-parts":[[2023]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:45:51 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:42 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd4lf00230j/transform/application/vnd.citationstyles.csl+json
@@ -577,7 +577,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:52 GMT
+      - Thu, 13 Aug 2026 12:21:42 GMT
       Content-Length:
       - '19213'
       Connection:
@@ -707,7 +707,7 @@ http_interactions:
         Chem. Chem. Phys."},{"key":"D4LF00230J\/cit64\/1","doi-asserted-by":"crossref","first-page":"425","DOI":"10.1016\/j.jcat.2021.01.012","volume":"395","author":"Minova","year":"2021","journal-title":"J.
         Catal."}],"container-title":"RSC Applied Interfaces","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2024\/LF\/D4LF00230J","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,2]],"date-time":"2026-07-02T17:49:44Z","timestamp":1783014584000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/lf\/article\/1\/6\/1360-1370\/853482"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2024]]},"references-count":64,"journal-issue":{"issue":"6","published-print":{"date-parts":[[2024,11,5]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d4lf00230j","relation":{},"ISSN":["2755-3701"],"subject":[],"container-title-short":"RSC
         Appl. Interfaces","published":{"date-parts":[[2024]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:45:51 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:43 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd1cy00048a/transform/application/vnd.citationstyles.csl+json
@@ -729,7 +729,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:52 GMT
+      - Thu, 13 Aug 2026 12:21:43 GMT
       Content-Length:
       - '18589'
       Connection:
@@ -857,7 +857,7 @@ http_interactions:
         Manuscript published 1 March 2021;  Advance Article published 4 March 2021;  Version
         of Record published 26 April 2021","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:45:52 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:43 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd4cp03761h/transform/application/vnd.citationstyles.csl+json
@@ -879,7 +879,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:52 GMT
+      - Thu, 13 Aug 2026 12:21:43 GMT
       Content-Length:
       - '22238'
       Connection:
@@ -1029,7 +1029,7 @@ http_interactions:
         Chem. Soc. Faraday Trans."}],"container-title":"Physical Chemistry Chemical
         Physics","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2025\/CP\/D4CP03761H","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T03:02:45Z","timestamp":1782874965000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/cp\/article\/27\/5\/2601-2614\/844156"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2025]]},"references-count":81,"journal-issue":{"issue":"5","published-print":{"date-parts":[[2025,1,29]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d4cp03761h","relation":{},"ISSN":["1463-9076","1463-9084"],"subject":[],"container-title-short":"Phys.
         Chem. Chem. Phys.","published":{"date-parts":[[2025]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:45:52 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:43 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd2gc03234a/transform/application/vnd.citationstyles.csl+json
@@ -1051,7 +1051,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:53 GMT
+      - Thu, 13 Aug 2026 12:21:43 GMT
       Content-Length:
       - '22429'
       Connection:
@@ -1195,7 +1195,7 @@ http_interactions:
         Mol. Struct."},{"key":"D2GC03234A\/cit67\/1","doi-asserted-by":"crossref","first-page":"537","DOI":"10.1107\/S0909049505012719","volume":"12","author":"Ravel","year":"2005","journal-title":"J.
         Synchrotron Radiat."}],"container-title":"Green Chemistry","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2022\/GC\/D2GC03234A","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T22:06:24Z","timestamp":1782943584000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/gc\/article\/24\/24\/9570-9578\/770090"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2022]]},"references-count":67,"journal-issue":{"issue":"24","published-print":{"date-parts":[[2022,12,12]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d2gc03234a","relation":{},"ISSN":["1463-9262","1463-9270"],"subject":[],"container-title-short":"Green
         Chem.","published":{"date-parts":[[2022]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:45:52 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:44 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1016%2Fj.apcatb.2025.125029/transform/application/vnd.citationstyles.csl+json
@@ -1217,7 +1217,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:53 GMT
+      - Thu, 13 Aug 2026 12:21:44 GMT
       Content-Length:
       - '22891'
       Connection:
@@ -1398,7 +1398,7 @@ http_interactions:
         Title"},{"value":"https:\/\/doi.org\/10.1016\/j.apcatb.2025.125029","name":"articlelink","label":"CrossRef
         DOI link to publisher maintained version"},{"value":"article","name":"content_type","label":"Content
         Type"},{"value":"\u00a9 2025 The Authors. Published by Elsevier B.V.","name":"copyright","label":"Copyright"}],"article-number":"125029"}'
-  recorded_at: Wed, 12 Aug 2026 23:45:53 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:44 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1016%2Fj.cej.2026.175992/transform/application/vnd.citationstyles.csl+json
@@ -1420,7 +1420,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:53 GMT
+      - Thu, 13 Aug 2026 12:21:44 GMT
       Content-Length:
       - '30713'
       Connection:
@@ -1670,7 +1670,7 @@ http_interactions:
         Title"},{"value":"https:\/\/doi.org\/10.1016\/j.cej.2026.175992","name":"articlelink","label":"CrossRef
         DOI link to publisher maintained version"},{"value":"article","name":"content_type","label":"Content
         Type"},{"value":"\u00a9 2026 The Authors. Published by Elsevier B.V.","name":"copyright","label":"Copyright"}],"article-number":"175992"}'
-  recorded_at: Wed, 12 Aug 2026 23:45:53 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:44 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd4ey00044g/transform/application/vnd.citationstyles.csl+json
@@ -1692,7 +1692,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:54 GMT
+      - Thu, 13 Aug 2026 12:21:44 GMT
       Content-Length:
       - '15343'
       Connection:
@@ -1805,7 +1805,7 @@ http_interactions:
         Eng. Chem. Res."},{"key":"D4EY00044G\/cit35\/1","doi-asserted-by":"crossref","first-page":"40","DOI":"10.1016\/j.pecs.2014.04.003","volume":"44","author":"Sarathy","year":"2014","journal-title":"Prog.
         Energy Combust. Sci."}],"container-title":"EES Catalysis","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2024\/EY\/D4EY00044G","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,7]],"date-time":"2026-07-07T18:18:34Z","timestamp":1783448314000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/ey\/article\/2\/4\/987-996\/850274"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2024]]},"references-count":35,"journal-issue":{"issue":"4","published-print":{"date-parts":[[2024,7,4]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d4ey00044g","relation":{},"ISSN":["2753-801X"],"subject":[],"container-title-short":"EES
         Catal.","published":{"date-parts":[[2024]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:45:53 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:45 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd2cy02154d/transform/application/vnd.citationstyles.csl+json
@@ -1827,7 +1827,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:54 GMT
+      - Thu, 13 Aug 2026 12:21:45 GMT
       Content-Length:
       - '30427'
       Connection:
@@ -2024,7 +2024,7 @@ http_interactions:
         Opin. Electrochem."},{"key":"D2CY02154D\/cit122\/1","doi-asserted-by":"crossref","first-page":"216","DOI":"10.1016\/j.cattod.2013.03.017","volume":"215","author":"Erichsen","year":"2013","journal-title":"Catal.
         Today"}],"container-title":"Catalysis Science &amp; Technology","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2023\/CY\/D2CY02154D","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T05:59:56Z","timestamp":1782885596000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/cy\/article\/13\/7\/1976-1990\/764722"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2023]]},"references-count":121,"journal-issue":{"issue":"7","published-print":{"date-parts":[[2023,4,3]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d2cy02154d","relation":{},"ISSN":["2044-4753","2044-4761"],"subject":[],"container-title-short":"Catal.
         Sci. Technol.","published":{"date-parts":[[2023]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:45:54 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:45 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd3cs00468f/transform/application/vnd.citationstyles.csl+json
@@ -2046,7 +2046,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:54 GMT
+      - Thu, 13 Aug 2026 12:21:45 GMT
       Content-Length:
       - '74940'
       Connection:
@@ -2459,7 +2459,7 @@ http_interactions:
         Sci. Technol."},{"key":"D3CS00468F\/cit361\/1","doi-asserted-by":"crossref","first-page":"6164","DOI":"10.1021\/acs.jpclett.2c01107","volume":"13","author":"Martini","year":"2022","journal-title":"J.
         Phys. Chem. Lett."}],"container-title":"Chemical Society Reviews","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2024\/CS\/D3CS00468F","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,2]],"date-time":"2026-07-02T04:34:10Z","timestamp":1782966850000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/cs\/article\/53\/23\/11657-11691\/803874"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2024]]},"references-count":360,"journal-issue":{"issue":"23","published-print":{"date-parts":[[2024,11,25]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d3cs00468f","relation":{},"ISSN":["0306-0012","1460-4744"],"subject":[],"container-title-short":"Chem.
         Soc. Rev.","published":{"date-parts":[[2024]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:45:54 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:45 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd5ma00666j/transform/application/vnd.citationstyles.csl+json
@@ -2481,7 +2481,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:55 GMT
+      - Thu, 13 Aug 2026 12:21:46 GMT
       Content-Length:
       - '23258'
       Connection:
@@ -2638,7 +2638,7 @@ http_interactions:
         Phys. Chem. C"},{"key":"D5MA00666J\/cit61\/1","doi-asserted-by":"crossref","first-page":"9727","DOI":"10.1021\/la4018568","volume":"29","author":"Itadani","year":"2013","journal-title":"Langmuir"}],"container-title":"Materials
         Advances","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2025\/MA\/D5MA00666J","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,6,30]],"date-time":"2026-06-30T20:14:09Z","timestamp":1782850449000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/ma\/article\/6\/17\/6076-6093\/896286"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2025]]},"references-count":71,"journal-issue":{"issue":"17","published-print":{"date-parts":[[2025,8,26]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d5ma00666j","relation":{},"ISSN":["2633-5409"],"subject":[],"container-title-short":"Mater.
         Adv.","published":{"date-parts":[[2025]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:45:55 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:46 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1016%2Fj.sbi.2020.12.015/transform/application/vnd.citationstyles.csl+json
@@ -2660,7 +2660,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:55 GMT
+      - Thu, 13 Aug 2026 12:21:46 GMT
       Content-Length:
       - '24902'
       Connection:
@@ -2839,7 +2839,7 @@ http_interactions:
         Opinion in Structural Biology","name":"journaltitle","label":"Journal Title"},{"value":"https:\/\/doi.org\/10.1016\/j.sbi.2020.12.015","name":"articlelink","label":"CrossRef
         DOI link to publisher maintained version"},{"value":"article","name":"content_type","label":"Content
         Type"},{"value":"\u00a9 2021 Elsevier Ltd. All rights reserved.","name":"copyright","label":"Copyright"}]}'
-  recorded_at: Wed, 12 Aug 2026 23:45:55 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:46 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd2fd00119e/transform/application/vnd.citationstyles.csl+json
@@ -2861,7 +2861,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:56 GMT
+      - Thu, 13 Aug 2026 12:21:46 GMT
       Content-Length:
       - '18592'
       Connection:
@@ -3004,7 +3004,7 @@ http_interactions:
         , Hoboken, NJ, USA , 2011 , pp. i\u2013xvii"},{"key":"D2FD00119E\/cit41\/1","doi-asserted-by":"crossref","first-page":"289","DOI":"10.1080\/01614940.2013.796192","volume":"55","author":"Armbr\u00fcster","year":"2013","journal-title":"Catal.
         Rev. Sci. Eng."}],"container-title":"Faraday Discussions","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2023\/FD\/D2FD00119E","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T03:45:13Z","timestamp":1782877513000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/fd\/article\/768532"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2023]]},"references-count":41,"URL":"http:\/\/dx.doi.org\/10.1039\/d2fd00119e","relation":{},"ISSN":["1359-6640","1364-5498"],"subject":[],"container-title-short":"Faraday
         Discuss.","published":{"date-parts":[[2023]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:45:55 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:46 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1016%2Fj.susc.2024.122620/transform/application/vnd.citationstyles.csl+json
@@ -3026,7 +3026,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:56 GMT
+      - Thu, 13 Aug 2026 12:21:47 GMT
       Content-Length:
       - '23550'
       Connection:
@@ -3210,7 +3210,7 @@ http_interactions:
         Science","name":"journaltitle","label":"Journal Title"},{"value":"https:\/\/doi.org\/10.1016\/j.susc.2024.122620","name":"articlelink","label":"CrossRef
         DOI link to publisher maintained version"},{"value":"article","name":"content_type","label":"Content
         Type"},{"value":"\u00a9 2024 The Author. Published by Elsevier B.V.","name":"copyright","label":"Copyright"}],"article-number":"122620"}'
-  recorded_at: Wed, 12 Aug 2026 23:45:56 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:47 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd2cc04701b/transform/application/vnd.citationstyles.csl+json
@@ -3232,7 +3232,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:56 GMT
+      - Thu, 13 Aug 2026 12:21:47 GMT
       Content-Length:
       - '13353'
       Connection:
@@ -3329,7 +3329,7 @@ http_interactions:
         Mater. Chem. A"},{"issue":"4","key":"D2CC04701B\/cit31\/1","doi-asserted-by":"crossref","first-page":"1733","DOI":"10.1021\/acs.iecr.1c04447","volume":"61","author":"Sawada","year":"2022","journal-title":"Ind.
         Eng. Chem. Res."}],"container-title":"Chemical Communications","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2022\/CC\/D2CC04701B","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T04:48:38Z","timestamp":1782881318000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/cc\/article\/58\/99\/13716-13719\/758398"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2022]]},"references-count":31,"journal-issue":{"issue":"99","published-print":{"date-parts":[[2022,12,13]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d2cc04701b","relation":{},"ISSN":["1359-7345","1364-548X"],"subject":[],"container-title-short":"Chem.
         Commun.","published":{"date-parts":[[2022]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:45:56 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:47 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1016%2Fj.jcat.2024.115696/transform/application/vnd.citationstyles.csl+json
@@ -3351,7 +3351,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:57 GMT
+      - Thu, 13 Aug 2026 12:21:47 GMT
       Content-Length:
       - '42339'
       Connection:
@@ -3689,7 +3689,7 @@ http_interactions:
         of Catalysis","name":"journaltitle","label":"Journal Title"},{"value":"https:\/\/doi.org\/10.1016\/j.jcat.2024.115696","name":"articlelink","label":"CrossRef
         DOI link to publisher maintained version"},{"value":"article","name":"content_type","label":"Content
         Type"},{"value":"\u00a9 2024 The Author(s). Published by Elsevier Inc.","name":"copyright","label":"Copyright"}],"article-number":"115696"}'
-  recorded_at: Wed, 12 Aug 2026 23:45:57 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:47 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd4cy00602j/transform/application/vnd.citationstyles.csl+json
@@ -3711,7 +3711,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:57 GMT
+      - Thu, 13 Aug 2026 12:21:48 GMT
       Content-Length:
       - '16903'
       Connection:
@@ -3838,7 +3838,7 @@ http_interactions:
         Interface Anal."},{"key":"D4CY00602J\/cit44\/1","doi-asserted-by":"crossref","first-page":"8478","DOI":"10.1039\/D0DT00754D","volume":"49","author":"Higham","year":"2020","journal-title":"Dalton
         Trans."}],"container-title":"Catalysis Science &amp; Technology","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2025\/CY\/D4CY00602J","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,2]],"date-time":"2026-07-02T03:51:13Z","timestamp":1782964273000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/cy\/article\/15\/4\/1070-1081\/1242380"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2025]]},"references-count":44,"journal-issue":{"issue":"4","published-print":{"date-parts":[[2025,2,17]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d4cy00602j","relation":{},"ISSN":["2044-4753","2044-4761"],"subject":[],"container-title-short":"Catal.
         Sci. Technol.","published":{"date-parts":[[2025]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:45:57 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:48 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd4cc06209d/transform/application/vnd.citationstyles.csl+json
@@ -3860,7 +3860,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:58 GMT
+      - Thu, 13 Aug 2026 12:21:48 GMT
       Content-Length:
       - '11520'
       Connection:
@@ -3953,7 +3953,7 @@ http_interactions:
         Catal."},{"key":"D4CC06209D\/cit29\/1","doi-asserted-by":"crossref","first-page":"1941","DOI":"10.1039\/ft9969201941","volume":"92","author":"Parker","year":"1996","journal-title":"J.
         Chem. Soc., Faraday Trans."}],"container-title":"Chemical Communications","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2025\/CC\/D4CC06209D","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,8]],"date-time":"2026-07-08T17:29:55Z","timestamp":1783531795000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/cc\/article\/61\/36\/6603-6606\/840883"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2025]]},"references-count":29,"journal-issue":{"issue":"36","published-print":{"date-parts":[[2025,4,29]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d4cc06209d","relation":{},"ISSN":["1359-7345","1364-548X"],"subject":[],"container-title-short":"Chem.
         Commun.","published":{"date-parts":[[2025]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:45:58 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:48 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd2fd00148a/transform/application/vnd.citationstyles.csl+json
@@ -3975,7 +3975,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:58 GMT
+      - Thu, 13 Aug 2026 12:21:48 GMT
       Content-Length:
       - '16692'
       Connection:
@@ -4103,7 +4103,7 @@ http_interactions:
         US ,  Boston, MA ,  1979"},{"key":"D2FD00148A\/cit59\/1","doi-asserted-by":"crossref","first-page":"325","DOI":"10.1016\/j.jssc.2007.12.001","volume":"181","author":"Mckay","year":"2008","journal-title":"J.
         Solid State Chem."}],"container-title":"Faraday Discussions","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2023\/FD\/D2FD00148A","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,6,30]],"date-time":"2026-06-30T19:56:33Z","timestamp":1782849393000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/fd\/article\/768559"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2023]]},"references-count":57,"URL":"http:\/\/dx.doi.org\/10.1039\/d2fd00148a","relation":{},"ISSN":["1359-6640","1364-5498"],"subject":[],"container-title-short":"Faraday
         Discuss.","published":{"date-parts":[[2023]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:45:58 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:48 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd1ta01464a/transform/application/vnd.citationstyles.csl+json
@@ -4125,7 +4125,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:58 GMT
+      - Thu, 13 Aug 2026 12:21:49 GMT
       Content-Length:
       - '25203'
       Connection:
@@ -4286,7 +4286,7 @@ http_interactions:
         Catal., B"},{"key":"D1TA01464A\/cit98","doi-asserted-by":"crossref","first-page":"12","DOI":"10.1016\/j.apcata.2015.05.004","volume":"500","author":"Luisetto","year":"2015","journal-title":"Appl.
         Catal., A"}],"container-title":"Journal of Materials Chemistry A","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2021\/TA\/D1TA01464A","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,7]],"date-time":"2026-07-07T18:11:15Z","timestamp":1783447875000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/ta\/article\/9\/18\/11331-11346\/749339"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2021]]},"references-count":97,"journal-issue":{"issue":"18","published-print":{"date-parts":[[2021,5,11]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d1ta01464a","relation":{},"ISSN":["2050-7488","2050-7496"],"subject":[],"container-title-short":"J.
         Mater. Chem. A","published":{"date-parts":[[2021]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:45:58 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:49 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd1fd00004g/transform/application/vnd.citationstyles.csl+json
@@ -4308,7 +4308,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:59 GMT
+      - Thu, 13 Aug 2026 12:21:49 GMT
       Content-Length:
       - '16460'
       Connection:
@@ -4424,7 +4424,7 @@ http_interactions:
         Manuscript published 5 February 2021;  Advance Article published 7 May 2021;  Version
         of Record published 16 July 2021","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:45:59 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:49 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd0ta08351h/transform/application/vnd.citationstyles.csl+json
@@ -4446,7 +4446,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:59 GMT
+      - Thu, 13 Aug 2026 12:21:49 GMT
       Content-Length:
       - '16053'
       Connection:
@@ -4554,7 +4554,7 @@ http_interactions:
         Manuscript published 13 October 2020;  Advance Article published 28 October
         2020;  Version of Record published 10 November 2020","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:45:59 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:49 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd2dd00105e/transform/application/vnd.citationstyles.csl+json
@@ -4576,7 +4576,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:45:59 GMT
+      - Thu, 13 Aug 2026 12:21:50 GMT
       Content-Length:
       - '21373'
       Connection:
@@ -4733,7 +4733,7 @@ http_interactions:
         Catal."},{"key":"D2DD00105E\/cit55\/1","doi-asserted-by":"crossref","first-page":"1943","DOI":"10.1107\/S1600576715020701","volume":"48","author":"Vamvakeros","year":"2015","journal-title":"J.
         Appl. Crystallogr."}],"container-title":"Digital Discovery","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2023\/DD\/D2DD00105E","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,2]],"date-time":"2026-07-02T05:17:08Z","timestamp":1782969428000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/dd\/article\/2\/4\/967-980\/764882"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2023]]},"references-count":55,"journal-issue":{"issue":"4","published-print":{"date-parts":[[2023,8,8]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d2dd00105e","relation":{"has-preprint":[{"id-type":"doi","id":"10.26434\/chemrxiv-2022-xnlqz-v2","asserted-by":"object"}]},"ISSN":["2635-098X"],"subject":[],"container-title-short":"Digital
         Discovery","published":{"date-parts":[[2023]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:45:59 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:50 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1016%2Fj.cell.2021.04.001/transform/application/vnd.citationstyles.csl+json
@@ -4755,7 +4755,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:00 GMT
+      - Thu, 13 Aug 2026 12:21:50 GMT
       Content-Length:
       - '33318'
       Connection:
@@ -4995,7 +4995,7 @@ http_interactions:
         Title"},{"value":"Cell","name":"journaltitle","label":"Journal Title"},{"value":"https:\/\/doi.org\/10.1016\/j.cell.2021.04.001","name":"articlelink","label":"CrossRef
         DOI link to publisher maintained version"},{"value":"article","name":"content_type","label":"Content
         Type"},{"value":"\u00a9 2021 The Authors. Published by Elsevier Inc.","name":"copyright","label":"Copyright"}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:00 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:50 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd2cy01322c/transform/application/vnd.citationstyles.csl+json
@@ -5017,7 +5017,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:00 GMT
+      - Thu, 13 Aug 2026 12:21:50 GMT
       Content-Length:
       - '48100'
       Connection:
@@ -5295,7 +5295,7 @@ http_interactions:
         Catal."},{"key":"D2CY01322C\/cit222\/1","doi-asserted-by":"crossref","first-page":"179","DOI":"10.1016\/j.molcata.2004.08.047","volume":"224","author":"Bielanski","year":"2004","journal-title":"J.
         Mol. Catal. A: Chem."}],"container-title":"Catalysis Science &amp; Technology","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2022\/CY\/D2CY01322C","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T17:19:37Z","timestamp":1782926377000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/cy\/article\/12\/24\/7245-7269\/764469"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2022]]},"references-count":220,"journal-issue":{"issue":"24","published-print":{"date-parts":[[2022,12,12]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d2cy01322c","relation":{},"ISSN":["2044-4753","2044-4761"],"subject":[],"container-title-short":"Catal.
         Sci. Technol.","published":{"date-parts":[[2022]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:00 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:50 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd4re00181h/transform/application/vnd.citationstyles.csl+json
@@ -5317,7 +5317,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:01 GMT
+      - Thu, 13 Aug 2026 12:21:50 GMT
       Content-Length:
       - '13895'
       Connection:
@@ -5412,7 +5412,7 @@ http_interactions:
         Catal."},{"key":"D4RE00181H\/cit41\/1","doi-asserted-by":"publisher","first-page":"71","DOI":"10.1016\/j.jcat.2009.05.015","volume":"266","author":"Gaertner","year":"2009","journal-title":"J.
         Catal."}],"container-title":"Reaction Chemistry &amp; Engineering","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2025\/RE\/D4RE00181H","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T06:03:46Z","timestamp":1782885826000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/re\/article\/10\/9\/1994-2003\/868378"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2025]]},"references-count":41,"journal-issue":{"issue":"9","published-print":{"date-parts":[[2025,8,19]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d4re00181h","relation":{},"ISSN":["2058-9883"],"subject":[],"container-title-short":"React.
         Chem. Eng.","published":{"date-parts":[[2025]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:00 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:51 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1016%2Fj.jcou.2025.103220/transform/application/vnd.citationstyles.csl+json
@@ -5434,7 +5434,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:01 GMT
+      - Thu, 13 Aug 2026 12:21:51 GMT
       Content-Length:
       - '17766'
       Connection:
@@ -5575,7 +5575,7 @@ http_interactions:
         Title"},{"value":"https:\/\/doi.org\/10.1016\/j.jcou.2025.103220","name":"articlelink","label":"CrossRef
         DOI link to publisher maintained version"},{"value":"article","name":"content_type","label":"Content
         Type"},{"value":"\u00a9 2025 The Author(s). Published by Elsevier Ltd.","name":"copyright","label":"Copyright"}],"article-number":"103220"}'
-  recorded_at: Wed, 12 Aug 2026 23:46:01 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:51 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1016%2Fj.apcata.2022.118817/transform/application/vnd.citationstyles.csl+json
@@ -5597,7 +5597,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:01 GMT
+      - Thu, 13 Aug 2026 12:21:51 GMT
       Content-Length:
       - '15239'
       Connection:
@@ -5691,7 +5691,7 @@ http_interactions:
         Catalysis A: General","name":"journaltitle","label":"Journal Title"},{"value":"https:\/\/doi.org\/10.1016\/j.apcata.2022.118817","name":"articlelink","label":"CrossRef
         DOI link to publisher maintained version"},{"value":"article","name":"content_type","label":"Content
         Type"},{"value":"\u00a9 2022 The Author(s). Published by Elsevier B.V.","name":"copyright","label":"Copyright"}],"article-number":"118817"}'
-  recorded_at: Wed, 12 Aug 2026 23:46:01 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:51 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd5cp03860j/transform/application/vnd.citationstyles.csl+json
@@ -5713,7 +5713,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:02 GMT
+      - Thu, 13 Aug 2026 12:21:51 GMT
       Content-Length:
       - '13546'
       Connection:
@@ -5811,7 +5811,7 @@ http_interactions:
         Sci."},{"key":"D5CP03860J\/cit48\/1","doi-asserted-by":"crossref","first-page":"20014","DOI":"10.1021\/jp062569d","volume":"110","author":"Somorjai","year":"2006","journal-title":"J.
         Phys. Chem. B"}],"container-title":"Physical Chemistry Chemical Physics","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2026\/CP\/D5CP03860J","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,2]],"date-time":"2026-07-02T17:37:12Z","timestamp":1783013832000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/cp\/article\/28\/3\/2446-2453\/887573"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2026]]},"references-count":48,"journal-issue":{"issue":"3","published-print":{"date-parts":[[2026,1,21]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d5cp03860j","relation":{},"ISSN":["1463-9076","1463-9084"],"subject":[],"container-title-short":"Phys.
         Chem. Chem. Phys.","published":{"date-parts":[[2026]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:01 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:51 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd1gc04414a/transform/application/vnd.citationstyles.csl+json
@@ -5833,7 +5833,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:02 GMT
+      - Thu, 13 Aug 2026 12:21:52 GMT
       Content-Length:
       - '13091'
       Connection:
@@ -5928,7 +5928,7 @@ http_interactions:
         Chem."},{"key":"D1GC04414A\/cit42\/1","doi-asserted-by":"crossref","first-page":"1231","DOI":"10.1039\/C9CC07805C","volume":"56","author":"Saba","year":"2020","journal-title":"Chem.
         Commun."}],"container-title":"Green Chemistry","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2022\/GC\/D1GC04414A","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T17:19:21Z","timestamp":1782926361000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/gc\/article\/24\/4\/1451-1455\/730012"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2022]]},"references-count":42,"journal-issue":{"issue":"4","published-print":{"date-parts":[[2022,2,21]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d1gc04414a","relation":{},"ISSN":["1463-9262","1463-9270"],"subject":[],"container-title-short":"Green
         Chem.","published":{"date-parts":[[2022]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:02 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:52 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd4ey00026a/transform/application/vnd.citationstyles.csl+json
@@ -5950,7 +5950,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:02 GMT
+      - Thu, 13 Aug 2026 12:21:52 GMT
       Content-Length:
       - '23474'
       Connection:
@@ -6104,7 +6104,7 @@ http_interactions:
         Electrochem. Soc."},{"key":"D4EY00026A\/cit78\/1","doi-asserted-by":"crossref","first-page":"2682","DOI":"10.1021\/acsenergylett.3c00193","volume":"8","author":"Milosevic","year":"2023","journal-title":"ACS
         Energy Lett."}],"container-title":"EES Catalysis","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2024\/EY\/D4EY00026A","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T03:38:01Z","timestamp":1782877081000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/ey\/article\/2\/5\/1139-1151\/850270"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2024]]},"references-count":78,"journal-issue":{"issue":"5","published-print":{"date-parts":[[2024,9,5]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d4ey00026a","relation":{"has-review":[{"id-type":"doi","id":"10.1039\/D4EY00026A\/v2\/decision1","asserted-by":"object"},{"id-type":"doi","id":"10.1039\/D4EY00026A\/v2\/response1","asserted-by":"object"},{"id-type":"doi","id":"10.1039\/D4EY00026A\/v1\/review2","asserted-by":"object"},{"id-type":"doi","id":"10.1039\/D4EY00026A\/v1\/review1","asserted-by":"object"},{"id-type":"doi","id":"10.1039\/D4EY00026A\/v1\/decision1","asserted-by":"object"}]},"ISSN":["2753-801X"],"subject":[],"container-title-short":"EES
         Catal.","published":{"date-parts":[[2024]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:02 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:52 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd3cy01064c/transform/application/vnd.citationstyles.csl+json
@@ -6126,7 +6126,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:03 GMT
+      - Thu, 13 Aug 2026 12:21:52 GMT
       Content-Length:
       - '16600'
       Connection:
@@ -6232,7 +6232,7 @@ http_interactions:
         Energy Fuels"},{"key":"D3CY01064C\/cit65\/1","doi-asserted-by":"crossref","first-page":"106","DOI":"10.1080\/01614940903510496","volume":"52","author":"Uzio","year":"2010","journal-title":"Catal.
         Rev.: Sci. Eng."}],"container-title":"Catalysis Science &amp; Technology","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2024\/CY\/D3CY01064C","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,2]],"date-time":"2026-07-02T03:57:36Z","timestamp":1782964656000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/cy\/article\/14\/4\/840-849\/804495"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2024]]},"references-count":65,"journal-issue":{"issue":"4","published-print":{"date-parts":[[2024,2,19]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d3cy01064c","relation":{},"ISSN":["2044-4753","2044-4761"],"subject":[],"container-title-short":"Catal.
         Sci. Technol.","published":{"date-parts":[[2024]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:02 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:52 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd1cy02001c/transform/application/vnd.citationstyles.csl+json
@@ -6254,7 +6254,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:03 GMT
+      - Thu, 13 Aug 2026 12:21:53 GMT
       Content-Length:
       - '20017'
       Connection:
@@ -6394,7 +6394,7 @@ http_interactions:
         Rev. E: Stat., Nonlinear, Soft Matter Phys."},{"key":"D1CY02001C\/cit61\/1","doi-asserted-by":"crossref","first-page":"27052","DOI":"10.1021\/jp410756g","volume":"117","author":"Roy","year":"2013","journal-title":"J.
         Phys. Chem. C"}],"container-title":"Catalysis Science &amp; Technology","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2022\/CY\/D1CY02001C","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T06:26:50Z","timestamp":1782887210000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/cy\/article\/12\/5\/1663-1677\/724330"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2022]]},"references-count":61,"journal-issue":{"issue":"5","published-print":{"date-parts":[[2022,3,7]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d1cy02001c","relation":{},"ISSN":["2044-4753","2044-4761"],"subject":[],"container-title-short":"Catal.
         Sci. Technol.","published":{"date-parts":[[2022]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:03 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:53 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd0cy00036a/transform/application/vnd.citationstyles.csl+json
@@ -6416,7 +6416,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:03 GMT
+      - Thu, 13 Aug 2026 12:21:53 GMT
       Content-Length:
       - '18860'
       Connection:
@@ -6540,7 +6540,7 @@ http_interactions:
         Manuscript published 24 January 2020;  Advance Article published 4 February
         2020;  Version of Record published 9 March 2020","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:03 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:53 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd2cy01299e/transform/application/vnd.citationstyles.csl+json
@@ -6562,7 +6562,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:04 GMT
+      - Thu, 13 Aug 2026 12:21:53 GMT
       Content-Length:
       - '17014'
       Connection:
@@ -6683,7 +6683,7 @@ http_interactions:
         Environ. Sci."},{"key":"D2CY01299E\/cit51\/1","doi-asserted-by":"crossref","first-page":"2407","DOI":"10.3390\/ijms20102407","volume":"20","author":"Collin","year":"2019","journal-title":"Int.
         J. Mol. Sci."}],"container-title":"Catalysis Science &amp; Technology","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2023\/CY\/D2CY01299E","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,7]],"date-time":"2026-07-07T18:52:28Z","timestamp":1783450348000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/cy\/article\/13\/4\/1041-1058\/764465"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2023]]},"references-count":51,"journal-issue":{"issue":"4","published-print":{"date-parts":[[2023,2,20]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d2cy01299e","relation":{},"ISSN":["2044-4753","2044-4761"],"subject":[],"container-title-short":"Catal.
         Sci. Technol.","published":{"date-parts":[[2023]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:03 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:53 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd0gc02295k/transform/application/vnd.citationstyles.csl+json
@@ -6705,7 +6705,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:04 GMT
+      - Thu, 13 Aug 2026 12:21:54 GMT
       Content-Length:
       - '23214'
       Connection:
@@ -6829,7 +6829,7 @@ http_interactions:
         Article published 3 November 2020;  Version of Record published 7 December
         2020","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:04 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:54 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd1ee03523a/transform/application/vnd.citationstyles.csl+json
@@ -6851,7 +6851,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:04 GMT
+      - Thu, 13 Aug 2026 12:21:54 GMT
       Content-Length:
       - '94815'
       Connection:
@@ -6879,7 +6879,7 @@ http_interactions:
       - interest-cohort=()
     body:
       encoding: ASCII-8BIT
-      string: '{"indexed":{"date-parts":[[2026,8,12]],"date-time":"2026-08-12T18:30:29Z","timestamp":1786559429138,"version":"3.56.0"},"reference-count":432,"publisher":"Royal
+      string: '{"indexed":{"date-parts":[[2026,8,13]],"date-time":"2026-08-13T03:17:40Z","timestamp":1786591060168,"version":"3.56.0"},"reference-count":432,"publisher":"Royal
         Society of Chemistry (RSC)","issue":"4","license":[{"start":{"date-parts":[[2022,2,28]],"date-time":"2022-02-28T00:00:00Z","timestamp":1646006400000},"content-version":"vor","delay-in-days":58,"URL":"http:\/\/creativecommons.org\/licenses\/by\/3.0\/"}],"funder":[{"DOI":"10.13039\/100010661","name":"Horizon
         2020 Framework Programme","doi-asserted-by":"publisher","award":["754382"],"award-info":[{"award-number":["754382"]}],"id":[{"id":"10.13039\/100010661","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000287","name":"Royal
         Academy of Engineering","doi-asserted-by":"publisher","award":["Research Fellowship
@@ -6892,7 +6892,7 @@ http_interactions:
         de Madrid","doi-asserted-by":"publisher","id":[{"id":"10.13039\/100012818","id-type":"DOI","asserted-by":"publisher"}]}],"content-domain":{"domain":["rsc.org"],"crossmark-restriction":true},"abstract":"<jats:p>This
         comprehensive review appraises the state-of-the-art in direct air capture
         materials, processes, economics, sustainability, and policy, to inform, challenge
-        and inspire a broad audience of researchers, practitioners, and policymakers.<\/jats:p>","DOI":"10.1039\/d1ee03523a","type":"journal-article","created":{"date-parts":[[2022,2,28]],"date-time":"2022-02-28T09:52:41Z","timestamp":1646041961000},"page":"1360-1405","update-policy":"https:\/\/doi.org\/10.1039\/rsc_crossmark_policy","source":"Crossref","is-referenced-by-count":648,"title":"Direct
+        and inspire a broad audience of researchers, practitioners, and policymakers.<\/jats:p>","DOI":"10.1039\/d1ee03523a","type":"journal-article","created":{"date-parts":[[2022,2,28]],"date-time":"2022-02-28T09:52:41Z","timestamp":1646041961000},"page":"1360-1405","update-policy":"https:\/\/doi.org\/10.1039\/rsc_crossmark_policy","source":"Crossref","is-referenced-by-count":649,"title":"Direct
         air capture: process technology, techno-economic and socio-political challenges","prefix":"10.1039","volume":"15","author":[{"ORCID":"https:\/\/orcid.org\/0000-0002-9934-1774","authenticated-orcid":false,"given":"Mar\u00eda","family":"Erans","sequence":"first","affiliation":[{"name":"Department
         of Energy, Chemical, and Mechanical Technology, ESCET, Universidad Rey Juan
         Carlos, C\/Tulip\u00e1n s\/n, 28933 M\u00f3stoles, Madrid, Spain"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0003-1271-0555","authenticated-orcid":false,"given":"Eloy
@@ -7421,7 +7421,7 @@ http_interactions:
         Panel on Climate Change , Cambridge University Press , 2014"},{"key":"D1EE03523A\/cit433\/1","first-page":"38","volume":"1","author":"Burns","year":"2018","journal-title":"Front.
         Environ. Sci."}],"container-title":"Energy &amp; Environmental Science","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2022\/EE\/D1EE03523A","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T05:05:03Z","timestamp":1782882303000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/ee\/article\/15\/4\/1360-1405\/727063"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2022]]},"references-count":432,"journal-issue":{"issue":"4","published-print":{"date-parts":[[2022,4,13]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d1ee03523a","relation":{},"ISSN":["1754-5692","1754-5706"],"subject":[],"container-title-short":"Energy
         Environ. Sci.","published":{"date-parts":[[2022]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:04 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:54 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd0cy02164d/transform/application/vnd.citationstyles.csl+json
@@ -7443,7 +7443,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:05 GMT
+      - Thu, 13 Aug 2026 12:21:54 GMT
       Content-Length:
       - '20382'
       Connection:
@@ -7561,7 +7561,7 @@ http_interactions:
         2020;  Advance Article published 12 January 2021;  Version of Record published
         15 March 2021","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:05 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:54 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd3sc05105f/transform/application/vnd.citationstyles.csl+json
@@ -7583,7 +7583,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:05 GMT
+      - Thu, 13 Aug 2026 12:21:55 GMT
       Content-Length:
       - '21939'
       Connection:
@@ -7717,7 +7717,7 @@ http_interactions:
         Appl. Energy Mater."},{"key":"D3SC05105F\/cit70\/1","doi-asserted-by":"crossref","first-page":"1961","DOI":"10.1039\/C4PY01713G","volume":"6","author":"Diallo","year":"2015","journal-title":"Polym.
         Chem."}],"container-title":"Chemical Science","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2024\/SC\/D3SC05105F","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T05:49:26Z","timestamp":1782884966000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/sc\/article\/15\/7\/2371-2379\/827706"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2024]]},"references-count":70,"journal-issue":{"issue":"7","published-print":{"date-parts":[[2024,2,14]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d3sc05105f","relation":{},"ISSN":["2041-6520","2041-6539"],"subject":[],"container-title-short":"Chem.
         Sci.","published":{"date-parts":[[2024]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:05 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:55 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd2py00189f/transform/application/vnd.citationstyles.csl+json
@@ -7739,7 +7739,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:05 GMT
+      - Thu, 13 Aug 2026 12:21:55 GMT
       Content-Length:
       - '12809'
       Connection:
@@ -7831,7 +7831,7 @@ http_interactions:
         Polym. Res."},{"key":"D2PY00189F\/cit49\/1","doi-asserted-by":"crossref","first-page":"372","DOI":"10.1016\/j.polymer.2016.12.004","volume":"108","author":"Li","year":"2017","journal-title":"Polymer"}],"container-title":"Polymer
         Chemistry","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2022\/PY\/D2PY00189F","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T04:01:59Z","timestamp":1782878519000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/py\/article\/13\/23\/3433-3443\/779460"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2022]]},"references-count":43,"journal-issue":{"issue":"23","published-print":{"date-parts":[[2022,6,14]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d2py00189f","relation":{},"ISSN":["1759-9954","1759-9962"],"subject":[],"container-title-short":"Polym.
         Chem.","published":{"date-parts":[[2022]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:05 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:55 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd2nr02014a/transform/application/vnd.citationstyles.csl+json
@@ -7853,7 +7853,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:06 GMT
+      - Thu, 13 Aug 2026 12:21:55 GMT
       Content-Length:
       - '16217'
       Connection:
@@ -7963,7 +7963,7 @@ http_interactions:
         Supercaps"},{"key":"D2NR02014A\/cit45\/1","doi-asserted-by":"crossref","first-page":"21304","DOI":"10.1021\/acsomega.1c01521","volume":"6","author":"Zhang","year":"2021","journal-title":"ACS
         Omega"},{"key":"D2NR02014A\/cit46\/1","doi-asserted-by":"crossref","first-page":"137079","DOI":"10.1016\/j.electacta.2020.137079","volume":"362","author":"Wen","year":"2020","journal-title":"Electrochim.
         Acta"}],"container-title":"Nanoscale","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2022\/NR\/D2NR02014A","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,2]],"date-time":"2026-07-02T17:29:48Z","timestamp":1783013388000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/nr\/article\/14\/28\/10125-10135\/776718"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2022]]},"references-count":46,"journal-issue":{"issue":"28","published-print":{"date-parts":[[2022,7,21]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d2nr02014a","relation":{},"ISSN":["2040-3364","2040-3372"],"subject":[],"container-title-short":"Nanoscale","published":{"date-parts":[[2022]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:06 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:55 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd3cy01046e/transform/application/vnd.citationstyles.csl+json
@@ -7985,7 +7985,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:06 GMT
+      - Thu, 13 Aug 2026 12:21:56 GMT
       Content-Length:
       - '20021'
       Connection:
@@ -8107,7 +8107,7 @@ http_interactions:
         Org. Chem."},{"key":"D3CY01046E\/cit63\/1","doi-asserted-by":"crossref","first-page":"1850","DOI":"10.1021\/acs.orglett.3c00326","volume":"25","author":"Zhang","year":"2023","journal-title":"Org.
         Lett."}],"container-title":"Catalysis Science &amp; Technology","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2023\/CY\/D3CY01046E","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T04:30:16Z","timestamp":1782880216000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/cy\/article\/13\/21\/6224-6232\/804486"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2023]]},"references-count":63,"journal-issue":{"issue":"21","published-print":{"date-parts":[[2023,10,30]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d3cy01046e","relation":{},"ISSN":["2044-4753","2044-4761"],"subject":[],"container-title-short":"Catal.
         Sci. Technol.","published":{"date-parts":[[2023]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:06 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:56 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd4re00449c/transform/application/vnd.citationstyles.csl+json
@@ -8129,7 +8129,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:06 GMT
+      - Thu, 13 Aug 2026 12:21:56 GMT
       Content-Length:
       - '15337'
       Connection:
@@ -8233,7 +8233,7 @@ http_interactions:
         Membr. Sci."},{"key":"D4RE00449C\/cit42\/1","doi-asserted-by":"crossref","first-page":"137652","DOI":"10.1016\/j.cej.2022.137652","volume":"448","author":"Ovalle-Encinia","year":"2022","journal-title":"Chem.
         Eng. J."}],"container-title":"Reaction Chemistry &amp; Engineering","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2025\/RE\/D4RE00449C","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T03:36:09Z","timestamp":1782876969000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/re\/article\/10\/2\/294-299\/868490"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2025]]},"references-count":42,"journal-issue":{"issue":"2","published-print":{"date-parts":[[2025,1,28]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d4re00449c","relation":{},"ISSN":["2058-9883"],"subject":[],"container-title-short":"React.
         Chem. Eng.","published":{"date-parts":[[2025]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:06 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:56 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd3sc05516g/transform/application/vnd.citationstyles.csl+json
@@ -8255,7 +8255,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:07 GMT
+      - Thu, 13 Aug 2026 12:21:56 GMT
       Content-Length:
       - '20233'
       Connection:
@@ -8386,7 +8386,7 @@ http_interactions:
         Process Res. Dev."},{"key":"D3SC05516G\/cit78\/1","doi-asserted-by":"crossref","first-page":"476","DOI":"10.1038\/s41586-023-05821-2","volume":"616","author":"Fujisaki","year":"2023","journal-title":"Nature"},{"key":"D3SC05516G\/cit79\/1","doi-asserted-by":"crossref","first-page":"9604","DOI":"10.1021\/jacs.5b03750","volume":"137","author":"Goldsmith","year":"2015","journal-title":"J.
         Am. Chem. Soc."}],"container-title":"Chemical Science","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2024\/SC\/D3SC05516G","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T06:14:11Z","timestamp":1782886451000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/sc\/article\/15\/9\/3104-3115\/827797"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2024]]},"references-count":78,"journal-issue":{"issue":"9","published-print":{"date-parts":[[2024,2,28]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d3sc05516g","relation":{},"ISSN":["2041-6520","2041-6539"],"subject":[],"container-title-short":"Chem.
         Sci.","published":{"date-parts":[[2024]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:07 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:56 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd4sc02051k/transform/application/vnd.citationstyles.csl+json
@@ -8408,7 +8408,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:07 GMT
+      - Thu, 13 Aug 2026 12:21:57 GMT
       Content-Length:
       - '14225'
       Connection:
@@ -8503,7 +8503,7 @@ http_interactions:
         Biol. Interact."},{"key":"D4SC02051K\/cit50\/1","doi-asserted-by":"crossref","first-page":"882","DOI":"10.1295\/polymj.34.882","volume":"34","author":"Takenouchi","year":"2002","journal-title":"Polym.
         J."}],"container-title":"Chemical Science","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2024\/SC\/D4SC02051K","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T04:29:17Z","timestamp":1782880157000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/sc\/article\/15\/29\/11617-11625\/869120"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2024]]},"references-count":50,"journal-issue":{"issue":"29","published-print":{"date-parts":[[2024,7,24]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d4sc02051k","relation":{},"ISSN":["2041-6520","2041-6539"],"subject":[],"container-title-short":"Chem.
         Sci.","published":{"date-parts":[[2024]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:07 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:57 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd2sc02752f/transform/application/vnd.citationstyles.csl+json
@@ -8525,7 +8525,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:08 GMT
+      - Thu, 13 Aug 2026 12:21:57 GMT
       Content-Length:
       - '13389'
       Connection:
@@ -8615,7 +8615,7 @@ http_interactions:
         Sci."},{"key":"D2SC02752F\/cit47\/1","doi-asserted-by":"crossref","first-page":"23450","DOI":"10.1002\/anie.202006807","volume":"59","author":"Chen","year":"2020","journal-title":"Angew.
         Chem., Int. Ed."}],"container-title":"Chemical Science","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2022\/SC\/D2SC02752F","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,8]],"date-time":"2026-07-08T17:43:40Z","timestamp":1783532620000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/sc\/article\/13\/29\/8543-8549\/786332"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2022]]},"references-count":47,"journal-issue":{"issue":"29","published-print":{"date-parts":[[2022,7,29]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d2sc02752f","relation":{},"ISSN":["2041-6520","2041-6539"],"subject":[],"container-title-short":"Chem.
         Sci.","published":{"date-parts":[[2022]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:07 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:57 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc8cc07444e/transform/application/vnd.citationstyles.csl+json
@@ -8637,7 +8637,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:08 GMT
+      - Thu, 13 Aug 2026 12:21:57 GMT
       Content-Length:
       - '12565'
       Connection:
@@ -8730,7 +8730,7 @@ http_interactions:
         2018;  Accepted Manuscript published 22 October 2018;  Advance Article published
         30 October 2018;  Version of Record published 13 November 2018","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:08 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:57 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc7dt01022b/transform/application/vnd.citationstyles.csl+json
@@ -8752,7 +8752,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:08 GMT
+      - Thu, 13 Aug 2026 12:21:58 GMT
       Content-Length:
       - '20201'
       Connection:
@@ -8881,7 +8881,7 @@ http_interactions:
         Manuscript published 7 April 2017;  Advance Article published 24 April 2017;  Version
         of Record published 16 May 2017","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:08 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:58 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc6cp01209d/transform/application/vnd.citationstyles.csl+json
@@ -8903,7 +8903,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:09 GMT
+      - Thu, 13 Aug 2026 12:21:58 GMT
       Content-Length:
       - '14669'
       Connection:
@@ -9006,7 +9006,7 @@ http_interactions:
         Manuscript published 26 May 2016;  Advance Article published 6 June 2016;  Version
         of Record published 29 June 2016","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:08 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:58 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.26434%2Fchemrxiv-2021-bv7tb-v2/transform/application/vnd.citationstyles.csl+json
@@ -9028,7 +9028,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:09 GMT
+      - Thu, 13 Aug 2026 12:21:58 GMT
       Content-Length:
       - '6043'
       Connection:
@@ -9095,7 +9095,7 @@ http_interactions:
         of Bristol","place":["United Kingdom"]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Marc","family":"van
         der Kamp","sequence":"additional","affiliation":[{"id":[{"id":"https:\/\/ror.org\/0524sp257","id-type":"ROR","asserted-by":"publisher"}],"name":"University
         of Bristol","place":["United Kingdom"]}],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"316","container-title":[],"original-title":[],"link":[{"URL":"https:\/\/chemrxiv.org\/doi\/pdf\/10.26434\/chemrxiv-2021-bv7tb-v2","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,5,14]],"date-time":"2026-05-14T09:19:43Z","timestamp":1778750383000},"score":1,"resource":{"primary":{"URL":"https:\/\/chemrxiv.org\/doi\/full\/10.26434\/chemrxiv-2021-bv7tb-v2"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2022,3,22]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.26434\/chemrxiv-2021-bv7tb-v2","relation":{"is-preprint-of":[{"id-type":"doi","id":"10.1021\/acscatal.1c05694","asserted-by":"subject"}]},"subject":[],"published":{"date-parts":[[2022,3,22]]},"subtype":"preprint"}'
-  recorded_at: Wed, 12 Aug 2026 23:46:09 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:58 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc6cp01160h/transform/application/vnd.citationstyles.csl+json
@@ -9117,7 +9117,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:09 GMT
+      - Thu, 13 Aug 2026 12:21:59 GMT
       Content-Length:
       - '16144'
       Connection:
@@ -9236,7 +9236,7 @@ http_interactions:
         Manuscript published 1 June 2016;  Advance Article published 16 June 2016;  Version
         of Record published 29 June 2016","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:09 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:59 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd0cy01608j/transform/application/vnd.citationstyles.csl+json
@@ -9258,7 +9258,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:10 GMT
+      - Thu, 13 Aug 2026 12:21:59 GMT
       Content-Length:
       - '26088'
       Connection:
@@ -9418,7 +9418,7 @@ http_interactions:
         Article published 16 October 2020;  Version of Record published 7 December
         2020","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:09 GMT
+  recorded_at: Thu, 13 Aug 2026 12:21:59 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc6cp01494a/transform/application/vnd.citationstyles.csl+json
@@ -9440,7 +9440,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:10 GMT
+      - Thu, 13 Aug 2026 12:22:00 GMT
       Content-Length:
       - '10938'
       Connection:
@@ -9533,7 +9533,7 @@ http_interactions:
         Accepted Manuscript published 29 March 2016; Advance Article published 7 April
         2016; Version of Record published 29 June 2016","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:10 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:00 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd0ob02566f/transform/application/vnd.citationstyles.csl+json
@@ -9555,7 +9555,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:10 GMT
+      - Thu, 13 Aug 2026 12:22:00 GMT
       Content-Length:
       - '16551'
       Connection:
@@ -9659,7 +9659,7 @@ http_interactions:
         2021;  Accepted Manuscript published 16 February 2021;  Advance Article published
         19 February 2021;  Version of Record published 5 May 2021","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:10 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:00 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.26434%2Fchemrxiv-2021-bv7tb/transform/application/vnd.citationstyles.csl+json
@@ -9681,7 +9681,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:11 GMT
+      - Thu, 13 Aug 2026 12:22:00 GMT
       Content-Length:
       - '6020'
       Connection:
@@ -9747,7 +9747,7 @@ http_interactions:
         of Bristol","place":["United Kingdom"]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Marc","family":"van
         der Kamp","sequence":"additional","affiliation":[{"id":[{"id":"https:\/\/ror.org\/0524sp257","id-type":"ROR","asserted-by":"publisher"}],"name":"University
         of Bristol","place":["United Kingdom"]}],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"316","container-title":[],"original-title":[],"link":[{"URL":"https:\/\/chemrxiv.org\/doi\/pdf\/10.26434\/chemrxiv-2021-bv7tb","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,5,14]],"date-time":"2026-05-14T10:43:51Z","timestamp":1778755431000},"score":1,"resource":{"primary":{"URL":"https:\/\/chemrxiv.org\/doi\/full\/10.26434\/chemrxiv-2021-bv7tb"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2021,11,17]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.26434\/chemrxiv-2021-bv7tb","relation":{"is-preprint-of":[{"id-type":"doi","id":"10.1021\/acscatal.1c05694","asserted-by":"subject"}]},"subject":[],"published":{"date-parts":[[2021,11,17]]},"subtype":"preprint"}'
-  recorded_at: Wed, 12 Aug 2026 23:46:11 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:00 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc8ta12263f/transform/application/vnd.citationstyles.csl+json
@@ -9769,7 +9769,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:11 GMT
+      - Thu, 13 Aug 2026 12:22:01 GMT
       Content-Length:
       - '22734'
       Connection:
@@ -9904,7 +9904,7 @@ http_interactions:
         2019; Accepted Manuscript published 25 February 2019; Advance Article published
         1 March 2019; Version of Record published 12 March 2019","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:11 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:01 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd0cc02520h/transform/application/vnd.citationstyles.csl+json
@@ -9926,7 +9926,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:11 GMT
+      - Thu, 13 Aug 2026 12:22:01 GMT
       Content-Length:
       - '17407'
       Connection:
@@ -10040,7 +10040,7 @@ http_interactions:
         Manuscript published 6 May 2020;  Advance Article published 20 May 2020;  Version
         of Record published 23 June 2020","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:11 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:01 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc7fd00210f/transform/application/vnd.citationstyles.csl+json
@@ -10062,7 +10062,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:12 GMT
+      - Thu, 13 Aug 2026 12:22:01 GMT
       Content-Length:
       - '11432'
       Connection:
@@ -10142,7 +10142,7 @@ http_interactions:
         2018;  Accepted Manuscript published 20 February 2018;  Advance Article published
         30 May 2018;  Version of Record published 3 September 2018","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:12 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:01 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd0sc03113e/transform/application/vnd.citationstyles.csl+json
@@ -10164,7 +10164,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:12 GMT
+      - Thu, 13 Aug 2026 12:22:02 GMT
       Content-Length:
       - '22840'
       Connection:
@@ -10301,7 +10301,7 @@ http_interactions:
         Manuscript published 26 October 2020;  Advance Article published 30 October
         2020;  Version of Record published 23 December 2020","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:12 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:02 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc7dt03395h/transform/application/vnd.citationstyles.csl+json
@@ -10323,7 +10323,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:12 GMT
+      - Thu, 13 Aug 2026 12:22:02 GMT
       Content-Length:
       - '46511'
       Connection:
@@ -10544,7 +10544,7 @@ http_interactions:
         2017; Accepted Manuscript published 9 October 2017; Advance Article published
         18 October 2017; Version of Record published 14 November 2017","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:12 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:02 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd1gc01852c/transform/application/vnd.citationstyles.csl+json
@@ -10566,7 +10566,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:13 GMT
+      - Thu, 13 Aug 2026 12:22:02 GMT
       Content-Length:
       - '58975'
       Connection:
@@ -10851,7 +10851,7 @@ http_interactions:
         Manuscript published 24 June 2021; Advance Article published 30 June 2021;
         Version of Record published 21 July 2021","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:13 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:02 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1098%2Frsta.2020.0056/transform/application/vnd.citationstyles.csl+json
@@ -10873,7 +10873,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:13 GMT
+      - Thu, 13 Aug 2026 12:22:03 GMT
       Content-Length:
       - '23932'
       Connection:
@@ -10962,7 +10962,7 @@ http_interactions:
         Trans. R. Soc. A.","published":{"date-parts":[[2020,7,6]]},"assertion":[{"value":"2020-05-22","order":1,"name":"accepted","label":"Accepted","group":{"name":"publication_history","label":"Publication
         History"}},{"value":"2020-07-06","order":2,"name":"published","label":"Published","group":{"name":"publication_history","label":"Publication
         History"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:13 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:03 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd0ta01398f/transform/application/vnd.citationstyles.csl+json
@@ -10984,7 +10984,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:14 GMT
+      - Thu, 13 Aug 2026 12:22:03 GMT
       Content-Length:
       - '20105'
       Connection:
@@ -11105,7 +11105,7 @@ http_interactions:
         Manuscript published 17 March 2020;  Advance Article published 24 March 2020;  Version
         of Record published 11 August 2020","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:13 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:03 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc9nr04553h/transform/application/vnd.citationstyles.csl+json
@@ -11127,7 +11127,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:14 GMT
+      - Thu, 13 Aug 2026 12:22:03 GMT
       Content-Length:
       - '17156'
       Connection:
@@ -11243,7 +11243,7 @@ http_interactions:
         Manuscript published 26 July 2019;  Advance Article published 30 July 2019;  Version
         of Record published 8 August 2019","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:14 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:03 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1002%2Fanie.202419923/transform/application/vnd.citationstyles.csl+json
@@ -11265,7 +11265,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:14 GMT
+      - Thu, 13 Aug 2026 12:22:04 GMT
       Content-Length:
       - '11973'
       Connection:
@@ -11341,7 +11341,7 @@ http_interactions:
         Chem Int Ed","published":{"date-parts":[[2025,2,11]]},"assertion":[{"value":"2024-10-15","order":0,"name":"received","label":"Received","group":{"name":"publication_history","label":"Publication
         History"}},{"value":"2025-02-11","order":3,"name":"published","label":"Published","group":{"name":"publication_history","label":"Publication
         History"}}],"article-number":"e202419923"}'
-  recorded_at: Wed, 12 Aug 2026 23:46:14 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:04 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc9cy02371b/transform/application/vnd.citationstyles.csl+json
@@ -11363,7 +11363,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:15 GMT
+      - Thu, 13 Aug 2026 12:22:04 GMT
       Content-Length:
       - '16989'
       Connection:
@@ -11477,7 +11477,7 @@ http_interactions:
         REVIEW METHOD"}},{"value":"Received 23 November 2019; Accepted 3 January 2020;  Advance
         Article published 31 January 2020;  Version of Record published 9 March 2020","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:14 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:04 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc9cy02473e/transform/application/vnd.citationstyles.csl+json
@@ -11499,7 +11499,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:15 GMT
+      - Thu, 13 Aug 2026 12:22:04 GMT
       Content-Length:
       - '16226'
       Connection:
@@ -11598,7 +11598,7 @@ http_interactions:
         Accepted Manuscript published 3 March 2020; Advance Article published 6 March
         2020; Version of Record published 7 April 2020","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:15 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:04 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd1cp00979f/transform/application/vnd.citationstyles.csl+json
@@ -11620,7 +11620,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:15 GMT
+      - Thu, 13 Aug 2026 12:22:05 GMT
       Content-Length:
       - '21695'
       Connection:
@@ -11759,7 +11759,7 @@ http_interactions:
         Manuscript published 11 May 2021;  Advance Article published 13 May 2021;  Version
         of Record published 26 May 2021","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:15 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:05 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd1gc00901j/transform/application/vnd.citationstyles.csl+json
@@ -11781,7 +11781,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:16 GMT
+      - Thu, 13 Aug 2026 12:22:05 GMT
       Content-Length:
       - '19932'
       Connection:
@@ -11913,7 +11913,7 @@ http_interactions:
         Manuscript published 24 April 2021;  Advance Article published 12 May 2021;  Version
         of Record published 9 June 2021","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:15 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:05 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc7fd00221a/transform/application/vnd.citationstyles.csl+json
@@ -11935,7 +11935,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:16 GMT
+      - Thu, 13 Aug 2026 12:22:05 GMT
       Content-Length:
       - '20331'
       Connection:
@@ -12063,7 +12063,7 @@ http_interactions:
         2018; Accepted Manuscript published 16 April 2018; Advance Article published
         31 May 2018; Version of Record published 3 September 2018","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:16 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:05 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc9cy01679a/transform/application/vnd.citationstyles.csl+json
@@ -12085,7 +12085,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:16 GMT
+      - Thu, 13 Aug 2026 12:22:06 GMT
       Content-Length:
       - '20965'
       Connection:
@@ -12210,7 +12210,7 @@ http_interactions:
         Manuscript published 16 October 2019;  Advance Article published 23 October
         2019;  Version of Record published 11 November 2019","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:16 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:06 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc8cc01880d/transform/application/vnd.citationstyles.csl+json
@@ -12232,7 +12232,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:17 GMT
+      - Thu, 13 Aug 2026 12:22:06 GMT
       Content-Length:
       - '19049'
       Connection:
@@ -12353,7 +12353,7 @@ http_interactions:
         REVIEW METHOD"}},{"value":"Received 8 March 2018; Accepted 24 April 2018;  Advance
         Article published 14 May 2018;  Version of Record published 24 May 2018","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:17 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:06 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd0cp01196g/transform/application/vnd.citationstyles.csl+json
@@ -12375,7 +12375,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:17 GMT
+      - Thu, 13 Aug 2026 12:22:06 GMT
       Content-Length:
       - '13705'
       Connection:
@@ -12471,7 +12471,7 @@ http_interactions:
         REVIEW METHOD"}},{"value":"Received 2 March 2020; Accepted 7 April 2020; Advance
         Article published 11 May 2020; Version of Record published 27 May 2020","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:17 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:06 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc8nj03632b/transform/application/vnd.citationstyles.csl+json
@@ -12493,7 +12493,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:17 GMT
+      - Thu, 13 Aug 2026 12:22:07 GMT
       Content-Length:
       - '29670'
       Connection:
@@ -12653,7 +12653,7 @@ http_interactions:
         Manuscript published 1 November 2018;  Advance Article published 14 November
         2018;  Version of Record published 3 December 2018","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:17 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:07 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc9cp00826h/transform/application/vnd.citationstyles.csl+json
@@ -12675,7 +12675,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:18 GMT
+      - Thu, 13 Aug 2026 12:22:07 GMT
       Content-Length:
       - '14748'
       Connection:
@@ -12778,7 +12778,7 @@ http_interactions:
         Manuscript published 25 June 2019;  Advance Article published 11 July 2019;  Version
         of Record published 24 July 2019","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:18 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:07 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc9na00159j/transform/application/vnd.citationstyles.csl+json
@@ -12800,7 +12800,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:18 GMT
+      - Thu, 13 Aug 2026 12:22:07 GMT
       Content-Length:
       - '23265'
       Connection:
@@ -12939,7 +12939,7 @@ http_interactions:
         Manuscript published 21 May 2019; Advance Article published 21 May 2019; Version
         of Record published 9 July 2019","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:18 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:07 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc5cc06118k/transform/application/vnd.citationstyles.csl+json
@@ -12961,7 +12961,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:19 GMT
+      - Thu, 13 Aug 2026 12:22:08 GMT
       Content-Length:
       - '12190'
       Connection:
@@ -13056,7 +13056,7 @@ http_interactions:
         Manuscript published 2 November 2015;  Advance Article published 4 November
         2015;  Version of Record published 23 December 2015","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:18 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:08 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd1fd00121c/transform/application/vnd.citationstyles.csl+json
@@ -13078,7 +13078,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:19 GMT
+      - Thu, 13 Aug 2026 12:22:08 GMT
       Content-Length:
       - '11752'
       Connection:
@@ -13171,7 +13171,7 @@ http_interactions:
         Commun."},{"key":"D1FD00121C\/cit19\/1","doi-asserted-by":"crossref","first-page":"9474","DOI":"10.1021\/la8011052","volume":"24","author":"Deng","year":"2008","journal-title":"Langmuir"}],"container-title":"Faraday
         Discussions","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2022\/FD\/D1FD00121C","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T04:28:45Z","timestamp":1782880125000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/fd\/article\/728090"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2022]]},"references-count":27,"URL":"http:\/\/dx.doi.org\/10.1039\/d1fd00121c","relation":{},"ISSN":["1359-6640","1364-5498"],"subject":[],"container-title-short":"Faraday
         Discuss.","published":{"date-parts":[[2022]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:19 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:08 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc6nr00053c/transform/application/vnd.citationstyles.csl+json
@@ -13193,9 +13193,9 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:19 GMT
+      - Thu, 13 Aug 2026 12:22:08 GMT
       Content-Length:
-      - '16717'
+      - '16718'
       Connection:
       - keep-alive
       Access-Control-Expose-Headers:
@@ -13221,7 +13221,7 @@ http_interactions:
       - interest-cohort=()
     body:
       encoding: ASCII-8BIT
-      string: '{"indexed":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T07:47:19Z","timestamp":1782892039718,"version":"3.54.5"},"reference-count":51,"publisher":"Royal
+      string: '{"indexed":{"date-parts":[[2026,8,13]],"date-time":"2026-08-13T12:01:33Z","timestamp":1786622493373,"version":"3.56.0"},"reference-count":51,"publisher":"Royal
         Society of Chemistry (RSC)","issue":"21","funder":[{"DOI":"10.13039\/501100001671","name":"European
         Synchrotron Radiation Facility","doi-asserted-by":"crossref","id":[{"id":"10.13039\/501100001671","id-type":"DOI","asserted-by":"crossref"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
         and Physical Sciences Research Council","doi-asserted-by":"crossref","award":["EP\/H046313\/1"],"award-info":[{"award-number":["EP\/H046313\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"crossref"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
@@ -13230,7 +13230,7 @@ http_interactions:
         and Physical Sciences Research Council","doi-asserted-by":"crossref","award":["EP\/K014706\/1"],"award-info":[{"award-number":["EP\/K014706\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"crossref"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
         and Physical Sciences Research Council","doi-asserted-by":"crossref","award":["EP\/K014714\/1"],"award-info":[{"award-number":["EP\/K014714\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"crossref"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
         and Physical Sciences Research Council","doi-asserted-by":"crossref","award":["EP\/K014854\/1"],"award-info":[{"award-number":["EP\/K014854\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"crossref"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
-        and Physical Sciences Research Council","doi-asserted-by":"crossref","award":["EP\/K035355\/2"],"award-info":[{"award-number":["EP\/K035355\/2"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"crossref"}]}],"content-domain":{"domain":["rsc.org"],"crossmark-restriction":true},"DOI":"10.1039\/c6nr00053c","type":"journal-article","created":{"date-parts":[[2016,4,28]],"date-time":"2016-04-28T06:35:04Z","timestamp":1461825304000},"page":"11067-11075","update-policy":"https:\/\/doi.org\/10.1039\/rsc_crossmark_policy","source":"Crossref","is-referenced-by-count":90,"title":"Phase
+        and Physical Sciences Research Council","doi-asserted-by":"crossref","award":["EP\/K035355\/2"],"award-info":[{"award-number":["EP\/K035355\/2"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"crossref"}]}],"content-domain":{"domain":["rsc.org"],"crossmark-restriction":true},"DOI":"10.1039\/c6nr00053c","type":"journal-article","created":{"date-parts":[[2016,4,28]],"date-time":"2016-04-28T06:35:04Z","timestamp":1461825304000},"page":"11067-11075","update-policy":"https:\/\/doi.org\/10.1039\/rsc_crossmark_policy","source":"Crossref","is-referenced-by-count":91,"title":"Phase
         control during the synthesis of nickel sulfide nanoparticles from dithiocarbamate
         precursors","prefix":"10.1039","volume":"8","author":[{"given":"Anna","family":"Roffey","sequence":"first","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Nathan","family":"Hollingsworth","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Husn-Ubayda","family":"Islam","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Maxime","family":"Mercy","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Gopinathan","family":"Sankar","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"C.
         Richard A.","family":"Catlow","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Graeme","family":"Hogarth","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Nora
@@ -13295,7 +13295,7 @@ http_interactions:
         2016; Advance Article published 13 May 2016; Version of Record published 26
         May 2016","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:19 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:08 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc9dt03590g/transform/application/vnd.citationstyles.csl+json
@@ -13317,7 +13317,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:20 GMT
+      - Thu, 13 Aug 2026 12:22:09 GMT
       Content-Length:
       - '16992'
       Connection:
@@ -13430,7 +13430,7 @@ http_interactions:
         2019;  Accepted Manuscript published 9 December 2019;  Advance Article published
         9 December 2019;  Version of Record published 17 December 2019","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:19 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:09 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc5ta10283a/transform/application/vnd.citationstyles.csl+json
@@ -13452,7 +13452,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:20 GMT
+      - Thu, 13 Aug 2026 12:22:09 GMT
       Content-Length:
       - '13433'
       Connection:
@@ -13552,7 +13552,7 @@ http_interactions:
         Accepted Manuscript published 21 March 2016; Advance Article published 31
         March 2016; Version of Record published 13 April 2016","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:20 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:09 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc9dt00595a/transform/application/vnd.citationstyles.csl+json
@@ -13574,7 +13574,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:20 GMT
+      - Thu, 13 Aug 2026 12:22:09 GMT
       Content-Length:
       - '26540'
       Connection:
@@ -13721,7 +13721,7 @@ http_interactions:
         REVIEW METHOD"}},{"value":"Received 8 February 2019; Accepted 12 March 2019;  Advance
         Article published 21 March 2019;  Version of Record published 9 April 2019","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:20 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:09 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc5fd00225g/transform/application/vnd.citationstyles.csl+json
@@ -13743,7 +13743,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:21 GMT
+      - Thu, 13 Aug 2026 12:22:10 GMT
       Content-Length:
       - '10804'
       Connection:
@@ -13841,7 +13841,7 @@ http_interactions:
         2015;  Accepted Manuscript published 6 January 2016;  Advance Article published
         21 April 2016;  Version of Record published 4 July 2016","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:21 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:10 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd0cp00793e/transform/application/vnd.citationstyles.csl+json
@@ -13863,7 +13863,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:21 GMT
+      - Thu, 13 Aug 2026 12:22:10 GMT
       Content-Length:
       - '25822'
       Connection:
@@ -14028,7 +14028,7 @@ http_interactions:
         REVIEW METHOD"}},{"value":"Received 12 February 2020; Accepted 7 April 2020;  Advance
         Article published 30 June 2020;  Version of Record published 8 September 2020","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:21 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:10 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc7fd00216e/transform/application/vnd.citationstyles.csl+json
@@ -14050,7 +14050,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:21 GMT
+      - Thu, 13 Aug 2026 12:22:10 GMT
       Content-Length:
       - '16263'
       Connection:
@@ -14156,7 +14156,7 @@ http_interactions:
         Accepted Manuscript published 8 March 2018; Advance Article published 24 May
         2018; Version of Record published 3 September 2018","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:21 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:11 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd0cp01227k/transform/application/vnd.citationstyles.csl+json
@@ -14178,7 +14178,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:22 GMT
+      - Thu, 13 Aug 2026 12:22:11 GMT
       Content-Length:
       - '16129'
       Connection:
@@ -14279,7 +14279,7 @@ http_interactions:
         Manuscript published 2 July 2020;  Advance Article published 10 July 2020;  Version
         of Record published 8 September 2020","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:22 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:11 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc6fd00189k/transform/application/vnd.citationstyles.csl+json
@@ -14301,7 +14301,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:22 GMT
+      - Thu, 13 Aug 2026 12:22:11 GMT
       Content-Length:
       - '18304'
       Connection:
@@ -14432,7 +14432,7 @@ http_interactions:
         2016;  Accepted Manuscript published 12 October 2016;  Advance Article published
         9 February 2017;  Version of Record published 28 April 2017","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:22 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:11 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1016%2Fj.jaap.2025.107542/transform/application/vnd.citationstyles.csl+json
@@ -14454,7 +14454,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:23 GMT
+      - Thu, 13 Aug 2026 12:22:12 GMT
       Content-Length:
       - '23916'
       Connection:
@@ -14640,7 +14640,7 @@ http_interactions:
         DOI link to publisher maintained version"},{"value":"article","name":"content_type","label":"Content
         Type"},{"value":"\u00a9 2025 Diamond Light Source Ltd. Published by Elsevier
         B.V.","name":"copyright","label":"Copyright"}],"article-number":"107542"}'
-  recorded_at: Wed, 12 Aug 2026 23:46:22 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:12 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc8cp02381f/transform/application/vnd.citationstyles.csl+json
@@ -14662,7 +14662,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:23 GMT
+      - Thu, 13 Aug 2026 12:22:12 GMT
       Content-Length:
       - '15305'
       Connection:
@@ -14761,7 +14761,7 @@ http_interactions:
         Manuscript published 25 June 2018;  Advance Article published 29 June 2018;  Version
         of Record published 11 July 2018","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:23 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:12 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc7cy00965h/transform/application/vnd.citationstyles.csl+json
@@ -14783,7 +14783,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:23 GMT
+      - Thu, 13 Aug 2026 12:22:12 GMT
       Content-Length:
       - '13470'
       Connection:
@@ -14880,7 +14880,7 @@ http_interactions:
         Manuscript published 27 June 2017; Advance Article published 3 July 2017;
         Version of Record published 14 August 2017","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:23 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:12 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fd2sc04192h/transform/application/vnd.citationstyles.csl+json
@@ -14902,7 +14902,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:24 GMT
+      - Thu, 13 Aug 2026 12:22:13 GMT
       Content-Length:
       - '22132'
       Connection:
@@ -15039,7 +15039,7 @@ http_interactions:
         Am. Chem. Soc."},{"key":"D2SC04192H\/cit77\/1","doi-asserted-by":"crossref","first-page":"5037","DOI":"10.1039\/b713041d","author":"Casely","year":"2007","journal-title":"Chem.
         Commun."}],"container-title":"Chemical Science","original-title":[],"language":"en","link":[{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2022\/SC\/D2SC04192H","content-type":"application\/pdf","content-version":"vor","intended-application":"syndication"},{"URL":"http:\/\/pubs.rsc.org\/en\/content\/articlepdf\/2022\/SC\/D2SC04192H","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,7,1]],"date-time":"2026-07-01T18:17:58Z","timestamp":1782929878000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.rsc.org\/sc\/article\/13\/47\/14090-14100\/786620"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2022]]},"references-count":77,"journal-issue":{"issue":"47","published-print":{"date-parts":[[2022,12,7]]}},"URL":"http:\/\/dx.doi.org\/10.1039\/d2sc04192h","relation":{},"ISSN":["2041-6520","2041-6539"],"subject":[],"container-title-short":"Chem.
         Sci.","published":{"date-parts":[[2022]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:23 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:13 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc9cp03934a/transform/application/vnd.citationstyles.csl+json
@@ -15061,7 +15061,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:24 GMT
+      - Thu, 13 Aug 2026 12:22:13 GMT
       Content-Length:
       - '15991'
       Connection:
@@ -15165,7 +15165,7 @@ http_interactions:
         Manuscript published 21 August 2019;  Advance Article published 28 August
         2019;  Version of Record published 11 September 2019","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:24 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:13 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc9dt00228f/transform/application/vnd.citationstyles.csl+json
@@ -15187,7 +15187,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:24 GMT
+      - Thu, 13 Aug 2026 12:22:13 GMT
       Content-Length:
       - '11301'
       Connection:
@@ -15269,7 +15269,7 @@ http_interactions:
         Manuscript published 7 February 2019;  Advance Article published 11 February
         2019;  Version of Record published 26 February 2019","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:24 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:13 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc8dt05051a/transform/application/vnd.citationstyles.csl+json
@@ -15291,7 +15291,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:25 GMT
+      - Thu, 13 Aug 2026 12:22:14 GMT
       Content-Length:
       - '25918'
       Connection:
@@ -15434,7 +15434,7 @@ http_interactions:
         2019;  Advance Article published 29 March 2019;  Version of Record published
         9 April 2019","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:24 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:14 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1039%2Fc7dt04805j/transform/application/vnd.citationstyles.csl+json
@@ -15456,7 +15456,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:25 GMT
+      - Thu, 13 Aug 2026 12:22:14 GMT
       Content-Length:
       - '14283'
       Connection:
@@ -15558,7 +15558,7 @@ http_interactions:
         2018;  Advance Article published 31 January 2018;  Version of Record published
         20 February 2018","order":1,"name":"history","group":{"name":"publication_history","label":"PUBLICATION
         HISTORY"}}]}'
-  recorded_at: Wed, 12 Aug 2026 23:46:25 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:14 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1021%2Facscatal.6c03027/transform/application/vnd.citationstyles.csl+json
@@ -15580,7 +15580,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Aug 2026 23:46:25 GMT
+      - Thu, 13 Aug 2026 12:22:14 GMT
       Content-Length:
       - '24728'
       Connection:
@@ -15781,5 +15781,5 @@ http_interactions:
         Chem. Chem. Phys."},{"key":"2026081014074606900_cit55","volume-title":"Inorganic
         Chemistry","author":"Weller","year":"2014","edition":"6"}],"container-title":"ACS
         Catalysis","original-title":[],"language":"en","link":[{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/acscatal.6c03027","content-type":"application\/pdf","content-version":"vor","intended-application":"unspecified"},{"URL":"https:\/\/pubs.acs.org\/accacs\/article-pdf\/16\/15\/14586\/66305750\/cs-2026-030276.pdf","content-type":"application\/pdf","content-version":"vor","intended-application":"syndication"},{"URL":"https:\/\/pubs.acs.org\/accacs\/article-pdf\/16\/15\/14586\/66305750\/cs-2026-030276.pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,8,10]],"date-time":"2026-08-10T18:11:37Z","timestamp":1786385497000},"score":1,"resource":{"primary":{"URL":"https:\/\/pubs.acs.org\/accacs\/article\/16\/15\/14586\/5235416\/Understanding-Catalytic-Synergy-in-Heterodinuclear"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2026,7,28]]},"references-count":55,"journal-issue":{"issue":"15","published-online":{"date-parts":[[2026,7,28]]},"published-print":{"date-parts":[[2026,8,7]]}},"URL":"http:\/\/dx.doi.org\/10.1021\/acscatal.6c03027","relation":{},"ISSN":["2155-5435"],"subject":[],"published":{"date-parts":[[2026,7,28]]}}'
-  recorded_at: Wed, 12 Aug 2026 23:46:25 GMT
+  recorded_at: Thu, 13 Aug 2026 12:22:14 GMT
 recorded_with: VCR 6.4.0
