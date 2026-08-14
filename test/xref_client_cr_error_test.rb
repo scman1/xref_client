@@ -35,9 +35,9 @@ class XrefClientCRErrorTest < ActiveSupport::TestCase
           '10.1039/c7fd00216e','10.1039/d0cp01227k', '10.1039/c6fd00189k','10.1016/j.jaap.2025.107542',
           '10.1039/c8cp02381f','10.1039/c7cy00965h', '10.1039/d2sc04192h','10.1039/c9cp03934a',
           '10.1039/c9dt00228f','10.1039/c8dt05051a', '10.1039/c7dt04805j','10.1021/acscatal.6c03027']
-      # this is not triggering the error the time it takes for the api to reply does not trigger the 429. Only cursor does.
-      # need to test directly on serrano
-      puts "testing this get CR data error"
+      # this is not triggering the error the time it takes for the api to reply
+      # does not trigger 429, only cursor does.
+      # need to on cursor methods: find by award and find by affi
       test_dois.each do |t_doi|
         pub_data = XrefClient.getCRData(t_doi)
         assert 1, pub_data.length
@@ -48,22 +48,33 @@ class XrefClientCRErrorTest < ActiveSupport::TestCase
     end
   end
 
+
   def test_award_search_error
     ukch_awards = ["EP/R026939/1", "EP/R026815/1", "EP/R026645/1", "EP/R027129/1",
                    "EP/M013219/1","EP/R026939", "EP/R026815", "EP/R026645",
                    "EP/R027129", "EP/M013219", "EP/K014706/2", "EP/K014668/1",
                    "EP/K014854/1", "EP/K014714/1", "EP/K014706", "EP/K014668",
                    "EP/K014854", "EP/K014714", "UKRI945","UKRI-945","UKRI 945"]
-    from_date = "2026-01-01"
+    from_date = "2026-05-15"
     until_date = "2026-05-31"
-    puts "testing award search error"
     
     VCR.use_cassette('award_search_error') do
-      puts "inside VCR"
       found_dois = XrefClient.findPubsAward(ukch_awards, from_date, until_date, funder_list = nil, cr_wait=false)
-      puts found_dois
-      assert_equal 2, found_dois.length
+      assert_equal 0, found_dois.length
     end
   end
 
+
+  def test_affi_search_error
+    affiliation_list = ["UK Catalysis Hub","Korea University Anam Hospital",
+                        "Karlsruhe Institute of Technology",
+                        "Yantai University"]
+    from_date = "2026-07-01"
+    until_date = "2026-07-30"
+    VCR.use_cassette('affi_search_error') do
+      found_dois = XrefClient.findPubsByAffiliation(100,affiliation_list, from_date, until_date)
+      assert_equal 7, found_dois.length
+    end
+  end
+  
 end

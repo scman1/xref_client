@@ -12,26 +12,38 @@ module XrefClient
         return nil
     end
   end
-
+  
+  # Crossref API is enforcing a rate limit of 1 request per second.
+  # Serrano does not handle 429 responses. 
+  # The solution is to throttle request here.
+  # Similar reasoning for find by affiliation
+  #      X-Rate-Limit-Limit:    - '1'
+  #      X-Rate-Limit-Interval: -  1s
+  #      X-Concurrency-Limit:   - '1'
   def self.findPubsAward(award_list, date_from, date_to,funder_list=nil,cr_wait=true)
     collected_dois = {}
-    puts cr_wait
     for an_award in award_list do
-      if funder_list
-        art_bib = Serrano.works(filter: {has_funder: true,
-                                       award_funder: funder_list,
-                                       award_number:[an_award],
-                                       from_deposit_date: date_from,
-                                       until_deposit_date: date_to},
-                                       format: "citeproc-json")
-      else
-        art_bib = Serrano.works(filter: {has_funder: true,
-                                       award_number:[an_award],
-                                       from_deposit_date: date_from,
-                                       until_deposit_date: date_to},
-                                       #from_created_date: date_from,
-                                       #until_created_date: date_to},
-                                       format: "citeproc-json")
+      begin
+        if funder_list
+          art_bib = Serrano.works(filter: {has_funder: true,
+                                         award_funder: funder_list,
+                                         award_number:[an_award],
+                                         from_deposit_date: date_from,
+                                         until_deposit_date: date_to},
+                                         format: "citeproc-json")
+        else
+          art_bib = Serrano.works(filter: {has_funder: true,
+                                         award_number:[an_award],
+                                         from_deposit_date: date_from,
+                                         until_deposit_date: date_to},
+                                         format: "citeproc-json")
+        end
+      rescue NoMethodError => e
+        Rails.logger.error("API client parsing failure #{e.message}")
+        raise
+      ensure
+        # Breaking for parse error
+        break
       end
       if art_bib["message"]["items"].count()>0
         results=art_bib["message"]["items"]
@@ -46,9 +58,8 @@ module XrefClient
           end
         end
       end
-      puts cr_wait
+      #puts cr_wait
       if cr_wait
-        puts "i am waiting for CR"
         sleep(1.0)  # throttle for crossref
       end
     end
@@ -59,9 +70,7 @@ module XrefClient
     cursor = "*"
     found_pubs = {}
     accumulated = 0
-    #counter = 0
     loop do
-      #counter +=1
       json_pages = getJSONbatch(cursor, group_size, date_from, date_to)
       break if json_pages.empty?
       cursor = json_pages[0]["message"]["next-cursor"]
@@ -121,14 +130,15 @@ module XrefClient
               puts "Exception: #{e.message}"
               # Unmanaged ROR causes an exception
               # {"id"=>[{"id"=>"https://ror.org/02s9jxg24", "id-type"=>"ROR", "asserted-by"=>"publisher"}]}
+	      affi_found = false              
             end
-            if affi_found
-              a_pub = getPubDataXRef(a_result)
-              a_pub[:xref_affi] = affi_str
-              a_pub[:cut_date] = date_to
-              collected_dois[a_result["DOI"]] = a_pub
-              break
-            end
+          end
+          if affi_found and a_result    
+            a_pub = getPubDataXRef(a_result)
+            a_pub[:xref_affi] = affi_str
+            a_pub[:cut_date] = date_to
+            collected_dois[a_result["DOI"]] = a_pub
+            break
           end
         end
       end
@@ -149,10 +159,12 @@ module XrefClient
     # the title sometimes comes as a single string, so cast
     # as array to avoid error (when querying single DOIs)
     authors_list = getAuthorsList(data_mappings[1])
-
+    puts "doi #{data_mappings[0]["doi"]}"
     bib_data = {authors: authors_list, pub_year: data_mappings[0]["pub_year"],
                 title: Array(data_mappings[0]["title"]).join(" "),
                 doi: data_mappings[0]["doi"]}
+    puts "Data collected: #{bib_data}"
+    bib_data
   end
 
   def self.getAuthorsList(authors)
@@ -168,6 +180,7 @@ module XrefClient
                        .sub(/\w+\z/, &:capitalize)
                        .gsub(' .',' ')
       end
+      puts "Author: #{auth["given_name"].to_s} #{auth["last_name"].to_s} "
       this_name = pr_name + auth["last_name"]
 
       disp_names = disp_names.empty? ? this_name : "#{disp_names}, #{this_name}"
