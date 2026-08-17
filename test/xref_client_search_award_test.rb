@@ -49,17 +49,6 @@ class XrefClientSearchAwardTest < ActiveSupport::TestCase
     VCR.use_cassette('no_funder_test') do
       found_dois = XrefClient.findPubsAward(ukch_awards, from_date, until_date, funder_list=nil)
       assert_equal 99, found_dois.length
-      puts "*"*80
-      for a_pub in found_dois do
-          puts "\"" + a_pub[1][:authors] + "\", \"" + 
-                a_pub[1][:pub_year].to_s + "\", \"" + 
-                a_pub[1][:title].gsub("\n"," ") + "\", \""  + 
-                a_pub[1][:doi] + "\",\"" + 
-                a_pub[1][:awards].to_s + "\", \"" +
-                a_pub[1][:cut_date] + "\"" 
-      end
-      #puts found_dois
-      puts "*"*80
     end
   end
 
@@ -74,7 +63,6 @@ class XrefClientSearchAwardTest < ActiveSupport::TestCase
     VCR.use_cassette('no_funder_test') do
       found_dois = XrefClient.findPubsAward(ukch_awards, from_date, until_date)
       assert_equal 99, found_dois.length
-      #puts found_dois
     end
   end
 end
