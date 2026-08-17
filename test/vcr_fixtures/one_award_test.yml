@@ -8,9 +8,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a_nieva@hotmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a_nieva@hotmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:38 GMT
+      - Mon, 17 Aug 2026 18:23:25 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -50,7 +50,7 @@ http_interactions:
       Permissions-Policy:
       - interest-cohort=()
     body:
-      encoding: ASCII-8BIT
+      encoding: UTF-8
       string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":1,"items":[{"indexed":{"date-parts":[[2026,7,7]],"date-time":"2026-07-07T10:27:31Z","timestamp":1783420051187,"version":"3.54.6"},"reference-count":58,"publisher":"American
         Chemical Society (ACS)","issue":"2","license":[{"start":{"date-parts":[[2026,1,12]],"date-time":"2026-01-12T00:00:00Z","timestamp":1768176000000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/creativecommons.org\/licenses\/by\/4.0\/"}],"funder":[{"DOI":"10.13039\/501100000266","name":"Engineering
         and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/S018603\/1"],"award-info":[{"award-number":["EP\/S018603\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
@@ -85,5 +85,5 @@ http_interactions:
         of propylene oxide\n                      ; EP 2,649,058 B1. 2011."},{"key":"ref28\/cit28","unstructured":"Tang,
         Y.; Xu, Y.; Pan, G.; Wang, J.; Zeng, T. Method for synthesizing cyclohexene
         oxide CN111747908. 2020."},{"key":"ref29\/cit29","doi-asserted-by":"publisher","DOI":"10.1021\/ma050797k"},{"key":"ref30\/cit30","doi-asserted-by":"publisher","DOI":"10.1021\/ma902321g"},{"key":"ref31\/cit31","doi-asserted-by":"publisher","DOI":"10.1007\/s10118-011-1073-3"},{"key":"ref32\/cit32","doi-asserted-by":"publisher","DOI":"10.1021\/acs.inorgchem.0c01156"},{"key":"ref33\/cit33","doi-asserted-by":"publisher","DOI":"10.1039\/C6SC04477H"},{"key":"ref34\/cit34","doi-asserted-by":"publisher","DOI":"10.1021\/ja030085e"},{"key":"ref35\/cit35","doi-asserted-by":"publisher","DOI":"10.1039\/C5CC00784D"},{"key":"ref36\/cit36","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201302157"},{"key":"ref37\/cit37","doi-asserted-by":"publisher","DOI":"10.1038\/s41557-020-0450-3"},{"key":"ref38\/cit38","doi-asserted-by":"publisher","DOI":"10.1021\/acs.accounts.2c00197"},{"key":"ref39\/cit39","doi-asserted-by":"publisher","DOI":"10.1021\/cs501798s"},{"key":"ref40\/cit40","doi-asserted-by":"publisher","DOI":"10.1021\/ja307096m"},{"key":"ref41\/cit41","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.0c03651"},{"key":"ref42\/cit42","doi-asserted-by":"publisher","DOI":"10.1002\/anie.202210243"},{"key":"ref43\/cit43","doi-asserted-by":"publisher","DOI":"10.1021\/acs.inorgchem.7b00090"},{"key":"ref44\/cit44","doi-asserted-by":"publisher","DOI":"10.1039\/C9SC00385A"},{"key":"ref45\/cit45","doi-asserted-by":"publisher","DOI":"10.1021\/cs4008667"},{"key":"ref46\/cit46","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.0c07980"},{"key":"ref47\/cit47","doi-asserted-by":"publisher","DOI":"10.1021\/ma401286x"},{"key":"ref48\/cit48","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.2c06937"},{"key":"ref49\/cit49","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.3c04208"},{"key":"ref50\/cit50","doi-asserted-by":"publisher","DOI":"10.1038\/s41578-020-0190-4"},{"key":"ref51\/cit51","doi-asserted-by":"publisher","DOI":"10.1016\/j.cattod.2005.10.039"},{"key":"ref52\/cit52","doi-asserted-by":"publisher","DOI":"10.1039\/c2gc35928f"},{"key":"ref53\/cit53","doi-asserted-by":"publisher","DOI":"10.1063\/1.1699711"},{"key":"ref54\/cit54","doi-asserted-by":"publisher","DOI":"10.1021\/acs.macromol.2c01761"},{"key":"ref55\/cit55","doi-asserted-by":"publisher","DOI":"10.1021\/ja206352x"},{"key":"ref56\/cit56","doi-asserted-by":"publisher","DOI":"10.1021\/ma902162n"},{"key":"ref57\/cit57","doi-asserted-by":"publisher","DOI":"10.1002\/anie.200801852"},{"key":"ref58\/cit58","doi-asserted-by":"publisher","DOI":"10.1002\/polb.21616"}],"container-title":["Macromolecules"],"language":"en","link":[{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/acs.macromol.5c03136","content-type":"application\/pdf","content-version":"vor","intended-application":"unspecified"},{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/acs.macromol.5c03136","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2026,1,27]],"date-time":"2026-01-27T09:12:27Z","timestamp":1769505147000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/pubs.acs.org\/doi\/10.1021\/acs.macromol.5c03136"}},"issued":{"date-parts":[[2026,1,12]]},"references-count":58,"journal-issue":{"issue":"2","published-print":{"date-parts":[[2026,1,27]]}},"alternative-id":["10.1021\/acs.macromol.5c03136"],"URL":"https:\/\/doi.org\/10.1021\/acs.macromol.5c03136","ISSN":["0024-9297","1520-5835"],"issn-type":[{"value":"0024-9297","type":"print"},{"value":"1520-5835","type":"electronic"}],"published":{"date-parts":[[2026,1,12]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:38 GMT
+  recorded_at: Mon, 17 Aug 2026 18:23:25 GMT
 recorded_with: VCR 6.4.0

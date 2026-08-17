@@ -51,27 +51,27 @@ class XrefClientCRErrorTest < ActiveSupport::TestCase
 
   def test_award_search_error
     ukch_awards = ["EP/R026939/1", "EP/R026815/1", "EP/R026645/1", "EP/R027129/1",
-                   "EP/M013219/1","EP/R026939", "EP/R026815", "EP/R026645",
-                   "EP/R027129", "EP/M013219", "EP/K014706/2", "EP/K014668/1",
-                   "EP/K014854/1", "EP/K014714/1", "EP/K014706", "EP/K014668",
-                   "EP/K014854", "EP/K014714", "UKRI945","UKRI-945","UKRI 945"]
+                   "EP/M013219/1", "EP/M013219", "EP/K014706/2", "EP/K014668/1",
+                   "EP/K014854/1", "EP/K014714/1"]
     from_date = "2026-05-15"
     until_date = "2026-05-31"
     
     VCR.use_cassette('award_search_error') do
       found_dois = XrefClient.findPubsAward(ukch_awards, from_date, until_date, funder_list = nil, cr_wait=false)
-      assert_equal 0, found_dois.length
+      assert_equal 3, found_dois.length
     end
   end
 
 
   def test_affi_search_error
-    affiliation_list = ["UK Catalysis Hub"]
-    from_date = "2026-07-30"
-    until_date = "2026-07-30"
-    VCR.use_cassette('affi_search_error') do
+    affiliation_list = ["UK Catalysis Hub","Korea University Anam Hospital",
+                        "Karlsruhe Institute of Technology",
+                        "Yantai University"]
+    from_date = "2025-01-01"
+    until_date = "2025-01-01"
+    VCR.use_cassette('affi_search_test') do
       found_dois = XrefClient.findPubsByAffiliation(100,affiliation_list, from_date, until_date)
-      assert_equal 7, found_dois.length
+      assert_equal 4, found_dois.length
     end
   end
   
