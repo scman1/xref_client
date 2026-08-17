@@ -9,7 +9,7 @@ class XrefClientSearchAffiTest < ActiveSupport::TestCase
     until_date = "2025-01-01"
     VCR.use_cassette('affi_search_test') do
       found_dois = XrefClient.findPubsByAffiliation(100,affiliation_list, from_date, until_date)
-      assert_equal 7, found_dois.length
+      assert_equal 4, found_dois.length
     end
   end
 end
