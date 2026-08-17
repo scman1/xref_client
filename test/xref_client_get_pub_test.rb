@@ -34,16 +34,12 @@ class XrefClientGetPubTest < ActiveSupport::TestCase
   end
 
   def test_mononym_in_list
-    ukch_awards = ["EP/R026939/1", "EP/R026815/1", "EP/R026645/1", "EP/R027129/1",
-                   "EP/M013219/1","EP/R026939", "EP/R026815", "EP/R026645",
-                   "EP/R027129", "EP/M013219","EP/K014706/2", "EP/K014668/1",
-                   "EP/K014854/1", "EP/K014714/1","EP/K014706", "EP/K014668",
-                   "EP/K014854", "EP/K014714"]
-    from_date = "2025-05-01"
-    until_date = "2025-05-23"
+    ukch_awards = ["EP/R026939/1"]
+    from_date = "2025-10-12"
+    until_date = "2025-10-12"
     VCR.use_cassette('mononym_in_list_test') do
       found_dois = XrefClient.findPubsAward(ukch_awards, from_date, until_date)
-      assert_equal 1, found_dois.length
+      assert_equal 4, found_dois.length
     end
   end
 

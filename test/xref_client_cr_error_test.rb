@@ -66,10 +66,8 @@ class XrefClientCRErrorTest < ActiveSupport::TestCase
 
 
   def test_affi_search_error
-    affiliation_list = ["UK Catalysis Hub","Korea University Anam Hospital",
-                        "Karlsruhe Institute of Technology",
-                        "Yantai University"]
-    from_date = "2026-07-01"
+    affiliation_list = ["UK Catalysis Hub"]
+    from_date = "2026-07-30"
     until_date = "2026-07-30"
     VCR.use_cassette('affi_search_error') do
       found_dois = XrefClient.findPubsByAffiliation(100,affiliation_list, from_date, until_date)

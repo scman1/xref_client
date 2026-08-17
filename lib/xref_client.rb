@@ -40,10 +40,6 @@ module XrefClient
         end
       rescue NoMethodError => e
         Rails.logger.error("API client parsing failure #{e.message}")
-        raise
-      ensure
-        # Breaking for parse error
-        break
       end
       if art_bib["message"]["items"].count()>0
         results=art_bib["message"]["items"]
@@ -58,7 +54,6 @@ module XrefClient
           end
         end
       end
-      #puts cr_wait
       if cr_wait
         sleep(1.0)  # throttle for crossref
       end
@@ -96,8 +91,8 @@ module XrefClient
                                cursor_max: batch_size,
                                format: "citeproc-json")
     rescue => e
-      puts "Could not get data using cursor"
-      puts "Exception: #{e.message}"
+      Rails.logger.error("Could not get data using (findPubsByAffiliation)")
+      Rails.logger.error("Exception #{e.message}")
     end
     response
   end
@@ -125,9 +120,8 @@ module XrefClient
                 end
               end
             rescue => e
-              puts "+" * 50
-              puts "Affiliation line: #{this_affi_line_sucks}"
-              puts "Exception: #{e.message}"
+              Rails.logger.error("Affiliation line: #{this_affi_line_sucks}")
+              Rails.logger.error("Exception #{e.message}")
               # Unmanaged ROR causes an exception
               # {"id"=>[{"id"=>"https://ror.org/02s9jxg24", "id-type"=>"ROR", "asserted-by"=>"publisher"}]}
 	      affi_found = false              
@@ -159,11 +153,11 @@ module XrefClient
     # the title sometimes comes as a single string, so cast
     # as array to avoid error (when querying single DOIs)
     authors_list = getAuthorsList(data_mappings[1])
-    puts "doi #{data_mappings[0]["doi"]}"
+    #puts "doi #{data_mappings[0]["doi"]}"
     bib_data = {authors: authors_list, pub_year: data_mappings[0]["pub_year"],
-                title: Array(data_mappings[0]["title"]).join(" "),
+                title: Array(data_mappings[0]["title"]).join(" ").gsub("\n", " ").squeeze,
                 doi: data_mappings[0]["doi"]}
-    puts "Data collected: #{bib_data}"
+    #puts "Data collected: #{bib_data}"
     bib_data
   end
 
@@ -180,8 +174,8 @@ module XrefClient
                        .sub(/\w+\z/, &:capitalize)
                        .gsub(' .',' ')
       end
-      puts "Author: #{auth["given_name"].to_s} #{auth["last_name"].to_s} "
-      this_name = pr_name + auth["last_name"]
+      #puts "Author: #{auth["given_name"].to_s} #{auth["last_name"].to_s} "
+      this_name = pr_name + auth["last_name"].to_s
 
       disp_names = disp_names.empty? ? this_name : "#{disp_names}, #{this_name}"
     end

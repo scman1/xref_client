@@ -2,15 +2,15 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R026939/1,from-deposit-date:2025-05-01,until-deposit-date:2025-05-23
+    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R026939/1,from-deposit-date:2025-10-12,until-deposit-date:2025-10-12
     body:
       encoding: US-ASCII
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a_nieva@hotmail.com)
       X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
+      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a_nieva@hotmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,164 +21,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Aug 2026 17:36:41 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Rate-Limit-Limit:
-      - '3'
-      X-Rate-Limit-Interval:
-      - 1s
-      X-Concurrency-Limit:
-      - '3'
-      X-Api-Pool:
-      - polite-array
-      Permissions-Policy:
-      - interest-cohort=()
-    body:
-      encoding: UTF-8
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:41 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R026815/1,from-deposit-date:2025-05-01,until-deposit-date:2025-05-23
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 11 Aug 2026 17:36:41 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Rate-Limit-Limit:
-      - '3'
-      X-Rate-Limit-Interval:
-      - 1s
-      X-Concurrency-Limit:
-      - '3'
-      X-Api-Pool:
-      - polite-array
-      Permissions-Policy:
-      - interest-cohort=()
-    body:
-      encoding: UTF-8
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:41 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R026645/1,from-deposit-date:2025-05-01,until-deposit-date:2025-05-23
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 11 Aug 2026 17:36:42 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Rate-Limit-Limit:
-      - '3'
-      X-Rate-Limit-Interval:
-      - 1s
-      X-Concurrency-Limit:
-      - '3'
-      X-Api-Pool:
-      - polite-array
-      Permissions-Policy:
-      - interest-cohort=()
-    body:
-      encoding: UTF-8
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:42 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R027129/1,from-deposit-date:2025-05-01,until-deposit-date:2025-05-23
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 11 Aug 2026 17:36:42 GMT
+      - Mon, 17 Aug 2026 15:31:15 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '9031'
+      - '62182'
       Connection:
       - keep-alive
       Access-Control-Expose-Headers:
@@ -203,739 +50,224 @@ http_interactions:
       Permissions-Policy:
       - interest-cohort=()
     body:
-      encoding: ASCII-8BIT
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":1,"items":[{"indexed":{"date-parts":[[2026,8,5]],"date-time":"2026-08-05T00:42:59Z","timestamp":1785890579680,"version":"3.56.0"},"reference-count":55,"publisher":"American
-        Chemical Society (ACS)","issue":"9","license":[{"start":{"date-parts":[[2025,4,11]],"date-time":"2025-04-11T00:00:00Z","timestamp":1744329600000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/creativecommons.org\/licenses\/by\/4.0\/"}],"funder":[{"DOI":"10.13039\/501100000266","name":"Engineering
-        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R027129\/1"],"award-info":[{"award-number":["EP\/R027129\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
-        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/S018603\/1"],"award-info":[{"award-number":["EP\/S018603\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
-        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/Z532782\/1"],"award-info":[{"award-number":["EP\/Z532782\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100004211","name":"Oxford
-        Martin School, University of Oxford","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100004211","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100013589","name":"Research
-        England","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100013589","id-type":"DOI","asserted-by":"publisher"}]}],"content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":["ACS
-        Catal."],"published-print":{"date-parts":[[2025,5,2]]},"DOI":"10.1021\/acscatal.5c01758","type":"journal-article","created":{"date-parts":[[2025,4,11]],"date-time":"2025-04-11T10:34:12Z","timestamp":1744367652000},"page":"6760-6771","source":"Crossref","is-referenced-by-count":5,"title":["Using
-        Differential Scanning Calorimetry to Accelerate Polymerization Catalysis:
-        A Toolkit for Miniaturized and Automated Kinetics Measurements"],"prefix":"10.1021","volume":"15","author":[{"ORCID":"https:\/\/orcid.org\/0000-0002-2719-1228","authenticated-orcid":true,"given":"Thomas
-        M.","family":"McGuire","sequence":"first","affiliation":[{"name":"Department
-        of Chemistry","place":["Oxford, U.K."]},{"name":"University of Oxford","place":["Oxford,
-        U.K."]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"David","family":"Ning","sequence":"additional","affiliation":[{"name":"Department
-        of Chemistry","place":["Oxford, U.K."]},{"name":"University of Oxford","place":["Oxford,
-        U.K."]}],"role":[{"vocabulary":"crossref","role":"author"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-0734-1575","authenticated-orcid":true,"given":"Charlotte
-        K.","family":"Williams","sequence":"additional","affiliation":[{"name":"Department
-        of Chemistry","place":["Oxford, U.K."]},{"name":"University of Oxford","place":["Oxford,
-        U.K."]}],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"316","published-online":{"date-parts":[[2025,4,11]]},"reference":[{"key":"ref1\/cit1","doi-asserted-by":"publisher","DOI":"10.1021\/acs.chemrev.7b00329"},{"key":"ref2\/cit2","doi-asserted-by":"publisher","DOI":"10.1021\/acs.chemrev.3c00848"},{"key":"ref3\/cit3","doi-asserted-by":"publisher","DOI":"10.1021\/acs.chemrev.1c00173"},{"key":"ref4\/cit4","doi-asserted-by":"publisher","DOI":"10.1098\/rsta.2019.0266"},{"key":"ref5\/cit5","doi-asserted-by":"publisher","DOI":"10.1021\/acs.accounts.3c00811"},{"key":"ref6\/cit6","doi-asserted-by":"publisher","DOI":"10.1038\/s41467-023-40284-z"},{"key":"ref7\/cit7","doi-asserted-by":"publisher","DOI":"10.1002\/chem.202202222"},{"key":"ref8\/cit8","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.2c02524"},{"key":"ref9\/cit9","doi-asserted-by":"publisher","DOI":"10.1021\/acs.accounts.2c00197"},{"key":"ref10\/cit10","doi-asserted-by":"publisher","DOI":"10.1021\/acs.chemrev.6b00553"},{"key":"ref11\/cit11","doi-asserted-by":"publisher","DOI":"10.1021\/acs.biomac.5b01698"},{"key":"ref12\/cit12","doi-asserted-by":"publisher","DOI":"10.1038\/nprot.2007.391"},{"key":"ref13\/cit13","doi-asserted-by":"publisher","DOI":"10.1039\/D2PY00092J"},{"key":"ref14\/cit14","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.1c03250"},{"key":"ref15\/cit15","doi-asserted-by":"publisher","DOI":"10.1038\/s41557-023-01363-2"},{"key":"ref16\/cit16","doi-asserted-by":"publisher","DOI":"10.1002\/chem.201904108"},{"key":"ref17\/cit17","doi-asserted-by":"publisher","DOI":"10.1039\/D3CS00115F"},{"key":"ref18\/cit18","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.9b05570"},{"key":"ref19\/cit19","doi-asserted-by":"publisher","DOI":"10.1021\/ja034863e"},{"key":"ref20\/cit20","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201701438"},{"key":"ref21\/cit21","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.6b06679"},{"key":"ref22\/cit22","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.0c03651"},{"key":"ref23\/cit23","doi-asserted-by":"publisher","DOI":"10.1021\/acsmacrolett.3c00716"},{"key":"ref24\/cit24","doi-asserted-by":"publisher","DOI":"10.1021\/acs.macromol.6b00211"},{"key":"ref25\/cit25","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.2c05690"},{"key":"ref26\/cit26","doi-asserted-by":"publisher","DOI":"10.1039\/D3CY01117H"},{"key":"ref27\/cit27","doi-asserted-by":"publisher","DOI":"10.1021\/ar500121d"},{"key":"ref28\/cit28","doi-asserted-by":"publisher","DOI":"10.1016\/j.tca.2011.03.034"},{"key":"ref29\/cit29","doi-asserted-by":"publisher","DOI":"10.1021\/ma951162w"},{"key":"ref30\/cit30","doi-asserted-by":"publisher","DOI":"10.1002\/app.28962"},{"key":"ref31\/cit31","doi-asserted-by":"publisher","DOI":"10.1007\/s10973-014-4111-x"},{"key":"ref32\/cit32","doi-asserted-by":"publisher","DOI":"10.1002\/pi.6517"},{"key":"ref33\/cit33","doi-asserted-by":"publisher","DOI":"10.1007\/s00289-024-05563-9"},{"key":"ref34\/cit34","doi-asserted-by":"publisher","DOI":"10.1016\/j.tca.2024.179734"},{"key":"ref35\/cit35","doi-asserted-by":"publisher","DOI":"10.1021\/acs.macromol.3c01912"},{"key":"ref36\/cit36","doi-asserted-by":"publisher","DOI":"10.1038\/s41467-023-38916-5"},{"key":"ref37\/cit37","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.4c03523"},{"key":"ref38\/cit38","doi-asserted-by":"publisher","DOI":"10.1002\/anie.202404179"},{"key":"ref39\/cit39","doi-asserted-by":"publisher","DOI":"10.1002\/anie.202204531"},{"key":"ref40\/cit40","doi-asserted-by":"publisher","DOI":"10.1038\/nprot.2007.391"},{"key":"ref41\/cit41","doi-asserted-by":"publisher","DOI":"10.1002\/macp.202100464"},{"key":"ref42\/cit42","doi-asserted-by":"publisher","DOI":"10.1021\/ma9906940"},{"key":"ref43\/cit43","doi-asserted-by":"publisher","DOI":"10.1021\/ma991751s"},{"key":"ref44\/cit44","doi-asserted-by":"publisher","DOI":"10.1016\/S0079-6700(00)00006-X"},{"key":"ref45\/cit45","doi-asserted-by":"publisher","DOI":"10.1021\/ma2026385"},{"key":"ref46\/cit46","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201801400"},{"key":"ref47\/cit47","doi-asserted-by":"publisher","DOI":"10.1021\/ma971737k"},{"key":"ref48\/cit48","doi-asserted-by":"publisher","DOI":"10.1021\/ja01558a009"},{"key":"ref49\/cit49","doi-asserted-by":"publisher","DOI":"10.1002\/pol.1966.110040504"},{"key":"ref50\/cit50","doi-asserted-by":"publisher","DOI":"10.1007\/BF01911411"},{"key":"ref51\/cit51","doi-asserted-by":"publisher","DOI":"10.1021\/ic2008057"},{"key":"ref52\/cit52","doi-asserted-by":"publisher","DOI":"10.1016\/j.poly.2007.06.002"},{"key":"ref53\/cit53","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.2c06937"},{"key":"ref54\/cit54","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.3c05863"},{"key":"ref55\/cit55","doi-asserted-by":"publisher","DOI":"10.1002\/ange.202204492"}],"container-title":["ACS
-        Catalysis"],"language":"en","link":[{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/acscatal.5c01758","content-type":"application\/pdf","content-version":"vor","intended-application":"unspecified"},{"URL":"https:\/\/pubs.acs.org\/doi\/pdf\/10.1021\/acscatal.5c01758","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2025,5,2]],"date-time":"2025-05-02T13:29:48Z","timestamp":1746192588000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/pubs.acs.org\/doi\/10.1021\/acscatal.5c01758"}},"issued":{"date-parts":[[2025,4,11]]},"references-count":55,"journal-issue":{"issue":"9","published-print":{"date-parts":[[2025,5,2]]}},"alternative-id":["10.1021\/acscatal.5c01758"],"URL":"https:\/\/doi.org\/10.1021\/acscatal.5c01758","ISSN":["2155-5435","2155-5435"],"issn-type":[{"value":"2155-5435","type":"print"},{"value":"2155-5435","type":"electronic"}],"published":{"date-parts":[[2025,4,11]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:42 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/M013219/1,from-deposit-date:2025-05-01,until-deposit-date:2025-05-23
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 11 Aug 2026 17:36:44 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Rate-Limit-Limit:
-      - '3'
-      X-Rate-Limit-Interval:
-      - 1s
-      X-Concurrency-Limit:
-      - '3'
-      X-Api-Pool:
-      - polite-array
-      Permissions-Policy:
-      - interest-cohort=()
-    body:
       encoding: UTF-8
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:44 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R026939,from-deposit-date:2025-05-01,until-deposit-date:2025-05-23
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 11 Aug 2026 17:36:44 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Rate-Limit-Limit:
-      - '3'
-      X-Rate-Limit-Interval:
-      - 1s
-      X-Concurrency-Limit:
-      - '3'
-      X-Api-Pool:
-      - polite-array
-      Permissions-Policy:
-      - interest-cohort=()
-    body:
-      encoding: UTF-8
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:44 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R026815,from-deposit-date:2025-05-01,until-deposit-date:2025-05-23
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 11 Aug 2026 17:36:45 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Rate-Limit-Limit:
-      - '3'
-      X-Rate-Limit-Interval:
-      - 1s
-      X-Concurrency-Limit:
-      - '3'
-      X-Api-Pool:
-      - polite-array
-      Permissions-Policy:
-      - interest-cohort=()
-    body:
-      encoding: UTF-8
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:45 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R026645,from-deposit-date:2025-05-01,until-deposit-date:2025-05-23
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 11 Aug 2026 17:36:45 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Rate-Limit-Limit:
-      - '3'
-      X-Rate-Limit-Interval:
-      - 1s
-      X-Concurrency-Limit:
-      - '3'
-      X-Api-Pool:
-      - polite-array
-      Permissions-Policy:
-      - interest-cohort=()
-    body:
-      encoding: UTF-8
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:45 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/R027129,from-deposit-date:2025-05-01,until-deposit-date:2025-05-23
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 11 Aug 2026 17:36:46 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Rate-Limit-Limit:
-      - '3'
-      X-Rate-Limit-Interval:
-      - 1s
-      X-Concurrency-Limit:
-      - '3'
-      X-Api-Pool:
-      - polite-array
-      Permissions-Policy:
-      - interest-cohort=()
-    body:
-      encoding: UTF-8
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:46 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/M013219,from-deposit-date:2025-05-01,until-deposit-date:2025-05-23
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 11 Aug 2026 17:36:46 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Rate-Limit-Limit:
-      - '3'
-      X-Rate-Limit-Interval:
-      - 1s
-      X-Concurrency-Limit:
-      - '3'
-      X-Api-Pool:
-      - polite-array
-      Permissions-Policy:
-      - interest-cohort=()
-    body:
-      encoding: UTF-8
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:46 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014706/2,from-deposit-date:2025-05-01,until-deposit-date:2025-05-23
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 11 Aug 2026 17:36:47 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Rate-Limit-Limit:
-      - '3'
-      X-Rate-Limit-Interval:
-      - 1s
-      X-Concurrency-Limit:
-      - '3'
-      X-Api-Pool:
-      - polite-array
-      Permissions-Policy:
-      - interest-cohort=()
-    body:
-      encoding: UTF-8
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:47 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014668/1,from-deposit-date:2025-05-01,until-deposit-date:2025-05-23
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 11 Aug 2026 17:36:47 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Rate-Limit-Limit:
-      - '3'
-      X-Rate-Limit-Interval:
-      - 1s
-      X-Concurrency-Limit:
-      - '3'
-      X-Api-Pool:
-      - polite-array
-      Permissions-Policy:
-      - interest-cohort=()
-    body:
-      encoding: UTF-8
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:47 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014854/1,from-deposit-date:2025-05-01,until-deposit-date:2025-05-23
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 11 Aug 2026 17:36:48 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Rate-Limit-Limit:
-      - '3'
-      X-Rate-Limit-Interval:
-      - 1s
-      X-Concurrency-Limit:
-      - '3'
-      X-Api-Pool:
-      - polite-array
-      Permissions-Policy:
-      - interest-cohort=()
-    body:
-      encoding: UTF-8
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:48 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014714/1,from-deposit-date:2025-05-01,until-deposit-date:2025-05-23
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 11 Aug 2026 17:36:48 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Rate-Limit-Limit:
-      - '3'
-      X-Rate-Limit-Interval:
-      - 1s
-      X-Concurrency-Limit:
-      - '3'
-      X-Api-Pool:
-      - polite-array
-      Permissions-Policy:
-      - interest-cohort=()
-    body:
-      encoding: UTF-8
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:48 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014706,from-deposit-date:2025-05-01,until-deposit-date:2025-05-23
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 11 Aug 2026 17:36:49 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Rate-Limit-Limit:
-      - '3'
-      X-Rate-Limit-Interval:
-      - 1s
-      X-Concurrency-Limit:
-      - '3'
-      X-Api-Pool:
-      - polite-array
-      Permissions-Policy:
-      - interest-cohort=()
-    body:
-      encoding: UTF-8
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:49 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014668,from-deposit-date:2025-05-01,until-deposit-date:2025-05-23
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 11 Aug 2026 17:36:49 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Rate-Limit-Limit:
-      - '3'
-      X-Rate-Limit-Interval:
-      - 1s
-      X-Concurrency-Limit:
-      - '3'
-      X-Api-Pool:
-      - polite-array
-      Permissions-Policy:
-      - interest-cohort=()
-    body:
-      encoding: UTF-8
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:49 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014854,from-deposit-date:2025-05-01,until-deposit-date:2025-05-23
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 11 Aug 2026 17:36:50 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Rate-Limit-Limit:
-      - '3'
-      X-Rate-Limit-Interval:
-      - 1s
-      X-Concurrency-Limit:
-      - '3'
-      X-Api-Pool:
-      - polite-array
-      Permissions-Policy:
-      - interest-cohort=()
-    body:
-      encoding: UTF-8
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:50 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works?filter=has-funder:true,award.number:EP/K014714,from-deposit-date:2025-05-01,until-deposit-date:2025-05-23
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      X-User-Agent:
-      - Faraday/v2.14.3 Serrano/v1.7 (mailto:a.mail@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 11 Aug 2026 17:36:51 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Rate-Limit-Limit:
-      - '3'
-      X-Rate-Limit-Interval:
-      - 1s
-      X-Concurrency-Limit:
-      - '3'
-      X-Api-Pool:
-      - polite-array
-      Permissions-Policy:
-      - interest-cohort=()
-    body:
-      encoding: UTF-8
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":0,"items":[],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Tue, 11 Aug 2026 17:36:51 GMT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":4,"items":[{"indexed":{"date-parts":[[2026,8,5]],"date-time":"2026-08-05T02:14:58Z","timestamp":1785896098525,"version":"3.56.0"},"reference-count":183,"publisher":"Wiley","issue":"5","license":[{"start":{"date-parts":[[2024,12,23]],"date-time":"2024-12-23T00:00:00Z","timestamp":1734912000000},"content-version":"vor","delay-in-days":0,"URL":"http:\/\/creativecommons.org\/licenses\/by\/4.0\/"}],"funder":[{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/M013219\/1"],"award-info":[{"award-number":["EP\/M013219\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R026939\/1"],"award-info":[{"award-number":["EP\/R026939\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R026815\/1"],"award-info":[{"award-number":["EP\/R026815\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R026645\/1"],"award-info":[{"award-number":["EP\/R026645\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R027129\/1"],"award-info":[{"award-number":["EP\/R027129\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]}],"content-domain":{"domain":["chemistry-europe.onlinelibrary.wiley.com"],"crossmark-restriction":true},"short-container-title":["ChemCatChem"],"published-print":{"date-parts":[[2025,3]]},"abstract":"<jats:title>Abstract<\/jats:title><jats:p>Impregnation
+        of phosphine\u2010decorated polymer\u2010immobilized ionic liquid with the
+        tetrachloroaurate anion results in reduction of the gold(III) to gold(I) with
+        concomitant oxidation of the phosphine to its oxide. In situ reduction of
+        the resulting precursor, AuCl@O\u00a0=\u00a0PPh<jats:sub>2<\/jats:sub>\u2010PEGPIILS,
+        generated the corresponding O\u00a0=\u00a0PPh<jats:sub>2<\/jats:sub>\u2010PEGPIIL\u2010stabilized
+        AuNPs, AuNP@O\u00a0=\u00a0PPh<jats:sub>2<\/jats:sub>\u2010PEGPIILS, which
+        is a highly active and selective catalyst for the solvent\u2010dependent partial
+        reduction of nitrobenzene to <jats:italic>N<\/jats:italic>\u2010phenylhydroxylamine
+        in water and azoxybenzene in ethanol. The initial TOFs are comparable to those
+        obtained with gold nanoparticles generated by reduction of tetrachloroaurate\u2010impregnated
+        phosphine oxide\u2010decorated polymer\u2010immobilized ionic liquid AuCl<jats:sub>4<\/jats:sub>@O\u00a0=\u00a0PPh<jats:sub>2<\/jats:sub>\u2010PEGPIILS,
+        i.e., the activity and selectivity profiles do not appear to depend on whether
+        the AuNPs are generated from Au(III) or in situ\u2010generated Au(I). In stark
+        contrast, gold nanoparticles prepared by NaBH<jats:sub>4<\/jats:sub> reduction
+        of AuCl@PPh<jats:sub>2<\/jats:sub>\u2010PEGPIILS based on gold(I) confined
+        in phosphine\u2010modified polymer\u2010immobilized ionic liquid gave markedly
+        lower initial TOFs. The use of dimethylamine borane (DMAB) as the hydrogen
+        donor resulted in a substantial and dramatic enhancement in activity for reductions
+        conducted in water compared with NaBH<jats:sub>4<\/jats:sub> and the initial
+        TOF of 20,400\u00a0mol nitrobenzene converted mol\u00a0Au<jats:sup>\u22121<\/jats:sup>\u00a0h<jats:sup>\u22121<\/jats:sup>
+        obtained with AuNPs generated in situ from AuCl<jats:sub>4<\/jats:sub>@O\u00a0=\u00a0PPh<jats:sub>2<\/jats:sub>\u2010PEGPIILS
+        is among the highest to be reported for the metal nanoparticle catalyzed selective
+        reduction of nitrobenzene to <jats:italic>N<\/jats:italic>\u2010phenylhydroxylamine;
+        this is a significant improvement on existing protocols, which should enable
+        the partial selective reduction of nitroarenes to be conducted in water with
+        a low catalyst loading under extremely mild conditions.<\/jats:p>","DOI":"10.1002\/cctc.202401702","type":"journal-article","created":{"date-parts":[[2024,12,9]],"date-time":"2024-12-09T15:49:21Z","timestamp":1733759361000},"update-policy":"https:\/\/doi.org\/10.1002\/crossmark_policy","source":"Crossref","is-referenced-by-count":6,"title":["Gold
+        Nanoparticle\u2010Catalyzed Solvent Switchable Selective Partial Reduction
+        of Nitrobenzene to <i>N<\/i>\u2010Phenylhydroxylamine and Azoxybenzene"],"prefix":"10.1002","volume":"17","author":[{"given":"Simon","family":"Doherty","sequence":"first","affiliation":[{"name":"Newcastle
+        University Centre for Catalysis (NUCAT) School of Chemistry Newcastle University  Bedson
+        Building Newcastle upon Tyne NE1 7RU UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Julian
+        G.","family":"Knight","sequence":"additional","affiliation":[{"name":"Newcastle
+        University Centre for Catalysis (NUCAT) School of Chemistry Newcastle University  Bedson
+        Building Newcastle upon Tyne NE1 7RU UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Hussam
+        Y.","family":"Alharbi","sequence":"additional","affiliation":[{"name":"Newcastle
+        University Centre for Catalysis (NUCAT) School of Chemistry Newcastle University  Bedson
+        Building Newcastle upon Tyne NE1 7RU UK"},{"name":"Chemistry Department Faculty
+        of Science Taibah University  Yanbu 46423 Saudi Arabia"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Reece","family":"Paterson","sequence":"additional","affiliation":[{"name":"Newcastle
+        University Centre for Catalysis (NUCAT) School of Chemistry Newcastle University  Bedson
+        Building Newcastle upon Tyne NE1 7RU UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Corinne","family":"Wills","sequence":"additional","affiliation":[{"name":"Newcastle
+        University Centre for Catalysis (NUCAT) School of Chemistry Newcastle University  Bedson
+        Building Newcastle upon Tyne NE1 7RU UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Casey","family":"Dixon","sequence":"additional","affiliation":[{"name":"Newcastle
+        University Centre for Catalysis (NUCAT) School of Chemistry Newcastle University  Bedson
+        Building Newcastle upon Tyne NE1 7RU UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Thomas
+        W.","family":"Chamberlain","sequence":"additional","affiliation":[{"name":"Institute
+        of Process Research &amp; Development School of Chemistry University of Leeds  Woodhouse
+        Lane Leeds LS2 9JT UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Han","family":"Yan","sequence":"additional","affiliation":[{"name":"Institute
+        of Process Research &amp; Development School of Chemistry University of Leeds  Woodhouse
+        Lane Leeds LS2 9JT UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Anthony","family":"Griffiths","sequence":"additional","affiliation":[{"name":"Institute
+        of Process Research &amp; Development School of Chemistry University of Leeds  Woodhouse
+        Lane Leeds LS2 9JT UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Helen","family":"Daly","sequence":"additional","affiliation":[{"name":"School
+        of Chemical Engineering and Analytical Sciences The University of Manchester  The
+        Mill, Sackville Street Campus Manchester M13 9LP UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Sarayute","family":"Chansai","sequence":"additional","affiliation":[{"name":"School
+        of Chemical Engineering and Analytical Sciences The University of Manchester  The
+        Mill, Sackville Street Campus Manchester M13 9LP UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Christopher","family":"Hardacre","sequence":"additional","affiliation":[{"name":"School
+        of Chemical Engineering and Analytical Sciences The University of Manchester  The
+        Mill, Sackville Street Campus Manchester M13 9LP UK"}],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"311","published-online":{"date-parts":[[2024,12,23]]},"reference":[{"key":"e_1_2_9_1_1","volume-title":"The
+        Chemistry of Hydroxylamines, Oximes and Hydroxamic Acids","author":"Rappaport
+        Z.","year":"2009"},{"key":"e_1_2_9_2_1","doi-asserted-by":"publisher","DOI":"10.1007\/978-3-663-02002-8"},{"key":"e_1_2_9_3_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.bcp.2005.04.023"},{"key":"e_1_2_9_4_1","doi-asserted-by":"publisher","DOI":"10.1002\/adsc.200202209"},{"key":"e_1_2_9_5_1","doi-asserted-by":"publisher","DOI":"10.1021\/tx034098h"},{"key":"e_1_2_9_6_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja982762o"},{"key":"e_1_2_9_7_1","doi-asserted-by":"publisher","DOI":"10.1021\/acs.orglett.0c01367"},{"key":"e_1_2_9_8_1","doi-asserted-by":"publisher","DOI":"10.1016\/B978-0-323-39307-2.00033-3"},{"key":"e_1_2_9_9_1","doi-asserted-by":"publisher","DOI":"10.1111\/j.1462-2920.2010.02406.x"},{"key":"e_1_2_9_10_1","doi-asserted-by":"publisher","DOI":"10.1126\/science.1164571"},{"key":"e_1_2_9_11_1","doi-asserted-by":"publisher","DOI":"10.1128\/AAC.13.2.193"},{"key":"e_1_2_9_12_1","doi-asserted-by":"publisher","DOI":"10.1016\/S0040-4039(01)96253-7"},{"key":"e_1_2_9_13_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja00393a025"},{"key":"e_1_2_9_14_1","doi-asserted-by":"publisher","DOI":"10.1002\/ejoc.200200576"},{"key":"e_1_2_9_15_1","doi-asserted-by":"publisher","DOI":"10.1016\/S0968-0896(99)00300-4"},{"key":"e_1_2_9_16_1","doi-asserted-by":"publisher","DOI":"10.1080\/00304949809355306"},{"key":"e_1_2_9_17_1","doi-asserted-by":"publisher","DOI":"10.1016\/S0040-4039(02)02699-0"},{"key":"e_1_2_9_18_1","doi-asserted-by":"publisher","DOI":"10.1021\/es011397p"},{"key":"e_1_2_9_19_1","doi-asserted-by":"publisher","DOI":"10.1039\/b004286m"},{"key":"e_1_2_9_20_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja964006t"},{"key":"e_1_2_9_21_1","doi-asserted-by":"publisher","DOI":"10.1021\/jo401985h"},{"key":"e_1_2_9_22_1","doi-asserted-by":"publisher","DOI":"10.1002\/cber.18940270276"},{"key":"e_1_2_9_23_1","doi-asserted-by":"publisher","DOI":"10.1039\/c1cc12212f"},{"key":"e_1_2_9_24_1","doi-asserted-by":"publisher","DOI":"10.1016\/S0040-4039(00)81372-6"},{"key":"e_1_2_9_25_1","doi-asserted-by":"publisher","DOI":"10.1016\/S0040-4039(00)87504-8"},{"key":"e_1_2_9_26_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja01513a049"},{"key":"e_1_2_9_27_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.tetlet.2010.12.034"},{"key":"e_1_2_9_28_1","doi-asserted-by":"publisher","DOI":"10.1021\/jo01020a001"},{"key":"e_1_2_9_29_1","doi-asserted-by":"publisher","DOI":"10.1021\/jo01020a002"},{"key":"e_1_2_9_30_1","doi-asserted-by":"publisher","DOI":"10.1080\/00397919708007070"},{"key":"e_1_2_9_31_1","doi-asserted-by":"publisher","DOI":"10.1039\/c39860001655"},{"key":"e_1_2_9_32_1","doi-asserted-by":"publisher","DOI":"10.1021\/jo00201a030"},{"key":"e_1_2_9_33_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja00878a037"},{"key":"e_1_2_9_34_1","doi-asserted-by":"publisher","DOI":"10.3390\/molecules29184353"},{"key":"e_1_2_9_34_2","doi-asserted-by":"publisher","DOI":"10.1080\/00397919708006092"},{"key":"e_1_2_9_35_1","doi-asserted-by":"publisher","DOI":"10.1246\/cl.2006.226"},{"key":"e_1_2_9_36_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.tetlet.2005.06.126"},{"key":"e_1_2_9_37_1","doi-asserted-by":"publisher","DOI":"10.1016\/S0040-4020(01)85439-9"},{"key":"e_1_2_9_38_1","doi-asserted-by":"publisher","DOI":"10.1039\/b906283a"},{"key":"e_1_2_9_39_1","doi-asserted-by":"publisher","DOI":"10.1016\/S0040-4020(01)93607-5"},{"key":"e_1_2_9_40_1","doi-asserted-by":"publisher","DOI":"10.15227\/orgsyn.067.0187"},{"key":"e_1_2_9_41_1","doi-asserted-by":"publisher","DOI":"10.1016\/S0167-2991(00)80771-5"},{"key":"e_1_2_9_42_1","doi-asserted-by":"publisher","DOI":"10.1039\/C4CC09192B"},{"key":"e_1_2_9_43_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.tetlet.2016.11.105"},{"key":"e_1_2_9_44_1","doi-asserted-by":"publisher","DOI":"10.1039\/c3gc41179f"},{"key":"e_1_2_9_45_1","doi-asserted-by":"publisher","DOI":"10.1039\/C4CY00790E"},{"key":"e_1_2_9_46_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.mcat.2021.111836"},{"key":"e_1_2_9_47_1","doi-asserted-by":"publisher","DOI":"10.1039\/b904672k"},{"key":"e_1_2_9_48_1","first-page":"1746","volume":"26","author":"Karwa
+        S. L.","year":"1987","journal-title":"Ind. Eng. Chem. Soc."},{"key":"e_1_2_9_49_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.cattod.2011.02.001"},{"key":"e_1_2_9_50_1","doi-asserted-by":"publisher","DOI":"10.1039\/C9GC03957K"},{"key":"e_1_2_9_51_1","doi-asserted-by":"publisher","DOI":"10.1038\/nmat4555"},{"key":"e_1_2_9_52_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.catcom.2020.105949"},{"key":"e_1_2_9_53_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.1c00903"},{"key":"e_1_2_9_54_1","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.0c13185"},{"key":"e_1_2_9_55_1","doi-asserted-by":"publisher","DOI":"10.1021\/acs.accounts.1c00013"},{"key":"e_1_2_9_56_1","doi-asserted-by":"publisher","DOI":"10.1039\/C7DT04728B"},{"key":"e_1_2_9_57_1","doi-asserted-by":"publisher","DOI":"10.3390\/catal6120185"},{"key":"e_1_2_9_58_1","doi-asserted-by":"publisher","DOI":"10.1039\/C8NJ05199B"},{"key":"e_1_2_9_59_1","doi-asserted-by":"publisher","DOI":"10.1021\/acs.chemrev.9b00662"},{"key":"e_1_2_9_60_1","doi-asserted-by":"publisher","DOI":"10.1002\/chem.201700980"},{"key":"e_1_2_9_61_1","doi-asserted-by":"publisher","DOI":"10.1039\/C5RA01893E"},{"key":"e_1_2_9_62_1","doi-asserted-by":"publisher","DOI":"10.1039\/C5CY00293A"},{"key":"e_1_2_9_63_1","doi-asserted-by":"publisher","DOI":"10.1002\/cctc.201402524"},{"key":"e_1_2_9_64_1","doi-asserted-by":"publisher","DOI":"10.1039\/C6DT03104H"},{"key":"e_1_2_9_65_1","doi-asserted-by":"publisher","DOI":"10.1039\/C9NJ05734J"},{"key":"e_1_2_9_66_1","doi-asserted-by":"publisher","DOI":"10.1039\/C8NJ05932B"},{"key":"e_1_2_9_67_1","doi-asserted-by":"publisher","DOI":"10.1002\/adsc.200700441"},{"key":"e_1_2_9_68_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja411202h"},{"key":"e_1_2_9_69_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.7b00355"},{"key":"e_1_2_9_70_1","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.5b02802"},{"key":"e_1_2_9_71_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.8b00872"},{"key":"e_1_2_9_72_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201908602"},{"key":"e_1_2_9_73_1","doi-asserted-by":"publisher","DOI":"10.1021\/nl3027636"},{"key":"e_1_2_9_74_1","doi-asserted-by":"publisher","DOI":"10.1021\/cs3007395"},{"key":"e_1_2_9_75_1","doi-asserted-by":"publisher","DOI":"10.1021\/acsomega.7b00836"},{"key":"e_1_2_9_76_1","doi-asserted-by":"publisher","DOI":"10.1021\/cs400982n"},{"key":"e_1_2_9_77_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja511349p"},{"key":"e_1_2_9_78_1","doi-asserted-by":"publisher","DOI":"10.1039\/C7CC08942B"},{"key":"e_1_2_9_79_1","doi-asserted-by":"publisher","DOI":"10.1021\/acsanm.8b01549"},{"key":"e_1_2_9_80_1","doi-asserted-by":"publisher","DOI":"10.1039\/C7CY00394C"},{"key":"e_1_2_9_81_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201108593"},{"key":"e_1_2_9_82_1","doi-asserted-by":"publisher","DOI":"10.1039\/C6RA26443C"},{"key":"e_1_2_9_83_1","doi-asserted-by":"publisher","DOI":"10.1021\/acs.jpcc.9b02547"},{"key":"e_1_2_9_84_1","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.0c15407"},{"key":"e_1_2_9_85_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.7b04099"},{"key":"e_1_2_9_86_1","doi-asserted-by":"publisher","DOI":"10.1039\/C7CC00864C"},{"key":"e_1_2_9_87_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.8b00294"},{"key":"e_1_2_9_88_1","doi-asserted-by":"publisher","DOI":"10.1007\/s10562-021-03609-5"},{"key":"e_1_2_9_89_1","doi-asserted-by":"publisher","DOI":"10.1038\/s41467-017-01673-3"},{"key":"e_1_2_9_90_1","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.7b05112"},{"key":"e_1_2_9_91_1","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.6b03821"},{"key":"e_1_2_9_92_1","doi-asserted-by":"publisher","DOI":"10.1039\/C6CC01130F"},{"key":"e_1_2_9_93_1","doi-asserted-by":"publisher","DOI":"10.1039\/c4cc00654b"},{"key":"e_1_2_9_94_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.nanoso.2016.03.003"},{"key":"e_1_2_9_95_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201508933"},{"key":"e_1_2_9_96_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.5b01160"},{"key":"e_1_2_9_97_1","doi-asserted-by":"publisher","DOI":"10.1039\/D0CY00481B"},{"key":"e_1_2_9_98_1","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.6b02878"},{"key":"e_1_2_9_99_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201909069"},{"key":"e_1_2_9_100_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201800367"},{"key":"e_1_2_9_101_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201805696"},{"key":"e_1_2_9_102_1","doi-asserted-by":"publisher","DOI":"10.1021\/acs.jpcb.2c05878"},{"key":"e_1_2_9_103_1","doi-asserted-by":"publisher","DOI":"10.1002\/adsc.201800561"},{"key":"e_1_2_9_104_1","doi-asserted-by":"publisher","DOI":"10.1039\/C6GC03528K"},{"key":"e_1_2_9_105_1","doi-asserted-by":"publisher","DOI":"10.1039\/C7CY02557B"},{"key":"e_1_2_9_106_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.9b00347"},{"key":"e_1_2_9_107_1","doi-asserted-by":"publisher","DOI":"10.1039\/D2CY00205A"},{"key":"e_1_2_9_108_1","doi-asserted-by":"publisher","DOI":"10.1002\/cctc.202101752"},{"key":"e_1_2_9_109_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.mcat.2022.112476"},{"key":"e_1_2_9_110_1","doi-asserted-by":"publisher","DOI":"10.1039\/D3CC04987F"},{"key":"e_1_2_9_111_1","doi-asserted-by":"publisher","DOI":"10.1002\/cctc.202300418"},{"key":"e_1_2_9_112_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.jcat.2022.11.023"},{"key":"e_1_2_9_113_1","doi-asserted-by":"publisher","DOI":"10.1002\/cctc.201501086"},{"key":"e_1_2_9_113_2","doi-asserted-by":"publisher","DOI":"10.1007\/s11051-016-3409-y"},{"key":"e_1_2_9_114_1","doi-asserted-by":"publisher","DOI":"10.1039\/C5GC00231A"},{"key":"e_1_2_9_115_1","doi-asserted-by":"publisher","DOI":"10.1021\/om00045a012"},{"key":"e_1_2_9_115_2","doi-asserted-by":"publisher","DOI":"10.1021\/om00004a039"},{"key":"e_1_2_9_115_3","doi-asserted-by":"publisher","DOI":"10.1021\/ol801285g"},{"key":"e_1_2_9_116_1","doi-asserted-by":"publisher","DOI":"10.1039\/p19780001333"},{"key":"e_1_2_9_117_1","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.8b09282"},{"key":"e_1_2_9_118_1","volume-title":"Triphenylphosphinegold(I)
+        Chloride, Encyclopedia of Reagents for Organic Synthesis","author":"Gorin
+        D. J.","year":"2008"},{"key":"e_1_2_9_119_1","doi-asserted-by":"publisher","DOI":"10.1021\/ol0515917"},{"key":"e_1_2_9_120_1","doi-asserted-by":"publisher","DOI":"10.3762\/bjnano.8.52"},{"key":"e_1_2_9_120_2","doi-asserted-by":"publisher","DOI":"10.1021\/ja00770a015"},{"key":"e_1_2_9_120_3","doi-asserted-by":"publisher","DOI":"10.1039\/C5OB00372E"},{"key":"e_1_2_9_120_4","doi-asserted-by":"publisher","DOI":"10.1021\/acs.est.6b05930"},{"key":"e_1_2_9_120_5","doi-asserted-by":"publisher","DOI":"10.1021\/cs400983y"},{"key":"e_1_2_9_120_6","doi-asserted-by":"publisher","DOI":"10.1039\/C5CY01270H"},{"key":"e_1_2_9_120_7","doi-asserted-by":"publisher","DOI":"10.1021\/acsomega.2c04259"},{"key":"e_1_2_9_120_8","doi-asserted-by":"publisher","DOI":"10.1021\/jp047134"},{"key":"e_1_2_9_120_9","doi-asserted-by":"publisher","DOI":"10.1038\/s41467-022-35467-z"},{"key":"e_1_2_9_120_10","doi-asserted-by":"publisher","DOI":"10.1039\/C4GC00795F"},{"key":"e_1_2_9_120_11","unstructured":"k)J.\u2010P.Sylvestrea
+        A. V.Kabashina E.Sachera M. Meuniera J. H. T.Luong Proceedings of SPIE \u2010
+        The International Society for Optical Engineering July2004;"},{"key":"e_1_2_9_120_12","unstructured":"l)https:\/\/sites.cardiff.ac.uk\/xpsaccess\/reference\/gold\/;"},{"key":"e_1_2_9_120_13","unstructured":"m)https:\/\/www.harwellxps.guru\/knowledgebase\/gold\/."},{"key":"e_1_2_9_121_1","doi-asserted-by":"publisher","DOI":"10.1021\/ic500861f"},{"key":"e_1_2_9_121_2","doi-asserted-by":"publisher","DOI":"10.1021\/acs.inorgchem.6b01092"},{"key":"e_1_2_9_121_3","doi-asserted-by":"publisher","DOI":"10.1039\/C4CC04454A"},{"key":"e_1_2_9_122_1","doi-asserted-by":"publisher","DOI":"10.1021\/acsami.7b16794"},{"key":"e_1_2_9_123_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.6b01759"},{"key":"e_1_2_9_123_2","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.5b01129"},{"key":"e_1_2_9_124_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.7b00391"},{"key":"e_1_2_9_125_1","doi-asserted-by":"publisher","DOI":"10.1039\/C7NJ01324H"},{"key":"e_1_2_9_126_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.197508011"},{"key":"e_1_2_9_127_1","doi-asserted-by":"publisher","DOI":"10.1021\/jacs.5b10720"},{"key":"e_1_2_9_128_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.matlet.2018.12.140"},{"key":"e_1_2_9_129_1","doi-asserted-by":"publisher","DOI":"10.1039\/b411603h"},{"key":"e_1_2_9_129_2","doi-asserted-by":"publisher","DOI":"10.1002\/anie.200700823"},{"key":"e_1_2_9_129_3","first-page":"506","volume":"22","author":"Haber
+        F.","year":"1898","journal-title":"Z. Elektrochem."},{"key":"e_1_2_9_130_1","doi-asserted-by":"publisher","DOI":"10.1039\/c3cy00533j"},{"key":"e_1_2_9_131_1","doi-asserted-by":"publisher","DOI":"10.1039\/C6NR05058A"},{"key":"e_1_2_9_132_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.jcat.2016.01.007"},{"key":"e_1_2_9_132_2","doi-asserted-by":"publisher","DOI":"10.1021\/acs.jpcc.1c08569"},{"key":"e_1_2_9_133_1","doi-asserted-by":"publisher","DOI":"10.1039\/D1GC01439K"},{"key":"e_1_2_9_134_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.jcat.2018.11.011"},{"key":"e_1_2_9_135_1","doi-asserted-by":"publisher","DOI":"10.1134\/S0036024423060080"},{"key":"e_1_2_9_136_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.cej.2023.143540"},{"key":"e_1_2_9_137_1","doi-asserted-by":"publisher","DOI":"10.1039\/C5GC01726B"},{"key":"e_1_2_9_138_1","doi-asserted-by":"publisher","DOI":"10.1002\/adsc.202300239"},{"key":"e_1_2_9_139_1","doi-asserted-by":"publisher","DOI":"10.1039\/D3NJ00518F"},{"key":"e_1_2_9_140_1","doi-asserted-by":"publisher","DOI":"10.1038\/s41467-024-47402-5"},{"key":"e_1_2_9_141_1","doi-asserted-by":"publisher","DOI":"10.1039\/C5RA10076C"},{"key":"e_1_2_9_142_1","doi-asserted-by":"publisher","DOI":"10.1039\/C5CC01131K"},{"key":"e_1_2_9_143_1","doi-asserted-by":"publisher","DOI":"10.1021\/jp067554u"},{"key":"e_1_2_9_144_1","doi-asserted-by":"publisher","DOI":"10.1002\/aoc.7107"},{"key":"e_1_2_9_145_1","doi-asserted-by":"publisher","DOI":"10.1039\/C6DT03050E"},{"key":"e_1_2_9_146_1","doi-asserted-by":"publisher","DOI":"10.1039\/c2gc35917k"},{"key":"e_1_2_9_147_1","doi-asserted-by":"publisher","DOI":"10.1039\/c1jm12477c"},{"key":"e_1_2_9_148_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.rechem.2023.101199"},{"key":"e_1_2_9_149_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.mcat.2022.112601"},{"key":"e_1_2_9_150_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.ica.2019.118965"},{"key":"e_1_2_9_151_1","doi-asserted-by":"publisher","DOI":"10.1002\/aoc.3825"},{"key":"e_1_2_9_152_1","doi-asserted-by":"publisher","DOI":"10.1002\/aoc.3783"},{"key":"e_1_2_9_153_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.jcat.2016.05.005"},{"key":"e_1_2_9_154_1","doi-asserted-by":"publisher","DOI":"10.1002\/asia.201500290"},{"key":"e_1_2_9_155_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.5b01846"},{"key":"e_1_2_9_156_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja076721g"},{"key":"e_1_2_9_157_1","doi-asserted-by":"publisher","DOI":"10.1246\/cl.180340"},{"key":"e_1_2_9_158_1","doi-asserted-by":"publisher","DOI":"10.1039\/C5RA18228J"},{"key":"e_1_2_9_159_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.catcom.2018.01.002"},{"key":"e_1_2_9_160_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.jcat.2013.12.014"},{"key":"e_1_2_9_161_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.isci.2021.103472"}],"container-title":["ChemCatChem"],"language":"en","link":[{"URL":"https:\/\/chemistry-europe.onlinelibrary.wiley.com\/doi\/pdf\/10.1002\/cctc.202401702","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2025,10,12]],"date-time":"2025-10-12T13:54:40Z","timestamp":1760277280000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/chemistry-europe.onlinelibrary.wiley.com\/doi\/10.1002\/cctc.202401702"}},"issued":{"date-parts":[[2024,12,23]]},"references-count":183,"journal-issue":{"issue":"5","published-print":{"date-parts":[[2025,3]]}},"alternative-id":["10.1002\/cctc.202401702"],"URL":"https:\/\/doi.org\/10.1002\/cctc.202401702","archive":["Portico"],"ISSN":["1867-3880","1867-3899"],"issn-type":[{"value":"1867-3880","type":"print"},{"value":"1867-3899","type":"electronic"}],"published":{"date-parts":[[2024,12,23]]},"assertion":[{"value":"2024-10-03","order":0,"name":"received","label":"Received","group":{"name":"publication_history","label":"Publication
+        History"}},{"value":"2024-12-09","order":2,"name":"accepted","label":"Accepted","group":{"name":"publication_history","label":"Publication
+        History"}},{"value":"2024-12-23","order":3,"name":"published","label":"Published","group":{"name":"publication_history","label":"Publication
+        History"}}],"article-number":"e202401702"},{"indexed":{"date-parts":[[2025,10,14]],"date-time":"2025-10-14T07:16:07Z","timestamp":1760426167765,"version":"build-2065373602"},"reference-count":55,"publisher":"Wiley","issue":"21","license":[{"start":{"date-parts":[[2023,10,6]],"date-time":"2023-10-06T00:00:00Z","timestamp":1696550400000},"content-version":"vor","delay-in-days":0,"URL":"http:\/\/creativecommons.org\/licenses\/by\/4.0\/"}],"funder":[{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/V000691\/1"],"award-info":[{"award-number":["EP\/V000691\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000739","name":"University
+        of Southampton","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100000739","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100019229","name":"UK
+        Catalysis Hub","doi-asserted-by":"publisher","award":["EP\/R026815\/1","EP\/R026939\/1","EP\/R026645\/1","EP\/R027129\/1"],"award-info":[{"award-number":["EP\/R026815\/1","EP\/R026939\/1","EP\/R026645\/1","EP\/R027129\/1"]}],"id":[{"id":"10.13039\/501100019229","id-type":"DOI","asserted-by":"publisher"}]}],"content-domain":{"domain":["chemistry-europe.onlinelibrary.wiley.com"],"crossmark-restriction":true},"short-container-title":["ChemCatChem"],"published-print":{"date-parts":[[2023,11,8]]},"abstract":"<jats:title>Abstract<\/jats:title><jats:p>The
+        reactions under which interstitial structures of Pd form are profoundly important
+        and prevalent in catalysis; the formation and stability of Pd hydride structures
+        are well understood, however, interstitial structures of the carbide and nitride
+        are relatively under explored. This work reports a systematic study of the
+        formation and stability of PdC<jats:sub>x<\/jats:sub> and PdN<jats:sub>x<\/jats:sub>
+        at elevated temperatures and different atmospheres using <jats:italic>in\u2005situ<\/jats:italic>
+        Pd L<jats:sub>3<\/jats:sub> edge XANES spectroscopy. These studies were further
+        complemented by the application of <jats:sup>14<\/jats:sup>N MAS\u2010NMR
+        experiments and computational DFT investigations. The experiments confirmed
+        that PdC<jats:sub>x<\/jats:sub> was significantly more stable than PdN<jats:sub>x<\/jats:sub>;
+        <jats:sup>14<\/jats:sup>N MAS\u2010NMR provided direct confirmation on the
+        formation of the nitride, however, the XANES studies evidenced very limited
+        stability under the conditions employed. Moreover, the results suggest that
+        the formation of the nitride imparts some structural changes that are not
+        entirely reversible under the conditions used in these experiments. This work
+        provides important insights into the stability of interstitial structures
+        of Pd and the conditions in which they could be employed for directed catalytic
+        processes.<\/jats:p>","DOI":"10.1002\/cctc.202300870","type":"journal-article","created":{"date-parts":[[2023,9,7]],"date-time":"2023-09-07T05:14:25Z","timestamp":1694063665000},"update-policy":"https:\/\/doi.org\/10.1002\/crossmark_policy","source":"Crossref","is-referenced-by-count":2,"title":["Towards
+        the Operational Window for Nitridic and Carbidic Palladium Nanoparticles for
+        Directed Catalysis"],"prefix":"10.1002","volume":"15","author":[{"ORCID":"https:\/\/orcid.org\/0000-0002-1190-4262","authenticated-orcid":false,"given":"Lucy
+        G","family":"Costley\u2010Wood","sequence":"first","affiliation":[{"name":"School
+        of Chemistry University of Glasgow  Glasgow G12 8QQ UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-9538-0936","authenticated-orcid":false,"given":"Khaled","family":"Mohammed","sequence":"additional","affiliation":[{"name":"School
+        of Chemistry University of Southampton  Southampton SO17 1BJ UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-6296-2104","authenticated-orcid":false,"given":"Marina","family":"Carravetta","sequence":"additional","affiliation":[{"name":"School
+        of Chemistry University of Southampton  Southampton SO17 1BJ UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"ORCID":"https:\/\/orcid.org\/0000-0001-5512-7090","authenticated-orcid":false,"given":"Donato","family":"Decarolis","sequence":"additional","affiliation":[{"name":"Cardiff
+        Catalysis Institute School of Chemistry Cardiff University  Cardiff CF10 3AT
+        UK"},{"name":"UK Catalysis Hub Research Complex at Harwell Rutherford Appleton
+        Laboratory  Harwell, Didcot OX11 0FA UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-0553-3397","authenticated-orcid":false,"given":"Alexandre","family":"Goguet","sequence":"additional","affiliation":[{"name":"School
+        of Chemistry and Chemical Engineering Queen''s University Belfast  Belfast
+        BT9 5AG UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Apostolos","family":"Kordatos","sequence":"additional","affiliation":[{"name":"School
+        of Chemistry University of Southampton  Southampton SO17 1BJ UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Reza","family":"Vakili","sequence":"additional","affiliation":[{"name":"School
+        of Chemistry and Chemical Engineering Queen''s University Belfast  Belfast
+        BT9 5AG UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-7990-4410","authenticated-orcid":false,"given":"Haresh","family":"Manyar","sequence":"additional","affiliation":[{"name":"School
+        of Chemistry and Chemical Engineering Queen''s University Belfast  Belfast
+        BT9 5AG UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Erin","family":"McPake","sequence":"additional","affiliation":[{"name":"School
+        of Chemistry University of Glasgow  Glasgow G12 8QQ UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"ORCID":"https:\/\/orcid.org\/0000-0003-0258-3433","authenticated-orcid":false,"given":"Chris\u2010Kriton","family":"Skylaris","sequence":"additional","affiliation":[{"name":"School
+        of Chemistry University of Southampton  Southampton SO17 1BJ UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Paul","family":"Thompson","sequence":"additional","affiliation":[{"name":"XMaS
+        UK CRG Beamline ESRF \u2013 The European Synchrotron  71, avenue des Martyrs
+        38000 Grenoble France"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-7839-3786","authenticated-orcid":false,"given":"Emma
+        K","family":"Gibson","sequence":"additional","affiliation":[{"name":"School
+        of Chemistry University of Glasgow  Glasgow G12 8QQ UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-0859-9172","authenticated-orcid":false,"given":"Peter
+        P.","family":"Wells","sequence":"additional","affiliation":[{"name":"School
+        of Chemistry University of Southampton  Southampton SO17 1BJ UK"},{"name":"UK
+        Catalysis Hub Research Complex at Harwell Rutherford Appleton Laboratory  Harwell,
+        Didcot OX11 0FA UK"}],"role":[{"role":"author","vocabulary":"crossref"}]}],"member":"311","published-online":{"date-parts":[[2023,10,6]]},"reference":[{"key":"e_1_2_7_1_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.cattod.2010.12.044"},{"key":"e_1_2_7_2_1","doi-asserted-by":"publisher","DOI":"10.1177\/0954407019859822"},{"key":"e_1_2_7_3_1","doi-asserted-by":"publisher","DOI":"10.1595\/205651317X696261"},{"key":"e_1_2_7_4_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.energy.2021.122017"},{"key":"e_1_2_7_5_1","doi-asserted-by":"publisher","DOI":"10.1039\/C7CY01025G"},{"key":"e_1_2_7_6_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.6b03190"},{"key":"e_1_2_7_7_1","first-page":"142","volume":"9","author":"McCue
+        A. J.","year":"2015","journal-title":"Chem. Sci. Eng."},{"key":"e_1_2_7_8_1","doi-asserted-by":"publisher","DOI":"10.1021\/cr400133p"},{"key":"e_1_2_7_9_1","doi-asserted-by":"publisher","DOI":"10.1021\/acs.jafc.8b03792"},{"key":"e_1_2_7_10_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcata.2004.08.025"},{"key":"e_1_2_7_11_1","doi-asserted-by":"publisher","DOI":"10.1021\/cs502036d"},{"key":"e_1_2_7_12_1","doi-asserted-by":"publisher","DOI":"10.1039\/c2cp24068h"},{"key":"e_1_2_7_13_1","doi-asserted-by":"publisher","DOI":"10.1126\/science.1155200"},{"key":"e_1_2_7_14_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.200802134"},{"key":"e_1_2_7_15_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.susc.2005.05.037"},{"key":"e_1_2_7_16_1","doi-asserted-by":"publisher","DOI":"10.1039\/D0CY00553C"},{"key":"e_1_2_7_17_1","doi-asserted-by":"publisher","DOI":"10.1007\/s10562-006-0041-y"},{"key":"e_1_2_7_18_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.jcat.2011.06.025"},{"key":"e_1_2_7_19_1","doi-asserted-by":"publisher","DOI":"10.1002\/cctc.201200100"},{"key":"e_1_2_7_20_1","doi-asserted-by":"publisher","DOI":"10.1080\/01614940500364909"},{"key":"e_1_2_7_21_1","doi-asserted-by":"publisher","DOI":"10.1038\/ncomms6787"},{"key":"e_1_2_7_22_1","doi-asserted-by":"publisher","DOI":"10.1063\/1.3290813"},{"key":"e_1_2_7_23_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.radphyschem.2018.11.033"},{"key":"e_1_2_7_24_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.cattod.2019.02.068"},{"key":"e_1_2_7_25_1","doi-asserted-by":"publisher","DOI":"10.1039\/D2RA07462A"},{"key":"e_1_2_7_26_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja00301a031"},{"key":"e_1_2_7_27_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.cattod.2016.02.065"},{"key":"e_1_2_7_28_1","doi-asserted-by":"publisher","DOI":"10.1021\/jp902542f"},{"key":"e_1_2_7_29_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.jcat.2010.04.018"},{"key":"e_1_2_7_30_1","doi-asserted-by":"crossref","first-page":"1","DOI":"10.21236\/AD0012451","volume-title":"A
+        study of selected metallic borides, nitrides and phosphides, for the Office
+        of Naval Research","author":"Morel R. W. F.","year":"1952"},{"key":"e_1_2_7_31_1","doi-asserted-by":"publisher","DOI":"10.1038\/s41929-018-0213-3"},{"key":"e_1_2_7_32_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.0c05356"},{"key":"e_1_2_7_33_1","doi-asserted-by":"publisher","DOI":"10.1063\/1.5084661"},{"key":"e_1_2_7_34_1","doi-asserted-by":"publisher","DOI":"10.1107\/S1600577515016148"},{"key":"e_1_2_7_35_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja01571a001"},{"key":"e_1_2_7_36_1","doi-asserted-by":"publisher","DOI":"10.1021\/jp004535q"},{"key":"e_1_2_7_37_1","doi-asserted-by":"publisher","DOI":"10.1016\/S0925-8388(02)01286-0"},{"key":"e_1_2_7_38_1","doi-asserted-by":"publisher","DOI":"10.1103\/PhysRevB.78.245408"},{"key":"e_1_2_7_39_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.5b01497"},{"key":"e_1_2_7_40_1","doi-asserted-by":"publisher","DOI":"10.1021\/jp412255a"},{"key":"e_1_2_7_41_1","doi-asserted-by":"publisher","DOI":"10.1021\/acsnano.1c02094"},{"key":"e_1_2_7_42_1","doi-asserted-by":"publisher","DOI":"10.1002\/ange.202005842"},{"key":"e_1_2_7_43_1","doi-asserted-by":"publisher","DOI":"10.1039\/C6CC08404D"},{"key":"e_1_2_7_44_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.apsusc.2013.11.167"},{"key":"e_1_2_7_45_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.susc.2012.07.003"},{"key":"e_1_2_7_46_1","doi-asserted-by":"publisher","DOI":"10.1063\/1.2121467"},{"key":"e_1_2_7_47_1","doi-asserted-by":"publisher","DOI":"10.1107\/S0909049505012719"},{"key":"e_1_2_7_48_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.ssnmr.2014.03.003"},{"key":"e_1_2_7_49_1","doi-asserted-by":"publisher","DOI":"10.1063\/5.0004445"},{"key":"e_1_2_7_50_1","doi-asserted-by":"publisher","DOI":"10.1063\/1.4817001"},{"key":"e_1_2_7_51_1","doi-asserted-by":"publisher","DOI":"10.1016\/S0927-0256(03)00111-3"},{"key":"e_1_2_7_52_1","doi-asserted-by":"publisher","DOI":"10.1524\/zkri.220.5.567.65075"},{"key":"e_1_2_7_53_1","doi-asserted-by":"publisher","DOI":"10.1006\/jmre.2000.2179"},{"key":"e_1_2_7_54_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.jmr.2014.07.002"},{"key":"e_1_2_7_55_1","doi-asserted-by":"publisher","DOI":"10.1006\/jmre.1996.1087"}],"container-title":["ChemCatChem"],"language":"en","link":[{"URL":"https:\/\/chemistry-europe.onlinelibrary.wiley.com\/doi\/pdf\/10.1002\/cctc.202300870","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2025,10,12]],"date-time":"2025-10-12T19:10:09Z","timestamp":1760296209000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/chemistry-europe.onlinelibrary.wiley.com\/doi\/10.1002\/cctc.202300870"}},"issued":{"date-parts":[[2023,10,6]]},"references-count":55,"journal-issue":{"issue":"21","published-print":{"date-parts":[[2023,11,8]]}},"alternative-id":["10.1002\/cctc.202300870"],"URL":"https:\/\/doi.org\/10.1002\/cctc.202300870","archive":["Portico"],"ISSN":["1867-3880","1867-3899"],"issn-type":[{"type":"print","value":"1867-3880"},{"type":"electronic","value":"1867-3899"}],"published":{"date-parts":[[2023,10,6]]},"assertion":[{"value":"2023-07-12","order":0,"name":"received","label":"Received","group":{"name":"publication_history","label":"Publication
+        History"}},{"value":"2023-10-06","order":3,"name":"published","label":"Published","group":{"name":"publication_history","label":"Publication
+        History"}}],"article-number":"e202300870"},{"indexed":{"date-parts":[[2026,4,16]],"date-time":"2026-04-16T19:42:57Z","timestamp":1776368577983,"version":"3.51.2"},"reference-count":70,"publisher":"Wiley","issue":"11","license":[{"start":{"date-parts":[[2021,5,4]],"date-time":"2021-05-04T00:00:00Z","timestamp":1620086400000},"content-version":"vor","delay-in-days":0,"URL":"http:\/\/creativecommons.org\/licenses\/by\/4.0\/"}],"funder":[{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/P510506\/1"],"award-info":[{"award-number":["EP\/P510506\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/N509176\/1"],"award-info":[{"award-number":["EP\/N509176\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100019229","name":"UK
+        Catalysis Hub","doi-asserted-by":"publisher","id":[{"id":"10.13039\/501100019229","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R026815\/1"],"award-info":[{"award-number":["EP\/R026815\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R026939\/1"],"award-info":[{"award-number":["EP\/R026939\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]}],"content-domain":{"domain":["chemistry-europe.onlinelibrary.wiley.com"],"crossmark-restriction":true},"short-container-title":["ChemCatChem"],"published-print":{"date-parts":[[2021,6,8]]},"abstract":"<jats:title>Abstract<\/jats:title><jats:p>The
+        nature of the hydrocarbon pool at different stages of the methanol\u2010to\u2010hydrocarbons
+        reaction over ZSM\u20105 is examined. A combination of reaction testing, analytical
+        and spectroscopic techniques is employed to investigate changes in the nature
+        and form of the hydrocarbon pool as a function of reaction conditions and
+        reaction time. It is shown that inelastic neutron scattering spectroscopy
+        (INS) complements other spectroscopic methods for observing molecular components
+        in the hydrocarbon pool of working catalysts. INS is uniquely able to spectroscopically
+        identify the form of coke species present in deactivated catalysts.<\/jats:p>","DOI":"10.1002\/cctc.202100286","type":"journal-article","created":{"date-parts":[[2021,3,8]],"date-time":"2021-03-08T11:54:34Z","timestamp":1615204474000},"page":"2625-2633","update-policy":"https:\/\/doi.org\/10.1002\/crossmark_policy","source":"Crossref","is-referenced-by-count":13,"title":["New
+        Spectroscopic Insight into the Deactivation of a ZSM\u20105 Methanol\u2010to\u2010Hydrocarbons
+        Catalyst"],"prefix":"10.1002","volume":"13","author":[{"given":"Andrea","family":"Zachariou","sequence":"first","affiliation":[{"name":"School
+        of Chemistry University of Glasgow Joseph Black Building  Glasgow G12 8QQ
+        UK"},{"name":"UK Catalysis Hub Research Complex at Harwell STFC Rutherford
+        Appleton Laboratory  Chilton, Oxon OX11 0FA UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Alexander
+        P.","family":"Hawkins","sequence":"additional","affiliation":[{"name":"School
+        of Chemistry University of Glasgow Joseph Black Building  Glasgow G12 8QQ
+        UK"},{"name":"UK Catalysis Hub Research Complex at Harwell STFC Rutherford
+        Appleton Laboratory  Chilton, Oxon OX11 0FA UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"family":"Suwardiyanto","sequence":"additional","affiliation":[{"name":"Department
+        of Chemistry University of Jember  Jember 68121 East Java Indonesia"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Paul","family":"Collier","sequence":"additional","affiliation":[{"name":"Johnson
+        Matthey Plc. Johnson Matthey Technology Centre Blounts Court Sonning Common  Reading
+        RG4 9NH UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Nathan","family":"Barrow","sequence":"additional","affiliation":[{"name":"Johnson
+        Matthey Plc. Johnson Matthey Technology Centre Blounts Court Sonning Common  Reading
+        RG4 9NH UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Russell
+        F.","family":"Howe","sequence":"additional","affiliation":[{"name":"Department
+        of Chemistry University of Aberdeen Meston Building  Aberdeen AB24 3UE UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"ORCID":"https:\/\/orcid.org\/0000-0002-3228-2570","authenticated-orcid":false,"given":"Stewart
+        F.","family":"Parker","sequence":"additional","affiliation":[{"name":"School
+        of Chemistry University of Glasgow Joseph Black Building  Glasgow G12 8QQ
+        UK"},{"name":"UK Catalysis Hub Research Complex at Harwell STFC Rutherford
+        Appleton Laboratory  Chilton, Oxon OX11 0FA UK"},{"name":"ISIS Neutron and
+        Muon Source ISIS Facility STFC Rutherford Appleton Laboratory  Chilton, Oxon
+        OX11 0QX UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"David","family":"Lennon","sequence":"additional","affiliation":[{"name":"School
+        of Chemistry University of Glasgow Joseph Black Building  Glasgow G12 8QQ
+        UK"}],"role":[{"role":"author","vocabulary":"crossref"}]}],"member":"311","published-online":{"date-parts":[[2021,5,4]]},"reference":[{"key":"e_1_2_6_1_1","doi-asserted-by":"publisher","DOI":"10.1038\/s41929-018-0078-5"},{"key":"e_1_2_6_2_1","doi-asserted-by":"publisher","DOI":"10.1039\/C5CS00304K"},{"key":"e_1_2_6_3_1","doi-asserted-by":"publisher","DOI":"10.1007\/s10562-018-2342-3"},{"key":"e_1_2_6_4_1","doi-asserted-by":"publisher","DOI":"10.1016\/bs.acat.2017.10.002"},{"key":"e_1_2_6_5_1","doi-asserted-by":"publisher","DOI":"10.1002\/cphc.201201023"},{"key":"e_1_2_6_6_1","doi-asserted-by":"publisher","DOI":"10.1039\/c1cy00197c"},{"key":"e_1_2_6_7_1","doi-asserted-by":"publisher","DOI":"10.1039\/c39860001611"},{"key":"e_1_2_6_8_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja00251a004"},{"key":"e_1_2_6_9_1","doi-asserted-by":"publisher","DOI":"10.1021\/jp307290z"},{"key":"e_1_2_6_10_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201007178"},{"key":"e_1_2_6_10_2","doi-asserted-by":"publisher","DOI":"10.1002\/ange.201007178"},{"key":"e_1_2_6_11_1","doi-asserted-by":"publisher","DOI":"10.1039\/f19817702209"},{"key":"e_1_2_6_12_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.9b01820"},{"key":"e_1_2_6_13_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcata.2009.01.001"},{"key":"e_1_2_6_14_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.0c00721"},{"key":"e_1_2_6_15_1","doi-asserted-by":"publisher","DOI":"10.1016\/S0021-9517(02)00026-X"},{"key":"e_1_2_6_16_1","doi-asserted-by":"publisher","DOI":"10.1039\/C8CP04240C"},{"key":"e_1_2_6_17_1","doi-asserted-by":"publisher","DOI":"10.1038\/s41563-020-0800-y"},{"key":"e_1_2_6_18_1","doi-asserted-by":"publisher","DOI":"10.1021\/cs501345g"},{"key":"e_1_2_6_19_1","doi-asserted-by":"publisher","DOI":"10.1002\/chem.200801293"},{"key":"e_1_2_6_20_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.7b01497"},{"key":"e_1_2_6_21_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201916596"},{"key":"e_1_2_6_22_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.8b02274"},{"key":"e_1_2_6_23_1","doi-asserted-by":"publisher","DOI":"10.1039\/C7CY02459B"},{"key":"e_1_2_6_24_1","doi-asserted-by":"publisher","DOI":"10.1002\/chem.201503136"},{"key":"e_1_2_6_25_1","doi-asserted-by":"publisher","DOI":"10.1021\/cs5015749"},{"key":"e_1_2_6_26_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.micromeso.2007.05.028"},{"key":"e_1_2_6_27_1","doi-asserted-by":"publisher","DOI":"10.1021\/cs500722m"},{"key":"e_1_2_6_28_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja994103x"},{"key":"e_1_2_6_29_1","doi-asserted-by":"publisher","DOI":"10.1021\/ar020006o"},{"key":"e_1_2_6_30_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja0304244"},{"key":"e_1_2_6_31_1","doi-asserted-by":"publisher","DOI":"10.1002\/chem.201403972"},{"key":"e_1_2_6_32_1","doi-asserted-by":"publisher","DOI":"10.1002\/cctc.201901937"},{"key":"e_1_2_6_33_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.201703902"},{"key":"e_1_2_6_33_2","doi-asserted-by":"publisher","DOI":"10.1002\/ange.201703902"},{"key":"e_1_2_6_34_1","doi-asserted-by":"publisher","DOI":"10.1002\/anie.202009139"},{"key":"e_1_2_6_35_1","doi-asserted-by":"publisher","DOI":"10.1021\/cs5015749"},{"key":"e_1_2_6_36_1","doi-asserted-by":"publisher","DOI":"10.1021\/acscatal.8b02385"},{"key":"e_1_2_6_37_1","doi-asserted-by":"publisher","DOI":"10.1366\/11-06456"},{"key":"e_1_2_6_38_1","volume":"642","author":"Mitchell
+        P. C. H.","year":"2005","journal-title":"Mater. Sci. Catal. World Sci."},{"key":"e_1_2_6_39_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.cattod.2020.05.030"},{"key":"e_1_2_6_40_1","doi-asserted-by":"publisher","DOI":"10.3390\/catal5010145"},{"key":"e_1_2_6_41_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.cattod.2010.05.012"},{"key":"e_1_2_6_42_1","doi-asserted-by":"publisher","DOI":"10.1016\/0021-9517(88)90190-X"},{"key":"e_1_2_6_43_1","doi-asserted-by":"publisher","DOI":"10.1002\/chem.201002624"},{"key":"e_1_2_6_44_1","doi-asserted-by":"publisher","DOI":"10.1080\/01614948308078874"},{"key":"e_1_2_6_45_1","doi-asserted-by":"publisher","DOI":"10.1021\/acsomega.9b03351"},{"key":"e_1_2_6_46_1","doi-asserted-by":"publisher","DOI":"10.1088\/1742-6596\/554\/1\/012005"},{"key":"e_1_2_6_47_1","doi-asserted-by":"crossref","unstructured":"Suwardiyanto
+        R.\u2005F. Howe E.\u2005K. Gibson C.\u2005R.\u2005A. Catlow A. Hameed J. McGregor
+        P. Collier S.\u2005F. Parker D. Lennon Faraday Discuss.2017 197 447\u2013472.","DOI":"10.1039\/C6FD00195E"},{"key":"e_1_2_6_48_1","doi-asserted-by":"publisher","DOI":"10.1007\/s10562-016-1742-5"},{"key":"e_1_2_6_49_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.jcat.2015.02.013"},{"key":"e_1_2_6_50_1","doi-asserted-by":"publisher","DOI":"10.1016\/0021-9517(86)90020-5"},{"key":"e_1_2_6_51_1","doi-asserted-by":"publisher","DOI":"10.1021\/j100212a046"},{"key":"e_1_2_6_52_1","doi-asserted-by":"publisher","DOI":"10.1016\/0021-9517(90)90191-L"},{"key":"e_1_2_6_53_1","doi-asserted-by":"publisher","DOI":"10.1007\/s003390101078"},{"key":"e_1_2_6_54_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.nima.2018.04.009"},{"key":"e_1_2_6_55_1","unstructured":"Science
+        Technology and Facilities Council. MAPS Instrument. Available at: https:\/\/www.isis.stfc.ac.uk\/Pages\/maps.aspx.
+        (Accessed: 16th April 2020)."},{"key":"e_1_2_6_56_1","doi-asserted-by":"crossref","unstructured":"A.
+        Zachariou A.\u2005P. Hawkins D. Lennon S.\u2005F. Parker Suwardiyanto S.\u2005K.
+        Matam C.\u2005R.\u2005A. Catlow P. Collier A. Hameed J. McGregor R.\u2005F.
+        Howe Appl. Catal. A Gen.2019 569 1\u20137.","DOI":"10.1016\/j.apcata.2018.10.010"},{"key":"e_1_2_6_57_1","doi-asserted-by":"publisher","DOI":"10.1007\/s11244-020-01258-3"},{"key":"e_1_2_6_58_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.chemphys.2013.05.002"},{"key":"e_1_2_6_59_1","doi-asserted-by":"publisher","DOI":"10.1088\/0953-8984\/7\/50\/035"},{"key":"e_1_2_6_60_1","volume-title":"The
+        Handbook of Infrared and Raman Characteristic Frequencies of Organic Molecules","author":"Lin
+        Vien D.","year":"1975"},{"key":"e_1_2_6_61_1","doi-asserted-by":"publisher","DOI":"10.1063\/1.1741947"},{"key":"e_1_2_6_62_1","doi-asserted-by":"publisher","DOI":"10.1351\/pac199567030473"},{"key":"e_1_2_6_63_1","doi-asserted-by":"publisher","DOI":"10.1016\/0022-3093(82)90215-0"},{"key":"e_1_2_6_64_1","doi-asserted-by":"publisher","DOI":"10.1021\/es034770x"},{"key":"e_1_2_6_65_1","doi-asserted-by":"publisher","DOI":"10.1016\/0144-2449(90)90030-U"},{"key":"e_1_2_6_66_1","doi-asserted-by":"publisher","DOI":"10.1139\/v74-364"},{"key":"e_1_2_6_67_1","doi-asserted-by":"publisher","DOI":"10.1039\/c2cy00529h"},{"key":"e_1_2_6_68_1","unstructured":"R.
+        Howe A. Zachariou A. Hawkins Suwardiyanto P. Collier D. Lennon S.\u2005F.
+        Parker STFC ISIS Neutron and Muon Source2018 doi: 10.5286\/ISIS.\u2005E.RB1720211."}],"container-title":["ChemCatChem"],"language":"en","link":[{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/pdf\/10.1002\/cctc.202100286","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/full-xml\/10.1002\/cctc.202100286","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/chemistry-europe.onlinelibrary.wiley.com\/doi\/pdf\/10.1002\/cctc.202100286","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2025,10,12]],"date-time":"2025-10-12T10:00:01Z","timestamp":1760263201000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/chemistry-europe.onlinelibrary.wiley.com\/doi\/10.1002\/cctc.202100286"}},"issued":{"date-parts":[[2021,5,4]]},"references-count":70,"journal-issue":{"issue":"11","published-print":{"date-parts":[[2021,6,8]]}},"alternative-id":["10.1002\/cctc.202100286"],"URL":"https:\/\/doi.org\/10.1002\/cctc.202100286","archive":["Portico"],"ISSN":["1867-3880","1867-3899"],"issn-type":[{"value":"1867-3880","type":"print"},{"value":"1867-3899","type":"electronic"}],"published":{"date-parts":[[2021,5,4]]},"assertion":[{"value":"2021-02-24","order":0,"name":"received","label":"Received","group":{"name":"publication_history","label":"Publication
+        History"}},{"value":"2021-05-04","order":3,"name":"published","label":"Published","group":{"name":"publication_history","label":"Publication
+        History"}}]},{"indexed":{"date-parts":[[2026,7,27]],"date-time":"2026-07-27T15:14:16Z","timestamp":1785165256926,"version":"3.55.0"},"reference-count":39,"publisher":"Wiley","issue":"6","license":[{"start":{"date-parts":[[2024,2,21]],"date-time":"2024-02-21T00:00:00Z","timestamp":1708473600000},"content-version":"vor","delay-in-days":0,"URL":"http:\/\/creativecommons.org\/licenses\/by\/4.0\/"}],"funder":[{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R026939\/1"],"award-info":[{"award-number":["EP\/R026939\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]},{"DOI":"10.13039\/501100000266","name":"Engineering
+        and Physical Sciences Research Council","doi-asserted-by":"publisher","award":["EP\/R026815\/1"],"award-info":[{"award-number":["EP\/R026815\/1"]}],"id":[{"id":"10.13039\/501100000266","id-type":"DOI","asserted-by":"publisher"}]}],"content-domain":{"domain":["chemistry-europe.onlinelibrary.wiley.com"],"crossmark-restriction":true},"short-container-title":["ChemCatChem"],"published-print":{"date-parts":[[2024,3,22]]},"abstract":"<jats:title>Abstract<\/jats:title><jats:p>The
+        properties of Mo\u2010doped iron oxide are compared with those of the single
+        oxides of Fe and Mo, and with stoichiometric ferric molybdate for the selective
+        oxidation of methanol. It is found that Mo oxide segregates to the surface
+        of the iron oxide at low loadings, while at higher loadings, but below the
+        stoichiometric ratio, presents layers of ferric molybdate at the surface.
+        The relationship between bulk loading and surface Mo is explored, and it is
+        concluded that the reactivity is dominated by ensemble effects. Simple modelling
+        indicates that four or more Fe cation ensembles are required to combust methanol
+        to CO<jats:sub>2<\/jats:sub>, ensembles of two Mo cations are required for
+        selective oxidation to formaldehyde, whereas it seems that isolated single
+        sites of either Fe or Mo produce CO.<\/jats:p>","DOI":"10.1002\/cctc.202301464","type":"journal-article","created":{"date-parts":[[2024,1,29]],"date-time":"2024-01-29T07:39:56Z","timestamp":1706513996000},"update-policy":"https:\/\/doi.org\/10.1002\/crossmark_policy","source":"Crossref","is-referenced-by-count":6,"title":["Ensemble
+        Effects on Methanol Oxidation to Formaldehyde on Ferric Molybdate Catalysts"],"prefix":"10.1002","volume":"16","author":[{"ORCID":"https:\/\/orcid.org\/0000-0001-5075-1089","authenticated-orcid":false,"given":"Michael","family":"Bowker","sequence":"first","affiliation":[{"name":"Max
+        Planck-Cardiff Centre on the Fundamentals of Heterogeneous Catalysis (FUNCAT)
+        Cardiff Catalysis Institute School of Chemistry Cardiff University  Cardiff
+        CF10 3AD UK"},{"name":"UK Catalysis Hub, RCAH Rutherford Appleton Laboratory  Didcot
+        OX11 0QX UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Matthew","family":"House","sequence":"additional","affiliation":[{"name":"Max
+        Planck-Cardiff Centre on the Fundamentals of Heterogeneous Catalysis (FUNCAT)
+        Cardiff Catalysis Institute School of Chemistry Cardiff University  Cardiff
+        CF10 3AD UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Catherine","family":"Brookes","sequence":"additional","affiliation":[{"name":"Max
+        Planck-Cardiff Centre on the Fundamentals of Heterogeneous Catalysis (FUNCAT)
+        Cardiff Catalysis Institute School of Chemistry Cardiff University  Cardiff
+        CF10 3AD UK"},{"name":"UK Catalysis Hub, RCAH Rutherford Appleton Laboratory  Didcot
+        OX11 0QX UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Pip","family":"Hellier","sequence":"additional","affiliation":[{"name":"Max
+        Planck-Cardiff Centre on the Fundamentals of Heterogeneous Catalysis (FUNCAT)
+        Cardiff Catalysis Institute School of Chemistry Cardiff University  Cardiff
+        CF10 3AD UK"},{"name":"UK Catalysis Hub, RCAH Rutherford Appleton Laboratory  Didcot
+        OX11 0QX UK"}],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Peter","family":"Wells","sequence":"additional","affiliation":[{"name":"UK
+        Catalysis Hub, RCAH Rutherford Appleton Laboratory  Didcot OX11 0QX UK"},{"name":"School
+        of Chemistry University of Southampton  Southampton SO17 1BJ UK"}],"role":[{"vocabulary":"crossref","role":"author"}]}],"member":"311","published-online":{"date-parts":[[2024,2,21]]},"reference":[{"key":"e_1_2_9_1_1","unstructured":"https:\/\/www.chemanalyst.com\/industry-report\/formaldehyde-market-627#
+        accessed 19 Sept 2023."},{"key":"e_1_2_9_2_1","unstructured":"https:\/\/www.statista.com\/statistics\/1323406\/methanol-production-worldwide\/accessed19
+        Sept 2023."},{"key":"e_1_2_9_3_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.mcat.2023.112944"},{"key":"e_1_2_9_4_1","unstructured":"https:\/\/www.carbonrecycling.is\/circlenergy-news-1\/2019\/12\/16\/related-project-fresme-sfdtyNn."},{"key":"e_1_2_9_5_1","unstructured":"https:\/\/www.aspire2050.eu\/mefco2."},{"key":"e_1_2_9_6_1","unstructured":"A.
+        Jahsi https:\/\/www.thechemicalengineer.com\/news\/consortium-develops-power-to-methanol-demonstration-project\/."},{"key":"e_1_2_9_7_1","doi-asserted-by":"publisher","DOI":"10.1002\/cite.202200027"},{"key":"e_1_2_9_8_1","unstructured":"https:\/\/renewable-carbon.eu\/news\/successful-demonstration-of-methanol-production\/accessed19
+        Sept 2023."},{"key":"e_1_2_9_9_1","unstructured":"https:\/\/matthey.com\/project-air."},{"key":"e_1_2_9_10_1","doi-asserted-by":"publisher","DOI":"10.1081\/CR-200049088"},{"key":"e_1_2_9_11_1","doi-asserted-by":"publisher","DOI":"10.3390\/catal11080893"},{"key":"e_1_2_9_12_1","doi-asserted-by":"publisher","DOI":"10.1021\/ie50511a016"},{"key":"e_1_2_9_13_1","doi-asserted-by":"publisher","DOI":"10.3390\/catal11111329"},{"key":"e_1_2_9_14_1","doi-asserted-by":"publisher","DOI":"10.1016\/0021-9517(85)90242-8"},{"key":"e_1_2_9_15_1","doi-asserted-by":"publisher","DOI":"10.1016\/0926-860X(90)80004-X"},{"key":"e_1_2_9_16_1","doi-asserted-by":"publisher","DOI":"10.1021\/ja028839x"},{"key":"e_1_2_9_17_1","doi-asserted-by":"publisher","DOI":"10.1021\/jp711251b"},{"key":"e_1_2_9_18_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.molcata.2008.11.033"},{"key":"e_1_2_9_19_1","doi-asserted-by":"publisher","DOI":"10.1021\/cs400683e"},{"key":"e_1_2_9_20_1","doi-asserted-by":"publisher","DOI":"10.3390\/catal6070092"},{"key":"e_1_2_9_21_1","doi-asserted-by":"publisher","DOI":"10.1023\/A:1021025828544"},{"key":"e_1_2_9_22_1","doi-asserted-by":"publisher","DOI":"10.1021\/jp711251b"},{"key":"e_1_2_9_23_1","doi-asserted-by":"publisher","DOI":"10.1007\/s11244-008-9112-1"},{"key":"e_1_2_9_24_1","doi-asserted-by":"publisher","DOI":"10.1021\/cs2005482"},{"key":"e_1_2_9_25_1","unstructured":"JCPDS
+        Card Number 35\u2013659."},{"key":"e_1_2_9_26_1","unstructured":"JCPDS Card
+        Number 33\u2013664."},{"key":"e_1_2_9_27_1","unstructured":"JCPDS Card Number
+        31\u2013642."},{"key":"e_1_2_9_28_1","doi-asserted-by":"publisher","DOI":"10.1016\/S0926-860X(00)00600-1"},{"key":"e_1_2_9_29_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.apcata.2009.05.008"},{"key":"e_1_2_9_30_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.jcat.2010.07.023"},{"key":"e_1_2_9_31_1","first-page":"371","volume":"17","author":"Popov
+        B. I.","year":"1976","journal-title":"Kinet. Katal."},{"key":"e_1_2_9_32_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.cattod.2005.11.052"},{"key":"e_1_2_9_33_1","doi-asserted-by":"publisher","DOI":"10.1039\/C8CY01109E"},{"key":"e_1_2_9_34_1","doi-asserted-by":"publisher","DOI":"10.1007\/s10562-019-03034-9"},{"key":"e_1_2_9_35_1","doi-asserted-by":"publisher","DOI":"10.1002\/cctc.202101220"},{"key":"e_1_2_9_36_1","doi-asserted-by":"publisher","DOI":"10.1039\/D0CP01192D"},{"key":"e_1_2_9_37_1","doi-asserted-by":"publisher","DOI":"10.1002\/sia.740171304"},{"key":"e_1_2_9_38_1","doi-asserted-by":"publisher","DOI":"10.1021\/acsomega.9b03872"},{"key":"e_1_2_9_39_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.nimb.2014.11.032"}],"container-title":["ChemCatChem"],"language":"en","link":[{"URL":"https:\/\/chemistry-europe.onlinelibrary.wiley.com\/doi\/pdf\/10.1002\/cctc.202301464","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2025,10,12]],"date-time":"2025-10-12T11:50:54Z","timestamp":1760269854000},"score":0.0,"resource":{"primary":{"URL":"https:\/\/chemistry-europe.onlinelibrary.wiley.com\/doi\/10.1002\/cctc.202301464"}},"issued":{"date-parts":[[2024,2,21]]},"references-count":39,"journal-issue":{"issue":"6","published-print":{"date-parts":[[2024,3,22]]}},"alternative-id":["10.1002\/cctc.202301464"],"URL":"https:\/\/doi.org\/10.1002\/cctc.202301464","archive":["Portico"],"ISSN":["1867-3880","1867-3899"],"issn-type":[{"value":"1867-3880","type":"print"},{"value":"1867-3899","type":"electronic"}],"published":{"date-parts":[[2024,2,21]]},"assertion":[{"value":"2023-11-15","order":0,"name":"received","label":"Received","group":{"name":"publication_history","label":"Publication
+        History"}},{"value":"2024-02-21","order":3,"name":"published","label":"Published","group":{"name":"publication_history","label":"Publication
+        History"}}],"article-number":"e202301464"}],"items-per-page":20,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Mon, 17 Aug 2026 15:31:15 GMT
 recorded_with: VCR 6.4.0
